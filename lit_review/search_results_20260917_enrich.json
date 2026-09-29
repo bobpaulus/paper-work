@@ -1,0 +1,34 @@
+{
+  "enriched_at": "2026-09-17",
+  "high_count": 2,
+  "records": [
+    {
+      "title": "Cell Type–Resolved Causal Inference and Spatial Transcriptomic Integration Reveal Immune‐Specific Genetic Drivers of Autoimmune and Malignant Thyroid Disease",
+      "doi": "10.1111/iji.70066",
+      "openalex_oa_status": "closed",
+      "openalex_oa_url": null,
+      "is_preprint": false,
+      "crossref_title": "Cell Type–Resolved Causal Inference and Spatial Transcriptomic Integration Reveal Immune‐Specific Genetic Drivers of Autoimmune and Malignant Thyroid Disease",
+      "crossref_journal": "International Journal of Immunogenetics",
+      "crossref_year": 2026,
+      "crossref_type": "journal-article",
+      "crossref_author_count": 2,
+      "crossref_doi_exists": true,
+      "unpaywall_error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "Molecular Pathogenesis and Emerging Therapeutic Targets in Anaplastic Thyroid Carcinoma",
+      "doi": "10.5772/intechopen.1016607",
+      "openalex_oa_status": "hybrid",
+      "openalex_oa_url": null,
+      "is_preprint": false,
+      "crossref_title": "Molecular Pathogenesis and Emerging Therapeutic Targets in Anaplastic Thyroid Carcinoma",
+      "crossref_journal": "Thyroid Cancer - Novel Aspects in Pathogenesis and Treatment [Working Title]",
+      "crossref_year": 2026,
+      "crossref_type": "book-chapter",
+      "crossref_author_count": 2,
+      "crossref_doi_exists": true,
+      "unpaywall_error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    }
+  ]
+}

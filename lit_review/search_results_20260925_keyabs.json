@@ -1,0 +1,145 @@
+{
+ "MGST1-LNM-PTC": {
+  "doi": "10.3389/fimmu.2026.1848083",
+  "title": "MGST1 drives lymph node metastasis in papillary thyroid carcinoma via mitochondrial metabolic reprogramming and immune suppression",
+  "date": "2026-06-04",
+  "pmid": "42327722",
+  "type": "article",
+  "oa": "gold",
+  "venue": "Frontiers in Immunology",
+  "cited": 0,
+  "abstract": "Background: While papillary thyroid carcinoma (PTC) generally exhibits a favorable prognosis, a subset of patients experiences poorer outcomes, with lymph node metastasis (LNM) significantly increasing the risk of recurrence and correlating with a worse prognosis. Mitochondrial metabolic reprogramming and immune evasion play pivotal roles in driving lymph node metastasis; however, the specific actionable targets within these processes remain largely unexplored. Methods: We constructed a multi-omics discovery framework by integrating TCGA/GTEx transcriptomics, a large-scale independent clinical cohort, and single-cell RNA sequencing. Both mitochondrial metabolic signatures and immune evasion landscapes were investigated to characterize their roles in driving LNM. A consensus machine learning framework was deployed to isolate core drivers, which were rigorously validated through genetic manipulation and pharmacological assays. Results: T cell depletion coincided with Treg enrichment. Machine learning prioritized MGST1 as the core predictor, consistently ranking as a top feature in both the integrated TCGA/GTEx dataset and our independent cohort. The MGST1-based model demonstrated robust predictive performance, achieving an AUC of 0.833 in external validation. At the single-cell level, trajectory analysis positioned MGST1 at the terminal stage of dedifferentiation, marking a stem-like metastatic subpopulation. Pharmacological inhibition of MGST1 with Toxoflavin dose-dependently suppressed proliferation, migration, and invasion while inducing apoptosis. Critically, pharmacological inhibition of MGST1 may reverse the \"immune-cold\" phenotype by promoting IL-1β release and suppr"
+ },
+ "APOE-PINK1-mitophagy-PTC": {
+  "doi": "10.21037/tcr-2026-0796",
+  "title": "Apolipoprotein E promotes papillary thyroid carcinoma progression by activating PINK1/Parkin-mediated mitophagy",
+  "date": "2026-08-01",
+  "pmid": "42724858",
+  "type": "article",
+  "oa": "diamond",
+  "venue": "Translational Cancer Research",
+  "cited": 0,
+  "abstract": "Background: Increasing evidence supports a progression-related role of apolipoprotein E (APOE) in papillary thyroid carcinoma (PTC), yet a clear mechanistic explanation for this association is still lacking. Considering the pivotal role of mitochondrial homeostasis in tumorigenesis, the potential role of APOE in promoting PTC progression through mitophagy regulation was investigated. Additionally, the involvement of the PINK1/Parkin-associated pathway in this process was examined to provide insights into its contribution to tumor progression. Methods: APOE in thyroid carcinoma was characterized in terms of its expression profile, diagnostic relevance, and potential biological functions, based on integrative evidence derived from The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) datasets. APOE and mitophagy-related protein expression were further examined in PTC tissues by immunohistochemistry. Further evaluation of APOE in PTC cell lines focused on its association with proliferation, apoptosis, and mitophagy, with bidirectional functional perturbation serving as the basis for assessment. Pharmacological inhibitors were used to assess the involvement of mitophagy-related signaling in the observed APOE-dependent phenotypes. Additionally, the in vivo impact of APOE on PTC tumor growth and mitophagy was further investigated through a nude mouse xenograft model, providing insight into its potential role in tumor progression. Results: A significant upregulation of APOE was observed in thyroid carcinoma tissues and PTC cell lines, supporting its potential relevance as a diagnostic biomarker. The modulation of APOE expression significantly influenced PTC cell proli"
+ },
+ "GPI-THBS1-ATC": {
+  "doi": "10.1016/j.canlet.2026.218650",
+  "title": "GPI promotes immunosuppression in anaplastic thyroid carcinoma via O-GlcNAcylated THBS1-mediated myeloid cell crosstalk",
+  "date": "2026-06-05",
+  "pmid": "42248319",
+  "type": "article",
+  "oa": "closed",
+  "venue": "Cancer Letters",
+  "cited": 0,
+  "abstract": ""
+ },
+ "SPP1-TAM-ATC-scRNA": {
+  "doi": "10.1186/s12885-026-16648-1",
+  "title": "Single-cell RNA-seq reveals SPP1+ tumor-associated macrophage population associated with collagen remodeling in anaplastic thyroid cancer",
+  "date": "2026-08-01",
+  "pmid": null,
+  "type": "article",
+  "oa": "gold",
+  "venue": "BMC Cancer",
+  "cited": 0,
+  "abstract": "Anaplastic thyroid cancer (ATC) is one of the most aggressive and lethal malignancies. ATC tumor cells exhibit marked overexpression of collagen family genes; however, the mechanisms underlying tumor cell-driven collagen remodeling remain poorly understood. Tumor-associated macrophages (TAMs) constitute a substantial proportion of the ATC tumor microenvironment, yet whether and how TAMs influence collagen remodeling in ATC tumor cells remains unclear. We combined single-cell RNA sequencing and bulk transcriptomic data from public databases to explore the role of TAMs in collagen remodeling of tumor cells in ATC. Additionally, in vivo mouse tumor models were employed to assess tumor growth, followed by immunofluorescence analysis of tumor tissues. Single-cell transcriptomic analyses revealed pronounced myeloid enrichment and a dominant mesenchymal-like malignant epithelial state in ATC. This population exhibited a collagen-high transcriptional program associated with increased collagen deposition and unfavorable outcomes in the broader thyroid carcinoma context. CIBERSORTx-based deconvolution of multiple bulk RNA-seq cohorts independently confirmed expansion of myeloid cells in ATC and a positive correlation between tumor and myeloid proportions. Further characterization identified an ATC-enriched SPP1 ⁺ TAMs subset with strong extracellular matrix remodeling signatures. Cell-cell communication and spatial inference analyses highlighted SPP1-CD44 signaling as a predicted interaction between SPP1 ⁺ TAMs and mesenchymal ATC cells. In vivo inhibition of SPP1 partially restrained tumor growth and collagen accumulation. Pseudotime analysis further suggested VSIG4 ⁺ TAMs as an u"
+ },
+ "cGAS-STING-ATC": {
+  "doi": "10.1177/10507256261481666",
+  "title": "Suppressed cGAS–STING DNA Sensing Drives Immune Evasion in Anaplastic Thyroid Cancer",
+  "date": "2026-08-26",
+  "pmid": "42644464",
+  "type": "article",
+  "oa": "closed",
+  "venue": "Thyroid",
+  "cited": 0,
+  "abstract": "Background: Anaplastic thyroid cancer (ATC) is a highly lethal malignancy with poor survival and limited therapeutic options. The mechanisms driving immune evasion in ATC remain poorly understood. The cyclic GMP–AMP synthase–stimulator of interferon genes (cGAS–STING) pathway is a key mediator of innate immune sensing and antitumor immunity. Methods: We investigated the role of cGAS–STING signaling in ATC using three complementary models (i) a genetically engineered mouse model harboring triple mutations in Thrb1 , Trp53 , and Pten (RU3 model); (ii) an orthotopic tumor model derived from Trp53 - and Braf -mutant ATC cells; and (iii) subcutaneous tumor models of Ifnb1 - or Trp53 -expressing ATC cells. Tumor immune microenvironment alterations were assessed using comprehensive molecular approaches, including single-cell RNA sequencing. Results: The models demonstrated marked suppression of cGAS–STING signaling during ATC progression. This suppression was associated with impaired antitumor immunity, characterized by reduced CD8 + T cell infiltration and diminished type I interferon (IFN-I) responses. Restoration of IFNβ1 signaling in ATC cells significantly enhanced CD8 + T cell recruitment and inhibited tumor growth in vivo . These findings indicate that immune evasion in ATC is driven by decreased IFNβ1 production rather than resistance to its downstream effects. Mechanistically, p53 was found to sustain cGAS–STING–IFNβ1-mediated antitumor immunity, and its loss contributed to reduced IFNβ1 expression and immune escape. Conclusions: Impaired DNA sensing via suppression of the cGAS–STING–IFNβ1 axis promotes immune evasion in ATC. Therapeutic strategies aimed at restoring th"
+ },
+ "SGLT2-DPP-PTC": {
+  "doi": "10.3389/fmolb.2026.1875059",
+  "title": "Modulation of oxidative stress and metabolic burden in papillary thyroid cancer by SGLT2 and broad DPP inhibition",
+  "date": "2026-07-29",
+  "pmid": "42591312",
+  "type": "article",
+  "oa": "gold",
+  "venue": "Frontiers in Molecular Biosciences",
+  "cited": 0,
+  "abstract": "Introduction: Papillary thyroid cancer (PTC) exhibits metabolic reprogramming consistent with the Warburg effect, characterized by enhanced glycolysis, redox imbalance and dependence on anti-apoptotic mechanisms such as XIAP stabilization. Modulating glucose handling and oxidative status with SGLT2 or broad DPP inhibition may therefore reveal vulnerabilities within this metabolic-apoptotic axis. This study assessed their effects on oxidative stress, glucose-dependent metabolic activity and XIAP distribution and apoptosis-related signaling in thyroid-derived cell models. Methods: M), with doses selected by MTT viability profiling. Reactive oxygen species (ROS), lipid peroxidation (MDA), total antioxidative capacity (TAC), intracellular and extracellular XIAP, and glucose-normalized metabolic indices (IG, MS) were quantified. Results: Metabolic profiling showed that SGLT2 inhibition markedly increased IG and MS in SCC147 and NTHY-ORI, consistent with altered glucose-dependent metabolic responses. In contrast, in MDA-T32 SGLT2 inhibition lowered IG/MS values, indicating reduced metabolic activity and a distinct metabolic phenotype. Both inhibitors modulated oxidative stress in a cell-line-dependent manner. SGLT2 inhibition reduced ROS levels in SCC147 (p < 0.01), whereas broad DPP inhibition reduced ROS in NTHY-ORI (p < 0.05), with no significant change observed following SGLT2 inhibition in this cell line. A significant decrease in MDA following iSGLT2 treatment was observed in SCC147 cells, whereas iDPP significantly reduced MDA levels in NTHY-ORI cells. No significant changes were detected in MDA-T32 cells. TAC responses were cell-line dependent. iDPP increased TAC in MDA"
+ },
+ "BRAF-CNS-thyroid-brain-met": {
+  "doi": "10.3389/fneur.2026.1921351",
+  "title": "Programmed cell death evasion in BRAF V600E-driven primary CNS tumors and thyroid cancer brain metastases",
+  "date": "2026-09-02",
+  "pmid": "42769885",
+  "type": "article",
+  "oa": "gold",
+  "venue": "Frontiers in Neurology",
+  "cited": 0,
+  "abstract": "BRAF V600E occurs in selected primary central nervous system (CNS) tumors and in a subset of thyroid cancers that can metastasize to the brain, but the shared alteration does not make these diseases biologically equivalent. This Mini Review examines programmed cell death evasion in pleomorphic xanthoastrocytoma and ganglioglioma, with selected molecular and clinical comparisons involving epithelioid glioblastoma, pilocytic astrocytoma, pediatric low-grade glioma, and thyroid cancer brain metastases (TCBM). Evidence linking BRAF-MEK-ERK signaling to apoptosis is strongest in non-CNS thyroid cancer and other BRAF-mutant models; direct validation in TCBM remains limited. Ferroptosis sensitization has been demonstrated preclinically in BRAF V600E anaplastic thyroid cancer outside the brain, whereas the ferroptosis suppressor protein 1 (FSP1)/coenzyme Q10 (CoQ10) axis and dihydroorotate dehydrogenase (DHODH) remain general mechanistic frameworks rather than established dependencies in the target CNS settings. Clinical studies support BRAF/MEK inhibition in BRAF V600E-mutant glioma and systemic anaplastic thyroid cancer, but direct TCBM intracranial evidence is restricted to very limited, confounded observations. The intact blood-brain barrier, heterogeneous blood-tumor barrier, efflux transporters, and brain microenvironment further complicate inference from systemic outcomes. We therefore separate direct, indirect, and hypothesis-generating evidence and identify disease-specific pharmacokinetic, mechanistic, and prospective clinical studies as priorities."
+ },
+ "TCGA-TCM-PTC-APOE": {
+  "doi": "10.1097/md.0000000000050562",
+  "title": "TCGA-based identification of prognostic biomarkers and candidate traditional Chinese medicine compounds in papillary thyroid carcinoma",
+  "date": "2026-09-04",
+  "pmid": "42700077",
+  "type": "article",
+  "oa": "gold",
+  "venue": "Medicine",
+  "cited": 0,
+  "abstract": "This study aimed to identify prognostic genes associated with papillary thyroid carcinoma (PTC) and explore candidate traditional Chinese medicine (TCM) compounds using integrated bioinformatics and molecular docking. In this observational study, PTC gene expression profiles and clinical data were obtained from The Cancer Genome Atlas. Differentially expressed genes were screened using differential-expression sequencing (DESeq2), followed by protein-protein interaction network analysis to identify hub genes. Their expression, diagnostic value, immune relevance, prognostic significance, protein-level validation, and single-cell distribution were assessed using gene expression profiling interactive analysis, receiver operating characteristic analysis, immune infiltration analysis, Kaplan-Meier survival analysis, the human protein atlas, and single-cell RNA-sequencing data. Candidate TCM compounds were predicted using symptom mapping (SymMap) and the TCM Systems Pharmacology Database and Analysis Platform, and molecular docking was performed to evaluate potential ligand-target interactions. Five hub genes, colony-stimulating factor 2, apolipoprotein E, fibronectin 1 (FN1), collagen type I alpha 1 chain (COL1A1), and intercellular adhesion molecule 1, were identified and found to be significantly upregulated in PTC tissues, with diagnostic value in receiver operating characteristic analysis. Immune infiltration analysis showed associations with macrophages, dendritic cells, and T helper 1 cells, whereas single-cell analysis demonstrated heterogeneous expression across immune and stromal cell populations, including fibroblasts. Higher FN1 and COL1A1 expression was associated w"
+ },
+ "PHGDH-dabrafenib-ATC": {
+  "doi": "10.1038/s41420-026-03293-7",
+  "title": "PHGDH inhibition overcomes dabrafenib resistance through metabolic rewiring in BRAF V600E anaplastic thyroid carcinoma",
+  "date": "2026-08-15",
+  "pmid": null,
+  "type": "article",
+  "oa": "gold",
+  "venue": "Cell Death Discovery",
+  "cited": 0,
+  "abstract": "Abstract Dabrafenib, a BRAF kinase inhibitor, is used clinically to treat anaplastic thyroid carcinoma (ATC) harboring the BRAF V600E mutation. However, its clinical efficacy is limited due to the rapid emergence of resistance to treatment. In this study, we established a dabrafenib-resistant ATC cell line (8505C-R) and compared its molecular and phenotypic characteristics with those of the parental cells. We evaluated cell proliferation, colony formation, stem cell marker expression, and MAPK pathway activity and identified elevated levels of EGFR and PHGDH in 8505C-R cells as hallmarks of resistance. RNA sequencing revealed that PHGDH inhibition using the selective inhibitor NCT-503 profoundly reprogrammed gene expression networks related to tumor plasticity, stem-like phenotypes, and hyperactivation of the EGFR–MAPK signaling axis. Notably, LRIG1, a negative regulator of EGFR, was differentially expressed upon PHGDH inhibition, suggesting a feedback loop connecting serine metabolism with receptor tyrosine kinase signaling. Functional assays demonstrated that PHGDH inhibition, either alone or in combination with dabrafenib, markedly suppressed colony formation, expression of stemness-associated markers, and MAPK pathway activity. These results suggest that PHGDH-dependent serine metabolism is associated with resistance-related signaling changes involving the EGFR–MAPK axis in BRAF-mutant ATCs."
+ },
+ "Microenv-plasticity-RAI": {
+  "doi": "10.3390/ijms27167305",
+  "title": "Microenvironmental Control of Thyroid Cancer Plasticity and Radioiodine Resistance",
+  "date": "2026-08-16",
+  "pmid": "42653308",
+  "type": "article",
+  "oa": "gold",
+  "venue": "International Journal of Molecular Sciences",
+  "cited": 0,
+  "abstract": "Follicular-cell-derived thyroid cancers that progress from differentiated tumors to poorly differentiated or anaplastic states commonly lose thyroid lineage identity, radioiodine avidity, and favorable clinical behavior. Genetic and signaling alterations within tumor cells explain part of this transition, but they do not fully account for the coexistence of different differentiation states within the same molecular subtype or even within the same lesion. Increasing functional evidence indicates that dedifferentiation is maintained by reciprocal interactions between malignant cells and the immune, stromal, metabolic, and inflammatory microenvironment. Cancer-associated fibroblast glycolysis and lactate release, IL-6/CXCL8-driven inflammatory signaling, hypoxia, transforming growth factor-beta signaling, and tumor-associated macrophage feedback can suppress thyroid lineage programs while promoting plasticity, invasion, and treatment resistance. Here, we synthesize mechanistic studies supported by genetic perturbation, co-culture, pharmacologic blockade, iodine-uptake assays, animal models, or patient-level radioiodine endpoints. We distinguish functional dedifferentiation from epithelial-mesenchymal transition, stemness, and lymph-node metastasis, and discuss therapeutic strategies that combine tumor-cell redifferentiation with targeting of microenvironmental feedback to restore durable radioiodine sensitivity."
+ },
+ "Cuproptosis-mito-TC": {
+  "doi": "10.1007/s11010-026-05604-z",
+  "title": "Deciphering the interplay between cuproptosis and mitochondrial energy metabolism in thyroid cancer: a multi-omics study for molecular subtyping, prognosis, and tumor microenvironment characterization",
+  "date": "2026-06-19",
+  "pmid": "42319714",
+  "type": "article",
+  "oa": "closed",
+  "venue": "Molecular and Cellular Biochemistry",
+  "cited": 0,
+  "abstract": ""
+ },
+ "Lipid-metab-preprint": {
+  "doi": "10.20944/preprints202608.0708.v1",
+  "title": "Lipid Metabolic Reprogramming in Thyroid Cancer: Systemic Biomarkers, Tumor Dependencies and Therapeutic Resistance",
+  "date": "2026-08-11",
+  "pmid": null,
+  "type": "preprint",
+  "oa": "green",
+  "venue": "Preprints.org",
+  "cited": 0,
+  "abstract": "Lipid metabolic reprogramming is increasingly implicated in thyroid cancer progression and treatment resistance, but circulating lipid associations are often conflated with tumor lipid dependency. A clinically useful synthesis must distinguish systemic lipid markers from intratumoral lipid flux before integrating them into mechanistic or therapeutic models. This critical narrative review integrates evidence across three connected layers: circulating lipid markers; tumor-intrinsic uptake, oxidation, synthesis, desaturation, cholesterol and oxysterol pathways; and immune-spatial niches involving macrophage lipid handling, APOE-associated polarization and ferroptosis-related lipid peroxidation. In papillary thyroid carcinoma, multi-omics and mechanistic studies implicate LPL-FATP2-CPT1A, PC-AKT/mTOR-SREBP1c-FASN and METTL16/YTHDC2/SCD1 programs in membrane remodeling, invasion-related behavior and recurrence-risk stratification. In aggressive and anaplastic thyroid cancer, cholesterol-synthesis signaling, fatty-acid-oxidation adaptation and SREBF1/SCD1-linked ferroptosis defense may contribute to resistance to radioiodine, radiotherapy, chemotherapy and BRAF/MEK inhibition. Current evidence is strongest for mechanistic and biomarker hypotheses; thyroid-cancer-specific prospective trials of lipid-directed treatment are lacking. Lipid metabolism therefore provides a framework for molecular stratification and treatment sensitization, but it does not currently justify nonspecific lipid lowering or routine lipid-targeted therapy. Translation will require paired blood and tumor lipidomics, spatial profiling, functional perturbation and biomarker-defined prospective studies."
+ },
+ "SpatialTx-review-preprint": {
+  "doi": "10.20944/preprints202608.0302.v1",
+  "title": "Spatial Transcriptomics in Thyroid Cancer: A PRISMA-Guided Systematic Review of Platforms, Applications, and Tumor Microenvironment",
+  "date": "2026-08-05",
+  "pmid": null,
+  "type": "preprint",
+  "oa": "green",
+  "venue": "Preprints.org",
+  "cited": 0,
+  "abstract": "Background/Objectives: Among endocrine malignancies, thyroid cancer is the most prevalent and encompasses a broad clinical spectrum, ranging from indolent differentiated tumors to highly aggressive poorly differentiated and anaplastic thyroid carcinomas. Histopathology and molecular testing incompletely capture the spatial organization of tumor, stromal, and immune compartments that drives invasion, dedifferentiation, and treatment resistance. Spatial transcriptomics preserves tissue architecture while profiling gene expression, mapping molecular programs onto histologic context. We systematically reviewed its platforms, applications, and biological insights in thyroid cancer. Methods: PubMed/MEDLINE, Scopus, and Web of Science Core Collection were searched for English-language studies combining spatial-transcriptomic and thyroid-cancer concepts, following PRISMA 2020 guidance. Primary studies that applied a spatially resolved transcriptomic method to thyroid cancer tissue and reported spatial gene-expression findings were included; data were extracted on subtype, platform, complementary methods, and principal findings. Results: Of 104 records (47 after de-duplication), 21 studies met the inclusion criteria. Most used capture-based whole-transcriptome profiling, particularly 10x Visium, while GeoMx digital spatial profiling supported FFPE-compatible biomarker studies. Recurrent findings included POSTN+ and SERPINE1+ cancer-associated fibroblast programs at invasive fronts, APOE-linked immunosuppressive states, organized immune-evasion niches, and progressive tumor-microenvironment remodeling accompanying dedifferentiation toward ATC. Spatial transcriptomics also clarified"
+ }
+}

@@ -1,0 +1,746 @@
+{
+ "SC": {
+  "hitCount": 50,
+  "candidates": [
+   {
+    "title": "Single-Cell Transcriptome of Anaplastic Thyroid Cancer Reveals Immunosuppressive Tumor Microenvironment Remodeling.",
+    "doi": "10.1002/cam4.72261",
+    "pmid": "42702761",
+    "journal": "Cancer Med",
+    "date": "2026-09-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "CREM Marks TCR-Driven T-Cell Activation and Associates with Favorable Prognosis in Papillary Thyroid Carcinoma: A Single-Cell and Bulk Transcriptomic Study.",
+    "doi": "10.3390/ijms27167387",
+    "pmid": "42653390",
+    "journal": "Int J Mol Sci",
+    "date": "2026-08-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Myeloid landscape of BRAF-mutant papillary thyroid cancer and thyroiditis.",
+    "doi": "10.1530/erc-26-0088",
+    "pmid": "42583701",
+    "journal": "Endocr Relat Cancer",
+    "date": "2026-08-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Foxe1 deficiency impairs thyroid fate while supporting lung differentiation.",
+    "doi": "10.1038/s44319-026-00841-1",
+    "pmid": "42324400",
+    "journal": "EMBO Rep",
+    "date": "2026-06-21",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Integrated multi-omics and single-cell analyses identify metabolic heterogeneity and therapeutic vulnerabilities in medullary thyroid cancer.",
+    "doi": "10.1038/s41416-026-03467-1",
+    "pmid": "42098434",
+    "journal": "Br J Cancer",
+    "date": "2026-05-07",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Thyroid Immune-related Adverse Events Following Immune Checkpoint Inhibitors in NSCLC: Insights From Pharmacovigilance Data, a Retrospective Case-control Study, and Single-cell RNA Sequencing Dataset.",
+    "doi": "10.1016/j.clinthera.2026.06.020",
+    "pmid": "42532761",
+    "journal": "Clin Ther",
+    "date": "2026-07-30",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Comprehensive evaluation of angiogenesis-associated genes in papillary thyroid cancer using bulk RNA and single-cell sequencing data.",
+    "doi": "10.1007/s00405-026-10456-w",
+    "pmid": "42472943",
+    "journal": "Eur Arch Otorhinolaryngol",
+    "date": "2026-07-19",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell RNA Sequencing Reveals A Tumor-Promoting Role of EGR1+CD4+ T Cells in Papillary Thyroid Cancer.",
+    "doi": "10.1093/gpbjnl/qzag060",
+    "pmid": "42412534",
+    "journal": "Genomics Proteomics Bioinformatics",
+    "date": "2026-07-07",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "PRECISE: A Prognostic Thyrocyte-Derived Gene Signature for Papillary Thyroid Carcinoma.",
+    "doi": "10.1158/1078-0432.ccr-25-4488",
+    "pmid": "42008746",
+    "journal": "Clin Cancer Res",
+    "date": "2026-07-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell RNA sequencing and large-panel NGS analysis reveal transcriptional heterogeneity and genomic characteristics of double primary lung cancer and thyroid cancer.",
+    "doi": "10.1016/j.gendis.2025.101889",
+    "pmid": "41859004",
+    "journal": "Genes Dis",
+    "date": "2025-10-22",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell RNA sequencing in thyroid cancer: a methodological review and thyroid specific dissociation protocol.",
+    "doi": "10.1186/s13044-026-00306-6",
+    "pmid": "42363265",
+    "journal": "Thyroid Res",
+    "date": "2026-06-26",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Spatially resolved single cell analysis suggests an APOE NCF1 associated immunosuppressive niche and its prognostic signature in thyroid cancer.",
+    "doi": "10.1007/s12672-026-05061-6",
+    "pmid": "42217128",
+    "journal": "Discov Oncol",
+    "date": "2026-05-30",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Combining single cell and bulk transcriptomics with Mendelian randomization identifies gut microbiota related prognostic genes and mechanisms in thyroid cancer.",
+    "doi": "10.1007/s12672-026-05132-8",
+    "pmid": "42105187",
+    "journal": "Discov Oncol",
+    "date": "2026-05-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell and bulk transcriptomic analyses identify B-cell senescence-associated biomarkers in papillary thyroid carcinoma.",
+    "doi": "10.21037/tcr-2025-1-2828",
+    "pmid": "42180900",
+    "journal": "Transl Cancer Res",
+    "date": "2026-04-17",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Erratum: Publisher Correction: Multiscale ECM Stiffness Characterization and Quantitative Single-Cell Analysis Reveal ITGA3-Mediated Stiffness-Responsive Subpopulation Dynamics in Papillary Thyroid Carcinoma.",
+    "doi": "10.1007/s12195-026-00904-2",
+    "pmid": "42080148",
+    "journal": "Cell Mol Bioeng",
+    "date": "2026-04-22",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Multiscale ECM Stiffness Characterization and Quantitative Single-Cell Analysis Reveal ITGA3-Mediated Stiffness-Responsive Subpopulation Dynamics in Papillary Thyroid Carcinoma.",
+    "doi": "10.1007/s12195-026-00895-0",
+    "pmid": "42080141",
+    "journal": "Cell Mol Bioeng",
+    "date": "2026-03-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Correction: Kobayashi et al. Pathogenesis of Graves' Disease Determined Using Single-Cell Sequencing with Thyroid Autoantigen Peptide Stimulation in B Cells. &lt;i&gt;Cells&lt;/i&gt; 2025, &lt;i&gt;14&lt;/i&gt;, 1102.",
+    "doi": "10.3390/cells15090751",
+    "pmid": "42059808",
+    "journal": "Cells",
+    "date": "2026-04-23",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Inhibition of ATM reverses radioiodine resistance in differentiated thyroid cancer via genotoxic stress amplification.",
+    "doi": "10.1186/s12967-026-08190-2",
+    "pmid": "42046098",
+    "journal": "J Transl Med",
+    "date": "2026-04-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Integrative Single-Cell and Machine Learning Analysis Identifies an EMT-Associated Prognostic Signature for Papillary Thyroid Cancer.",
+    "doi": "10.1002/cam4.71766",
+    "pmid": "41957879",
+    "journal": "Cancer Med",
+    "date": "2026-04-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Immune landscape in NOD.H-2h4 mouse model thyroid revealed by single-cell RNA sequencing.",
+    "doi": "10.1016/j.bbrc.2026.153484",
+    "pmid": "41734714",
+    "journal": "Biochem Biophys Res Commun",
+    "date": "2026-02-19",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Cellular and molecular determinants of lymph node metastasis in papillary thyroid carcinoma: Integrated multi-omics profiling and machine learning models.",
+    "doi": "10.1016/j.compbiolchem.2025.108857",
+    "pmid": "41421038",
+    "journal": "Comput Biol Chem",
+    "date": "2025-12-15",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Identification of papillary thyroid carcinoma-associated epithelial cell subpopulations and diagnostic biomarkers: integrating machine learning with single-cell analysis.",
+    "doi": "10.21037/tcr-2025-aw-2244",
+    "pmid": "41969483",
+    "journal": "Transl Cancer Res",
+    "date": "2026-03-24",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Integrated multi-omics and single-cell analysis reveals CDKN2A-mediated cuproptosis mechanisms driving thyroid carcinoma progression.",
+    "doi": "10.1038/s41540-026-00663-w",
+    "pmid": "41826383",
+    "journal": "NPJ Syst Biol Appl",
+    "date": "2026-03-13",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "JAG1 expression in papillary thyroid cancer stem-like cells predicts poor prognosis and implicates angiogenesis.",
+    "doi": "10.1007/s12672-026-04601-4",
+    "pmid": "41663780",
+    "journal": "Discov Oncol",
+    "date": "2026-02-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell analysis identifies ATC-like cells driving progression in relapsed follicular thyroid carcinoma.",
+    "doi": "10.1210/endocr/bqag012",
+    "pmid": "41631714",
+    "journal": "Endocrinology",
+    "date": "2026-02-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell omics in investigating the effect of CAFs with KRAS overexpression on the malignant progression of anaplastic thyroid cancer.",
+    "doi": "10.1097/jcma.0000000000001334",
+    "pmid": "41486477",
+    "journal": "J Chin Med Assoc",
+    "date": "2026-01-05",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Tumor-Derived Exosomal PDLIM1 Promotes Angiogenesis and Tumor Progression in Papillary Thyroid Carcinoma: Insights From Integrated Single-Cell Transcriptomics and Exosomal Proteomics.",
+    "doi": "10.2147/cmar.s589372",
+    "pmid": "42131580",
+    "journal": "Cancer Manag Res",
+    "date": "2026-05-08",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Investigating the Role of TNFSF12 in Thyroid Cancer Progression via Single-Cell RNA Sequencing and Integrated Multiomics Analyses.",
+    "doi": "10.1155/mi/4753653",
+    "pmid": "41930700",
+    "journal": "Mediators Inflamm",
+    "date": "2026-01-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Unraveling the indolence of papillary thyroid carcinoma: an exploratory study on B-cell subsets based on genetic predisposition and tumor immunity.",
+    "doi": "10.3389/fimmu.2026.1769020",
+    "pmid": "41929497",
+    "journal": "Front Immunol",
+    "date": "2026-03-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell analysis reveals the cellular and transcriptional heterogeneity of the normal pediatric thyroid.",
+    "doi": "10.3389/fendo.2026.1748458",
+    "pmid": "41727685",
+    "journal": "Front Endocrinol (Lausanne)",
+    "date": "2026-01-29",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "CXCL8/SDC1 axis mediates tumor stem cell interactions to drive remote transfer in thyroid cancer.",
+    "doi": "10.1016/j.jpha.2025.101354",
+    "pmid": "41626563",
+    "journal": "J Pharm Anal",
+    "date": "2025-06-02",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Exploring molecular mechanisms of radioactive iodine therapy in thyroid cancer using single-cell RNA sequencing data.",
+    "doi": "10.1007/s12672-025-04317-x",
+    "pmid": "41483448",
+    "journal": "Discov Oncol",
+    "date": "2026-01-03",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "An integrated single-cell and spatial transcriptomic atlas of thyroid cancer progression identifies prognostic fibroblast subpopulations.",
+    "doi": "10.1172/jci.insight.191990",
+    "pmid": "41480746",
+    "journal": "JCI Insight",
+    "date": "2026-01-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Meta single-cell atlas and xQTL post-GWAS analysis revealed the pathogenic features of thyroid cancer for target therapy: A multi-omics study.",
+    "doi": "10.1038/s41417-025-00988-4",
+    "pmid": "41249621",
+    "journal": "Cancer Gene Ther",
+    "date": "2025-11-17",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-Cell RNA Sequencing of Thyroid Tissues Reveals Pathogenesis of Graves' Disease.",
+    "doi": "10.1002/advs.202508449",
+    "pmid": "41126733",
+    "journal": "Adv Sci (Weinh)",
+    "date": "2025-10-23",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Construction of a Single-cell Atlas of Thyroid Cancer",
+    "doi": "10.2174/0118715303359688250209090544",
+    "pmid": "40183263",
+    "journal": "Endocr Metab Immune Disord Drug Targets",
+    "date": "2026-01-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Myosin-10 Promotes Angiogenesis and Metastasis in Thyroid Cancer by Regulating the FGF/FGFR1 Signaling Axis",
+    "doi": "10.21203/rs.3.rs-9206111/v1",
+    "pmid": null,
+    "journal": null,
+    "date": "2026-05-12",
+    "isPreprint": true,
+    "abstract": ""
+   },
+   {
+    "title": "Pax6 Drives Orbital Fibrosis in Thyroid-Associated Orbitopathy via Fatty Acid Metabolism-Mediated Epithelial-Mesenchymal Transition in Mice",
+    "doi": "10.21203/rs.3.rs-8645473/v1",
+    "pmid": null,
+    "journal": null,
+    "date": "2026-02-17",
+    "isPreprint": true,
+    "abstract": ""
+   },
+   {
+    "title": "Inhibition of ATM Reverses Radioiodine Resistance in Differentiated Thyroid Cancer via Genotoxic Stress Amplification",
+    "doi": "10.21203/rs.3.rs-8542065/v1",
+    "pmid": null,
+    "journal": null,
+    "date": "2026-01-22",
+    "isPreprint": true,
+    "abstract": ""
+   }
+  ]
+ },
+ "SP": {
+  "hitCount": 33,
+  "candidates": [
+   {
+    "title": "Retraction notice to \"Determining the spatial non-stationarity underlying social and natural environment in thyroid cancer in China\" [Sci. Total Environ. 870 (2023) 162009].",
+    "doi": "10.1016/j.scitotenv.2026.182084",
+    "pmid": "42527239",
+    "journal": "Sci Total Environ",
+    "date": "2026-07-29",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Polyclonal selection of immune checkpoint mutations in thyroid autoimmunity.",
+    "doi": "10.1038/s41586-026-10493-9",
+    "pmid": "41981327",
+    "journal": "Nature",
+    "date": "2026-04-14",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Thyroid hormone signaling causally influences pancreatic disease risk: Evidence from Mendelian randomization and multi-omics integration.",
+    "doi": "10.1016/j.compbiolchem.2026.108897",
+    "pmid": "41564647",
+    "journal": "Comput Biol Chem",
+    "date": "2026-01-15",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Spatial concordance patterns of breast and thyroid cancer based on burden inequalities and related risk factors analyses.",
+    "doi": "10.21037/gs-2026-1-0047",
+    "pmid": "42299272",
+    "journal": "Gland Surg",
+    "date": "2026-05-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Thyroid-stimulating hormone receptor mediates peripheral-central neuroimmune crosstalk in autoimmune thyroid diseases.",
+    "doi": "10.1186/s12916-026-04957-y",
+    "pmid": "42204533",
+    "journal": "BMC Med",
+    "date": "2026-05-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Developmental neurotoxicity of thyroid hormone system-disrupting chemicals: a systems-level exploration using multi-omics approach.",
+    "doi": "10.1007/s00204-026-04303-4",
+    "pmid": "41654649",
+    "journal": "Arch Toxicol",
+    "date": "2026-02-07",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Cellular and molecular determinants of lymph node metastasis in papillary thyroid carcinoma: Integrated multi-omics profiling and machine learning models.",
+    "doi": "10.1016/j.compbiolchem.2025.108857",
+    "pmid": "41421038",
+    "journal": "Comput Biol Chem",
+    "date": "2025-12-15",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Proteogenomic characterization delineates clinically relevant subtypes of advanced differentiated thyroid cancer.",
+    "doi": "10.1016/j.xcrm.2026.102661",
+    "pmid": "41794039",
+    "journal": "Cell Rep Med",
+    "date": "2026-03-06",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Mechanism of cancer-associated fibroblast-driven thyroid cancer dedifferentiation via the ZFP57-PKM2 axis-mediated lactate secretion and therapeutic intervention with resveratrol​.",
+    "doi": "10.1186/s13046-026-03675-w",
+    "pmid": "41761234",
+    "journal": "J Exp Clin Cancer Res",
+    "date": "2026-02-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Visualizing malignant progression: in situ CD109-based spatial immunofluorescence assay delineates papillary to anaplastic thyroid carcinoma transformation within the tumor microenvironment.",
+    "doi": "10.1038/s41598-026-41927-z",
+    "pmid": "41748865",
+    "journal": "Sci Rep",
+    "date": "2026-02-26",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Spatial proteomics and machine learning reveal diagnostic protein signatures for indeterminate thyroid nodules: promising yet preliminary biomarkers requiring clinical validation.",
+    "doi": "10.1007/s12020-026-04552-4",
+    "pmid": "41697550",
+    "journal": "Endocrine",
+    "date": "2026-02-16",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "ThyFusionNet: A CNN-transformer framework with spatial aware sparse attention for multi modal thyroid disease diagnosis.",
+    "doi": "10.1016/j.compmedimag.2026.102706",
+    "pmid": "41579654",
+    "journal": "Comput Med Imaging Graph",
+    "date": "2026-01-11",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Improving the Annotation for Spatial Proteomics: A Computational Approach to Enhance Molecular Characterization of Thyroid Nodules.",
+    "doi": "10.1021/acs.jproteome.5c00432",
+    "pmid": "41502375",
+    "journal": "J Proteome Res",
+    "date": "2026-01-08",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Artemisinin-Related Therapeutic Strategies for Autoimmune Thyroiditis: Chemokine-Receptor Networks, Spatial Thyroid Biology, and Molecular Mechanisms.",
+    "doi": "10.2147/dddt.s614133",
+    "pmid": "42338761",
+    "journal": "Drug Des Devel Ther",
+    "date": "2026-06-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Precision Thyroid Oncology: A Review of Multi-Omics Biomarkers and Spatiotemporal Technologies.",
+    "doi": "10.2147/ijgm.s602509",
+    "pmid": "42179850",
+    "journal": "Int J Gen Med",
+    "date": "2026-05-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Spatial and temporal distribution of thyroid cancer incidence in China: An ecological study based on a national registry.",
+    "doi": "10.1371/journal.pone.0341734",
+    "pmid": "41860809",
+    "journal": "PLoS One",
+    "date": "2026-03-20",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "An integrated single-cell and spatial transcriptomic atlas of thyroid cancer progression identifies prognostic fibroblast subpopulations.",
+    "doi": "10.1172/jci.insight.191990",
+    "pmid": "41480746",
+    "journal": "JCI Insight",
+    "date": "2026-01-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Differentiated Thyroid Cancer Is Associated With Sex-specific Immune Response.",
+    "doi": "10.1210/jendso/bvaf174",
+    "pmid": "41357855",
+    "journal": "J Endocr Soc",
+    "date": "2025-11-07",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "A Transformer-Based 2.5D Deep Learning Model for Preoperative Prediction of Lymph Node Metastasis in Papillary Thyroid Carcinoma",
+    "doi": "10.64898/2026.04.01.26349933",
+    "pmid": null,
+    "journal": null,
+    "date": "2026-04-02",
+    "isPreprint": true,
+    "abstract": ""
+   },
+   {
+    "title": "A stress-function tradeoff organizes epithelial heterogeneity across spatial scales in the human thyroid",
+    "doi": "10.64898/2026.03.12.711294",
+    "pmid": null,
+    "journal": null,
+    "date": "2026-03-16",
+    "isPreprint": true,
+    "abstract": ""
+   },
+   {
+    "title": "C/EBPβ Drives Anaplastic Thyroid Cancer Dedifferentiation and Radioiodine Resistance via IL-6/JAK/STAT and EMT Activation",
+    "doi": "10.21203/rs.3.rs-9248842/v1",
+    "pmid": null,
+    "journal": null,
+    "date": "2026-05-18",
+    "isPreprint": true,
+    "abstract": ""
+   }
+  ]
+ },
+ "IM": {
+  "hitCount": 24,
+  "candidates": [
+   {
+    "title": "Thyroid cancer-derived exosomal SPP1 promotes tumor progression by driving macrophage M2 polarization through the CD44/JAK2/STAT3 signaling pathway.",
+    "doi": "10.1080/15476278.2026.2670152",
+    "pmid": "42153613",
+    "journal": "Organogenesis",
+    "date": "2026-05-19",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-Cell Transcriptome of Anaplastic Thyroid Cancer Reveals Immunosuppressive Tumor Microenvironment Remodeling.",
+    "doi": "10.1002/cam4.72261",
+    "pmid": "42702761",
+    "journal": "Cancer Med",
+    "date": "2026-09-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "TIM3 as a therapeutic target in anaplastic thyroid cancer: upregulation in M2-like macrophages induced by tumor microenvironment-derived TGFβ1.",
+    "doi": "10.1002/path.70104",
+    "pmid": "42557785",
+    "journal": "J Pathol",
+    "date": "2026-08-05",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Deciphering the interplay between cuproptosis and mitochondrial energy metabolism in thyroid cancer: a multi-omics study for molecular subtyping, prognosis, and tumor microenvironment characterization.",
+    "doi": "10.1007/s11010-026-05604-z",
+    "pmid": "42319714",
+    "journal": "Mol Cell Biochem",
+    "date": "2026-06-19",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Transcriptomic sequencing analysis of the tumor microenvironment atlas and potential mechanisms of metastasis in papillary thyroid carcinoma.",
+    "doi": "10.1016/j.molimm.2026.05.006",
+    "pmid": "42134246",
+    "journal": "Mol Immunol",
+    "date": "2026-05-14",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Identification and validation of tumor microenvironment remodeling markers associated with prognosis in differentiated thyroid cancer.",
+    "doi": "10.21037/tcr-2026-1-0208",
+    "pmid": "42305510",
+    "journal": "Transl Cancer Res",
+    "date": "2026-05-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Current Studies on the Hypoxic Tumor Microenvironment in Thyroid Cancer: From Molecular Mechanisms to Clinical Therapeutic Perspectives.",
+    "doi": "10.3390/biomedicines14051126",
+    "pmid": "42193451",
+    "journal": "Biomedicines",
+    "date": "2026-05-16",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Novel a new prognostic model of thyroid carcinoma based on macrophage and cuproptosis-related lncRNA.",
+    "doi": "10.1186/s12935-026-04248-9",
+    "pmid": "41787436",
+    "journal": "Cancer Cell Int",
+    "date": "2026-03-05",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Retinoic acid receptor gamma (RARγ) drives M2-like macrophage polarisation via CFI to promote thyroid cancer progression.",
+    "doi": "10.1016/j.intimp.2026.116324",
+    "pmid": "41650889",
+    "journal": "Int Immunopharmacol",
+    "date": "2026-02-05",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Visualizing malignant progression: in situ CD109-based spatial immunofluorescence assay delineates papillary to anaplastic thyroid carcinoma transformation within the tumor microenvironment.",
+    "doi": "10.1038/s41598-026-41927-z",
+    "pmid": "41748865",
+    "journal": "Sci Rep",
+    "date": "2026-02-26",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "CD44 is associated with papillary thyroid carcinoma metastasis via potential modulation of the immunosuppressive tumor microenvironment.",
+    "doi": "10.1007/s10238-026-02101-x",
+    "pmid": "41739250",
+    "journal": "Clin Exp Med",
+    "date": "2026-02-25",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "ASO Visual Abstract: Age-Associated Alterations in Cytokine and Extracellular Matrix Remodeling in the Papillary Thyroid Cancer Tumor Microenvironment.",
+    "doi": "10.1245/s10434-025-18750-3",
+    "pmid": "41258982",
+    "journal": "Ann Surg Oncol",
+    "date": "2026-02-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Age-Associated Alterations in Cytokine and Extracellular Matrix Remodeling in the Papillary Thyroid Cancer Tumor Microenvironment.",
+    "doi": "10.1245/s10434-025-18473-5",
+    "pmid": "41083825",
+    "journal": "Ann Surg Oncol",
+    "date": "2025-10-13",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Gut microbe &lt;i&gt;Terrisporobacter&lt;/i&gt; promotes papillary thyroid carcinoma progression by upregulating the &lt;i&gt;NTRK1&lt;/i&gt; oncogene and fostering an immunosuppressive tumor microenvironment.",
+    "doi": "10.3389/fimmu.2026.1740257",
+    "pmid": "41958678",
+    "journal": "Front Immunol",
+    "date": "2026-03-25",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Macrophage-Derived Transcriptional Signatures Predict Prognosis and Drug Sensitivity in Thyroid Cancer: Integrative Analysis and Experimental Validation of SMYD3.",
+    "doi": "10.2147/itt.s565624",
+    "pmid": "41859299",
+    "journal": "Immunotargets Ther",
+    "date": "2026-01-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Macrophage plasticity in thyroid eye disease: dual effects of inflammation and fibrosis.",
+    "doi": "10.3389/fimmu.2026.1782204",
+    "pmid": "41859126",
+    "journal": "Front Immunol",
+    "date": "2026-03-04",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Comprehensive analyses of biological function and tumor microenvironment with cuproptosis regulators and construction of a cuproptosis-related scoring system in thyroid cancer based on bioinformatics and experimental validation.",
+    "doi": "10.3389/fgene.2026.1735093",
+    "pmid": "41836061",
+    "journal": "Front Genet",
+    "date": "2026-02-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Versatile Nanotherapeutics for Enhancing Sonodynamic Therapy/Chemotherapy of Thyroid Cancer through Remodeling Tumor Microenvironment and Synergistic Reactive Oxygen Species Augment.",
+    "doi": "10.34133/bmr.0338",
+    "pmid": "41788857",
+    "journal": "Biomater Res",
+    "date": "2026-03-04",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Influence of the tumor microenvironment on genetic mutations in thyroid carcinoma.",
+    "doi": "10.1371/journal.pone.0341123",
+    "pmid": "41678466",
+    "journal": "PLoS One",
+    "date": "2026-02-12",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Tumor microenvironment-guided targeted and immunotherapy in anaplastic thyroid cancer: a literature review from preclinical models to clinical translation.",
+    "doi": "10.21037/tcr-2025-1882",
+    "pmid": "41674934",
+    "journal": "Transl Cancer Res",
+    "date": "2026-01-20",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Enhancer-mediated NR2F2 recruitment activates BGN to promote tumor growth and shape tumor microenvironment in papillary thyroid cancer.",
+    "doi": "10.7150/thno.113712",
+    "pmid": "41328346",
+    "journal": "Theranostics",
+    "date": "2026-01-01",
+    "isPreprint": false,
+    "abstract": ""
+   }
+  ]
+ }
+}

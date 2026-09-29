@@ -1,0 +1,132 @@
+{
+  "10.3390/cancers18182918": {
+    "label": "IL1beta/SMDT1-MAPK PTC",
+    "doi": "10.3390/cancers18182918",
+    "unpaywall_oa_status": "gold",
+    "unpaywall_oa_url": null,
+    "unpaywall_journal_is_oa": true,
+    "crossref_title": "IL1β Functions as a Tumor Suppressor in Papillary Thyroid Carcinoma via the SMDT1-MAPK Signaling Axis",
+    "crossref_journal": "Cancers",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null
+  },
+  "10.1186/s12885-026-16883-6": {
+    "label": "systemic inflammatory/immune DTC",
+    "doi": "10.1186/s12885-026-16883-6",
+    "unpaywall_oa_status": "gold",
+    "unpaywall_oa_url": null,
+    "unpaywall_journal_is_oa": true,
+    "crossref_title": "Prognostic significance of systemic inflammatory and peripheral immune profiles in differentiated thyroid carcinoma: a retrospective cohort study",
+    "crossref_journal": "BMC Cancer",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null
+  },
+  "10.5281/zenodo.22290057": {
+    "label": "SPP1+ TAM AI multi-omics",
+    "doi": "10.5281/zenodo.22290057",
+    "crossref_error": "HTTP Error 404: Not Found",
+    "unpaywall_error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+  },
+  "10.3389/fimmu.2026.1916192": {
+    "label": "TIME thyroid vs colorectal",
+    "doi": "10.3389/fimmu.2026.1916192",
+    "crossref_title": "The tumor immune microenvironment of thyroid cancer and colorectal cancer: cellular crosstalk and therapeutic implications",
+    "crossref_journal": "Frontiers in Immunology",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null,
+    "unpaywall_oa_status": "gold",
+    "unpaywall_oa_url": null,
+    "unpaywall_journal_is_oa": true
+  },
+  "10.1016/j.mcp.2026.102086": {
+    "label": "creatine/alpha-linolenic acid metabolomics",
+    "doi": "10.1016/j.mcp.2026.102086",
+    "crossref_title": "Multiomics analyses identify diet-derived creatine and α-linolenic acid linking with metastatic thyroid cancer",
+    "crossref_journal": "Molecular and Cellular Probes",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null,
+    "unpaywall_oa_status": "gold",
+    "unpaywall_oa_url": null,
+    "unpaywall_journal_is_oa": true
+  },
+  "10.3389/fonc.2026.1810543": {
+    "label": "SYTL5 DTC",
+    "doi": "10.3389/fonc.2026.1810543",
+    "crossref_title": "SYTL5 drives malignant progression in differentiated thyroid carcinoma: unveiling its regulatory mechanisms",
+    "crossref_journal": "Frontiers in Oncology",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null,
+    "unpaywall_oa_status": "gold",
+    "unpaywall_oa_url": null,
+    "unpaywall_journal_is_oa": true
+  },
+  "10.1530/erc-26-0026": {
+    "label": "DKK1 PTC/FTC",
+    "doi": "10.1530/erc-26-0026",
+    "crossref_title": "Dickkopf-1 (DKK1) controls papillary and follicular thyroid cancer growth",
+    "crossref_journal": "Endocrine-Related Cancer",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null,
+    "unpaywall_oa_status": "closed",
+    "unpaywall_oa_url": null,
+    "unpaywall_journal_is_oa": false
+  },
+  "10.1002/path.70116": {
+    "label": "miR-145-3p MTC metastatic",
+    "doi": "10.1002/path.70116",
+    "crossref_title": "Network based approach identifies\n                    <scp>\n                      <i>miR</i>\n                    </scp>\n                    <i>‐145‐3p</i>\n                    as a central regulatory hub associated to the progression from localized to metastatic medullary thyroid carcinoma",
+    "crossref_journal": "The Journal of Pathology",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null,
+    "unpaywall_oa_status": "hybrid",
+    "unpaywall_oa_url": null,
+    "unpaywall_journal_is_oa": false
+  },
+  "10.1002/cam4.72220": {
+    "label": "UTMD CSF-1 macrophage ferroptosis PTC",
+    "doi": "10.1002/cam4.72220",
+    "crossref_title": "<scp>UTMD</scp>\n                    Suppresses\n                    <scp>CSF</scp>\n                    ‐1 to Drive Macrophage‐Mediated Ferroptosis in Papillary Thyroid Carcinoma",
+    "crossref_journal": "Cancer Medicine",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null,
+    "unpaywall_error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+  },
+  "10.1002/adbi.70156": {
+    "label": "MAPK synthetic inhibitors perspective",
+    "doi": "10.1002/adbi.70156",
+    "crossref_title": "Targeting MAPK Pathways in Skin, Thyroid, and Pancreatic Cancer: A Perspective on Synthetic Inhibitors and Natural Modulators",
+    "crossref_journal": "Advanced Biology",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null,
+    "unpaywall_error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+  },
+  "10.3389/fendo.2026.1853172": {
+    "label": "nomogram occult CLNM PTMC",
+    "doi": "10.3389/fendo.2026.1853172",
+    "crossref_title": "A clinical nomogram for evaluating occult central lymph node metastasis in clinically low-risk, unifocal papillary thyroid microcarcinoma",
+    "crossref_journal": "Frontiers in Endocrinology",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null,
+    "unpaywall_error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+  },
+  "10.1371/journal.pone.0355343": {
+    "label": "68Ga-FAPI-04 PET/CT DTC",
+    "doi": "10.1371/journal.pone.0355343",
+    "crossref_title": "68Ga-FAPI-04 PET/CT has high diagnostic efficacy in Tg-positive and Tg-negative differentiated thyroid cancer",
+    "crossref_journal": "PLOS One",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article",
+    "crossref_pmid": null,
+    "unpaywall_error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+  }
+}

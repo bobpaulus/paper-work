@@ -1,0 +1,258 @@
+{
+ "10.1186/s13044-026-00314-6": {
+  "label": "Intratumor microbiota in thyroid cancer",
+  "doi": "10.1186/s13044-026-00314-6",
+  "crossref": {
+   "title": "Intratumor microbiota in thyroid cancer: emerging insights into tumorigenesis and therapeutic potential",
+   "container": "Thyroid Research",
+   "publisher": "Springer Science and Business Media LLC",
+   "issued": [
+    [
+     2026,
+     9,
+     19
+    ]
+   ],
+   "type": "journal-article",
+   "ref_count": 0
+  },
+  "crossref_ok": true,
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "best": "https://doi.org/10.1186/s13044-026-00314-6",
+   "journal_is_oa": true
+  },
+  "unpaywall_ok": true
+ },
+ "10.3389/fimmu.2026.1912827": {
+  "label": "US radiomics immune-inflammatory CLNM PTC",
+  "doi": "10.3389/fimmu.2026.1912827",
+  "crossref": {
+   "title": "Noninvasive immune-inflammatory profiling by ultrasound radiomics for preoperative prediction of central lymph node metastasis in papillary thyroid carcinoma",
+   "container": "Frontiers in Immunology",
+   "publisher": "Frontiers Media SA",
+   "issued": [
+    [
+     2026,
+     9,
+     18
+    ]
+   ],
+   "type": "journal-article",
+   "ref_count": 52
+  },
+  "crossref_ok": true,
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "best": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1912827/pdf",
+   "journal_is_oa": true
+  },
+  "unpaywall_ok": true
+ },
+ "10.1177/15330338261490262": {
+  "label": "US radiomics+DL LNM/BRAF PTC",
+  "doi": "10.1177/15330338261490262",
+  "crossref": {
+   "title": "Ultrasound-Based Radiomics and Deep Learning for Prediction of Lateral and Central Lymph Node Metastasis and BRAF Gene Mutation in Papillary Thyroid Carcinoma",
+   "container": "Technology in Cancer Research &amp; Treatment",
+   "publisher": "SAGE Publications",
+   "issued": [
+    [
+     2026,
+     8
+    ]
+   ],
+   "type": "journal-article",
+   "ref_count": 35
+  },
+  "crossref_ok": true,
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "best": "https://doi.org/10.1177/15330338261490262",
+   "journal_is_oa": true
+  },
+  "unpaywall_ok": true
+ },
+ "10.1126/sciadv.aee5417": {
+  "label": "LOH germline complex I Warburg OCT",
+  "doi": "10.1126/sciadv.aee5417",
+  "crossref": {
+   "title": "Loss of heterozygosity exposes germline mutations in complex I and drives Warburg metabolism in oncocytic carcinoma of the thyroid",
+   "container": "Science Advances",
+   "publisher": "American Association for the Advancement of Science (AAAS)",
+   "issued": [
+    [
+     2026,
+     7,
+     3
+    ]
+   ],
+   "type": "journal-article",
+   "ref_count": 78
+  },
+  "crossref_ok": true,
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "best": "https://doi.org/10.1126/sciadv.aee5417",
+   "journal_is_oa": true
+  },
+  "unpaywall_ok": true
+ },
+ "10.20945/2359-4292-2026-0083": {
+  "label": "GSEC/IGF2BP2/GLUT1 PTC glycolysis",
+  "doi": "10.20945/2359-4292-2026-0083",
+  "crossref": {
+   "title": "LncRNA GSEC impedes the reprogramming of glucose metabolism in papillary thyroid carcinoma by inhibiting the IGF2BP2/GLUT1 axis",
+   "container": "Archives of Endocrinology and Metabolism",
+   "publisher": "Archives of Endocrinology and Metabolism",
+   "issued": [
+    [
+     2026
+    ]
+   ],
+   "type": "journal-article",
+   "ref_count": 0
+  },
+  "crossref_ok": true,
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "best": "https://www.aem-sbem.com/wp-content/uploads/articles_xml/2359-4292-aem-70-05-e260083/2359-4292-aem-70-05-e260083.pdf",
+   "journal_is_oa": true
+  },
+  "unpaywall_ok": true
+ },
+ "10.21037/gs-2026-0217": {
+  "label": "radiomics transportability/calibration drift cN0 CLNM",
+  "doi": "10.21037/gs-2026-0217",
+  "crossref": {
+   "title": "Clinical transportability, calibration drift, and local updating of a B-mode ultrasound radiomics-clinical prediction model for occult high-volume central lymph node metastasis in cN0 papillary thyroid carcinoma: development, temporal validation, and external validation",
+   "container": "Gland Surgery",
+   "publisher": "AME Publishing Company",
+   "issued": [
+    [
+     2026,
+     7
+    ]
+   ],
+   "type": "journal-article",
+   "ref_count": 0
+  },
+  "crossref_ok": true,
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "best": "https://doi.org/10.21037/gs-2026-0217",
+   "journal_is_oa": true
+  },
+  "unpaywall_ok": true
+ },
+ "10.1007/s00330-026-12806-y": {
+  "label": "CT habitat imaging occult CLNM",
+  "doi": "10.1007/s00330-026-12806-y",
+  "crossref": {
+   "title": "Habitat imaging based on enhanced CT for predicting occult central lymph node metastasis in papillary thyroid carcinoma",
+   "container": "European Radiology",
+   "publisher": "Springer Science and Business Media LLC",
+   "issued": [
+    [
+     2026,
+     9,
+     19
+    ]
+   ],
+   "type": "journal-article",
+   "ref_count": 47
+  },
+  "crossref_ok": true,
+  "unpaywall": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "best": null,
+   "journal_is_oa": false
+  },
+  "unpaywall_ok": true
+ },
+ "10.1002/smtd.71048": {
+  "label": "Au-mesoporous carbon serum metabolic fingerprint PTC",
+  "doi": "10.1002/smtd.71048",
+  "crossref": {
+   "title": "Gold‐Modified Mesoporous Carbon Enables Serum Metabolic Fingerprinting for Papillary Thyroid Carcinoma Diagnosis",
+   "container": "Small Methods",
+   "publisher": "Wiley",
+   "issued": [
+    [
+     2026,
+     9,
+     16
+    ]
+   ],
+   "type": "journal-article",
+   "ref_count": 46
+  },
+  "crossref_ok": true,
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "hybrid",
+   "best": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smtd.71048",
+   "journal_is_oa": false
+  },
+  "unpaywall_ok": true
+ },
+ "10.1007/s00432-026-06538-1": {
+  "label": "TAIII+Auranofin liposome ferroptosis ATC",
+  "doi": "10.1007/s00432-026-06538-1",
+  "crossref": {
+   "title": "Timosaponin AIII-based liposomes loaded with Auranofin for the induction of ferroptosis in anaplastic thyroid carcinoma",
+   "container": "Journal of Cancer Research and Clinical Oncology",
+   "publisher": "Springer Science and Business Media LLC",
+   "issued": [
+    [
+     2026,
+     7,
+     15
+    ]
+   ],
+   "type": "journal-article",
+   "ref_count": 44
+  },
+  "crossref_ok": true,
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "best": "https://doi.org/10.1007/s00432-026-06538-1",
+   "journal_is_oa": true
+  },
+  "unpaywall_ok": true
+ },
+ "10.1007/s00259-026-08100-0": {
+  "label": "FDG PET volumetric ATC prognosis",
+  "doi": "10.1007/s00259-026-08100-0",
+  "crossref": {
+   "title": "Prognostic value of volume-based metabolic parameters of [18F]FDG PET/CT in anaplastic thyroid carcinoma",
+   "container": "European Journal of Nuclear Medicine and Molecular Imaging",
+   "publisher": "Springer Science and Business Media LLC",
+   "issued": [
+    [
+     2026,
+     7,
+     30
+    ]
+   ],
+   "type": "journal-article",
+   "ref_count": 15
+  },
+  "crossref_ok": true,
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "hybrid",
+   "best": "https://link.springer.com/content/pdf/10.1007/s00259-026-08100-0.pdf",
+   "journal_is_oa": false
+  },
+  "unpaywall_ok": true
+ }
+}

@@ -1,0 +1,116 @@
+{
+  "10.4062/biomolther.2026.073": {
+    "doi": "10.4062/biomolther.2026.073",
+    "crossref_resolved": true,
+    "unpaywall_resolved": true,
+    "title": "Mechanistic and Clinical Perspectives on Traditional Chinese Medicine in Thyroid Cancer Management",
+    "journal": "Biomolecules &amp; Therapeutics",
+    "published": [
+      2026,
+      8,
+      31
+    ],
+    "oa_status": "hybrid",
+    "oa_pdf": null,
+    "is_oa": true
+  },
+  "10.14740/jcs1049": {
+    "doi": "10.14740/jcs1049",
+    "crossref_resolved": true,
+    "unpaywall_resolved": true,
+    "title": "Contribution to Diagnostic Accuracy and Prognostic Significance of MicroRNAs in Thyroid Cancer",
+    "journal": "Journal of Current Surgery",
+    "published": [
+      2026,
+      9
+    ],
+    "oa_status": "gold",
+    "oa_pdf": null,
+    "is_oa": true
+  },
+  "10.21037/tcr-2026-1098": {
+    "doi": "10.21037/tcr-2026-1098",
+    "crossref_resolved": true,
+    "unpaywall_resolved": true,
+    "title": "Single-cell transcriptomic analysis identifies decreased CEBPB and PAX8 expression associated with immune landscape differences between medullary and papillary thyroid carcinoma",
+    "journal": "Translational Cancer Research",
+    "published": [
+      2026,
+      8
+    ],
+    "oa_status": "gold",
+    "oa_pdf": null,
+    "is_oa": true
+  },
+  "10.6084/m9.figshare.33085235.v1": {
+    "doi": "10.6084/m9.figshare.33085235.v1",
+    "crossref_resolved": false,
+    "unpaywall_resolved": false,
+    "title": null,
+    "journal": null,
+    "published": null,
+    "oa_status": null,
+    "oa_pdf": null,
+    "is_oa": null
+  },
+  "10.3389/fgene.2026.1875148": {
+    "doi": "10.3389/fgene.2026.1875148",
+    "crossref_resolved": true,
+    "unpaywall_resolved": true,
+    "title": "CENPM as a biomarker and therapeutic target for lymph node metastasis in thyroid carcinoma",
+    "journal": "Frontiers in Genetics",
+    "published": [
+      2026,
+      7,
+      22
+    ],
+    "oa_status": "gold",
+    "oa_pdf": null,
+    "is_oa": true
+  },
+  "10.3389/fimmu.2026.1826288": {
+    "doi": "10.3389/fimmu.2026.1826288",
+    "crossref_resolved": true,
+    "unpaywall_resolved": true,
+    "title": "Targeting the AHR–IDO1–kynurenine pathway in TREM2+ macrophages restores antitumor immunity in thyroid cancer",
+    "journal": "Frontiers in Immunology",
+    "published": [
+      2026,
+      7,
+      21
+    ],
+    "oa_status": "gold",
+    "oa_pdf": null,
+    "is_oa": true
+  },
+  "10.1080/2162402x.2026.2701504": {
+    "doi": "10.1080/2162402x.2026.2701504",
+    "crossref_resolved": true,
+    "unpaywall_resolved": true,
+    "title": "Single-cell sequencing profiling of intratumoral heterogeneity and immunosuppressive microenvironment in primary thyroid cancer and lymph node metastases",
+    "journal": "OncoImmunology",
+    "published": [
+      2026,
+      7,
+      10
+    ],
+    "oa_status": "gold",
+    "oa_pdf": null,
+    "is_oa": true
+  },
+  "10.3389/fimmu.2026.1904196": {
+    "doi": "10.3389/fimmu.2026.1904196",
+    "crossref_resolved": true,
+    "unpaywall_resolved": true,
+    "title": "Cell-state transitions and microenvironmental remodeling in thyroid cancer progression revealed by single-cell and spatial transcriptomics",
+    "journal": "Frontiers in Immunology",
+    "published": [
+      2026,
+      7,
+      8
+    ],
+    "oa_status": "gold",
+    "oa_pdf": null,
+    "is_oa": true
+  }
+}

@@ -1,0 +1,1274 @@
+{
+  "search_date": "2026-09-04T03:02:01+08:00",
+  "primary_source": "OpenAlex REST API (api.openalex.org)",
+  "source_note": "本机 NCBI eutils / pubmed.ncbi.nlm.nih.gov 网络不可达（实测 HTTP 000 超时），故以 OpenAlex 为主源；paper-search-mcp 仅作补充。",
+  "window_from": "2026-08-28",
+  "queries": {
+    "a": {
+      "count": 7,
+      "returned": 7,
+      "kept_new": 7,
+      "status": "OK",
+      "dims": [
+        "MO",
+        "PR"
+      ],
+      "query": "(thyroid OR \"papillary thyroid\" OR PTC OR PTMC OR \"follicular thyroid\" OR \"medullary thyroid\" OR \"anaplastic thyroid\") AND (metastasis OR metastatic OR \"lymph node\") AND (biomarker OR \"gene signature\" OR signature)"
+    },
+    "b": {
+      "count": 8,
+      "returned": 8,
+      "kept_new": 5,
+      "status": "OK",
+      "dims": [
+        "MO"
+      ],
+      "query": "(thyroid OR \"papillary thyroid\" OR PTC OR PTMC OR \"follicular thyroid\" OR \"medullary thyroid\" OR \"anaplastic thyroid\") AND (invasion OR metastasis) AND (mechanism OR pathway OR EMT OR \"epithelial-mesenchymal\")"
+    },
+    "c": {
+      "count": 3,
+      "returned": 3,
+      "kept_new": 1,
+      "status": "OK",
+      "dims": [
+        "AL",
+        "PR"
+      ],
+      "query": "(thyroid OR \"papillary thyroid\" OR PTC OR PTMC OR \"follicular thyroid\" OR \"medullary thyroid\" OR \"anaplastic thyroid\") AND (metastasis OR \"lymph node\") AND (\"machine learning\" OR \"deep learning\" OR radiomics OR nomogram OR \"prediction model\")"
+    },
+    "d": {
+      "count": 3,
+      "returned": 3,
+      "kept_new": 1,
+      "status": "OK",
+      "dims": [
+        "IM"
+      ],
+      "query": "(thyroid OR \"papillary thyroid\" OR PTC OR PTMC OR \"follicular thyroid\" OR \"medullary thyroid\" OR \"anaplastic thyroid\") AND (metastasis OR metastatic) AND (\"immune microenvironment\" OR \"tumor microenvironment\" OR immune OR macrophage OR \"T cell\")"
+    },
+    "e": {
+      "count": 0,
+      "returned": 0,
+      "kept_new": 0,
+      "status": "OK",
+      "dims": [
+        "SC"
+      ],
+      "query": "(thyroid OR \"papillary thyroid\" OR PTC OR PTMC OR \"follicular thyroid\" OR \"medullary thyroid\" OR \"anaplastic thyroid\") AND (metastasis OR metastatic OR heterogeneity) AND (\"single-cell\" OR scRNA-seq OR \"single cell RNA\")"
+    },
+    "f": {
+      "count": 1,
+      "returned": 1,
+      "kept_new": 1,
+      "status": "OK",
+      "dims": [
+        "SP"
+      ],
+      "query": "(thyroid OR \"papillary thyroid\" OR PTC OR PTMC OR \"follicular thyroid\" OR \"medullary thyroid\" OR \"anaplastic thyroid\") AND (\"spatial transcriptomic\" OR \"spatial transcriptomics\" OR \"spatial multi-omics\" OR \"spatial omics\" OR Visium)"
+    },
+    "g": {
+      "count": 11,
+      "returned": 11,
+      "kept_new": 7,
+      "status": "OK",
+      "dims": [
+        "PR"
+      ],
+      "query": "(thyroid OR \"papillary thyroid\" OR PTC OR PTMC OR \"follicular thyroid\" OR \"medullary thyroid\" OR \"anaplastic thyroid\") AND (prognosis OR recurrence OR \"distant metastasis\") AND (\"risk model\" OR \"risk stratification\" OR survival OR nomogram)"
+    },
+    "h": {
+      "count": 1,
+      "returned": 1,
+      "kept_new": 1,
+      "status": "OK",
+      "dims": [
+        "ST"
+      ],
+      "query": "(thyroid OR \"papillary thyroid\" OR PTC OR PTMC OR \"follicular thyroid\" OR \"medullary thyroid\" OR \"anaplastic thyroid\") AND (metastasis OR metastatic) AND (\"cancer stem cell\" OR stemness OR dedifferentiation OR \"tumor-initiating\")"
+    },
+    "i": {
+      "count": 1,
+      "returned": 1,
+      "kept_new": 1,
+      "status": "OK",
+      "dims": [
+        "ME"
+      ],
+      "query": "(thyroid OR \"papillary thyroid\" OR PTC OR PTMC OR \"follicular thyroid\" OR \"medullary thyroid\" OR \"anaplastic thyroid\") AND (metastasis OR metastatic OR progression) AND (\"metabolic reprogramming\" OR glycolysis OR \"lipid metabolism\" OR ferroptosis OR OXPHOS)"
+    }
+  },
+  "summary": {
+    "unique_records": 24,
+    "in_scope_thyroid": 16,
+    "excluded": 8,
+    "exclude_reasons": {
+      "标题未点名甲状腺": 8
+    },
+    "multi_version_merged": 8,
+    "new_vs_baseline": 16,
+    "preprints": 1,
+    "relevance": {
+      "Medium": 7,
+      "High": 2,
+      "Low": 7
+    },
+    "dimensions": {
+      "分子机制": 9,
+      "预后转移": 12,
+      "免疫微环境": 2,
+      "算法方法": 1,
+      "转移干性": 1
+    },
+    "baseline_file": "search_results_latest.json",
+    "baseline_size": 122
+  },
+  "new_records": [
+    {
+      "pmid": null,
+      "doi": "10.21203/rs.3.rs-10793784/v1",
+      "openalex_id": "W7204993448",
+      "title": "Subtype identification and prognostic signature construction of thyroid cancer based on vitamin D pathway genes",
+      "abstract": "",
+      "publication_date": "2026-09-02",
+      "type": "preprint",
+      "is_preprint": true,
+      "venue": "Research Square",
+      "oa_status": "green",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 3,
+      "queries": [
+        "a",
+        "b",
+        "d"
+      ],
+      "dimensions": [
+        "MO",
+        "PR",
+        "IM"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移",
+        "免疫微环境"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.7573/dic.2026-4-3",
+      "openalex_id": "W7204755183",
+      "title": "How to manage medullary thyroid carcinoma: current treatment strategies",
+      "abstract": "Medullary thyroid carcinoma (MTC) is a rare thyroid malignancy, representing approximately 2–5% of all thyroid cancers. It develops from the parafollicular C cells of the thyroid gland. Calcitonin, produced by parafollicular C cells, is a highly reliable biomarker for both diagnosis and disease monitoring. MTC commonly spreads to cervical lymph nodes and can also lead to distant metastases. Approximately 25% of MTC cases are hereditary, occurring as part of multiple endocrine neoplasia syndromes. Inherited forms are driven by germline mutations in the RET proto-oncogene. Genetic testing enables identification of RET carriers, whilst the risk associated with specific RET variants helps determine the optimal timing for prophylactic or therapeutic surgery. Surgical management remains the cornerstone treatment for MTC. Nevertheless, recurrent or metastatic disease continues to pose therapeutic challenges, requiring individualized strategies such as locoregional interventions, radiotherapy and systemic therapies. Tyrosine kinase inhibitors, along with selective RET inhibitors, represent the main therapeutic strategies for patients whose tumours show rapid progression. This review summarizes current surgical, locoregional and systemic treatment strategies for sporadic and hereditary MTC, focusing on the role of multi-kinase and selective RET inhibitors. Download the Plain Language Summary of this article: https://www.drugsincontext.com/plain-language-summaries/plain-language-summar",
+      "publication_date": "2026-08-31",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Drugs in Context",
+      "oa_status": "gold",
+      "oa_url": "https://www.drugsincontext.com/wp-content/uploads/2026/08/dic.2026-4-3.pdf",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "a"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.14740/jcs1035",
+      "openalex_id": "W7204629652",
+      "title": "Serum Lactate Dehydrogenase as a Potential Biomarker for Lateral Lymph Node Metastasis in Thyroid Cancer Patients After Total Thyroidectomy",
+      "abstract": "Background: This study aimed to investigate the clinical significance of serum lactate dehydrogenase (LDH) as a potential biomarker in patients with thyroid cancer, particularly in association with lateral lymph node metastasis (MLN) after total thyroidectomy. Methods: A total of 2,560 patients with thyroid tumors were divided into benign group (n = 612) and malignant group (n = 1,948). Serum LDH and thyroid-stimulating hormone (TSH) levels were measured within 3 days before surgery. Within the malignant group, three subgroups were further analyzed: cancer subgroup, n = 1,820; MLN subgroup, n = 50; and cancer + MLN subgroup, n = 78. Statistical analyses included t-tests, Chi-square tests, and one-way analysis of variance (ANOVA) with Tukey’s post-hoc tests, multivariable logistic regression, and receiver operating characteristic (ROC) curve analysis. Results: Compared with the benign group, patients in the malignant group were younger (t = 13.79, P < 0.001), had higher body mass index (BMI, t = 1.97, P = 0.049), a greater proportion of males (χ2 = 4.35, P = 0.037), and lower levels of both TSH (t = 6.72, P < 0.001) and LDH (t = 3.12, P = 0.002). Subgroup analysis within the malignant group revealed that the MLN subgroup had significantly higher LDH levels (197.9 ± 47.14 IU/L) compared with both the cancer subgroup (178.9 ± 45.58 IU/L, t = 2.90, P = 0.004) and the cancer + MLN subgroup (174.3 ± 46.49 IU/L, t = 2.79, P = 0.006). No significant difference was observed between th",
+      "publication_date": "2026-08-29",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Journal of Current Surgery",
+      "oa_status": "diamond",
+      "oa_url": "https://jcs.elmerpub.com/index.php/jcs/article/download/1035/30",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "a"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.14740/jcs1049",
+      "openalex_id": "W7204632612",
+      "title": "Contribution to Diagnostic Accuracy and Prognostic Significance of MicroRNAs in Thyroid Cancer",
+      "abstract": "The incidence of thyroid cancer, the most common endocrine malignancy, has increased significantly, underscoring the need for improved diagnostic and prognostic methods. MicroRNAs (miRNAs) are small non-coding RNA molecules that regulate gene expression and play vital roles in cancer development. In thyroid cancer, they have gained attention as potential diagnostic and prognostic biomarkers. Current diagnostic methods, such as fine-needle aspiration cytology (FNAC), have limitations, particularly for indeterminate nodules (Bethesda III/IV), whereas conventional follow-up markers such as thyroglobulin (Tg) can be unreliable in certain patients. In this context, miRNAs offer a promising complementary approach. Several miRNAs, including miR-146b, miR-221, and miR-222, are consistently overexpressed in thyroid cancer and are associated with tumor presence and aggressive disease features. Circulating and exosomal miRNAs have shown good diagnostic accuracy in distinguishing malignant from benign thyroid nodules. Importantly, using multiple miRNA panels instead of single markers improves diagnostic performance and can reduce unnecessary surgeries in patients with indeterminate cytology. In addition to their diagnostic utility, miRNAs provide critical prognostic information. For instance, increased expression of miR-146b, miR-221, and miR-222 is associated with higher risk of recurrence, lymph node metastasis, and advanced tumor stages. In contrast, reduced expression of miRNAs such ",
+      "publication_date": "2026-08-29",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Journal of Current Surgery",
+      "oa_status": "diamond",
+      "oa_url": "https://jcs.elmerpub.com/index.php/jcs/article/download/1049/28",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 3,
+      "queries": [
+        "a",
+        "b",
+        "g"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "High",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.47526/3080-8715.6486",
+      "openalex_id": "W7204710409",
+      "title": "MODERN METHODS FOR THE INVESTIGATION OF THYROID DISEASES",
+      "abstract": "Objective: To review the main methodologies, datasets, and performance indicators of modern research approaches used in the diagnosis of thyroid diseases. Materials and Methods: A review of the literature published between 2021 and 2026 was conducted to assess the capabilities of contemporary diagnostic methods for thyroid diseases. In all thyroid disorders, a hormonal panel is performed to determine serum levels of thyroid hormones and thyroid-stimulating hormone (TSH). In thyroiditis, autoimmune markers, including antibodies against thyroid peroxidase (TPO), thyroglobulin (Tg), and TSH receptors (TRAb), are measured. Carcinoembryonic antigen (CEA) serves as a biomarker for medullary thyroid carcinoma and carcinoid tumors. Elevated calcitonin levels are characteristic of medullary thyroid carcinoma. Increased thyroglobulin concentrations are observed in destructive thyroid processes and metastatic disease. Fine-needle aspiration biopsy (FNAB) is performed to obtain histological samples from thyroid nodules. When cytological findings are inconclusive, molecular genetic testing is carried out to identify mutations in genes such as BRAF, RAS, and RET/PTC. In addition, in silico approaches are used to identify target genes comprising 19 microRNAs whose expression profiles vary depending on the type of thyroid tumor. Ultrasonography (US), a non-invasive, relatively inexpensive, and real-time imaging technique, is widely used for the early detection and differential diagnosis of t",
+      "publication_date": "2026-08-28",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Yassawi Journal of Health Sciences",
+      "oa_status": "bronze",
+      "oa_url": "https://journals.ayu.edu.kz/index.php/yjhs/article/download/6486/1400",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "a"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.1016/j.gendis.2026.102439",
+      "openalex_id": "W7204911364",
+      "title": "ETV4 coupled with p300-mediated histone lactylation drives thyroid cancer progression by activating autocrine TGFβ1 signaling",
+      "abstract": "Papillary thyroid cancer (PTC) exhibits high morbidity and promising outcomes, but local advance and metastasis occasionally occur in the clinic with unknown mechanisms. E26 transformation-specific (ETS) domain protein ETV4 has been linked with various processes, including normal tissue development and tumorigenesis. However, the mechanism underlying ETV4-mediated tumorigenesis in PTC remains unclear. Here, we showed that ETV4 was predominantly expressed by PTC cancer cells and was associated with aggressive clinicopathological characteristics. Biological analyses showed that ETV4 served as an oncogene to promote PTC growth and metastasis by driving epithelial–mesenchymal transition (EMT) in vitro and in vivo . Mechanistically, ETV4 directly bound to the promoter of TGFB1 and recruited p300 to catalyze histone H3 lysine 18 lactylation (H3K18la) to synergistically increase chromatin accessibility around the TGFB1 promoter region, resulting in increased TGFB1 transcription and excessive secretion of TGFβ1 protein. In PTC cells, TGFβ1 activated the intracellular SMAD2/3 signaling pathway in an autocrine manner to induce the activation of the EMT-related transcriptional program and EMT-driven tumor progression. Pharmacologically, inhibition of the histone acyltransferase activity of p300 by a C646 inhibitor impaired the growth and metastatic ability of PTC by impeding p300–H3K18la-mediated TGFB1 transcription. Overall, these findings identify the oncogenic role of ETV4 in contrib",
+      "publication_date": "2026-09-01",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Genes & Diseases",
+      "oa_status": "gold",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "b"
+      ],
+      "dimensions": [
+        "MO"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "分子机制"
+      ]
+    },
+    {
+      "pmid": "42676033",
+      "doi": "10.4062/biomolther.2026.073",
+      "openalex_id": "W7204891851",
+      "title": "Mechanistic and Clinical Perspectives on Traditional Chinese Medicine in Thyroid Cancer Management",
+      "abstract": "Thyroid cancer is one of the most prevalent malignancies of the endocrine system, comprising various subtypes such as papillary thyroid carcinoma (PTC), follicular thyroid carcinoma (FTC), medullary thyroid carcinoma (MTC), and the aggressive anaplastic thyroid carcinoma (ATC). Despite a generally favorable prognosis for PTC, recurrence, metastasis, and resistance to conventional therapies continue to pose significant challenges. The pathogenesis of thyroid cancer involves genetic mutations in BRAF, RAS, and RET, as well as dysregulated molecular pathways such as MAPK, PI3K/Akt/mTOR, and NF-κB, all of which contribute to cancer progression and therapeutic resistance. This review highlights how Traditional Chinese Medicine (TCM), with its extensive history and a diverse range of bioactive compounds derived from natural sources, offers a complementary approach to thyroid cancer treatment. TCM has been shown to modulate various cellular mechanisms, including inhibiting tumor proliferation, inducing apoptosis, and regulating immune responses. Additionally, TCM can influence the tumor microenvironment (TME), reducing immune evasion and improving therapeutic sensitivity. Many TCM compounds have been identified for their ability to target critical oncogenic signaling pathways, offering a holistic approach to cancer treatment with fewer side effects than traditional chemotherapy. Furthermore, integrating TCM with modern medicine, including novel formulations and nanotechnology, offer",
+      "publication_date": "2026-08-31",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Biomolecules & Therapeutics",
+      "oa_status": "hybrid",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 2,
+      "queries": [
+        "b",
+        "d"
+      ],
+      "dimensions": [
+        "MO",
+        "IM"
+      ],
+      "relevance": "High",
+      "dimension_labels": [
+        "分子机制",
+        "免疫微环境"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.18699/ssmj20260402",
+      "openalex_id": "W7204925885",
+      "title": "High-grade follicular cell-derived thyroid carcinomas (PDTC/DHGTC): standardized histologic criteria and a practical diagnostic algorithm",
+      "abstract": "Differentiated high-grade non-anaplastic thyroid carcinoma (DHGTC), or highly differentiated follicular carcinoma with a high level of malignancy, is a rare and clinically important group of thyroid neoplasms located between typical differentiated and anaplastic carcinomas. High-grade in follicular cell-derived thyroid carcinomas is defined by WHO-2022 as ≥5 mitoses per 2 mm 2 and/or coagulative tumor necrosis. We standardize histologic criteria for poorly differentiated thyroid carcinoma (PDTC) and DHGTC, clarify terminology (DHGTC as a diagnostic category within PTC/FTC/oncocytic carcinoma), and propose a practical differential diagnostic algorithm with harmonized measurements (mitotic count per 2 mm 2 ; stringent verification of coagulative necrosis). Ki-67 serves as a supportive proliferative marker rather than a mandatory diagnostic criterion. Diagnostic pitfalls (infarct/therapyrelated necrosis, fixation artifacts), encapsulated yet invasive tumors, and the role of cytology as a riskflagging tool (without establishing high-grade status) are addressed. According to systematic reviews and large retrospective series, the proportion of DHGTC among thyroid tumors is from 1 to 7 %; the disease is more often diagnosed in the fifth to sixth decades of life. DHGTC is characterized by locally widespread growth, a tendency to early distant metastasis, and a high frequency of radioiodine refraction, which negatively affects survival. In a number of cohort studies, the 5-year surviv",
+      "publication_date": "2026-08-30",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Сибирский научный медицинский журнал",
+      "oa_status": "diamond",
+      "oa_url": "https://sibmed.elpub.ru/jour/article/download/3018/940",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 2,
+      "queries": [
+        "b",
+        "g"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42664150",
+      "doi": "10.7417/ct.2026.2130",
+      "openalex_id": "W7204633943",
+      "title": "Thyroid Cancer Management in Contemporary Practice: A Systematic Review and Meta-Analysis of Diagnostic Pathways, Surgical Strategies, Airway Challenges, and Mediastinal Extension.",
+      "abstract": "Background: Thyroid cancer is the most common endocrine malignancy worldwide, with a clinically significant subset of patients presenting with locally advanced disease involving the trachea, recurrent laryngeal nerve, esophagus, and superior mediastinum. However, evidence describing the integrated burden of diagnostic limitations, airway complications, surgical outcomes, and mediastinal involvement remains fragmented across small and heterogeneous studies. Objectives: This study aimed to systematically evaluate and quantitatively synthesize evidence on diagnostic performance, perioperative airway management, surgical outcomes, and mediastinal extension in thyroid cancer, with emphasis on locally advanced and complex disease reported between January 2021 and January 2026. Methods: A systematic review and meta-analysis were conducted in accordance with PRISMA 2020 guidelines and the MOOSE framework. PubMed/MEDLINE, Scopus, Web of Science, Cochrane Library, and Embase were searched. Studies reporting surgical outcomes, airway complications, mediastinal extension, recurrent laryngeal nerve injury, and imaging diagnostic accuracy in thyroid cancer were included. Secondary systematic reviews and meta-analyses were excluded from quantitative pooling to avoid data duplication. Risk of bias was assessed using the Newcastle-Ottawa Scale and Cochrane RoB 2 tool where applicable. Random-effects meta-analyses were performed using the DerSimonian-Laird method. Results: Eleven primary studi",
+      "publication_date": "2026-08-28",
+      "type": "review",
+      "is_preprint": false,
+      "venue": "PubMed",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "b"
+      ],
+      "dimensions": [
+        "MO"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "分子机制"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.1016/j.ijmedinf.2026.106700",
+      "openalex_id": "W7204987078",
+      "title": "Multimodal multi-task deep learning for preoperative prediction of central and lateral lymph node metastasis in papillary thyroid carcinoma",
+      "abstract": "",
+      "publication_date": "2026-09-01",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "International Journal of Medical Informatics",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "c"
+      ],
+      "dimensions": [
+        "AL",
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "算法方法",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.4274/anatoljmed.2026.70188",
+      "openalex_id": "W7204923722",
+      "title": "Prognostic Factors Affecting Survival in Thyroid Carcinoma: A Retrospective Single-center Study",
+      "abstract": "Objective: To investigate the relationship between clinical, pathological, and treatment-related characteristics and survival outcomes in patients with thyroid carcinoma.Methods: This retrospective study included 45 patients with histopathologically confirmed thyroid carcinoma who were treated and followed at the Surgical Department of University of Health Sciences Türkiye, İzmir Tepecik Education and Research Hospital over a 20-year period.Demographic features, histological tumor subtypes, metastatic status, and surgical treatment details were reviewed.Potential prognostic factors associated with survival were evaluated.Results: The mean age of the patients was 48±15 years.Of the study population, 71.1% were female and 28.9% were male.Papillary thyroid carcinoma was the predominant histological subtype, representing 60% of all cases.Lymph node metastasis was present in 35.6% of patients, whereas distant metastasis was present in 17.8% of patients.Patients with differentiated thyroid carcinomas showed better survival outcomes than those with other histological subtypes.Older age, metastatic disease, and aggressive tumor histology were associated with reduced survival.Among these factors, distant metastasis showed the most pronounced association with mortality.Conclusion: Differentiated thyroid carcinomas are generally associated with favorable survival; however, the presence of metastases and aggressive histological subtypes adversely affect prognosis.Age, histological subtyp",
+      "publication_date": "2026-09-01",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "The Anatolian Journal of General Medical Research",
+      "oa_status": "diamond",
+      "oa_url": "https://anatolianjmed.org/pdf/13b035c5-551c-4fd4-a824-19a1febb0519/articles/anatoljmed.2026.70188/177-183.pdf",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42679997",
+      "doi": "10.1016/j.eprac.2026.08.019",
+      "openalex_id": "W7204950129",
+      "title": "Patient Redistribution Across Risk Categories in Differentiated Thyroid Cancer Using the 2025 Versus 2015 American Thyroid Association Risk Stratification Systems.",
+      "abstract": "",
+      "publication_date": "2026-09-01",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Endocrine Practice",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.3803/enm.2026.3156",
+      "openalex_id": "W7204749182",
+      "title": "Postoperative Surveillance in Differentiated Thyroid Cancer: Response-Adapted De-Escalation in the 2025 American Thyroid Association and 2026 Korean Thyroid Association Guidelines",
+      "abstract": "Postoperative surveillance for differentiated thyroid cancer (DTC) is shifting from routine, uniformly intensive follow-up toward risk-adapted, response-based care.Because most patients with DTC have an excellent prognosis, surveillance should not rely on indefinite testing to maximize recurrence detection.Rather, it should prioritize detection of clinically meaningful recurrence while reducing unnecessary biochemical testing, imaging, and prolonged thyroid-stimulating hormone (TSH) suppression [1,2].Although initial clinicopathological risk stratification remains essential, recurrence risk should be recalibrated over time according to surgical extent, radioactive iodine (RAI) use, serum thyroglobulin (Tg) level, anti-thyroglobulin antibody (TgAb) status, imaging findings, and treatment response [3,4].The 2026 Korean Thyroid Association (KTA) and 2025 American Thyroid Association (ATA) guidelines share this overall direction [1,2], but they differ in several clinically important respects: the timing of early postoperative assessment, Tg interpretation after treatment without RAI or after lobectomy, and the extent of long-term surveillance de-escalation (Table 1).",
+      "publication_date": "2026-08-31",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Endocrinology and Metabolism",
+      "oa_status": "diamond",
+      "oa_url": "https://www.e-enm.org/upload/pdf/enm-2026-3156.pdf",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42669107",
+      "doi": "10.1007/s11030-026-11721-0",
+      "openalex_id": "W7204700370",
+      "title": "Multi-omics, machine learning, and molecular simulation identify CD44 as a candidate target in endocrine-disrupting chemical–associated thyroid cancer progression",
+      "abstract": "",
+      "publication_date": "2026-08-30",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Molecular Diversity",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42663592",
+      "doi": "10.1177/10507256261484715",
+      "openalex_id": "W7204535977",
+      "title": "Afirma Xpression Atlas Alteration Status Is Associated with Malignancy Risk in Indeterminate Thyroid Nodules",
+      "abstract": "Background: Molecular testing with the Afirma Genomic Sequencing Classifier (GSC) is commonly used to refine the diagnosis of thyroid nodules with indeterminate cytology. The Afirma Xpression Atlas (XA) is a whole-transcriptome RNA-sequencing platform that reports expressed alterations in GSC-suspicious nodules. The clinical implications of XA results have not been clearly defined. This study evaluated the association between XA alteration detection and histopathology outcomes. Methods: A retrospective review was performed of consecutive patients who underwent thyroid fine needle aspiration at a single institution from 3/2020 to 9/2025. All nodules with Bethesda III/IV cytology and GSC-suspicious results with subsequent XA testing that underwent surgical resection were included. Clinicopathologic variables were compared between XA alteration-positive and alteration-negative groups. Nodules were categorized as benign, noninvasive follicular thyroid neoplasm with papillary-like nuclear features, or malignant based on surgical pathology. Subgroup analyses were performed to compare clinicopathologic variables between BRAF -alteration, RAS -alteration, other-alteration, and alteration-negative groups. All analyses involving the other-alteration subgroup were exploratory. Multivariable linear regression was performed to identify independent predictors of 2025 American Thyroid Association (ATA) risk of recurrence category. Results: The study cohort included 192 patients (77.6% femal",
+      "publication_date": "2026-08-28",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Thyroid",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42678420",
+      "doi": "10.1007/s00428-026-04689-7",
+      "openalex_id": "W7204967959",
+      "title": "SMARCA4-deficient Anaplastic Thyroid Carcinoma: A Hitherto Unreported Case",
+      "abstract": "",
+      "publication_date": "2026-09-01",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Archiv für Pathologische Anatomie und Physiologie und für Klinische Medicin",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "h"
+      ],
+      "dimensions": [
+        "ST"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "转移干性"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "pmid": null,
+      "doi": "10.21203/rs.3.rs-10793784/v1",
+      "openalex_id": "W7204993448",
+      "title": "Subtype identification and prognostic signature construction of thyroid cancer based on vitamin D pathway genes",
+      "abstract": "",
+      "publication_date": "2026-09-02",
+      "type": "preprint",
+      "is_preprint": true,
+      "venue": "Research Square",
+      "oa_status": "green",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 3,
+      "queries": [
+        "a",
+        "b",
+        "d"
+      ],
+      "dimensions": [
+        "MO",
+        "PR",
+        "IM"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移",
+        "免疫微环境"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.3389/fmed.2026.1975494",
+      "openalex_id": "W7205009133",
+      "title": "Editorial: Recent advances in theranostics: endocrine tumours and beyond",
+      "abstract": "In recent decades, radionuclide therapy has undergone substantial development, proving effective in the treatment of various oncological conditions. Available therapies range from established treatments, such as radioiodine therapy for differentiated thyroid cancer [1], to more recently developed approaches for neuroendocrine tumours (NETs) [2,3], prostate cancer [4], and cutaneous malignancies [5]. In this context, theranostics-the ability to use the same molecular carrier for both diagnostic characterization and targeted therapyrepresents an increasingly relevant approach in nuclear medicine. Recent Nevertheless, authors point out that, in selected clinical situations, including serotoninsecreting lesions, equivocal SSTR imaging, or specific functional tumours, DOPA-PET may provide complementary information. Thus, these findings reinforce the concept that imaging should increasingly be adapted to the biological characteristics of individual tumours rather than relying on a single imaging strategy, within a patient tailored oncological approach.Considering the growing development of theranostic aspects in the field of prostate cancer, Albano et al. performed a systematic review and meta-analysis evaluating the diagnostic role of [ 99m Tc]Tc-PSMA SPECT/CT. Twenty-three studies involving 1,840 patients were included, with 19 studies contributing to the meta-analysis. The pooled detection rate (DR) was 79.7% in the staging setting and 75.4% in patients with biochemical recurren",
+      "publication_date": "2026-09-02",
+      "type": "editorial",
+      "is_preprint": false,
+      "venue": "Frontiers in Medicine",
+      "oa_status": "gold",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": false,
+      "exclude_reason": "标题未点名甲状腺",
+      "versions": 2,
+      "queries": [
+        "a",
+        "b"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.7573/dic.2026-4-3",
+      "openalex_id": "W7204755183",
+      "title": "How to manage medullary thyroid carcinoma: current treatment strategies",
+      "abstract": "Medullary thyroid carcinoma (MTC) is a rare thyroid malignancy, representing approximately 2–5% of all thyroid cancers. It develops from the parafollicular C cells of the thyroid gland. Calcitonin, produced by parafollicular C cells, is a highly reliable biomarker for both diagnosis and disease monitoring. MTC commonly spreads to cervical lymph nodes and can also lead to distant metastases. Approximately 25% of MTC cases are hereditary, occurring as part of multiple endocrine neoplasia syndromes. Inherited forms are driven by germline mutations in the RET proto-oncogene. Genetic testing enables identification of RET carriers, whilst the risk associated with specific RET variants helps determine the optimal timing for prophylactic or therapeutic surgery. Surgical management remains the cornerstone treatment for MTC. Nevertheless, recurrent or metastatic disease continues to pose therapeutic challenges, requiring individualized strategies such as locoregional interventions, radiotherapy and systemic therapies. Tyrosine kinase inhibitors, along with selective RET inhibitors, represent the main therapeutic strategies for patients whose tumours show rapid progression. This review summarizes current surgical, locoregional and systemic treatment strategies for sporadic and hereditary MTC, focusing on the role of multi-kinase and selective RET inhibitors. Download the Plain Language Summary of this article: https://www.drugsincontext.com/plain-language-summaries/plain-language-summar",
+      "publication_date": "2026-08-31",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Drugs in Context",
+      "oa_status": "gold",
+      "oa_url": "https://www.drugsincontext.com/wp-content/uploads/2026/08/dic.2026-4-3.pdf",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "a"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.14740/jcs1035",
+      "openalex_id": "W7204629652",
+      "title": "Serum Lactate Dehydrogenase as a Potential Biomarker for Lateral Lymph Node Metastasis in Thyroid Cancer Patients After Total Thyroidectomy",
+      "abstract": "Background: This study aimed to investigate the clinical significance of serum lactate dehydrogenase (LDH) as a potential biomarker in patients with thyroid cancer, particularly in association with lateral lymph node metastasis (MLN) after total thyroidectomy. Methods: A total of 2,560 patients with thyroid tumors were divided into benign group (n = 612) and malignant group (n = 1,948). Serum LDH and thyroid-stimulating hormone (TSH) levels were measured within 3 days before surgery. Within the malignant group, three subgroups were further analyzed: cancer subgroup, n = 1,820; MLN subgroup, n = 50; and cancer + MLN subgroup, n = 78. Statistical analyses included t-tests, Chi-square tests, and one-way analysis of variance (ANOVA) with Tukey’s post-hoc tests, multivariable logistic regression, and receiver operating characteristic (ROC) curve analysis. Results: Compared with the benign group, patients in the malignant group were younger (t = 13.79, P < 0.001), had higher body mass index (BMI, t = 1.97, P = 0.049), a greater proportion of males (χ2 = 4.35, P = 0.037), and lower levels of both TSH (t = 6.72, P < 0.001) and LDH (t = 3.12, P = 0.002). Subgroup analysis within the malignant group revealed that the MLN subgroup had significantly higher LDH levels (197.9 ± 47.14 IU/L) compared with both the cancer subgroup (178.9 ± 45.58 IU/L, t = 2.90, P = 0.004) and the cancer + MLN subgroup (174.3 ± 46.49 IU/L, t = 2.79, P = 0.006). No significant difference was observed between th",
+      "publication_date": "2026-08-29",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Journal of Current Surgery",
+      "oa_status": "diamond",
+      "oa_url": "https://jcs.elmerpub.com/index.php/jcs/article/download/1035/30",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "a"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.14740/jcs1049",
+      "openalex_id": "W7204632612",
+      "title": "Contribution to Diagnostic Accuracy and Prognostic Significance of MicroRNAs in Thyroid Cancer",
+      "abstract": "The incidence of thyroid cancer, the most common endocrine malignancy, has increased significantly, underscoring the need for improved diagnostic and prognostic methods. MicroRNAs (miRNAs) are small non-coding RNA molecules that regulate gene expression and play vital roles in cancer development. In thyroid cancer, they have gained attention as potential diagnostic and prognostic biomarkers. Current diagnostic methods, such as fine-needle aspiration cytology (FNAC), have limitations, particularly for indeterminate nodules (Bethesda III/IV), whereas conventional follow-up markers such as thyroglobulin (Tg) can be unreliable in certain patients. In this context, miRNAs offer a promising complementary approach. Several miRNAs, including miR-146b, miR-221, and miR-222, are consistently overexpressed in thyroid cancer and are associated with tumor presence and aggressive disease features. Circulating and exosomal miRNAs have shown good diagnostic accuracy in distinguishing malignant from benign thyroid nodules. Importantly, using multiple miRNA panels instead of single markers improves diagnostic performance and can reduce unnecessary surgeries in patients with indeterminate cytology. In addition to their diagnostic utility, miRNAs provide critical prognostic information. For instance, increased expression of miR-146b, miR-221, and miR-222 is associated with higher risk of recurrence, lymph node metastasis, and advanced tumor stages. In contrast, reduced expression of miRNAs such ",
+      "publication_date": "2026-08-29",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Journal of Current Surgery",
+      "oa_status": "diamond",
+      "oa_url": "https://jcs.elmerpub.com/index.php/jcs/article/download/1049/28",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 3,
+      "queries": [
+        "a",
+        "b",
+        "g"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "High",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.3389/fbioe.2026.1901620",
+      "openalex_id": "W7204573042",
+      "title": "Raman and surface-enhanced Raman spectroscopy for intraoperative cancer diagnostics: sentinel lymph node biopsy, biomarkers and translational challenges",
+      "abstract": "Sentinel lymph node biopsy (SLNB) serves as the gold standard for staging regional lymph node metastasis of solid tumors, which is crucial for guiding clinical treatment decisions and evaluating prognosis. Conventional intraoperative detection methods for SLN, such as frozen section and touch imprint cytology, have limitations including low sensitivity for micrometastasis, long detection time, and high subjectivity. Raman spectroscopy (RS), as a label-free, non-destructive optical molecular imaging technology, can obtain the biochemical fingerprint information of tissues by detecting the inelastic scattering of photons with biomolecules. A series of derivative techniques, exemplified by Surface-Enhanced Raman Spectroscopy (SERS), further overcome the shortcomings of limited penetration depth and weak inherent signals of RS, realizing ultra-sensitive and targeted detection of SLN. Crucially, the integration of advanced machine learning algorithms and deep learning workflows effectively addresses the multivariate complexity of high-dimensional Raman data, enabling rapid, objective, and automated screening for lymph node metastases. This review systematically summarizes the application progress of RS, SERS and derivative technologies in SLNB of various tumors (including breast cancer, thyroid cancer, melanoma, etc. ), elaborates their technical principles, application forms (label-free and labeled detection), advantages and limitations in clinical practice, and discusses the cur",
+      "publication_date": "2026-08-28",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Frontiers in Bioengineering and Biotechnology",
+      "oa_status": "gold",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": false,
+      "exclude_reason": "标题未点名甲状腺",
+      "versions": 2,
+      "queries": [
+        "a",
+        "c"
+      ],
+      "dimensions": [
+        "MO",
+        "PR",
+        "AL"
+      ],
+      "relevance": "High",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移",
+        "算法方法"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.47526/3080-8715.6486",
+      "openalex_id": "W7204710409",
+      "title": "MODERN METHODS FOR THE INVESTIGATION OF THYROID DISEASES",
+      "abstract": "Objective: To review the main methodologies, datasets, and performance indicators of modern research approaches used in the diagnosis of thyroid diseases. Materials and Methods: A review of the literature published between 2021 and 2026 was conducted to assess the capabilities of contemporary diagnostic methods for thyroid diseases. In all thyroid disorders, a hormonal panel is performed to determine serum levels of thyroid hormones and thyroid-stimulating hormone (TSH). In thyroiditis, autoimmune markers, including antibodies against thyroid peroxidase (TPO), thyroglobulin (Tg), and TSH receptors (TRAb), are measured. Carcinoembryonic antigen (CEA) serves as a biomarker for medullary thyroid carcinoma and carcinoid tumors. Elevated calcitonin levels are characteristic of medullary thyroid carcinoma. Increased thyroglobulin concentrations are observed in destructive thyroid processes and metastatic disease. Fine-needle aspiration biopsy (FNAB) is performed to obtain histological samples from thyroid nodules. When cytological findings are inconclusive, molecular genetic testing is carried out to identify mutations in genes such as BRAF, RAS, and RET/PTC. In addition, in silico approaches are used to identify target genes comprising 19 microRNAs whose expression profiles vary depending on the type of thyroid tumor. Ultrasonography (US), a non-invasive, relatively inexpensive, and real-time imaging technique, is widely used for the early detection and differential diagnosis of t",
+      "publication_date": "2026-08-28",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Yassawi Journal of Health Sciences",
+      "oa_status": "bronze",
+      "oa_url": "https://journals.ayu.edu.kz/index.php/yjhs/article/download/6486/1400",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "a"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.1016/j.gendis.2026.102439",
+      "openalex_id": "W7204911364",
+      "title": "ETV4 coupled with p300-mediated histone lactylation drives thyroid cancer progression by activating autocrine TGFβ1 signaling",
+      "abstract": "Papillary thyroid cancer (PTC) exhibits high morbidity and promising outcomes, but local advance and metastasis occasionally occur in the clinic with unknown mechanisms. E26 transformation-specific (ETS) domain protein ETV4 has been linked with various processes, including normal tissue development and tumorigenesis. However, the mechanism underlying ETV4-mediated tumorigenesis in PTC remains unclear. Here, we showed that ETV4 was predominantly expressed by PTC cancer cells and was associated with aggressive clinicopathological characteristics. Biological analyses showed that ETV4 served as an oncogene to promote PTC growth and metastasis by driving epithelial–mesenchymal transition (EMT) in vitro and in vivo . Mechanistically, ETV4 directly bound to the promoter of TGFB1 and recruited p300 to catalyze histone H3 lysine 18 lactylation (H3K18la) to synergistically increase chromatin accessibility around the TGFB1 promoter region, resulting in increased TGFB1 transcription and excessive secretion of TGFβ1 protein. In PTC cells, TGFβ1 activated the intracellular SMAD2/3 signaling pathway in an autocrine manner to induce the activation of the EMT-related transcriptional program and EMT-driven tumor progression. Pharmacologically, inhibition of the histone acyltransferase activity of p300 by a C646 inhibitor impaired the growth and metastatic ability of PTC by impeding p300–H3K18la-mediated TGFB1 transcription. Overall, these findings identify the oncogenic role of ETV4 in contrib",
+      "publication_date": "2026-09-01",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Genes & Diseases",
+      "oa_status": "gold",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "b"
+      ],
+      "dimensions": [
+        "MO"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "分子机制"
+      ]
+    },
+    {
+      "pmid": "42676033",
+      "doi": "10.4062/biomolther.2026.073",
+      "openalex_id": "W7204891851",
+      "title": "Mechanistic and Clinical Perspectives on Traditional Chinese Medicine in Thyroid Cancer Management",
+      "abstract": "Thyroid cancer is one of the most prevalent malignancies of the endocrine system, comprising various subtypes such as papillary thyroid carcinoma (PTC), follicular thyroid carcinoma (FTC), medullary thyroid carcinoma (MTC), and the aggressive anaplastic thyroid carcinoma (ATC). Despite a generally favorable prognosis for PTC, recurrence, metastasis, and resistance to conventional therapies continue to pose significant challenges. The pathogenesis of thyroid cancer involves genetic mutations in BRAF, RAS, and RET, as well as dysregulated molecular pathways such as MAPK, PI3K/Akt/mTOR, and NF-κB, all of which contribute to cancer progression and therapeutic resistance. This review highlights how Traditional Chinese Medicine (TCM), with its extensive history and a diverse range of bioactive compounds derived from natural sources, offers a complementary approach to thyroid cancer treatment. TCM has been shown to modulate various cellular mechanisms, including inhibiting tumor proliferation, inducing apoptosis, and regulating immune responses. Additionally, TCM can influence the tumor microenvironment (TME), reducing immune evasion and improving therapeutic sensitivity. Many TCM compounds have been identified for their ability to target critical oncogenic signaling pathways, offering a holistic approach to cancer treatment with fewer side effects than traditional chemotherapy. Furthermore, integrating TCM with modern medicine, including novel formulations and nanotechnology, offer",
+      "publication_date": "2026-08-31",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Biomolecules & Therapeutics",
+      "oa_status": "hybrid",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 2,
+      "queries": [
+        "b",
+        "d"
+      ],
+      "dimensions": [
+        "MO",
+        "IM"
+      ],
+      "relevance": "High",
+      "dimension_labels": [
+        "分子机制",
+        "免疫微环境"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.18699/ssmj20260402",
+      "openalex_id": "W7204925885",
+      "title": "High-grade follicular cell-derived thyroid carcinomas (PDTC/DHGTC): standardized histologic criteria and a practical diagnostic algorithm",
+      "abstract": "Differentiated high-grade non-anaplastic thyroid carcinoma (DHGTC), or highly differentiated follicular carcinoma with a high level of malignancy, is a rare and clinically important group of thyroid neoplasms located between typical differentiated and anaplastic carcinomas. High-grade in follicular cell-derived thyroid carcinomas is defined by WHO-2022 as ≥5 mitoses per 2 mm 2 and/or coagulative tumor necrosis. We standardize histologic criteria for poorly differentiated thyroid carcinoma (PDTC) and DHGTC, clarify terminology (DHGTC as a diagnostic category within PTC/FTC/oncocytic carcinoma), and propose a practical differential diagnostic algorithm with harmonized measurements (mitotic count per 2 mm 2 ; stringent verification of coagulative necrosis). Ki-67 serves as a supportive proliferative marker rather than a mandatory diagnostic criterion. Diagnostic pitfalls (infarct/therapyrelated necrosis, fixation artifacts), encapsulated yet invasive tumors, and the role of cytology as a riskflagging tool (without establishing high-grade status) are addressed. According to systematic reviews and large retrospective series, the proportion of DHGTC among thyroid tumors is from 1 to 7 %; the disease is more often diagnosed in the fifth to sixth decades of life. DHGTC is characterized by locally widespread growth, a tendency to early distant metastasis, and a high frequency of radioiodine refraction, which negatively affects survival. In a number of cohort studies, the 5-year surviv",
+      "publication_date": "2026-08-30",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Сибирский научный медицинский журнал",
+      "oa_status": "diamond",
+      "oa_url": "https://sibmed.elpub.ru/jour/article/download/3018/940",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 2,
+      "queries": [
+        "b",
+        "g"
+      ],
+      "dimensions": [
+        "MO",
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "分子机制",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.3389/fendo.2026.1953774",
+      "openalex_id": "W7204498715",
+      "title": "Editorial: Bone metastases in endocrine cancers: advances in diagnosis, treatment, and prevention",
+      "abstract": "Similar to breast, prostate, and other endocrine cancers, bone metastasis is a frequent event in pheochromocytoma and paraganglioma (PPGL) cancer patients. Li et al, study reported that 75% of these patients develop BM with multiple lesions with a high frequency in the spine, and create skeletal complications, including pain. The SDHB gene mutation was found to be an independent risk factor for bone metastasis of PPGL cancer patients. Moreover, Contreras-Saldarriaga et al, research team further supported that the genetic mutation of the SDHB gene links with the diagnosis and accurate prediction of BM for PPGLs.Diaz-Garzon Marco et al, described that excessive phosphate excretion results in hypophosphatemia, low vitamin D reabsorption, and elevation of ALP, which in turn develops osteomalacia. In X-linked hypophosphatemia, mutation of the PHEX gene elevates FGF23 expression, which in turn promotes excessive renal phosphate wasting, leading to developing skeletal disorders including osteomalacia. Similarly, soft tissue mesenchymal tumors also elevate FGF23 to create tumor-induced osteomalacia. In both cases, serum phosphate, phosphaturia, FGF23, ALP, PTH, vitamin D, serum calcium, and calcium-excreted rate calcemia are linked with better diagnosis and management of osteomalacia. FGF23, fragmented FGF23, bone-specific ALP, and patient age are to be crucially considered for interpreting clinical findings. Tao et al, study found 33 cases of soft-tissue tumor-induced osteomalacia (",
+      "publication_date": "2026-08-28",
+      "type": "editorial",
+      "is_preprint": false,
+      "venue": "Frontiers in Endocrinology",
+      "oa_status": "gold",
+      "oa_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1953774/pdf",
+      "cited_by_count": 0,
+      "in_scope_thyroid": false,
+      "exclude_reason": "标题未点名甲状腺",
+      "versions": 3,
+      "queries": [
+        "b",
+        "c",
+        "g"
+      ],
+      "dimensions": [
+        "MO",
+        "AL",
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "分子机制",
+        "算法方法",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42664150",
+      "doi": "10.7417/ct.2026.2130",
+      "openalex_id": "W7204633943",
+      "title": "Thyroid Cancer Management in Contemporary Practice: A Systematic Review and Meta-Analysis of Diagnostic Pathways, Surgical Strategies, Airway Challenges, and Mediastinal Extension.",
+      "abstract": "Background: Thyroid cancer is the most common endocrine malignancy worldwide, with a clinically significant subset of patients presenting with locally advanced disease involving the trachea, recurrent laryngeal nerve, esophagus, and superior mediastinum. However, evidence describing the integrated burden of diagnostic limitations, airway complications, surgical outcomes, and mediastinal involvement remains fragmented across small and heterogeneous studies. Objectives: This study aimed to systematically evaluate and quantitatively synthesize evidence on diagnostic performance, perioperative airway management, surgical outcomes, and mediastinal extension in thyroid cancer, with emphasis on locally advanced and complex disease reported between January 2021 and January 2026. Methods: A systematic review and meta-analysis were conducted in accordance with PRISMA 2020 guidelines and the MOOSE framework. PubMed/MEDLINE, Scopus, Web of Science, Cochrane Library, and Embase were searched. Studies reporting surgical outcomes, airway complications, mediastinal extension, recurrent laryngeal nerve injury, and imaging diagnostic accuracy in thyroid cancer were included. Secondary systematic reviews and meta-analyses were excluded from quantitative pooling to avoid data duplication. Risk of bias was assessed using the Newcastle-Ottawa Scale and Cochrane RoB 2 tool where applicable. Random-effects meta-analyses were performed using the DerSimonian-Laird method. Results: Eleven primary studi",
+      "publication_date": "2026-08-28",
+      "type": "review",
+      "is_preprint": false,
+      "venue": "PubMed",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "b"
+      ],
+      "dimensions": [
+        "MO"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "分子机制"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.1016/j.ijmedinf.2026.106700",
+      "openalex_id": "W7204987078",
+      "title": "Multimodal multi-task deep learning for preoperative prediction of central and lateral lymph node metastasis in papillary thyroid carcinoma",
+      "abstract": "",
+      "publication_date": "2026-09-01",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "International Journal of Medical Informatics",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "c"
+      ],
+      "dimensions": [
+        "AL",
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "算法方法",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42675610",
+      "doi": "10.1093/oncolo/oyag348",
+      "openalex_id": "W7204869179",
+      "title": "Real-world Experience with Ipilimumab in Combination with Nivolumab in Advanced Sarcoma: A Retrospective Analysis Including Ultra-Rare Sarcomas",
+      "abstract": "BACKGROUND: Patients with locally advanced or metastatic sarcoma have a poor prognosis and limited efficacious treatment options. Phase 2 trials have demonstrated efficacy for the combination of ipilimumab and nivolumab in select sarcoma histologies, but real-world data is limited. METHODS: In this single-institution retrospective analysis, patients with metastatic or unresectable sarcoma treated with the combination of immune checkpoint inhibitors (ICI) ipilimumab and nivolumab were assessed for response by iRECIST criteria and were correlated with clinical outcomes. The Kaplan-Meier method was used for survival analysis. RESULTS: From 2019-2024, 90 patients with advanced sarcoma were treated with combination ICI and were evaluable for outcomes. The observed objective response rate (ORR) was 16.7% with clinical benefit rate (CBR) of 30%. The best response was PR in 14.4%, SD in 23.3%, and PD in 62.2%. Median overall survival (OS) (95% CI 14.4-NE months) and mPFS (95% CI 9.6-NE months) were not reached for patients achieving an objective response. Overall survival was superior in patients who experienced irAEs. Both mPFS and mOS were superior in patients with thyroid irAEs. Highest ORR were seen in angiosarcoma, MPNST, leiomyosarcoma, undifferentiated pleomorphic sarcoma, and chondrosarcoma. CONCLUSIONS: Real-world analysis of combination ICI in a large cohort of heavily pretreated patients with advanced sarcomas demonstrates clinical benefit in a meaningful number of patient",
+      "publication_date": "2026-08-31",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "The Oncologist",
+      "oa_status": "gold",
+      "oa_url": "https://academic.oup.com/oncolo/advance-article-pdf/doi/10.1093/oncolo/oyag348/70885999/oyag348.pdf",
+      "cited_by_count": 0,
+      "in_scope_thyroid": false,
+      "exclude_reason": "标题未点名甲状腺",
+      "versions": 2,
+      "queries": [
+        "d",
+        "g"
+      ],
+      "dimensions": [
+        "IM",
+        "PR"
+      ],
+      "relevance": "High",
+      "dimension_labels": [
+        "免疫微环境",
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42665397",
+      "doi": "10.21873/invivo.14427",
+      "openalex_id": "W7204599209",
+      "title": "Inhibition of Cyclin-dependent Kinase Counteracts Neuron-promoted Bladder and Endometrial Tumorigenesis: A Systematic Analysis",
+      "abstract": "BACKGROUND/AIM: The tumor microenvironment is an indispensable component of tumor development. Although fibroblasts and immune cells have been widely studied in tumorigenesis, the role of neurons in cancer has received limited investigation. This study aimed to evaluate the impact of neural signaling on tumorigenesis across cancer types and identify potential therapeutics for neuron-associated tumor development. MATERIALS AND METHODS: A systematic analysis was performed using the Neuro_Cancer database (https://bio-bigdata.hrbmu.edu.cn/Neuro_Cancer/) and its integrated tools, including neural signal activity, clinical survival, neuro-immune interaction, drug association, and spatial transcriptomic pattern analyses. These analyses were applied across cancer types to identify those strongly influenced by neural activity. Experimental validation was conducted using human bladder and endometrial cancer cell lines co-cultured with neurons, followed by treatment with the cyclin-dependent kinase inhibitor RO-3306. RESULTS: Prognostic analysis identified bladder, thyroid, and endometrial cancers as tumor types strongly influenced by neural activity. Heatmap analysis of neural activity demonstrated obvious differences in neural intensity, classified as high, moderate, or low, among these cancer types. Neuro-immune interaction analysis showed that lymphocytes and granulocytes were involved in tumorigenesis associated with high neural activity. Drug association analysis identified RO-330",
+      "publication_date": "2026-08-28",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "In Vivo",
+      "oa_status": "diamond",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": false,
+      "exclude_reason": "标题未点名甲状腺",
+      "versions": 1,
+      "queries": [
+        "f"
+      ],
+      "dimensions": [
+        "SP"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "空间组学"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.64784/311",
+      "openalex_id": "W7204930940",
+      "title": "Incidental Imaging Findings: Risk Stratification, Timely Diagnosis, and Clinical Decision-Making",
+      "abstract": "Incidental findings in diagnostic imaging have become increasingly frequent due to the widespread use and growing sensitivity of computed tomography, magnetic resonance imaging, ultrasonography, and other imaging modalities. These findings may range from benign abnormalities without clinical consequences to previously unsuspected diseases capable of modifying diagnostic pathways, therapeutic decisions, and patient prognosis. This study analyzed the clinical impact of incidental imaging findings, emphasizing their relevance for timely diagnosis, risk stratification, follow-up, and treatment. A descriptive and analytical literature-based approach structured according to the Scientific Method was used, integrating evidence from systematic reviews, observational studies, population-based research, clinical guidelines, and consensus recommendations. The analysis considered incidental findings involving the lungs, brain, thyroid gland, liver, kidneys, adrenal glands, pancreas, vascular structures, and adnexa. The results showed substantial variability in the prevalence and clinical relevance of incidental abnormalities according to imaging modality and anatomical region. A structured pathway based on radiological characterization, clinical correlation, and risk stratification allowed findings to be classified into low-, intermediate-, and high-risk categories, each associated with different management strategies. Low-risk findings generally required no further evaluation, intermedi",
+      "publication_date": "2026-09-02",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "IECCMEXICO",
+      "oa_status": "hybrid",
+      "oa_url": "https://ieccmexicojournal.com/index.php/publishing/article/download/227/230",
+      "cited_by_count": 0,
+      "in_scope_thyroid": false,
+      "exclude_reason": "标题未点名甲状腺",
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42679308",
+      "doi": "10.1097/crd.0000000000001452",
+      "openalex_id": "W7204903083",
+      "title": "Dronedarone Versus Amiodarone for Preventing Atrial Fibrillation Recurrence After Catheter Ablation: A GRADE-Assessed Meta-Analysis of Reconstructed Time-to-Event Data With Trial Sequential Analysis",
+      "abstract": "Atrial fibrillation (AF) recurrence remains a major challenge after catheter ablation, and whether dronedarone or amiodarone should be preferred during the post-ablation blanking period is unresolved. We performed a systematic review and meta-analysis comparing these 2 agents after AF catheter ablation. Five single-center Chinese studies (1 open-label randomized trial and 4 retrospective cohorts) enrolling 996 patients (507 dronedarone and 489 amiodarone) were included. In reconstructed individual patient data from 4 studies, AF recurrence did not differ between dronedarone and amiodarone (hazard ratio [HR] 1.06; 95% confidence interval [CI], 0.75-1.50; P = 0.746), confirmed by a 30-day landmark analysis (HR 1.08; 95% CI, 0.75-1.56; P = 0.690), by study-level pooling of HRs (HR 1.06; 95% CI, 0.74-1.52; I2 = 0%), and by restricted mean survival time analysis. Recurrence also did not differ during the blanking period (risk ratio [RR] 1.09; 95% CI, 0.85-1.40) or over long-term follow-up (RR 1.17; 95% CI, 0.89-1.55). Dronedarone was associated with lower risks of QTc-interval prolongation (RR 0.39; 95% CI, 0.19-0.80) and thyroid dysfunction (RR 0.37; 95% CI, 0.24-0.57) but higher risks of gastrointestinal (RR 7.72; 95% CI, 2.10-28.37) and dermatologic (RR 4.20; 95% CI, 1.06-16.53) adverse events. Dronedarone and amiodarone appear equally effective at preventing AF recurrence after catheter ablation but differ in safety, so selection should be individualized according to patient-s",
+      "publication_date": "2026-09-01",
+      "type": "review",
+      "is_preprint": false,
+      "venue": "Cardiology in Review",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": false,
+      "exclude_reason": "标题未点名甲状腺",
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.4274/anatoljmed.2026.70188",
+      "openalex_id": "W7204923722",
+      "title": "Prognostic Factors Affecting Survival in Thyroid Carcinoma: A Retrospective Single-center Study",
+      "abstract": "Objective: To investigate the relationship between clinical, pathological, and treatment-related characteristics and survival outcomes in patients with thyroid carcinoma.Methods: This retrospective study included 45 patients with histopathologically confirmed thyroid carcinoma who were treated and followed at the Surgical Department of University of Health Sciences Türkiye, İzmir Tepecik Education and Research Hospital over a 20-year period.Demographic features, histological tumor subtypes, metastatic status, and surgical treatment details were reviewed.Potential prognostic factors associated with survival were evaluated.Results: The mean age of the patients was 48±15 years.Of the study population, 71.1% were female and 28.9% were male.Papillary thyroid carcinoma was the predominant histological subtype, representing 60% of all cases.Lymph node metastasis was present in 35.6% of patients, whereas distant metastasis was present in 17.8% of patients.Patients with differentiated thyroid carcinomas showed better survival outcomes than those with other histological subtypes.Older age, metastatic disease, and aggressive tumor histology were associated with reduced survival.Among these factors, distant metastasis showed the most pronounced association with mortality.Conclusion: Differentiated thyroid carcinomas are generally associated with favorable survival; however, the presence of metastases and aggressive histological subtypes adversely affect prognosis.Age, histological subtyp",
+      "publication_date": "2026-09-01",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "The Anatolian Journal of General Medical Research",
+      "oa_status": "diamond",
+      "oa_url": "https://anatolianjmed.org/pdf/13b035c5-551c-4fd4-a824-19a1febb0519/articles/anatoljmed.2026.70188/177-183.pdf",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42679997",
+      "doi": "10.1016/j.eprac.2026.08.019",
+      "openalex_id": "W7204950129",
+      "title": "Patient Redistribution Across Risk Categories in Differentiated Thyroid Cancer Using the 2025 Versus 2015 American Thyroid Association Risk Stratification Systems.",
+      "abstract": "",
+      "publication_date": "2026-09-01",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Endocrine Practice",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.3803/enm.2026.3156",
+      "openalex_id": "W7204749182",
+      "title": "Postoperative Surveillance in Differentiated Thyroid Cancer: Response-Adapted De-Escalation in the 2025 American Thyroid Association and 2026 Korean Thyroid Association Guidelines",
+      "abstract": "Postoperative surveillance for differentiated thyroid cancer (DTC) is shifting from routine, uniformly intensive follow-up toward risk-adapted, response-based care.Because most patients with DTC have an excellent prognosis, surveillance should not rely on indefinite testing to maximize recurrence detection.Rather, it should prioritize detection of clinically meaningful recurrence while reducing unnecessary biochemical testing, imaging, and prolonged thyroid-stimulating hormone (TSH) suppression [1,2].Although initial clinicopathological risk stratification remains essential, recurrence risk should be recalibrated over time according to surgical extent, radioactive iodine (RAI) use, serum thyroglobulin (Tg) level, anti-thyroglobulin antibody (TgAb) status, imaging findings, and treatment response [3,4].The 2026 Korean Thyroid Association (KTA) and 2025 American Thyroid Association (ATA) guidelines share this overall direction [1,2], but they differ in several clinically important respects: the timing of early postoperative assessment, Tg interpretation after treatment without RAI or after lobectomy, and the extent of long-term surveillance de-escalation (Table 1).",
+      "publication_date": "2026-08-31",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Endocrinology and Metabolism",
+      "oa_status": "diamond",
+      "oa_url": "https://www.e-enm.org/upload/pdf/enm-2026-3156.pdf",
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42669107",
+      "doi": "10.1007/s11030-026-11721-0",
+      "openalex_id": "W7204700370",
+      "title": "Multi-omics, machine learning, and molecular simulation identify CD44 as a candidate target in endocrine-disrupting chemical–associated thyroid cancer progression",
+      "abstract": "",
+      "publication_date": "2026-08-30",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Molecular Diversity",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42663592",
+      "doi": "10.1177/10507256261484715",
+      "openalex_id": "W7204535977",
+      "title": "Afirma Xpression Atlas Alteration Status Is Associated with Malignancy Risk in Indeterminate Thyroid Nodules",
+      "abstract": "Background: Molecular testing with the Afirma Genomic Sequencing Classifier (GSC) is commonly used to refine the diagnosis of thyroid nodules with indeterminate cytology. The Afirma Xpression Atlas (XA) is a whole-transcriptome RNA-sequencing platform that reports expressed alterations in GSC-suspicious nodules. The clinical implications of XA results have not been clearly defined. This study evaluated the association between XA alteration detection and histopathology outcomes. Methods: A retrospective review was performed of consecutive patients who underwent thyroid fine needle aspiration at a single institution from 3/2020 to 9/2025. All nodules with Bethesda III/IV cytology and GSC-suspicious results with subsequent XA testing that underwent surgical resection were included. Clinicopathologic variables were compared between XA alteration-positive and alteration-negative groups. Nodules were categorized as benign, noninvasive follicular thyroid neoplasm with papillary-like nuclear features, or malignant based on surgical pathology. Subgroup analyses were performed to compare clinicopathologic variables between BRAF -alteration, RAS -alteration, other-alteration, and alteration-negative groups. All analyses involving the other-alteration subgroup were exploratory. Multivariable linear regression was performed to identify independent predictors of 2025 American Thyroid Association (ATA) risk of recurrence category. Results: The study cohort included 192 patients (77.6% femal",
+      "publication_date": "2026-08-28",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Thyroid",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "g"
+      ],
+      "dimensions": [
+        "PR"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "预后转移"
+      ]
+    },
+    {
+      "pmid": "42678420",
+      "doi": "10.1007/s00428-026-04689-7",
+      "openalex_id": "W7204967959",
+      "title": "SMARCA4-deficient Anaplastic Thyroid Carcinoma: A Hitherto Unreported Case",
+      "abstract": "",
+      "publication_date": "2026-09-01",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Archiv für Pathologische Anatomie und Physiologie und für Klinische Medicin",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": true,
+      "exclude_reason": null,
+      "versions": 1,
+      "queries": [
+        "h"
+      ],
+      "dimensions": [
+        "ST"
+      ],
+      "relevance": "Low",
+      "dimension_labels": [
+        "转移干性"
+      ]
+    },
+    {
+      "pmid": null,
+      "doi": "10.1021/acs.chemrestox.6c00310",
+      "openalex_id": "W7205010164",
+      "title": "TRIP13 Promotes Aflatoxin B1-Induced Hepatocellular Carcinoma Progression by Inhibiting Ferroptosis",
+      "abstract": "Abstract Aflatoxin B1 (AFB1) is a potent foodborne hepatocarcinogen that contributes substantially to the global burden of hepatocellular carcinoma (HCC), yet the molecular mechanisms underlying AFB1-driven HCC progression remain incompletely understood. In this study, we identified thyroid hormone receptor-interacting protein 13 (TRIP13) as an important contributor to AFB1-related HCC progression and investigated its involvement in ferroptosis regulation. TCGA-LIHC, GSE25844, and single-cell RNA sequencing data (GSE166635) revealed that TRIP13 was significantly upregulated in AFB1-related HCC, enriched in malignant cell populations, and associated with poor clinical outcomes. In Huh7 cells, AFB1 treatment markedly increased TRIP13 expression, while TRIP13 knockdown significantly suppressed AFB1-induced cell proliferation, colony formation, migration, and epithelial-mesenchymal transition (EMT). Bulk RNA sequencing and pathway enrichment analyses indicated that TRIP13 overexpression was strongly associated with ferroptosis-related signaling. Mechanistically, TRIP13 was associated with ferroptosis resistance through modulation of the KEAP1/NRF2/xCT/GPX4 pathway, thereby contributing to redox homeostasis during AFB1 exposure. Consistently, TRIP13 knockdown restored ferroptotic sensitivity, as evidenced by increased Fe2+ and malondialdehyde levels and altered glutathione metabolism. Importantly, ferroptosis induction with RSL3 effectively reversed the pro-tumor effects of TRIP13",
+      "publication_date": "2026-08-28",
+      "type": "article",
+      "is_preprint": false,
+      "venue": "Chemical Research in Toxicology",
+      "oa_status": "closed",
+      "oa_url": null,
+      "cited_by_count": 0,
+      "in_scope_thyroid": false,
+      "exclude_reason": "标题未点名甲状腺",
+      "versions": 1,
+      "queries": [
+        "i"
+      ],
+      "dimensions": [
+        "ME"
+      ],
+      "relevance": "Medium",
+      "dimension_labels": [
+        "代谢重编程"
+      ]
+    }
+  ]
+}

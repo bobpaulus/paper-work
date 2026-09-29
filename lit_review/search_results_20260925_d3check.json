@@ -1,0 +1,368 @@
+{
+ "D3-APOE": {
+  "count": 250,
+  "items": [
+   {
+    "title": "TCGA-based identification of prognostic biomarkers and candidate traditional Chinese medicine compounds in papillary thyroid carcinoma",
+    "doi": "10.1097/md.0000000000050562",
+    "date": "2026-09-04",
+    "pmid": "42700077",
+    "venue": "Medicine"
+   },
+   {
+    "title": "Lipid Metabolic Reprogramming in Thyroid Cancer: Systemic Biomarkers, Tumor Dependencies and Therapeutic Resistance",
+    "doi": "10.20944/preprints202608.0708.v1",
+    "date": "2026-08-11",
+    "pmid": null,
+    "venue": "Preprints.org"
+   },
+   {
+    "title": "Spatial Transcriptomics in Thyroid Cancer: A PRISMA-Guided Systematic Review of Platforms, Applications, and Tumor Microenvironment",
+    "doi": "10.20944/preprints202608.0302.v1",
+    "date": "2026-08-05",
+    "pmid": null,
+    "venue": "Preprints.org"
+   },
+   {
+    "title": "Apolipoprotein E promotes papillary thyroid carcinoma progression by activating PINK1/Parkin-mediated mitophagy",
+    "doi": "10.21037/tcr-2026-0796",
+    "date": "2026-08-01",
+    "pmid": "42724858",
+    "venue": "Translational Cancer Research"
+   },
+   {
+    "title": "Association of APOE gene expression with thyroid dysfunction, inflammation, and nitrosative stress in cardiometabolic syndrome: a case–control study",
+    "doi": "10.1515/hmbci-2026-0007",
+    "date": "2026-07-28",
+    "pmid": "42509601",
+    "venue": "Hormone Molecular Biology and Clinical Investigation"
+   },
+   {
+    "title": "Deciphering the prognostic significance of liquid–liquid phase separation-related genes in thyroid carcinoma: A transcriptomic analysis",
+    "doi": "10.36922/cp025320050",
+    "date": "2026-07-20",
+    "pmid": null,
+    "venue": "Cancer Plus"
+   },
+   {
+    "title": "Deciphering the interplay between cuproptosis and mitochondrial energy metabolism in thyroid cancer: a multi-omics study for molecular subtyping, prognosis, and tumor microenvironment characterization",
+    "doi": "10.1007/s11010-026-05604-z",
+    "date": "2026-06-19",
+    "pmid": "42319714",
+    "venue": "Molecular and Cellular Biochemistry"
+   },
+   {
+    "title": "Genetic and epidemiological evidence linking respiratory and musculoskeletal diseases: shared risk factors and intervention windows",
+    "doi": "10.1186/s12931-026-03726-y",
+    "date": "2026-06-09",
+    "pmid": "42260503",
+    "venue": "Respiratory Research"
+   },
+   {
+    "title": "Genetic and epidemiological evidence linking respiratory and musculoskeletal diseases: shared risk factors and intervention windows",
+    "doi": "10.1186/s12931-026-03726-y",
+    "date": "2026-06-01",
+    "pmid": null,
+    "venue": "PubMed Central"
+   },
+   {
+    "title": "Spatially resolved single cell analysis suggests an APOE NCF1 associated immunosuppressive niche and its prognostic signature in thyroid cancer",
+    "doi": "10.1007/s12672-026-05061-6",
+    "date": "2026-05-30",
+    "pmid": "42217128",
+    "venue": "Discover Oncology"
+   },
+   {
+    "title": "The crosstalk between SPP1+ macrophages and follicular helper T cells promotes the immune disorder of Graves' disease",
+    "doi": "10.1016/j.clim.2026.110712",
+    "date": "2026-05-12",
+    "pmid": "42128213",
+    "venue": "Clinical Immunology"
+   },
+   {
+    "title": "The role of thyroid hormones in Alzheimer's disease: Associations with cerebrospinal fluid biomarkers and diagnostic performance",
+    "doi": "10.1177/25424823261448583",
+    "date": "2026-05-01",
+    "pmid": null,
+    "venue": "Journal of Alzheimer s Disease Reports"
+   },
+   {
+    "title": "A74-38 Cholesterol Dynamics Orchestrates Lung Repair and Fibrosis by Licensing Inflammatory and Lipid-Associated Macrophage Transition",
+    "doi": "10.1093/ajrccm/aamag162.2363",
+    "date": "2026-05-01",
+    "pmid": null,
+    "venue": "American Journal of Respiratory and Critical Care Medicine"
+   },
+   {
+    "title": "Genome-scale metabolic modeling uncovers cell-type specific signatures associated with APOE variants",
+    "doi": "10.1016/j.isci.2026.115638",
+    "date": "2026-04-07",
+    "pmid": "42164526",
+    "venue": "iScience"
+   },
+   {
+    "title": "Correlation between thyroid hormone levels and cognitive dysfunction in older patients with subclinical hypothyroidism",
+    "doi": "10.1007/s00508-026-02729-5",
+    "date": "2026-03-18",
+    "pmid": "41848904",
+    "venue": "Wiener klinische Wochenschrift"
+   },
+   {
+    "title": "Network pharmacology and molecular docking analysis on mechanisms of Euphorbia Lathyris L. seed in treating colorectal cancer",
+    "doi": "10.1186/s12885-026-15778-w",
+    "date": "2026-03-11",
+    "pmid": "41814225",
+    "venue": "BMC Cancer"
+   },
+   {
+    "title": "Associations Among miR-33, APOE ε4, and Metabolic Markers in Down Syndrome Youth",
+    "doi": "10.21203/rs.3.rs-8845542/v1",
+    "date": "2026-02-25",
+    "pmid": null,
+    "venue": "Research Square"
+   },
+   {
+    "title": "Resmetirom Attenuates Atherosclerosis in ApoE ⁻/⁻ Mice by Suppressing the NF- κB/ROS–NLRP3 Inflammasome Axis",
+    "doi": "10.21203/rs.3.rs-8902352/v1",
+    "date": "2026-02-24",
+    "pmid": null,
+    "venue": "Research Square"
+   },
+   {
+    "title": "Glucagon-like peptide-1 receptor agonists beyond weight loss: A paradigm shift in cardiovascular prevention",
+    "doi": "10.4103/sjim.sjim_12_26",
+    "date": "2026-01-01",
+    "pmid": null,
+    "venue": "Saudi Journal of Internal Medicine"
+   },
+   {
+    "title": "Identification of oxidative stress-related genes in papillary thyroid carcinoma and their common targets with resveratrol based on bioinformatics, network pharmacology, and molecular docking",
+    "doi": "10.1007/s12672-025-04170-y",
+    "date": "2025-12-05",
+    "pmid": "41350477",
+    "venue": "Discover Oncology"
+   }
+  ]
+ },
+ "D3-MGST1": {
+  "count": 3,
+  "items": [
+   {
+    "title": "MGST1 drives lymph node metastasis in papillary thyroid carcinoma via mitochondrial metabolic reprogramming and immune suppression",
+    "doi": "10.3389/fimmu.2026.1848083",
+    "date": "2026-06-04",
+    "pmid": "42327722",
+    "venue": "Frontiers in Immunology"
+   },
+   {
+    "title": "Integrative Analysis of Hepatopancreas Transcriptome and Proteome in Female Eriocheir sinensis under Thermal Stress",
+    "doi": "10.3390/ijms25137249",
+    "date": "2024-06-30",
+    "pmid": "39000358",
+    "venue": "International Journal of Molecular Sciences"
+   },
+   {
+    "title": "Structural organization of the murine microsomal glutathione S-transferase gene (MGST1) from the 129/SvJ strain: identification of the promoter region and a comprehensive examination of tissue expression",
+    "doi": "10.1016/j.bbaexp.2004.03.001",
+    "date": "2004-03-23",
+    "pmid": "15157743",
+    "venue": "Biochimica et Biophysica Acta (BBA) - Gene Structure and Expression"
+   }
+  ]
+ },
+ "D3-lipid-stem": {
+  "count": 67,
+  "items": [
+   {
+    "title": "Microenvironmental Control of Thyroid Cancer Plasticity and Radioiodine Resistance",
+    "doi": "10.3390/ijms27167305",
+    "date": "2026-08-16",
+    "pmid": "42653308",
+    "venue": "International Journal of Molecular Sciences"
+   },
+   {
+    "title": "PHGDH inhibition overcomes dabrafenib resistance through metabolic rewiring in BRAF V600E anaplastic thyroid carcinoma",
+    "doi": "10.1038/s41420-026-03293-7",
+    "date": "2026-08-15",
+    "pmid": null,
+    "venue": "Cell Death Discovery"
+   },
+   {
+    "title": "A multistage computational pipeline integrating ligand-based and structure-based screening with ADMET evaluation, molecular dynamic simulation and free energy calculations for the discovery of potential TNIK inhibitors",
+    "doi": "10.1016/j.talanta.2026.130342",
+    "date": "2026-07-21",
+    "pmid": "42485955",
+    "venue": "Talanta"
+   },
+   {
+    "title": "Abstract B071: TRβ Agonists as a First-in-Class Oncology Therapeutic Strategy: Broad Anti-Tumor Activity with Proof-of-Concept in Breast Cancer",
+    "doi": "10.1158/1557-3265.d32026-b071",
+    "date": "2026-07-21",
+    "pmid": null,
+    "venue": "Clinical Cancer Research"
+   },
+   {
+    "title": "MGST1 drives lymph node metastasis in papillary thyroid carcinoma via mitochondrial metabolic reprogramming and immune suppression",
+    "doi": "10.3389/fimmu.2026.1848083",
+    "date": "2026-06-04",
+    "pmid": "42327722",
+    "venue": "Frontiers in Immunology"
+   },
+   {
+    "title": "Current Studies on the Hypoxic Tumor Microenvironment in Thyroid Cancer: From Molecular Mechanisms to Clinical Therapeutic Perspectives",
+    "doi": "10.3390/biomedicines14051126",
+    "date": "2026-05-16",
+    "pmid": "42193451",
+    "venue": "Biomedicines"
+   },
+   {
+    "title": "Abstract 4722: Genetic background shapes mitochondrial metabolic adaptations underlying thyroid cancer progression",
+    "doi": "10.1158/1538-7445.am2026-4722",
+    "date": "2026-04-03",
+    "pmid": null,
+    "venue": "Cancer Research"
+   },
+   {
+    "title": "Editorial: Endocrine dysfunctions and immunometabolic pathways in autoimmune-related cancers",
+    "doi": "10.3389/fendo.2026.1809287",
+    "date": "2026-02-27",
+    "pmid": "41837132",
+    "venue": "Frontiers in Endocrinology"
+   },
+   {
+    "title": "M6A methylation in thyroid cancer: Functions, mechanisms, and clinical significance",
+    "doi": "10.1016/j.cancergen.2026.01.005",
+    "date": "2026-01-10",
+    "pmid": "41539228",
+    "venue": "Cancer Genetics"
+   },
+   {
+    "title": "Investigation of the interplay between autophagy and therapy-induced senescence in thyroid cancer",
+    "doi": "10.21954/ou.ro.00108428",
+    "date": "2026-01-01",
+    "pmid": null,
+    "venue": "Open Research Online (The Open University)"
+   },
+   {
+    "title": "Editorial: Cancer metastases: mechanisms of tumor dissemination, formation of metastatic niche and anti-metastatic therapy",
+    "doi": "10.3389/fimmu.2025.1746602",
+    "date": "2025-11-25",
+    "pmid": "41376635",
+    "venue": "Frontiers in Immunology"
+   },
+   {
+    "title": "Standardizing the reporting of postoperative hypoparathyroidism following thyroidectomy: consensus statement from the European Society of Endocrine Surgeons, the American Association of Endocrine Surgeons, and the International Association of Endocrine Surgeons",
+    "doi": "10.1093/bjs/znaf247",
+    "date": "2025-11-01",
+    "pmid": "41229353",
+    "venue": "British journal of surgery"
+   },
+   {
+    "title": "EVA1A-Mediated Signaling Networks in Physiological and Pathological Contexts: Dual Roles in Autophagy and Apoptosis",
+    "doi": "10.1007/s12013-025-01930-z",
+    "date": "2025-10-11",
+    "pmid": "41075142",
+    "venue": "Cell Biochemistry and Biophysics"
+   },
+   {
+    "title": "Endocrine",
+    "doi": "10.1097/xcs.0000000000001552",
+    "date": "2025-10-03",
+    "pmid": null,
+    "venue": "Journal of the American College of Surgeons"
+   },
+   {
+    "title": "OR17-04 Reprogramming myeloid bone marrow progenitors in non-medullary thyroid cancer using trained immunity",
+    "doi": "10.1210/jendso/bvaf149.2232",
+    "date": "2025-10-01",
+    "pmid": null,
+    "venue": "Journal of the Endocrine Society"
+   },
+   {
+    "title": "Abstract Thu017: Lenvatinib Exhibits Cell Type-Specific Cardiotoxicity in Human Induced Pluripotent Stem Cell-Derived Cardiac Spheroids and Organ-Chips",
+    "doi": "10.1161/res.137.suppl_1.thu017",
+    "date": "2025-08-01",
+    "pmid": null,
+    "venue": "Circulation Research"
+   },
+   {
+    "title": "Metformin as a promising therapeutic agent for papillary thyroid cancer: Mechanisms of antitumor and pro-apoptotic activity",
+    "doi": "10.1016/j.tranon.2025.102483",
+    "date": "2025-07-29",
+    "pmid": "40738017",
+    "venue": "Translational Oncology"
+   },
+   {
+    "title": "Correction: Epigenetic modifications in breast cancer: from immune escape mechanisms to therapeutic target discovery",
+    "doi": "10.3389/fimmu.2025.1643911",
+    "date": "2025-07-15",
+    "pmid": "40735315",
+    "venue": "Frontiers in Immunology"
+   },
+   {
+    "title": "PHGDH inhibition overcomes dabrafenib resistance through metabolic rewiring in BRAF V600E anaplastic thyroid carcinoma",
+    "doi": "10.21203/rs.3.rs-7069883/v1",
+    "date": "2025-07-14",
+    "pmid": null,
+    "venue": "Research Square"
+   },
+   {
+    "title": "Editorial: Recent advances in understanding sex-based tumor diversity",
+    "doi": "10.3389/fphar.2025.1598740",
+    "date": "2025-04-28",
+    "pmid": "40356979",
+    "venue": "Frontiers in Pharmacology"
+   }
+  ]
+ },
+ "PRECISE": [
+  {
+   "title": "Supplementary Figure S9 from PRECISE: A Prognostic Thyrocyte-Derived Gene Signature for Papillary Thyroid Carcinoma",
+   "doi": "10.1158/1078-0432.32845759",
+   "date": "2026-07-01",
+   "pmid": null,
+   "oa": "gold",
+   "venue": null
+  },
+  {
+   "title": "Supplementary Figure S4 from PRECISE: A Prognostic Thyrocyte-Derived Gene Signature for Papillary Thyroid Carcinoma",
+   "doi": "10.1158/1078-0432.32845774",
+   "date": "2026-07-01",
+   "pmid": null,
+   "oa": "gold",
+   "venue": null
+  },
+  {
+   "title": "Data from PRECISE: A Prognostic Thyrocyte-Derived Gene Signature for Papillary Thyroid Carcinoma",
+   "doi": "10.1158/1078-0432.c.8568781",
+   "date": "2026-07-01",
+   "pmid": null,
+   "oa": "gold",
+   "venue": null
+  },
+  {
+   "title": "Supplementary Figure S5 from PRECISE: A Prognostic Thyrocyte-Derived Gene Signature for Papillary Thyroid Carcinoma",
+   "doi": "10.1158/1078-0432.32845771",
+   "date": "2026-07-01",
+   "pmid": null,
+   "oa": "gold",
+   "venue": null
+  },
+  {
+   "title": "Supplementary Tables S1-S31 from PRECISE: A Prognostic Thyrocyte-Derived Gene Signature for Papillary Thyroid Carcinoma",
+   "doi": "10.1158/1078-0432.32845753",
+   "date": "2026-07-01",
+   "pmid": null,
+   "oa": "gold",
+   "venue": null
+  },
+  {
+   "title": "Supplementary Figure S11 from PRECISE: A Prognostic Thyrocyte-Derived Gene Signature for Papillary Thyroid Carcinoma",
+   "doi": "10.1158/1078-0432.32845786",
+   "date": "2026-07-01",
+   "pmid": null,
+   "oa": "gold",
+   "venue": null
+  }
+ ]
+}
