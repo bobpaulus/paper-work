@@ -1,0 +1,14 @@
+# 工具与缓存
+.workbuddy/
+__pycache__/
+*.pyc
+*.pyo
+
+# 非文献监测产物（中间过程数据 / 体积较大，不纳入版本库）
+thyroid_cancer_direction/
+*.log
+*.pdf
+
+# 历史检索产物默认不入库；每轮仅通过 `git add -f` 显式纳入本轮生成的文件
+lit_review/search_results_*.json
+lit_review/literature_review_*.md
