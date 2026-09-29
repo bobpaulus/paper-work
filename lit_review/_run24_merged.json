@@ -1,0 +1,1491 @@
+[
+ {
+  "pmid": "42660113",
+  "doi": "10.1016/j.xcrm.2026.103010",
+  "openalex_id": "W7204453688",
+  "title": "RET-driven osteoprotegerin expression links medullary thyroid cancer to osteoblastic bone metastases",
+  "abstract": "Development of bone metastases increases mortality in patients with medullary thyroid cancer (MTC), with ∼50% survival at 5 years after diagnosis, but the underlying mechanisms of action are unknown. We show that patient-derived MTC cells ( RET C634W mutant TT and RET M918T mutant MZCRC1 cells) promote osteoblastic phenotypes due to reduced osteoclastic bone resorption. Mechanistically, activated RET increases osteoprotegerin (OPG) expression, an inhibitor of bone resorption, leading to decreased osteoclast differentiation. Furthermore, RET knockdown or pharmacological RET inhibition attenuates tumor burden and osteoblastic lesions in MTC-bearing mouse femurs. Circulating levels of OPG in humans increase in the plasma of patients with MTC and MTC bone metastases, and these levels are associated with poor overall survival. Patients who receive multi-kinase inhibitors have lower circulating OPG levels. These findings reveal a potential link between RET signaling and aberrant osteoblastic bone formation during tumor metastasis and suggest OPG as a potential biomarker for MTC bone metastases.",
+  "publication_date": "2026-08-27",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Cell Reports Medicine",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a",
+   "b"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1038/s41419-026-09251-6",
+  "openalex_id": "W7213400166",
+  "title": "NAT10-mediated ac4C acetylation of PPFIA4 mRNA drives papillary thyroid carcinoma progression and lymph node metastasis by rewiring focal adhesion signaling",
+  "abstract": "Abstract Thyroid cancer, predominantly papillary thyroid carcinoma (PTC), has become the fastest-growing malignancy in terms of incidence rate. RNA epitranscriptomic modifications such as N 4 -acetylcytidine (ac 4 C) play crucial roles in cancer progression, yet their function in PTC remains unclear. This study demonstrates that NAT10 and ac 4 C levels are upregulated in PTC and correlate with lymph node metastasis. The transcription factor ATF2, highly expressed in PTC, drives NAT10 upregulation. Combined acRIP-seq and RNA-seq analyses identified PPFIA4 as a key downstream target of NAT10. Mechanistically, NAT10 catalyzes ac 4 C modification on PPFIA4 mRNA, enhancing its stability. We further mapped the specific ac 4 C site on PPFIA4 mRNA and demonstrated its functional necessity for oncogenicity. PPFIA4 acted as a scaffold protein that promoted the aggregation of leukocyte common antigen‑related (LAR) phosphatase while inhibiting its enzymatic activity. This inhibition of LAR activated the FAK/Src/paxillin signaling axis, leading to increased focal adhesion formation and ultimately promoting tumor cell migration and invasion. Critically, in vivo studies confirmed that combined treatment with the selective NAT10 inhibitor Remodelin and Src family kinase inhibitor dasatinib effectively suppressed malignant progression and metastasis in PTC models. Collectively, this study identified the NAT10/ac 4 C-mediated epitranscriptional pathway as a driver of PTC progression and a prom",
+  "publication_date": "2026-09-16",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Cell Death and Disease",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "b"
+  ],
+  "dimensions": [
+   "MO"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.3389/fendo.2026.1884738",
+  "openalex_id": "W7213294426",
+  "title": "Modulation of cell migration and invasion of thyroid cancer cells using miRNA-enriched extracellular vesicles",
+  "abstract": "Background Extracellular vesicles (EVs) have been investigated as promising vehicles for delivering drugs and microRNAs (miRNAs) in distinct types of cancer. However, their use as a delivery system in papillary thyroid carcinoma (PTC) remains underexplored. PTC is the most prevalent subtype of thyroid cancer, and despite its good prognosis, a fraction of the cases evolve into aggressive and fatal forms. Here, we investigated whether non-tumor thyroid cells can be engineered to produce EVs-enriched with tumor suppressor miRNAs that could be delivered to PTC cells. Methods EVs from NThy-ORI cells transfected with miR-485-5p or miR-495-3p were isolated by differential ultracentrifugation and characterized by Nanoparticle tracking analysis (NTA), transmission electron microscopy (TEM), and Western Blot. Functional in vitro assays were conducted to explore the impact of miRNA-enriched EVs on PTC progression. Results Non-tumor thyroid NThy-ORI cells overexpressing miR-485-5p or miR-495-3p efficiently produced EVs enriched with these miRNAs, which were internalized by PTC cells. Treatment with miRNA-enriched EVs modulated the expression of validated miRNA targets and key epithelial–mesenchymal transition-related genes, leading to a 40% reduction in migration (p<0.0001) and a 60% reduction in invasion in both miRNAs and cell lines tested (p<0.001). Conclusions These findings suggest the potential of thyroid-derived EVs as a biologically relevant and promising system for delivering tu",
+  "publication_date": "2026-09-15",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Frontiers in Endocrinology",
+  "oa_status": "gold",
+  "oa_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1884738/pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "b"
+  ],
+  "dimensions": [
+   "MO"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "分子机制"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.3389/fendo.2026.1953516",
+  "openalex_id": "W7213456245",
+  "title": "Development and internal validation of a nomogram for predicting lymph node metastasis posterior to the right recurrent laryngeal nerve in papillary thyroid carcinoma: a single-center retrospective study",
+  "abstract": "Background The lymph nodes posterior to the right recurrent laryngeal nerve (LN-prRLN) lie deep in the right central compartment. Clearing them is technically demanding and adds to the risk of injury to the nerve and parathyroid glands, whereas occult metastases left behind may cause persistent or recurrent disease. Knowing in advance which patients are likely to have LN-prRLN metastasis would help tailor the extent of central neck dissection. Methods We retrospectively reviewed 320 patients with papillary thyroid carcinoma (PTC) treated at a single tertiary center between August 2021 and February 2026, all of whom underwent thyroidectomy with right central neck dissection that included separate LN-prRLN harvesting. Candidate clinicopathological variables were screened by univariable logistic regression; non-redundant binary variables with P<0.05 then entered a multivariable Firth penalized-likelihood model, used because a single event among the 166 central-node-negative patients biased the ordinary maximum-likelihood estimate. The independent predictors formed a nomogram, internally validated by 1,000 bootstrap resamples that repeated the entire model-building procedure, and was assessed for discrimination, calibration (including the optimism-corrected calibration slope and the Hosmer–Lemeshow test) and clinical utility (decision curve analysis, DCA). Results LN-prRLN metastasis was present in 51 of 320 patients (15.9%). Multifocality (odds ratio [OR] 4.46), tumor diameter >",
+  "publication_date": "2026-09-17",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Frontiers in Endocrinology",
+  "oa_status": "gold",
+  "oa_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1953516/pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42748966",
+  "doi": "10.1002/cnr2.70692",
+  "openalex_id": "W7213399448",
+  "title": "Prognostic Factor Analysis for Risk‐Stratified Papillary Thyroid Carcinoma and Nomogram Development for Predicting Structural Incomplete Response to Radioactive Iodine Therapy in Intermediate‐Risk Patients",
+  "abstract": "BACKGROUND: Structural incomplete response (SIR) after radioactive iodine (RAI) therapy indicates persistent or recurrent structural disease and has important implications for the long-term management of patients with papillary thyroid carcinoma (PTC). However, predictors of SIR across recurrence-risk strata remain incompletely characterized. AIMS: To identify factors associated with SIR following RAI therapy in risk-stratified PTC patients and to develop a predictive nomogram for intermediate-risk patients. METHODS AND RESULTS: I therapy. Patients were re-stratified according to the 2025 American Thyroid Association recurrence-risk framework into a low/low-to-intermediate-risk group and an intermediate-high/high-risk group. In 396 intermediate-risk patients with lymph-node metastasis, univariable and multivariable logistic regression analyses were used to identify independent predictors of SIR, and a nomogram was developed and internally validated. SIR rates differed significantly between risk groups (p < 0.001). Stimulated thyroglobulin (sTg) independently predicted SIR across all risk strata. The number of lymph-node metastases (LNM) and lymph-node yield additionally predicted SIR in intermediate-high/high-risk patients. In intermediate-risk patients, age, tumor size, lymph-node ratio, sTg, and LNM were independent predictors of SIR. The nomogram yielded an area under the curve of 0.865 (95% CI, 0.814-0.916) in the training cohort and 0.733 (95% CI, 0.617-0.849) in the int",
+  "publication_date": "2026-09-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Cancer Reports",
+  "oa_status": "gold",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cnr2.70692",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c",
+   "g"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.3892/br.2026.2203",
+  "openalex_id": "W7213469124",
+  "title": "Metastatic colorectal carcinoma to the thyroid gland: A case report and literature review",
+  "abstract": "Although thyroid metastasis from colorectal carcinoma (CRC) is exceedingly rare, with a reported clinical incidence of ~0.1-0.3%, its detection typically signifies advanced-stage systemic disease.This atypical metastatic pattern generally correlates with a terminal stage and a historically poor prognosis, with a reported 5-year survival rate of <15%.A 78-year-old female presented with advanced sigmoid adenocarcinoma complicated by a thyroid mass that caused significant tracheal compression and was accompanied by multiple pulmonary metastases.The patient's initial clinical manifestations included chronic hematochezia and diarrhea.Given the patient's advanced age and poor baseline status, a palliative thyroidectomy was performed to alleviate acute airway obstruction, followed by levothyroxine replacement therapy.Postoperative histopathological examination and immunohistochemical profiling, including SATB2 and CK19 positivity together with PAX8 and TTF-1 negativity, supported a diagnosis of metastatic adenocarcinoma of colorectal origin.In conclusion, clinicians should maintain a low threshold of suspicion for secondary malignancies when evaluating new thyroid nodules in patients with a known history of CRC.Although the findings from a single case study have limited generalizability, this report underscores the potential value of multidisciplinary systemic staging and individualized palliative management in optimizing supportive care for patients with rare metastatic patterns.",
+  "publication_date": "2026-09-17",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Biomedical Reports",
+  "oa_status": "diamond",
+  "oa_url": "http://www.spandidos-publications.com/10.3892/br.2026.2203/download",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "g"
+  ],
+  "dimensions": [
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1016/j.surg.2026.110658",
+  "openalex_id": "W7213394131",
+  "title": "Metabolic reprogramming in differentiated thyroid cancer progression: a tumor metabolomics analysis",
+  "abstract": "",
+  "publication_date": "2026-09-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Surgery",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "i"
+  ],
+  "dimensions": [
+   "ME"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "代谢重编程"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1093/ejendo/lvag128.080",
+  "openalex_id": "W7204470656",
+  "title": "TR07 Preoperative calcitonin-to-CEA ratio as a predictor of lymph node metastasis in medullary thyroid carcinoma: a single-center retrospective study",
+  "abstract": "Abstract Background/Introduction Medullary thyroid carcinoma (MTC) frequently presents with lymph node metastases, although the optimal extent of neck dissection remains controversial. While preoperative calcitonin and carcinoembryonic antigen (CEA) are established biomarkers, the clinical utility of their ratio has not been fully evaluated. Purpose To investigate the preoperative calcitonin-to-CEA ratio as a predictor of central and lateral lymph node metastasis in patients with medullary thyroid carcinoma. Methods We retrospectively analyzed 19 patients who underwent total thyroidectomy with neck dissection for MTC. Preoperative calcitonin, CEA, and the calcitonin-to-CEA ratio were compared between node-negative and node-positive patients. Receiver operating characteristic (ROC) curve analysis was performed to evaluate their predictive performance, with optimal cut-off values determined using the Youden index. Results The median age was 59 years, and 57.9% of patients were women. Central and lateral lymph node metastases were identified in 47.4% and 36.8% of patients, respectively. The calcitonin-to-CEA ratio was higher in patients with nodal metastases than in those without (central: 51.7 vs. 18.3; lateral: 51.7 vs. 18.9), although these differences were not statistically significant. ROC analysis demonstrated that the calcitonin-to-CEA ratio had the highest discriminatory performance for predicting both central (area under the curve 0.733; sensitivity 88.9%) and lateral (",
+  "publication_date": "2026-08-01",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "European Journal of Endocrinology",
+  "oa_status": "hybrid",
+  "oa_url": "https://academic.oup.com/ejendo/article-pdf/195/Supplement_2/lvag128.080/70769704/lvag128.080.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1093/ejendo/lvag096.082",
+  "openalex_id": "W7213299713",
+  "title": "OC1.6 - ECE_1657 - Percentage of mutated neoplastic cells predicts the risk of persistent/recurrent disease in a cohort of patients with BRAF-mutated papillary thyroid carcinoma",
+  "abstract": "Abstract Background The BRAFV600E mutation is a pivotal oncogenic driver in Papillary Thyroid Carcinoma (PTC). While Variant Allele Frequency (VAF) is commonly used to quantify mutational burden, it is significantly influenced by the proportion of non-neoplastic cells within the sample, potentially underestimating the biological aggressiveness of the tumor. Objectives We evaluated whether the estimated percentage of mutated neoplastic cells (MNC)—calculated by correcting the VAF for sample tumor cellularity—provides superior predictive capacity compared to isolated VAF in defining the risk of recurrent or persistent disease (RPD). Methods We performed custom multigene NGS panel analysis on cytological or histological thyroid samples of 253 consecutive patients who underwent thyroid surgery for BRAFV600E PTC. We excluded patients with multiple coexisting mutations. For each sample, VAF was determined via sequencing, and the percentage of MNC was derived using a mathematical algorithm. Predictive performance for both variables was evaluated using ROC curves, Kaplan-Meier analysis, and a multivariate Cox model. Results The cohort (n = 253) showed a mean VAF of 21.4% and a median MNC percentage of 89.4% (IQR: 60.00-100.00%). Over a mean follow-up of 44.6 months, RPD occurred in 50 patients (19.8%). Association studies showed no significant differences in VAF between the RPD and disease-free groups (P = .229). Conversely, the percentage of MNC was significantly higher in RPD patie",
+  "publication_date": "2026-08-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "European Journal of Endocrinology",
+  "oa_status": "hybrid",
+  "oa_url": "https://academic.oup.com/ejendo/article-pdf/195/Supplement_1/lvag096.082/70598419/lvag096.082.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42568441",
+  "doi": "10.3389/fendo.2026.1901308",
+  "openalex_id": "W7170342908",
+  "title": "Persistent calcium dependence after total thyroidectomy: a hypothesis of bone hunger syndrome with parathyroid reserve insufficiency in the setting of normalized parathyroid hormone - a case report and literature review",
+  "abstract": "Background: Restoration of parathyroid hormone (PTH) to the normal range following total thyroidectomy is conventionally regarded as an indicator of functional recovery of the parathyroid glands. Nevertheless, a subset of patients develop hypocalcemia upon withdrawal of supplementation. This report describes a case in which PTH normalized postoperatively yet calcium supplements could not be discontinued for three years, and discusses the underlying mechanisms and management strategy. Case summary: A 40-year-old woman with multifocal papillary thyroid carcinoma harboring the BRAF V600E mutation underwent total thyroidectomy with bilateral level VI lymph node dissection. The patient had a background of Hashimoto's thyroiditis (thyroglobulin antibody 225.30 IU/mL, thyroid peroxidase antibody 144.40 IU/mL). Preoperative serum calcium and PTH were within normal limits, but 25-hydroxyvitamin D was severely deficient (12.8 ng/mL). On postoperative day 1, hypocalcemic symptoms accompanied by a decline in serum calcium occurred and resolved after intravenous calcium administration. PTH transiently rose to 70.8 pg/mL on postoperative day 3 but fell to 3.0 pg/mL by one month after surgery. At three months postoperatively, PTH recovered to 26.7 pg/mL and remained consistently normal over the subsequent three years. However, repeated attempts to taper or discontinue calcium and active vitamin D at 3, 5, and 18 months postoperatively, as well as on multiple later occasions-provoked numbnes",
+  "publication_date": "2026-07-24",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Frontiers in Endocrinology",
+  "oa_status": "gold",
+  "oa_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1901308/pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42496931",
+  "doi": "10.1007/s10528-026-11436-9",
+  "openalex_id": "W7170615139",
+  "title": "CircGABRB2_006 Drives Malignant Progression and EMT in Papillary Thyroid Carcinoma via the miR-296-5p/FGFR1 Axis",
+  "abstract": "",
+  "publication_date": "2026-07-24",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Biochemical Genetics",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.5281/zenodo.21496198",
+  "openalex_id": "W7170043918",
+  "title": "RAIR-Sim: a compartmental simulator of radioactive iodine therapy response in metastatic thyroid cancer",
+  "abstract": "A compartmental (ODE-based) simulator of the therapeutic response to radioactive iodine (RAI) therapy in metastatic thyroid cancer. Three coupled ordinary differential equations (administered activity, tumor cell number, thyroglobulin biomarker) are solved in closed form fraction by fraction, letting clinicians explore how the number of iratherapy sessions, the interval between sessions, and the administered activity affect the simulated biomarker trajectory, for both RAI-responding and RAI-refractory virtual patients. Model parameters calibrated on a 50-patient cohort via MCMC-SAEM (Monolix). Includes an interactive MATLAB App Designer interface (RAIR-Sim) and scripted sensitivity- analysis tools.",
+  "publication_date": "2026-07-22",
+  "type": "software",
+  "is_preprint": false,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "oa_status": "green",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 2,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1186/s12902-026-02433-5",
+  "openalex_id": "W7170083461",
+  "title": "Association of ABO and Rh blood groups with clinicopathological features and lymph node involvement in surgically treated thyroid malignancies: a retrospective single-center study",
+  "abstract": "Abstract This study investigated the association between ABO and Rh blood group antigens and the clinicopathological features of 418 patients who underwent thyroidectomy for primary thyroid malignancy between December 2016 and June 2023. Since continuous variables did not follow a normal distribution ( p < 0.05), data were presented as median and interquartile range (IQR). The distribution of ABO blood groups was A (44.5%), O (31.8%), B (16.0%), and AB (7.7%), with 90.9% of patients being Rh-positive. The median age of the cohort was 48 years (IQR: 19). While ABO groups showed no significant difference in age, Rh-negative patients were significantly older than Rh-positive patients (52.5 vs. 48.0 years; p = 0.027). No direct association was identified between ABO groups and the overall clinicopathological features such as tumor size or multifocality (p > 0.05). However, significant differences were observed regarding pathologically confirmed lymph node (LN) involvement. Pathologically confirmed LN involvement was significantly more prevalent in the Rh-negative group compared to the Rh-positive group (15.8% vs. 5.5%; p = 0.027). Most notably, a subgroup analysis revealed that patients with the AB blood group had a significantly higher rate of pathologically confirmed LN involvement compared to non-AB groups (15.6% vs. 5.7%; p = 0.028). To confirm the independence of this association, a multivariable logistic regression analysis was performed. After adjusting for potential confo",
+  "publication_date": "2026-07-22",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "BMC Endocrine Disorders",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42548630",
+  "doi": "10.3389/fendo.2026.1926803",
+  "openalex_id": "W7169799700",
+  "title": "Editorial: Molecular characterization of thyroid lesions in the era of “next generation” techniques, volume III",
+  "abstract": "At the prognostic level, Liu and Wei investigated the interactions between BRAF and TP53 in papillary thyroid carcinoma, proposing a more nuanced interpretation of the relationships among mutations, pathways, and clinical behavior [2]. Their study suggests that BRAF, TERT, and TP53 should not be considered only as isolated markers, but as nodes of a biological network capable of redefining conventional prognostic models. In particular, the integration of mutational profiling and pathway analysis reinforces the idea that the clinical value of sequencing lies not solely in the list of identified variants but in understanding the functional context in which these alterations act. In this sense, the work fits fully into the trajectory of precision medicine, shifting the focus from the single gene to the biological system.Still on the BRAF side, but with an even more specific focus on a clinically relevant endpoint, Yang et al. developed a nomogram to predict the risk of lung metastases in patients with papillary thyroid cancer under 55 years of age [3]. The most interesting aspect of the study is the integration of clinicopathologic features and molecular profiles, including BRAF p.Val600Glu (p.V600E) and TERT promoter mutations in the predictive model. The apparently counterintuitive finding that the BRAF p.V600E mutation was associated with a lower risk of lung metastases in the subgroup studied reminds us how much the clinical relevance of a mutation depends on the biological ",
+  "publication_date": "2026-07-20",
+  "type": "editorial",
+  "is_preprint": false,
+  "venue": "Frontiers in Endocrinology",
+  "oa_status": "gold",
+  "oa_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1926803/pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 3,
+  "queries": [
+   "a",
+   "c",
+   "d"
+  ],
+  "dimensions": [
+   "MO",
+   "PR",
+   "AL",
+   "IM"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移",
+   "算法方法",
+   "免疫微环境"
+  ]
+ },
+ {
+  "pmid": "42516789",
+  "doi": "10.14744/nci.2026.79477",
+  "openalex_id": "W7169877510",
+  "title": "Diagnostic and predictive value of the hemoglobinalbumin-lymphocyte-platelet score in thyroid nodules: A retrospective analysis of 521 patients",
+  "abstract": "OBJECTIVE: The hemoglobin-albumin-lymphocyte-platelet (HALP) score, an integrated immunonutritional index, has shown significant prognostic value in several aggressive solid tumors. However, its role in the diagnostic workup and predictive stratification of thyroid cancer remains underexplored. This study aimed to comprehensively evaluate the diagnostic efficacy of the pre-operative HALP score and its association with lymph node metastasis (LNM) in patients undergoing thyroidectomy. METHODS: We retrospectively reviewed 521 consecutive patients who underwent thyroid surgery between 2022 and 2024. Pre-operative laboratory parameters, including thyroid-stimulating hormone (TSH), fT4, albumin, and complete blood count, were recorded. The HALP score was calculated as (Hemoglobin×Albumin×Lymphocytes)/Platelets. Diagnostic performance was evaluated using receiver operating characteristic (ROC) curve analysis in combination with multivariate logistic regression. A subgroup analysis was performed for malignant cases to evaluate predictors of LNM. RESULTS: Of the cohort, 210 (40.3%) patients had malignant pathology. While serum TSH (p<0.001) and fT4 (p=0.043) were significantly higher in the malignant group, the HALP score demonstrated no significant difference (50.8±17.9 vs. 51.2±18.4, p=0.694). ROC analysis yielded an area under the curve of 0.510 for the HALP score, indicating a lack of discriminative power. In multivariate analysis, only Bethesda categories V (odds ratio [OR]: 17.4",
+  "publication_date": "2026-07-20",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Northern Clinics of Istanbul",
+  "oa_status": "diamond",
+  "oa_url": "https://jag.journalagent.com/z5/download_fulltext.asp?pdir=nci&plng=eng&un=NCI-79477",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42426688",
+  "doi": "10.1186/s12885-026-16515-z",
+  "openalex_id": "W7167791056",
+  "title": "Detection of thyroglobulin, TSH receptor and sodium-iodine symporter mRNA for identification of lymph node metastases in patients with papillary thyroid carcer",
+  "abstract": "BACKGROUND: Papillary thyroid carcer (PTC) is the most prevalent endocrine malignancy, with the morbidity increase in recent years. The presence of metastatic lymph nodes stands as a significant predictor for recurrent occurrences of the disease. In this study, we explored the utility of biomarkers in aiding the identification of lymph node metastases in patients with PTC. METHODS: We gathered 388 formalin-fixed paraffin embedded (FFPE) lymph node specimens from 266 individuals who had undergone surgical procedures for PTC. These samples were analyzed for the mRNA expression level of thyroglobulin (TG), TSH receptor (TSHR), and sodium-iodide symporter (NIS) using the real-time fluorescence quantitative PCR (qPCR) method. The results were compared with pathologic diagnosis. RESULTS: Among 134 confirmed lymph node metastasis tissues, it was found that 123 samples expressed TG mRNA, 118 samples expressed TSHR mRNA and only 16 samples expressed NIS mRNA. Among 254 nonmetastatic lymph node tissues, 240 samples did not express TG mRNA, 219 samples did not express TSHR mRNA and 230 samples did not express NIS mRNA. The findings suggest that the measure of TG mRNA for the diagnosis of lymph node metastasis has a 91.79% sensitivity rate and a 94.49% specificity rate. The detection of TSHR mRNA displays an 88.06% sensitivity and an 86.22% specificity for recognizing lymph node metastasis. However, mRNA expression of NIS was not detected in most of lymph node samples. CONCLUSIONS: The r",
+  "publication_date": "2026-07-09",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "BMC Cancer",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.55640/ijmsdh-12-07-01",
+  "openalex_id": "W7167842026",
+  "title": "Liquid Biopsy Biomarkers in Thyroid Cancer: Current Evidence and Future Directions",
+  "abstract": "Background: Thyroid cancer (TC) incidence has risen globally, yet the diagnostic and management paradigms remain heavily reliant on invasive tissue biopsies and ultrasonography, plagued by high rates of indeterminate cytology and overtreatment. Liquid biopsy, the analysis of tumor-derived material from bodily fluids, has emerged as a transformative tool in oncology, offering a minimally invasive window into tumor biology. This systematic review synthesizes the evidence from 2020 to 2026 on liquid biopsy biomarkers in TC, including circulating tumor cells (CTCs), cell-free DNA (cfDNA), circulating tumor DNA (ctDNA), microRNAs (miRNAs), and extracellular vesicles (EVs). Methods: A systematic search of PubMed, Scopus, and Web of Science was conducted for articles published between January 1, 2020, and January 1, 2026, using PRISMA guidelines. Studies investigating the diagnostic, prognostic, or predictive utility of blood-based liquid biopsy biomarkers in differentiated thyroid cancer (DTC), medullary thyroid cancer (MTC), and anaplastic thyroid cancer (ATC) were included. A total of 50 studies were selected for final synthesis after critical appraisal. Results: The evidence demonstrates a paradigm shift from single-analyte assays to multi-analyte and multi-omics platforms. ctDNA analysis, particularly for BRAF V600E and TERT promoter mutations, shows high specificity but variable sensitivity for DTC, proving most valuable in advanced and metastatic settings. For MTC, ctDNA-base",
+  "publication_date": "2026-07-09",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "International Journal of Medical Science and Dental Health",
+  "oa_status": "diamond",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42397917",
+  "doi": "10.1126/sciadv.aea4727",
+  "openalex_id": "W7167230753",
+  "title": "Single-cell transcriptomic analysis reveals tumor-immune determinants of lymph node colonization and progression in thyroid cancer",
+  "abstract": "Lymph node (LN) metastases are a major driver of mortality across solid cancers, including thyroid carcinomas, which are known for high rates of nodal colonization. To elucidate the determinants of nodal spread, we isolated tumor-infiltrating leukocytes from primary thyroid tumors and matched metastatic LNs for single-cell RNA sequencing with validation by multiplex immunohistochemistry. Comparing the microenvironmental alterations between primary tumors and their LNs, we found that thyrocytes and tumor-associated macrophages down-regulate the expression of multiple inflammatory cytokine receptors, including TNFRSF12A and CX3CR1 , upon LN colonization. LNs were associated with the induction of regulatory T cells to suppress T cell–mediated cytotoxicity compared to matched primary tumors. Notably, tumor-infiltrating lymphocytes within LNs demonstrated increased expression of activation markers, including interleukin-7 receptor ( IL7R ). High LN expression of IL7R was significantly correlated with improved outcomes and can serve as a biomarker in this heterogeneous disease. Our findings on the dynamic equilibrium within LN metastases may offer conserved mechanisms for nodal colonization across solid tumors.",
+  "publication_date": "2026-07-03",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Science Advances",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 1,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 2,
+  "queries": [
+   "a",
+   "e"
+  ],
+  "dimensions": [
+   "MO",
+   "PR",
+   "SC"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移",
+   "单细胞"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1158/1078-0432.c.8568781",
+  "openalex_id": "W7166818555",
+  "title": "Data from PRECISE: A Prognostic Thyrocyte-Derived Gene Signature for Papillary Thyroid Carcinoma",
+  "abstract": "AbstractPurpose: Papillary thyroid carcinoma (PTC) exhibits heterogeneous behavior, underscoring the need for effective biomarkers and improved risk stratification methods. We developed a thyrocyte-derived gene signature, Prognostic RNA Expression Cell-specific Integrated Signature (PRECISE), using single-cell RNA sequencing (scRNA-seq) and single-nucleus RNA sequencing (snRNA-seq) and evaluated its prognostic utility across cohorts. Experimental Design: PRECISE was developed using a discovery cohort of patients with PTC [MD Anderson Cancer Center (MDACC), n = 109, median follow-up = 14 years]. Within the cohort, 11 PTC tumors and 4 normal thyroid samples were successfully sequenced using snRNA-seq. Differentially expressed genes were integrated with previously identified thyrocyte-associated genes from scRNA-seq. Prognostic significance was assessed using bulk RNA-seq in the discovery cohort and validated in two additional cohorts [Vanderbilt University Medical Center (VUMC), n = 65; The Cancer Genome Atlas (TCGA), n = 370]. A rank-based single-sample method was used for score calculation. Associations between PRECISE and progression-free survival (PFS) and disease-specific survival (DSS) were evaluated using multivariate Cox models, and predictive models were compared using Harrell’s C-statistic and likelihood ratio tests. Results: PRECISE is comprised of 41 epithelial genes downregulated in PTC tumor cells. Higher PRECISE was significantly associated with shorter PFS acros",
+  "publication_date": "2026-07-01",
+  "type": "other",
+  "is_preprint": false,
+  "venue": null,
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 2,
+  "queries": [
+   "a",
+   "e"
+  ],
+  "dimensions": [
+   "MO",
+   "PR",
+   "SC"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移",
+   "单细胞"
+  ]
+ },
+ {
+  "pmid": "42735764",
+  "doi": "10.1016/j.ijbiomac.2026.154498",
+  "openalex_id": "W7212507115",
+  "title": "MYC-regulated long non-coding RNA SNHG1 controls S-phase kinase-associated protein 2-mediated p21 protein stability under thyroid hormone receptor signaling in hepatocellular carcinoma",
+  "abstract": "",
+  "publication_date": "2026-09-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "International Journal of Biological Macromolecules",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "b"
+  ],
+  "dimensions": [
+   "MO"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "分子机制"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.53365/nrfhh.774",
+  "openalex_id": "W7213501706",
+  "title": "ResTAC-Net: A Residual Texture-Attention Convolutional Network for Robust Thyroid Nodule Classification from Ultrasound Image",
+  "abstract": "Thyroid cancer is a type of endocrine malignancy that is increasing rapidly worldwide. Prompt and accurate diagnosis is necessary to optimize patient outcomes. Ultrasound is frequently employed for evaluating thyroid nodules because it is non-invasive, cost-effective, and provides real-time imaging. However, interpretation accuracy often relies on the radiologist's experience, which can result in inter-observer variability. This paper presents a fully automated deep learning system for more precise classification of thyroid nodules. The approach incorporates advanced image preprocessing techniques and a custom residual convolutional neural network (CNN), trained from the initial stages to address variability challenges. The utilized dataset is extensive, comprising 5,195 thyroid nodule images from two public databases, the Digital Database of Thyroid Image (DDTI) and the Thyroid Nodule Ultrasound Image (TNUI) dataset. Both datasets include benign and malignant cases verified by pathology. The proposed network integrates residual learning modules to enhance feature extraction, as well as adaptive feature aggregation, spatial attention mechanisms, and multi-scale convolutional operations to improve performance. Preprocessing steps include standardizing the region of interest, enhancing contrast, normalizing intensity, and reducing speckle noise to facilitate efficient feature learning by the model. Experimental results indicate high effectiveness, with an overall accuracy of 97",
+  "publication_date": "2026-08-27",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Natural Resources for Human Health",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "b"
+  ],
+  "dimensions": [
+   "MO"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制"
+  ]
+ },
+ {
+  "pmid": "42725005",
+  "doi": "10.21037/gs-2026-0252",
+  "openalex_id": "W7204054988",
+  "title": "Development and internal validation of a nomogram for predicting the initial response to radioactive iodine therapy in differentiated thyroid cancer with concurrent Hashimoto’s thyroiditis",
+  "abstract": "Background: Differentiated thyroid cancer (DTC) frequently coexists with Hashimoto's thyroiditis (HT), and HT may influence the response to radioactive iodine (RAI) therapy. This study aims to establish and validate a clinical predictive model for the response to initial RAI therapy in patients with DTC complicated by HT, thereby providing a personalized tool for optimizing clinical decision-making. Methods: A total of 461 patients with DTC and HT were included in the study. Variable selection was conducted using least absolute shrinkage and selection operator (LASSO) regression, followed by the construction of a predictive nomogram based on multivariable binary logistic regression. Model performance was evaluated through receiver operating characteristic (ROC) curve analysis, calibration curve analysis, and decision curve analysis (DCA). Results: Among the 461 patients, 235 achieved an excellent response (ER), while 226 experienced a non-ER (NER). Utilizing five predictors identified by LASSO-N stage, tumor multifocality, lymph node metastasis rate, stimulated thyroglobulin (sTg), and thyroglobulin antibody (TgAb)-a binary logistic regression model and corresponding nomogram were developed. The model demonstrated an area under the ROC curve (AUC) of 0.864 in the training set and 0.882 in the validation set for predicting NER. Moreover, calibration curve analysis and DCA indicated acceptable agreement between predicted and observed outcomes, as well as potential clinical net ",
+  "publication_date": "2026-08-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Gland Surgery",
+  "oa_status": "diamond",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42725355",
+  "doi": "10.21037/gs-2026-0358",
+  "openalex_id": "W7204238187",
+  "title": "Predictive model for increased postoperative drainage volume in patients with papillary thyroid carcinoma: a retrospective cohort study",
+  "abstract": "Background: Papillary thyroid carcinoma (PTC) is the predominant type of thyroid cancer, with a rapidly increasing incidence worldwide. Surgery is the cornerstone of treatment for PTC. Postoperative placement of a negative-pressure drainage tube is commonly performed to prevent hematoma, seroma, and chyle leak. However, the timing for drain removal relies largely on the surgeon's own clinical judgment. There is no reliable model to help identify patients who face a higher risk of increased postoperative drainage output volume (DOV). Excessive DOV may lead to a prolonged hospital stay, increased patient discomfort, and a higher risk of infection. Therefore, we aim to develop a reliable predictive tool for postoperative DOV in patients with PTC. Methods: This retrospective study enrolled 171 patients with PTC who underwent surgery between July 2024 and May 2026. These patients were randomly assigned to training (n=120) and validation (n=51) cohorts in a 7:3 ratio. Univariable and multivariable logistic regression analyses were performed in the training cohort to identify independent risk factors for postoperative DOV in patients with PTC. A nomogram was constructed based on the independent risk factors. Receiver operating characteristic (ROC) curve, calibration curve, and decision curve analysis (DCA) were utilized to assess the predictive performance of the nomogram. Results: Patients were divided into high-output (HO, n=60) and low-output (LO, n=60) groups based on the median",
+  "publication_date": "2026-08-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Gland Surgery",
+  "oa_status": "diamond",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1093/ejendo/lvag096.141",
+  "openalex_id": "W7213233295",
+  "title": "OC12.1 - LBA_ECE_1384 - Integrating lncrnas expression with machine learning for accurate preoperative diagnosis of thyroid cancer",
+  "abstract": "Abstract Background and Aim Thyroid nodules are increasingly detected in clinical practice, poising a major clinical challenge in distinguishing benign from malignant lesions and often leading to unnecessary surgery. Indeed, only 25%-30% of TIR3B and 50%-80% of TIR4 nodules are confirmed as malignant on final histology, resulting in surgical overtreatment. Recent evidence highlights the role of long non-coding RNAs (lncRNAs) in thyroid cancer, but their clinical application remains in the research phase. In this context, the aim of this project is to develop a machine learning-driven lncRNAs level-based strategy to improve diagnostic accuracy enabling more personalized treatment strategies. Methods Patients were enrolled at the Endocrinology and Diabetes Center of Fondazione Policlinico Gemelli (Rome, Italy) and undergoing to fine-needle aspiration (FNA) biopsies for suspicious nodules (n = 356). Expression of selected lncRNAs (MALAT1, HOTAIR and PVT1) was evaluated by Droplet Digital PCR (ddPCR) in FNAs. The lncRNAs expression levels and cytological and histopathological data, from 161 patients, have been used to developed a “Decision Tree” based predictive model. Among these patients, 125 are inliers (38 benign and 87 malignant lesions), contain TIR3A (n = 28), TIR3B (n = 37) and TIR4 (n = 60). To prevent overfitting, the model was restricted to a maximum of 5 decision variables per split and 12 number of leaf nodes. Results (overall cohort) The predictive model demonstrate",
+  "publication_date": "2026-08-01",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "European Journal of Endocrinology",
+  "oa_status": "hybrid",
+  "oa_url": "https://academic.oup.com/ejendo/article-pdf/195/Supplement_1/lvag096.141/70598479/lvag096.141.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1093/ejendo/lvag096.553",
+  "openalex_id": "W7213275100",
+  "title": "P428 - ECE_2815 - Clustering and response prediction in differentiated thyroid cancer: insights from the Hungarian thyroid cancer register",
+  "abstract": "Abstract Differentiated thyroid cancer (DTC) is the most common endocrine malignancy, showing generally favorable prognoses but variable clinical presentations. We analyzed anonymized data from the Hungarian Thyroid Cancer Register collected over 2023-2024. The cohort included 833 patients diagnosed with DTC. To uncover patient subgroups, unsupervised K-means clustering was implemented in Python, comparing predicted outcomes with recorded clinical responses. Results revealed four distinct clusters corresponding to varied outcome profiles. Cluster 1 comprises younger patients with predominantly structural thyroid disease, characterized by nodular goiter and low systemic comorbidity burden. Cluster 2 represented the lowest-risk phenotype, consisting of middle-aged patients with minimal symptom burden and the lowest prevalence of metabolic and cardiovascular comorbidities. Cluster 3 reflected an older, metabolically burdened phenotype with high rates of diabetes, hyperlipidemia, and cardiovascular disease but without enrichment for aggressive tumor features. In contrast, Cluster 4 represented a small but clinically severe subgroup, characterized by advanced age, high comorbidity burden, increased lymph-node–related symptoms, and enrichment for advanced stage and metastatic disease. Clinical stage distribution differed markedly across clusters, with Clusters 1 and 2 predominantly composed of early-stage disease, Cluster 3 showing intermediate stage distribution, and Cluster 4 enr",
+  "publication_date": "2026-08-01",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "European Journal of Endocrinology",
+  "oa_status": "hybrid",
+  "oa_url": "https://academic.oup.com/ejendo/article-pdf/195/Supplement_1/lvag096.553/70596923/lvag096.553.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42487114",
+  "doi": "10.1186/s12911-026-03708-6",
+  "openalex_id": "W7170053315",
+  "title": "Correction: Diagnostic performance of machine learning and deep learning algorithms for thyroid cancer metastasis: a systematic review and meta-analysis",
+  "abstract": "",
+  "publication_date": "2026-07-23",
+  "type": "erratum",
+  "is_preprint": false,
+  "venue": "BMC Medical Informatics and Decision Making",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42564799",
+  "doi": "10.3389/fendo.2026.1848554",
+  "openalex_id": "W7170137423",
+  "title": "Nomogram for postoperative pathological stratification of ≥0.2 cm clinically significant lymph node metastasis burden in pN1 papillary thyroid carcinoma: development and validation using L2 ridge penalized logistic regression",
+  "abstract": "Background: The maximum diameter of metastatic lymph node (LNM) foci serves as a core indicator for individualized postoperative management of papillary thyroid carcinoma (PTC). The 2015 ATA guidelines adopt 0.2 cm as a cutoff value to distinguish clinically significant lymph node metastasis (LNM, ≥0.2 cm) from LNM micrometastasis (<0.2 cm), with distinct follow-up regimens and adjuvant radioactive iodine (¹³¹I) therapy indications for the two groups. Existing predictive models only judge the presence or absence of preoperative LNM, lacking dedicated risk stratification tools for pathologically confirmed pN1 patients to quantify nodal metastatic tumor burden. Conventional maximum-likelihood logistic regression is prone to complete data separation and extreme odds ratio (OR) inflation when analyzing low-prevalence pathological markers such as extranodal extension (ENE). To resolve this methodological limitation, we developed a predictive nomogram based on L2 ridge penalized logistic regression using postoperative paraffin-embedded pathological data only. Objective: To screen independent pathological predictors of ≥0.2 cm clinically significant LNM in patients with classical pN1 PTC, construct a visualized postoperative risk stratification nomogram, and improve the statistical robustness of predictive models built on sparse pathological datasets via L2 ridge penalized logistic regression. Methods: This single-center retrospective study enrolled 212 patients with pathologically ",
+  "publication_date": "2026-07-23",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Frontiers in Endocrinology",
+  "oa_status": "gold",
+  "oa_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1848554/pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42469052",
+  "doi": "10.1016/j.ultrasmedbio.2026.06.017",
+  "openalex_id": "W7169683998",
+  "title": "Multimodal Deep Fusion of Ultrasound Images and Clinical Factors for Pre-operative Prediction of Lateral Cervical Lymph Node Metastasis in Papillary Thyroid Carcinoma",
+  "abstract": "",
+  "publication_date": "2026-07-18",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Ultrasound in Medicine & Biology",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42467019",
+  "doi": "10.1002/jum.70363",
+  "openalex_id": "W7169499597",
+  "title": "Prediction of Central Lymph Node Metastasis in Papillary Thyroid Carcinoma Using Multi‐Ultrasound Radiomics of Intratumoral and Peritumoral Regions",
+  "abstract": "OBJECTIVE: The aim of this study was to integrate multimodal intratumoral and peritumoral ultrasound radiomic features with clinical data to construct a predictive model for central lymph node metastasis (CLNM) in patients with papillary thyroid carcinoma (PTC) and to explore its clinical utility. METHODS: A total of 470 PTC patients who underwent 2-dimensional (2D) ultrasound, color Doppler flow imaging (CDFI), and strain elastography (SE) were enrolled between June 2021 and September 2023. Patients were randomly divided into a training group (n = 329) and a validation group (n = 141) in a 7:3 ratio. Imaging features were extracted from multimodal intratumoral and peritumoral ultrasound images, followed by feature selection. A multimodal intratumoral and peritumoral ultrasound radiomics model was constructed using machine learning algorithms. Univariate and multivariate logistic regression analyses identified independent clinical predictors, which were used to build a clinical model. The ultrasound radiomics model was then integrated with the clinical model to form a combined model (the RadClip model). RESULTS: The multimodal intratumoral and peritumoral radiomics model achieved AUCs of 0.936 and 0.843 in the training and validation groups. Multivariate analysis identified male, high elasticity score, irregular margins, hyperechoic areas, and the presence of suspicious lymph nodes as independent predictors of CLNM (P < .05). The clinical model achieved AUCs of 0.750 and 0.73",
+  "publication_date": "2026-07-17",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Journal of Ultrasound in Medicine",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42470069",
+  "doi": "10.1097/md.0000000000049837",
+  "openalex_id": "W7169573645",
+  "title": "Risk factors for cervical lymph node metastasis in patients with papillary thyroid carcinoma in Anhui Province, China: A retrospective study (2023–2025)",
+  "abstract": "Cervical lymph node metastasis (CLNM) plays a crucial role in determining the surgical strategy for patients with papillary thyroid carcinoma (PTC). This study aimed to identify predictive factors for CLNM based on ultrasound features and gene mutation characteristics, and to develop a nomogram model for individualized risk prediction. A total of 171 patients with pathologically confirmed PTC who underwent surgery between January 2023 and October 2025 were retrospectively analyzed. Patients were randomly divided into a training set (n = 131) and a validation set (n = 40) at a ratio of 7:3. Clinical characteristics, ultrasound imaging features, and thyroid-related gene mutations were collected. Univariate and multivariate logistic regression analyses were performed to identify independent risk factors for CLNM, and a nomogram model was subsequently constructed. Model performance was evaluated using receiver operating characteristic curves, calibration analysis with the Hosmer-Lemeshow test, and decision curve analysis. Significant differences were observed between groups in terms of sex, tumor shape, boundary, calcification, and capsule contact (all P < .05). Multivariate logistic regression identified sex (odds ratio [OR] = 2.817), irregular shape (OR = 5.585), obscure boundary (OR = 2.074), calcification (OR = 3.515), and capsule contact (OR = 2.927) as independent predictors of CLNM in PTC (all P < .05). A nomogram was constructed based on these variables. The area under th",
+  "publication_date": "2026-07-17",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Medicine",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42534915",
+  "doi": "10.3389/fimmu.2026.1888899",
+  "openalex_id": "W7168935688",
+  "title": "99mTc-FAPI-YQ3 SPECT/CT for characterizing FAPI uptake phenotypes and metabolic-stromal heterogeneity in advanced differentiated thyroid carcinoma: a prospective single-center imaging-radiomics study",
+  "abstract": "Objective: Advanced and metastatic differentiated thyroid carcinoma (DTC), particularly radioactive iodine (RAI)-refractory disease, is characterized by spatially heterogeneous tumor biology and limited therapeutic options. Fibroblast activation protein inhibitor (FAPI)-targeted imaging may provide noninvasive imaging correlates of stromal-related tumor phenotypes; however, tracer uptake should not be interpreted as direct tissue proof of FAP expression without immunohistochemical or multi-omics validation. This exploratory study evaluated 99mTc-FAPI-YQ3 SPECT/CT for characterizing FAPI uptake phenotypes and metabolic-stromal imaging heterogeneity in advanced DTC. Methods: A quinolone-derived FAPI pharmacophore was designed using scaffold-hopping and conformational-constraint strategies and radiolabeled with 99mTc. From June 2024 to February 2025, patients with pathologically confirmed DTC and locally advanced, recurrent, nodal metastatic, or distant metastatic disease were prospectively enrolled in this single-center observational study. No formal sample-size calculation was performed because the study was designed as an exploratory first clinical imaging-radiomics analysis. All patients underwent whole-body 99mTc-FAPI-YQ3 SPECT/CT and 18F-FDG PET/CT within 1 week. Lesion detection, biodistribution, tumor-to-background ratio (TBR), dual-tracer concordance, and exploratory radiomics classification of FAPI uptake phenotypes were analyzed. Results: Seventeen patients with 103 l",
+  "publication_date": "2026-07-16",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Frontiers in Immunology",
+  "oa_status": "gold",
+  "oa_url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1888899/pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.21203/rs.3.rs-9988983/v1",
+  "openalex_id": "W7167919414",
+  "title": "Survival and Recurrence in Thyroid Cancer Brain Metastases: Prognostic Factors and Treatment Implications",
+  "abstract": "",
+  "publication_date": "2026-07-10",
+  "type": "preprint",
+  "is_preprint": true,
+  "venue": "Research Square",
+  "oa_status": "green",
+  "oa_url": "https://www.researchsquare.com/article/rs-9988983/latest.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42420994",
+  "doi": "10.1186/s12902-026-02404-w",
+  "openalex_id": "W7167679163",
+  "title": "Clinical significance of coexisting Hashimoto’s thyroiditis in differentiated thyroid cancer: a retrospective cohort study",
+  "abstract": "BACKGROUND: The association between Hashimoto's Thyroiditis (HT) and the clinicopathological behavior of Differentiated Thyroid Cancer (DTC) remains controversial. In particular, whether coexisting autoimmune thyroiditis independently influences invasive tumor characteristics after adjustment for tumor-related factors remains unclear. This study aimed to evaluate the relationship between HT and clinicopathological features of DTC, with a focus on tumor size, lymph node metastasis, and pathological indicators of tumor aggressiveness. METHODS: This retrospective observational study included 198 patients with histologically confirmed DTC who underwent thyroidectomy between June 2023 and March 2025. Patients were stratified according to the presence or absence of Hashimoto's Thyroiditis. Tumor size, lymph node metastasis, capsular invasion, and extrathyroidal extension were compared between groups. Tumor aggressiveness was defined as capsular invasion and/or extrathyroidal extension. Multivariate logistic regression analysis was performed to assess independent associations. Model performance was evaluated using receiver operating characteristic (ROC) analysis and nomogram visualization. RESULTS: Patients with coexisting HT presented with significantly smaller tumors compared with those without HT (median tumor size: 9 mm vs. 12 mm; p = 0.003). Lymph node metastasis was observed less frequently in the HT group than in the non-HT group (4.1% vs. 46.8%; p < 0.001). In multivariate a",
+  "publication_date": "2026-07-08",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "BMC Endocrine Disorders",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42421358",
+  "doi": "10.4274/dir.2026.264048",
+  "openalex_id": "W7167724059",
+  "title": "Preoperative prediction of occult high-volume central lymph node metastasis in clinically node-negative papillary thyroid carcinoma using a multimodal practical model: development, temporal validation, and external validation",
+  "abstract": "PURPOSE: Preoperative risk estimation of occult high-volume central lymph node metastasis (CLNM) in clinically node-negative (cN0) papillary thyroid carcinoma (PTC) remains challenging. We aimed to develop and validate a practical multimodal model integrating conventional ultrasound and radiomics for individualized preoperative risk stratification. METHODS: In this retrospective, two-center, multicohort study, 814 patients with cN0 PTC were included and assigned to a development cohort (n = 470), a temporal validation cohort (n = 202), and an external validation cohort (n = 142). Preoperative clinical variables and grayscale ultrasound radiomics features were evaluated. Least absolute shrinkage and selection operator regression was used for feature selection. Four candidate machine-learning algorithms were compared in the development cohort, and the selected classifier was used to construct clinical, radiomics, and fusion models. Model performance was assessed in terms of discrimination, calibration, and clinical utility. SHapley Additive exPlanations (SHAPs) analysis and a web-based calculator were used to improve interpretability and applicability. RESULTS: Three clinical predictors and 20 radiomics features were retained. Random forest was selected for final model construction. In the temporal validation cohort, the clinical, radiomics, and fusion models achieved area under the curve (AUC) values of 0.703, 0.755, and 0.845, respectively; in the external validation cohort, ",
+  "publication_date": "2026-07-08",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Diagnostic and Interventional Radiology",
+  "oa_status": "diamond",
+  "oa_url": "https://dirjournal.org/pdf/beb8919b-f013-4ea1-b1c8-40332e840fe1/articles/dir.2026.264048/2026.264048.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42460310",
+  "doi": "10.3389/fendo.2026.1877295",
+  "openalex_id": "W7166813983",
+  "title": "Development and validation of a prediction model for psychological distress in patients with differentiated thyroid cancer undergoing ¹³¹I therapy",
+  "abstract": "Objective To develop and validate a risk prediction model for psychological distress in patients with differentiated thyroid cancer (DTC) undergoing ¹³¹I therapy. Methods A total of 247 DTC patients who received ¹³¹I therapy at a tertiary Grade A hospital in Taiyuan between May and December 2025 were enrolled. Independent risk factors for psychological distress were identified to construct the model. Model performance was evaluated using receiver operating characteristic (ROC) curves, the Hosmer-Lemeshow test, and calibration curves. Results Multivariate logistic regression identified poor sleep quality, thyroid-stimulating hormone (TSH) stimulation, pulmonary metastasis, social support, radiation exposure concerns, and lower serum 25-hydroxyvitamin D levels as independent risk factors (all P < 0.05). The nomogram model achieved an area under the ROC curve (AUC) of 0.835, with a sensitivity of 83.1% and a specificity of 68.2%. The Hosmer-Lemeshow test yielded a χ² of 12.064 ( P = 0.148). Calibration curves and decision curve analysis (DCA) confirmed good calibration and clinical utility. Internal validation via bootstrap resampling and 10-fold cross-validation produced AUCs of 0.82 and 0.77, respectively. Conclusion This internally validated model is a promising tool for predicting psychological distress in DTC patients undergoing ¹³¹I therapy. However, external validation in larger, multicenter cohorts is necessary before routine clinical use can be recommended.",
+  "publication_date": "2026-07-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Frontiers in Endocrinology",
+  "oa_status": "gold",
+  "oa_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1877295/pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42592030",
+  "doi": "10.21037/gs-2026-0193",
+  "openalex_id": "W7171505439",
+  "title": "Development and validation of a predictive nomogram for cervical lymph node metastasis in aspect ratio ≥1 papillary thyroid carcinoma using ultrasonic features and serum calcitonin",
+  "abstract": "Background: Preoperative prediction of cervical lymph node metastasis (CLNM) remains challenging in patients with papillary thyroid carcinoma (PTC) exhibiting an aspect ratio ≥1, a subgroup in which ultrasound alone has limited sensitivity (approximately 50%) and no dedicated predictive model currently exists. This study aimed to develop and internally validate a predictive nomogram combining ultrasonic features and serum calcitonin for CLNM in this specific population. Methods: This retrospective study consecutively enrolled 156 patients with aspect ratio ≥1 PTC who underwent thyroidectomy and neck lymph node dissection at a single center (November 2023 to June 2025). The gold standard outcome was pathologically confirmed CLNM. Forty-six candidate predictors (clinical, ultrasonographic, and serological variables) were collected. Predictor selection was performed using least absolute shrinkage and selection operator (LASSO) regression with 10-fold cross-validation, followed by multivariate logistic regression. A nomogram was constructed and internally validated using 1,000 bootstrap resamples. Model performance was assessed by area under the curve (AUC), calibration curve, sensitivity, specificity, and decision curve analysis (DCA). Results: Among 156 patients [116 females, 40 males; median age 52 years, interquartile range (IQR), 45-57 years], CLNM was present in 48 patients (30.8%). Five independent predictors were identified: multifocality [odds ratio (OR) =5.87; 95% confi",
+  "publication_date": "2026-07-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Gland Surgery",
+  "oa_status": "diamond",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42591786",
+  "doi": "10.21037/gs-2026-0259",
+  "openalex_id": "W7171509943",
+  "title": "Development and internal validation of a multivariable MRI-based radiomics prediction model for preoperative cervical lymph node metastasis in thyroid cancer",
+  "abstract": "Background: Accurate preoperative assessment of cervical lymph node metastasis (LNM) is crucial for surgical planning in thyroid cancer (TC), yet conventional ultrasound and computed tomography have limited sensitivity. This study aimed to develop and internally validate a magnetic resonance imaging (MRI)-based radiomics prediction model for preoperative LNM status in patients with TC. Methods: We prospectively enrolled 97 consecutive patients with pathologically confirmed TC who underwent preoperative MRI and cervical lymph node dissection at The First Affiliated Hospital of Guangxi Medical University from April 2017 to January 2019. The reference standard was histopathology. Patients were randomly divided into training and validation sets at a 7:3 ratio. A total of 1,691 radiomics features were extracted from T2-weighted imaging (T2WI) and T1-weighted heterogeneous contrast-enhanced imaging (T1C+), respectively. Using the Boruta algorithm, we selected a subset of optimized features for the radiomics signature, and a random forest algorithm was used to construct the radiomics model. Subsequently, the ability of this model to predict the status of lymph nodes of patients with TC was evaluated through receiver operating characteristic (ROC) curve analysis. Results: The combined model had better diagnostic performance than did models based on T2WI and T1C+ alone. Of the 97 patients, 61 (62.9%) were LNM-positive. In the training set, the area under the curve (AUC) values for the",
+  "publication_date": "2026-07-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Gland Surgery",
+  "oa_status": "diamond",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1093/ejendo/lvag128.014",
+  "openalex_id": "W7204466050",
+  "title": "AD16 Secondary adrenal insufficiency with thyroid dysfunction induced by immune checkpoint inhibitors: a case series",
+  "abstract": "Abstract Background/Introduction Immune checkpoint inhibitors (ICIs) are increasingly used across a broad range of malignancies. Although thyroid dysfunction represents the most common endocrine immune-related adverse event, secondary adrenal insufficiency (SAI) is an important but less frequent complication, with a reported incidence ranging from 0.7% to 4%. Case presentation We present three patients who developed SAI during ICI therapy. The first patient was a 76-year-old woman with popliteal melanoma treated with adjuvant nivolumab. Three months after treatment initiation, she developed antibody-negative primary hypothyroidism. Nine months after starting nivolumab, she presented with profound weakness, vomiting, hypotension, and hypoglycaemia. Undetectable morning cortisol and ACTH confirmed SAI, while pituitary magnetic resonance imaging demonstrated only mild heterogeneity without additional pituitary hormone deficiencies. Hydrocortisone replacement resulted in rapid clinical improvement. The second patient was a 43-year-old woman with metastatic renal cell carcinoma treated with nephrectomy, radiotherapy, targeted therapies, and six cycles of nivolumab. She presented with fatigue and nausea and was diagnosed with antibody-negative primary hypothyroidism, SAI (cortisol 4.2 nmol/L, ACTH 7.5 pg/mL), and seronegative arthritis, while the remaining pituitary axes were preserved. The third patient was a 65-year-old man with pulmonary adenocarcinoma enrolled in a clinical tri",
+  "publication_date": "2026-08-01",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "European Journal of Endocrinology",
+  "oa_status": "hybrid",
+  "oa_url": "https://academic.oup.com/ejendo/article-pdf/195/Supplement_2/lvag128.014/70769551/lvag128.014.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "d"
+  ],
+  "dimensions": [
+   "IM"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "免疫微环境"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1093/ejendo/lvag096.691",
+  "openalex_id": "W7213302547",
+  "title": "EP87 - ECE_1759 - Primary adrenal insufficiency and subclinical hypothyroidism induced by immune checkpoint inhibitors: a rare endocrine immune-related adverse event",
+  "abstract": "Abstract Background Immune checkpoint inhibitors (ICIs), including CTLA-4 monoclonal antibodies, are increasingly used in oncology and are associated with immune-related endocrine adverse events. While hypophysitis with secondary adrenal and thyroid insufficiency is relatively common, primary adrenal insufficiency remains extremely rare, with only isolated cases reported in the literature. Case Presentation We report the case of a 58-year-old male diagnosed with right renal cell carcinoma, treated with an immune checkpoint inhibitor in combination with a CTLA-4 monoclonal antibody. After approximately 8 months of therapy, the patient developed progressive asthenia and recurrent episodes of hypotension, leading to multiple emergency department admissions. Despite repeated evaluations, no definitive diagnosis was established until August 2025, when the patient was referred to the endocrinology department. Endocrine assessment revealed primary adrenal insufficiency, confirmed by low cortisol levels with elevated ACTH (>1300 pg/mL), and subclinical hypothyroidism, characterized by elevated TSH (8,6 uUI/mL n.v. 0,4-4,2) with normal free thyroxine levels. No clinical or biochemical evidence of hypopituitarism was identified. Adrenal imaging excluded metastatic involvement. Hormone replacement therapy resulted in significant clinical improvement. Discussion Primary adrenal failure induced by ICIs is exceptionally rare, particularly in contrast to secondary adrenal insufficiency due ",
+  "publication_date": "2026-08-01",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "European Journal of Endocrinology",
+  "oa_status": "hybrid",
+  "oa_url": "https://academic.oup.com/ejendo/article-pdf/195/Supplement_1/lvag096.691/70595957/lvag096.691.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "d"
+  ],
+  "dimensions": [
+   "IM"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "免疫微环境"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1093/ejendo/lvag096.1760",
+  "openalex_id": "W7213307829",
+  "title": "EP1651 - ECE_3381 - Pembrolizumab-induced secondary adrenal insufficiency and thyroid dysfunction",
+  "abstract": "Abstract Pembrolizumab is a monoclonal antibody that blocks the programmed death receptor-1 (PD-1) on T cells and prevents cancer cells expressing PD-L1 ligand from using this pathway for suppression of the host immune system. It is successfully used for the treatment of various malignancies. Pembrolizumab allows T-cell reactivation leading to a more potent antitumor immune response. T-cell overactivity due to increased proliferation and a Th1/Th2 balance shift may cause autoimmune-driven destruction of endocrine tissues with or without autoantibody-mediated dysfunction. We present a 67-year-old male with a history of BRAF-negative metastatic melanoma with unknown primary, which was diagnosed by the examination of an enlarged cervical lymph node. Treatment with pembrolizumab was started and stable partial response achieved. After the fourth cycle of treatment (after 3 months), an increased level of FT4 was found (28 pmol/L), with suppressed TSH and undetectable TPOAb. A thyroid ultrasound showed a few spongiform micronodules. The treatment with low dose of methimazole was started in local hospital. After four months (eleven cycles of treatment) the patient presented to the emergency department due to extreme fatigue, hypotension, nausea and weight loss. Serum cortisol measured sporadically during the treatment was normal, but at the time of presentation a significant decrease of cortisol (38 nmol/L) and ACTH (1.8 ng/L) was found. Also, hypothyroidism on 5 mg of methimazole wa",
+  "publication_date": "2026-08-01",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "European Journal of Endocrinology",
+  "oa_status": "hybrid",
+  "oa_url": "https://academic.oup.com/ejendo/article-pdf/195/Supplement_1/lvag096.1760/70541354/lvag096.1760.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "d"
+  ],
+  "dimensions": [
+   "IM"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "免疫微环境"
+  ]
+ },
+ {
+  "pmid": "42510113",
+  "doi": "10.3390/diagnostics16142250",
+  "openalex_id": "W7169714865",
+  "title": "Integrated Bioinformatics and Experimental Validation Reveal the Diagnostic and Prognostic Value of SMDT1 in Thyroid Carcinoma",
+  "abstract": "Background: Thyroid carcinoma (THCA), especially papillary thyroid carcinoma (PTC), remains clinically challenging because recurrence and metastasis occur in a subset of patients. SMDT1 is an essential regulator of the mitochondrial calcium uniporter complex that may influence tumor progression, but its role in thyroid carcinoma is unclear. This study investigated the expression, clinical significance, and biological functions of SMDT1 in thyroid carcinoma. Methods: Public databases were used to analyze SMDT1 expression, diagnostic value, prognostic relevance, co-expression networks, functional enrichment, protein interactions, and immune infiltration. SMDT1 expression was validated in 50 paired PTC and adjacent non-tumorous tissues. In vitro SMDT1 overexpression was performed in PTC cell lines, followed by quantitative real-time polymerase chain reaction (qRT-PCR), Western blotting (WB), CCK-8, colony formation, wound healing, and transwell assays. Results:SMDT1 was significantly downregulated in thyroid carcinoma tissues, PTC tissues, and PTC cell lines. Low SMDT1 expression was associated with lymph node metastasis and shorter disease-free survival. Functional analyses linked SMDT1 with mitochondrial calcium transport, oxidative phosphorylation, apoptosis, cellular senescence, and immune infiltration, including CD8+ T cells and activated NK cells. SMDT1 overexpression significantly suppressed PTC cell proliferation, colony formation, migration, and invasion. Conclusions:SM",
+  "publication_date": "2026-07-18",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Diagnostics",
+  "oa_status": "gold",
+  "oa_url": "https://www.mdpi.com/2075-4418/16/14/2250/pdf?version=1784370612",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "d"
+  ],
+  "dimensions": [
+   "IM"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "免疫微环境"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.21203/rs.3.rs-10044394/v1",
+  "openalex_id": "W7168392723",
+  "title": "Mechanism of HOXC10-mediated CCL2 transcriptional activation inducing M2 polarization in tumor-associated macrophages and promoting thyroid cancer metastasis",
+  "abstract": "",
+  "publication_date": "2026-07-15",
+  "type": "preprint",
+  "is_preprint": true,
+  "venue": "Research Square",
+  "oa_status": "green",
+  "oa_url": "https://www.researchsquare.com/article/rs-10044394/latest.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "d"
+  ],
+  "dimensions": [
+   "IM"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "免疫微环境"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1093/ejendo/lvag096.534",
+  "openalex_id": "W7213354039",
+  "title": "P403 - ECE_1776 - Identification of a senescent-like cell population with a low differentiation state in BRAFV600E-mutated follicular cell-derived thyroid carcinoma",
+  "abstract": "Abstract Introduction The role of senescence in follicular cell-derived thyroid carcinoma (FCDTC) has been confirmed in vitro and in vivo. While senescence markers, including SA-β-gal activity, p16, and p21 expression, vary across tumor contexts and thyroid cancer progression, the role of thyroid senescent tumor cells and their secretome has been confirmed at the invasive front where these cells contribute to collective migration and invasion. Here we explore the spatial heterogeneity and relationship between senescent markers and tumor differentiation to refine the characterization of senescent cells in BRAFV600E FCDTC. Methods Published single-cell transcriptomic datasets and Xenium spatial sequencing data from BRAFV600E FCDTC were analyzed. Thyroid Differentiation Score (TDS) and senescence signatures (Fridman_up, SenMayo) were assessed in clustered and spatially sequenced tumors. Differential gene expression analyses were conducted to identify novel markers of senescent tumor cells. Immunohistological validations were performed on differentiated and high-grade FCDTC to further assess senescence markers (SA-β-gal, p16, and p21) and validate a candidate marker (LAMC2, a known senescence-associated candidate gene). Results Single-cell transcriptomic analysis of 109956 cells integrated from 18 samples identified a FCDTC cell population with a lower Thyroid Differentiation Score that was enriched for CDKN2A expression and senescence signatures. Histological stainings demonstra",
+  "publication_date": "2026-08-01",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "European Journal of Endocrinology",
+  "oa_status": "hybrid",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 2,
+  "queries": [
+   "e",
+   "f"
+  ],
+  "dimensions": [
+   "SC",
+   "SP"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "单细胞",
+   "空间组学"
+  ]
+ },
+ {
+  "pmid": "42459642",
+  "doi": "10.3389/fimmu.2026.1863184",
+  "openalex_id": "W7166842390",
+  "title": "Spatially resolved immune niches in thyroid cancer: from hot–cold–excluded ecosystems to precision immunotherapy",
+  "abstract": "Although the overall prognosis of most thyroid cancers is relatively good, the benefits of immunotherapy in advanced, dedifferentiated, and some special subtypes still show significant heterogeneity. The existing evaluation frameworks based on PD-L1, tumor mutational burden, or conventional transcriptomic signals are insufficient to explain the complex and variable immune response patterns among different patients and within the same tumor. In recent years, single-cell sequencing, spatial transcriptomics, and related spatial multi-omics studies have shown that the immune microenvironment of thyroid cancer is not a homogeneous background but is composed of multiple local ecological niches with clear spatial organizational characteristics. These ecological niches have significant differences in cell composition, functional state, and interaction mode. The current evidence suggests that the regions rich in B cells and tertiary lymphoid structures in papillary thyroid carcinoma are often associated with relatively indolent clinical behaviors; undifferentiated thyroid carcinoma more frequently presents as an inhibitory spatial pattern characterized by macrophages, cancer-associated fibroblasts, and immune exclusion boundaries; and the neural-immune crosstalk in medullary thyroid carcinoma further indicates that some \"cold\" immune phenotypes may be actively shaped by neuroendocrine signals. From the perspective of spatial immune niches, this article re-examines the biological basis",
+  "publication_date": "2026-07-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Frontiers in Immunology",
+  "oa_status": "gold",
+  "oa_url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1863184/pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 2,
+  "queries": [
+   "e",
+   "f"
+  ],
+  "dimensions": [
+   "SC",
+   "SP"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "单细胞",
+   "空间组学"
+  ]
+ },
+ {
+  "pmid": "42447050",
+  "doi": "10.1530/erc-25-0515",
+  "openalex_id": "W7167824655",
+  "title": "Developing an epithelial signature for prognosis of papillary thyroid carcinoma",
+  "abstract": "Papillary thyroid carcinoma (PTC) shows heterogeneous clinical behavior, and current clinicopathologic factors do not fully capture epithelial aggressiveness or tumor microenvironment (TME) remodeling. We integrated single-cell RNA sequencing (scRNA-seq) datasets from normal thyroid tissue, primary PTC, and lymph-node metastases to construct a cross-stage cellular atlas and to characterize epithelial and T/NK cell heterogeneity. Guided by the malignant epithelial program identified at single-cell resolution, we developed a four-gene risk signature in the TCGA-THCA cohort using Cox and LASSO regression. We further evaluated pathway activity, immune and stromal features, T cell receptor (TCR) diversity, and exploratory in silico drug-response patterns, and we performed small interfering RNA (siRNA)-mediated knockdown of TMEM45A and STC1 in PTC cell lines. The integrated atlas revealed stage-related remodeling of epithelial, immune, and stromal compartments and identified a malignant epithelial state enriched for proliferation-, stress-, and migration-related programs. The four-gene signature was associated with overall survival stratification in TCGA-THCA after adjustment for age, sex, and stage. The high-risk group showed reduced immune infiltration, stronger stromal and epithelial-mesenchymal transition (EMT) signals, lower TCR diversity, and distinct predicted drug-response patterns. In vitro, TMEM45A or STC1 silencing suppressed proliferation and migration and altered EMT-r",
+  "publication_date": "2026-07-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Endocrine Related Cancer",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "e"
+  ],
+  "dimensions": [
+   "SC"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "单细胞"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": null,
+  "openalex_id": "W7203659598",
+  "title": "Advances in nuclear medicine diagnosis and treatment of thyroid cancer in 2025",
+  "abstract": "Thyroid cancer is the most prevalent malignancy of the endocrine system. Although most differentiated thyroid cancers (DTC) carry a favorable prognosis, the precision diagnosis and management of radioiodine-refractory DTC (RAIR-DTC), anaplastic thyroid cancer (ATC) and medullary thyroid cancer (MTC) remain formidable clinical challenges. In recent years, nuclear medicine has achieved significant progress in the field of thyroid cancer, with the diagnostic and therapeutic paradigm undergoing a profound transformation from an empirical approach toward individualized precision medicine. Regarding basic mechanistic elucidation, research perspectives have expanded from single driver gene mutations to the spatial dynamic evolution of the tumor microenvironment (TME) and the transport homeostasis control of the sodium-iodide symporter (NIS). Utilizing single-cell and spatial transcriptomics, researchers have systematically mapped the spatial landscape of thyroid cancer evolution, identifying key stromal components and immune regulatory nodes that drive malignant progression. Concurrently, studies focusing on the NIS protein have revealed that the depletion of NIS expression on the plasma membrane driven by accelerated pathological endocytosis, along with the aberrant non-coding RNA networks and chromatin remodeling induced by microenvironmental stress, collectively constitute multiple functional barriers spanning from post-translational protein homeostasis to epigenetic modification",
+  "publication_date": "2026-07-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 2,
+  "queries": [
+   "e",
+   "f"
+  ],
+  "dimensions": [
+   "SC",
+   "SP"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "单细胞",
+   "空间组学"
+  ]
+ },
+ {
+  "pmid": "42340813",
+  "doi": "10.1530/etj-25-0141",
+  "openalex_id": "W7165790510",
+  "title": "Single-cell RNA sequencing: a powerful tool to study heterogeneity in papillary and anaplastic thyroid carcinoma",
+  "abstract": "Thyroid cancers are a complex ecosystem comprising cancer cells along with stromal and immune cells in the tumor microenvironment. In recent years, single-cell RNA sequencing has transformed our understanding of tumor heterogeneity, enabling in-depth analysis of thyroid cancer biology both within and across tumors. In this review, we explore the insights provided by this technology into the study of papillary and anaplastic thyroid carcinomas. We examine the phenotypic heterogeneity observed among cancer cells themselves, as well as the changes orchestrated by tumor cells in stromal and immune populations during cancer progression.",
+  "publication_date": "2026-06-24",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "European Thyroid Journal",
+  "oa_status": "diamond",
+  "oa_url": "https://etj.bioscientifica.com/downloadpdf/view/journals/etj/aop/ETJ-25-0141/ETJ-25-0141.pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "e"
+  ],
+  "dimensions": [
+   "SC"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "单细胞"
+  ]
+ },
+ {
+  "pmid": "42329337",
+  "doi": "10.1007/s12672-026-05278-5",
+  "openalex_id": "W7165559078",
+  "title": "Integrated bulk and single-cell RNA sequencing reveals a prognostic neuro-mimicry signature in papillary thyroid carcinoma",
+  "abstract": "BACKGROUND: Cancer cells can acquire neuron-like characteristics (\"neural mimicry\") to promote progression. However, the role of specific ion channel genes in Papillary Thyroid Carcinoma (PTC) and their clinical significance remains unclear. METHODS: We included transcriptomic data from 521 PTC patients in the TCGA cohort. A neuron-specific gene set was used to screen for potential targets. We constructed a prognostic model using LASSO logistic regression. To verify the cellular origin of the signature, we performed single-cell RNA sequencing (scRNA-seq) analysis on the GSE184362 dataset. RESULTS: We established an 8-gene signature involving KCNN4, KCNN1, KCNT2, SNAP25, KCNK16, GABRG1, GABRG2, and GABRB2. The model demonstrated good predictive performance for lymph node metastasis, with an AUC of 0.721 (95% CI 0.677-0.765). Single-cell analysis of seven integrated tumor samples (N = 65,744 cells) confirmed that GABRB2 was specifically enriched in malignant thyrocytes (EPCAM+/KRT18+) at 200-fold higher detection rates than immune cells (20.0% vs. 0.1%, P ≈ 0), supporting tumor-intrinsic neural mimicry. High-risk patients showed immunosuppressive features with altered immune cell infiltration patterns. CONCLUSION: This study identifies a malignant cell-intrinsic signature for predicting PTC prognosis. Validated by single-cell data, our findings suggest that targeting ion channels may represent a potential therapeutic strategy for modulating neuro-immune interactions in thyroid ",
+  "publication_date": "2026-06-22",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Discover Oncology",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "e"
+  ],
+  "dimensions": [
+   "SC"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "单细胞"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1186/s12964-026-03106-5",
+  "openalex_id": "W7170092883",
+  "title": "Dying cells initiate DLL4–Notch signaling to drive tumor repopulation after insufficient thermal ablation of papillary thyroid carcinoma",
+  "abstract": "Although lacking high-quality clinical evidence, the use of thermal ablation for papillary thyroid carcinoma (PTC) is increasing. Emerging evidence suggests that thermal ablation may accelerate tumor progression in some patients, but the underlying biological mechanisms remain unclear. This study aims to explore the mechanisms of tumor repopulation following thermal ablation and identify possible intervention strategies. In vitro and in vivo models were employed to simulate tumor repopulation after thermal ablation and investigate mechanisms. Clinicopathological features of post-ablation surgical specimens were analyzed, and Xenium in situ spatial transcriptomics was conducted. Time-lapse imaging and RNA-seq explored how dying cells influence surviving cells. qPCR, WB, IHC, and flow cytometry validated molecular mechanisms, while enChIP-MS identified upstream regulators. Post-ablation PTC tissue showed significantly higher proliferative potential. Heat-induced dying cells promote surviving cell repopulation in a contact-dependent manner. Dying cells upregulated DLL4, activating Notch signaling in surviving cells and driving proliferation. Clinical specimens and Xenium in situ spatial transcriptomics revealed elevated Notch activity in tumor cells adjacent to the ablation bed. Inhibition of DLL4–Notch signaling attenuated the dying cell–induced proliferative advantage in vitro and in vivo. enChIP–MS showed HNRNPU enrichment at the DLL4 promoter after heat treatment. Mechanisti",
+  "publication_date": "2026-07-22",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Cell Communication and Signaling",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "f"
+  ],
+  "dimensions": [
+   "SP"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "空间组学"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1530/endoabs.119.ps1-08-10",
+  "openalex_id": "W7204800522",
+  "title": "Comparison of the 2015 and 2025 american thyroid association risk stratification systems in predicting recurrence in differentiated thyroid cancer",
+  "abstract": "",
+  "publication_date": "2026-08-27",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "Endocrine Abstracts",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "g"
+  ],
+  "dimensions": [
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1530/endoabs.119.ps3-04-05",
+  "openalex_id": "W7204842709",
+  "title": "Comparison of the 2015 and 2025 ATA risk stratification systems for structural recurrence in papillary thyroid carcinoma",
+  "abstract": "",
+  "publication_date": "2026-08-27",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "Endocrine Abstracts",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "g"
+  ],
+  "dimensions": [
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42332082",
+  "doi": "10.1007/s10238-026-02229-w",
+  "openalex_id": "W7165539767",
+  "title": "ITM2A promotes thyroid cancer differentiation through metabolic reprogramming and enhances PD-L1-dependent T-cell responses",
+  "abstract": "The differentiation status of thyroid cancer (THCA) is closely associated with prognosis; however, the underlying molecular regulatory mechanisms remain incompletely understood. This study aimed to identify hub genes associated with THCA differentiation based on progression-free interval (PFI)-related genes and to explore the underlying mechanisms. The common database datasets were integrated to identify differentially expressed genes, and univariate Cox regression analysis was performed to determine PFI-related genes. Molecular subtypes were constructed using consensus clustering based on PFI-related genes, and the differentiation status of different subtypes was evaluated. Hub genes were subsequently identified using least absolute shrinkage and selection operator (Lasso) regression and multivariate Cox regression analyses. In vitro experiments were conducted to validate the role of the hub gene in regulating dedifferentiation. Two PFI-related molecular subtypes were identified in this study. Cluster 2 exhibited a higher thyroid differentiation score (TDS), more favorable PFI outcomes, and metabolic features predominantly characterized by oxidative phosphorylation (OXPHOS) and fatty acid oxidation (FAO). ITM2A was identified as a hub gene. High expression of ITM2A promoted differentiation of THCA cells, suppressed malignant characteristics, and drove a metabolic shift from glycolysis toward FAO. In addition, ITM2A counteracted TGF-β-induced dedifferentiation and epithelial-",
+  "publication_date": "2026-06-22",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Clinical and Experimental Medicine",
+  "oa_status": "hybrid",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "i"
+  ],
+  "dimensions": [
+   "ME"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "代谢重编程"
+  ]
+ }
+]

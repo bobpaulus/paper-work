@@ -1,0 +1,724 @@
+[
+ {
+  "pmid": "42217128",
+  "doi": "10.1007/s12672-026-05061-6",
+  "openalex_id": null,
+  "title": "Spatially resolved single cell analysis suggests an APOE NCF1 associated immunosuppressive niche and its prognostic signature in thyroid cancer",
+  "abstract": null,
+  "publication_date": "2026-05-30",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Discover Oncology",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "SP",
+   "IM",
+   "AL",
+   "PR"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "空间组学",
+   "免疫微环境",
+   "算法方法",
+   "预后转移"
+  ],
+  "relevance": "High",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "42153613",
+  "doi": "10.1080/15476278.2026.2670152",
+  "openalex_id": null,
+  "title": "Thyroid cancer-derived exosomal SPP1 promotes tumor progression by driving macrophage M2 polarization through the CD44/JAK2/STAT3 signaling pathway",
+  "abstract": null,
+  "publication_date": "2026-05-19",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Organogenesis",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "IM",
+   "MO"
+  ],
+  "dimension_labels": [
+   "免疫微环境",
+   "分子机制"
+  ],
+  "relevance": "High",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "42583701",
+  "doi": "10.1530/erc-26-0088",
+  "openalex_id": null,
+  "title": "Myeloid landscape of BRAF-mutant papillary thyroid cancer and thyroiditis",
+  "abstract": null,
+  "publication_date": "2026-08-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Endocrine-Related Cancer",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "IM"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "免疫微环境"
+  ],
+  "relevance": "High",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "42557785",
+  "doi": "10.1002/path.70104",
+  "openalex_id": null,
+  "title": "TIM3 as a therapeutic target in anaplastic thyroid cancer: upregulation in M2-like macrophages induced by tumor microenvironment-derived TGFbeta1",
+  "abstract": null,
+  "publication_date": "2026-08-05",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "The Journal of Pathology",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "IM"
+  ],
+  "dimension_labels": [
+   "免疫微环境"
+  ],
+  "relevance": "High",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "42702761",
+  "doi": "10.1002/cam4.72261",
+  "openalex_id": null,
+  "title": "Single-Cell Transcriptome of Anaplastic Thyroid Cancer Reveals Immunosuppressive Tumor Microenvironment Remodeling",
+  "abstract": null,
+  "publication_date": "2026-09-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Cancer Medicine",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "IM",
+   "ST"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "免疫微环境",
+   "转移干性"
+  ],
+  "relevance": "High",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "42008746",
+  "doi": "10.1158/1078-0432.ccr-25-4488",
+  "openalex_id": null,
+  "title": "PRECISE: A Prognostic Thyrocyte-Derived Gene Signature for Papillary Thyroid Carcinoma",
+  "abstract": null,
+  "publication_date": "2026-07-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Clinical Cancer Research",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "PR",
+   "AL"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "预后转移",
+   "算法方法"
+  ],
+  "relevance": "High",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "42098434",
+  "doi": "10.1038/s41416-026-03467-1",
+  "openalex_id": null,
+  "title": "Integrated multi-omics and single-cell analyses identify metabolic heterogeneity and therapeutic vulnerabilities in medullary thyroid cancer",
+  "abstract": null,
+  "publication_date": "2026-05-07",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "British Journal of Cancer",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "ME",
+   "SC",
+   "ST"
+  ],
+  "dimension_labels": [
+   "代谢重编程",
+   "单细胞",
+   "转移干性"
+  ],
+  "relevance": "High",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41761234",
+  "doi": "10.1186/s13046-026-03675-w",
+  "openalex_id": null,
+  "title": "Mechanism of cancer-associated fibroblast-driven thyroid cancer dedifferentiation via the ZFP57-PKM2 axis-mediated lactate secretion and therapeutic intervention with resveratrol",
+  "abstract": null,
+  "publication_date": "2026-02-27",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Journal of Experimental & Clinical Cancer Research",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SP",
+   "ME",
+   "ST",
+   "IM"
+  ],
+  "dimension_labels": [
+   "空间组学",
+   "代谢重编程",
+   "转移干性",
+   "免疫微环境"
+  ],
+  "relevance": "High",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41794039",
+  "doi": "10.1016/j.xcrm.2026.102661",
+  "openalex_id": null,
+  "title": "Proteogenomic characterization delineates clinically relevant subtypes of advanced differentiated thyroid cancer",
+  "abstract": null,
+  "publication_date": "2026-03-06",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Cell Reports Medicine",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "MO",
+   "SP",
+   "AL",
+   "IM"
+  ],
+  "dimension_labels": [
+   "分子机制",
+   "空间组学",
+   "算法方法",
+   "免疫微环境"
+  ],
+  "relevance": "High",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41631714",
+  "doi": "10.1210/endocr/bqag012",
+  "openalex_id": null,
+  "title": "Single-cell analysis identifies ATC-like cells driving progression in relapsed follicular thyroid carcinoma",
+  "abstract": null,
+  "publication_date": "2026-02-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Endocrinology",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "ST"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "转移干性"
+  ],
+  "relevance": "High",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "42653390",
+  "doi": "10.3390/ijms27167387",
+  "openalex_id": null,
+  "title": "CREM Marks TCR-Driven T-Cell Activation and Associates with Favorable Prognosis in Papillary Thyroid Carcinoma",
+  "abstract": null,
+  "publication_date": "2026-08-18",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "International Journal of Molecular Sciences",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "IM",
+   "PR"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "免疫微环境",
+   "预后转移"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "42412534",
+  "doi": "10.1093/gpbjnl/qzag060",
+  "openalex_id": null,
+  "title": "Single-cell RNA Sequencing Reveals A Tumor-Promoting Role of EGR1+CD4+ T Cells in Papillary Thyroid Cancer",
+  "abstract": null,
+  "publication_date": "2026-07-07",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Genomics, Proteomics & Bioinformatics",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "IM"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "免疫微环境"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41748865",
+  "doi": "10.1038/s41598-026-41927-z",
+  "openalex_id": null,
+  "title": "Visualizing malignant progression: in situ CD109-based spatial immunofluorescence assay delineates papillary to anaplastic thyroid carcinoma transformation within the TME",
+  "abstract": null,
+  "publication_date": "2026-02-26",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Scientific Reports",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SP",
+   "IM",
+   "ST"
+  ],
+  "dimension_labels": [
+   "空间组学",
+   "免疫微环境",
+   "转移干性"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41957879",
+  "doi": "10.1002/cam4.71766",
+  "openalex_id": null,
+  "title": "Integrative Single-Cell and Machine Learning Analysis Identifies an EMT-Associated Prognostic Signature for Papillary Thyroid Cancer",
+  "abstract": null,
+  "publication_date": "2026-04-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Cancer Medicine",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "AL",
+   "ST"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "算法方法",
+   "转移干性"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41859299",
+  "doi": "10.2147/itt.s565624",
+  "openalex_id": null,
+  "title": "Macrophage-Derived Transcriptional Signatures Predict Prognosis and Drug Sensitivity in Thyroid Cancer: Integrative Analysis and Experimental Validation of SMYD3",
+  "abstract": null,
+  "publication_date": "2026-01-09",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "ImmunoTargets and Therapy",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "IM",
+   "AL",
+   "PR"
+  ],
+  "dimension_labels": [
+   "免疫微环境",
+   "算法方法",
+   "预后转移"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41739250",
+  "doi": "10.1007/s10238-026-02101-x",
+  "openalex_id": null,
+  "title": "CD44 is associated with papillary thyroid carcinoma metastasis via potential modulation of the immunosuppressive tumor microenvironment",
+  "abstract": null,
+  "publication_date": "2026-02-25",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Clinical and Experimental Medicine",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "IM",
+   "PR"
+  ],
+  "dimension_labels": [
+   "免疫微环境",
+   "预后转移"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41626563",
+  "doi": "10.1016/j.jpha.2025.101354",
+  "openalex_id": null,
+  "title": "CXCL8/SDC1 axis mediates tumor stem cell interactions to drive remote transfer in thyroid cancer",
+  "abstract": null,
+  "publication_date": "2025-06-02",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Journal of Pharmaceutical Analysis",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "SP",
+   "ST"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "空间组学",
+   "转移干性"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41826383",
+  "doi": "10.1038/s41540-026-00663-w",
+  "openalex_id": null,
+  "title": "Integrated multi-omics and single-cell analysis reveals CDKN2A-mediated cuproptosis mechanisms driving thyroid carcinoma progression",
+  "abstract": null,
+  "publication_date": "2026-03-13",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "npj Systems Biology and Applications",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "ME",
+   "MO",
+   "IM"
+  ],
+  "dimension_labels": [
+   "代谢重编程",
+   "分子机制",
+   "免疫微环境"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": null,
+  "doi": "10.21203/rs.3.rs-9248842/v1",
+  "openalex_id": null,
+  "title": "C/EBPbeta Drives Anaplastic Thyroid Cancer Dedifferentiation and Radioiodine Resistance via IL-6/JAK/STAT and EMT Activation",
+  "abstract": null,
+  "publication_date": "2026-05-18",
+  "type": "preprint",
+  "is_preprint": true,
+  "venue": "Research Square [preprint]",
+  "oa_status": "green",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "SP",
+   "ST",
+   "ME"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "空间组学",
+   "转移干性",
+   "代谢重编程"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41663780",
+  "doi": "10.1007/s12672-026-04601-4",
+  "openalex_id": null,
+  "title": "JAG1 expression in papillary thyroid cancer stem-like cells predicts poor prognosis and implicates angiogenesis",
+  "abstract": null,
+  "publication_date": "2026-02-09",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Discover Oncology",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC",
+   "ST"
+  ],
+  "dimension_labels": [
+   "单细胞",
+   "转移干性"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "41697550",
+  "doi": "10.1007/s12020-026-04552-4",
+  "openalex_id": null,
+  "title": "Spatial proteomics and machine learning reveal diagnostic protein signatures for indeterminate thyroid nodules",
+  "abstract": null,
+  "publication_date": "2026-02-16",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Endocrine",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SP",
+   "AL"
+  ],
+  "dimension_labels": [
+   "空间组学",
+   "算法方法"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "42363265",
+  "doi": "10.1186/s13044-026-00306-6",
+  "openalex_id": null,
+  "title": "Single-cell RNA sequencing in thyroid cancer: a methodological review and thyroid specific dissociation protocol",
+  "abstract": null,
+  "publication_date": "2026-06-26",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Thyroid Research",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "SC"
+  ],
+  "dimension_labels": [
+   "单细胞"
+  ],
+  "relevance": "Medium",
+  "source": "EuropePMC"
+ },
+ {
+  "pmid": "42472943",
+  "doi": "10.1007/s00405-026-10456-w",
+  "openalex_id": null,
+  "title": "Comprehensive evaluation of angiogenesis-associated genes in papillary thyroid cancer using bulk RNA and single-cell sequencing data",
+  "abstract": null,
+  "publication_date": "2026-07-19",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "European Archives of Oto-Rhino-Laryngology",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": null,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": [],
+  "queries": [
+   "epmc-supplement"
+  ],
+  "dimensions": [
+   "MO",
+   "SC"
+  ],
+  "dimension_labels": [
+   "分子机制",
+   "单细胞"
+  ],
+  "relevance": "Low",
+  "source": "EuropePMC"
+ }
+]

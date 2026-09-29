@@ -46,13 +46,12 @@
 → git 远程操作（pull / push）必须**绕过沙箱执行**；绕过沙箱后可连通，
 但仍有**偶发 reset**，需重试（实测第 2 次即成功）。最多重试 3 次，间隔 3 秒。
 
-**已纳入版本库**：`lit_review/` 下的检索产物（`search_results_*.json`、`literature_review_*.md`）
-全部入库（2026-09-29 一次性补提历史 63 项，commit `5c62cef`），
-每轮提交**直接 `git add` 即可，不需要 `-f`**。
+**已纳入版本库**：`lit_review/` 目录**整体入库**（2026-09-29），含检索产物
+（`search_results_*.json`、`literature_review_*.md`）、一次性检索脚本（`_build_*.py`、`_enrich_*.py`）、
+方向预研（`D3_D9_*.md`）与 `analysis/`。每轮提交**直接 `git add` 即可，不需要 `-f`**。
 
 `.gitignore` 仅排除：`thyroid_cancer_direction/`、`*.pdf`、`*.log`、`.workbuddy/`、`__pycache__/`。
-`lit_review/` 下的临时脚本（`_build_*.py`、`_enrich_*.py`）与 `analysis/` 目录当前仍未跟踪，
-提交时勿用 `git add -A`，按路径显式添加本轮产物。
+每轮仍按路径显式添加本轮产物，**不要用 `git add -A`**（会把 `D:\paperwork` 顶层未跟踪文件一并带上）。
 
 ## 二、主检索器 / Primary Retriever
 

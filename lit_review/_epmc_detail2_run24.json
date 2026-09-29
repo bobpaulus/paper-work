@@ -1,0 +1,82 @@
+[
+ {
+  "doi": "10.1210/endocr/bqag012",
+  "pmid": "41631714",
+  "title": "Single-cell analysis identifies ATC-like cells driving progression in relapsed follicular thyroid carcinoma.",
+  "journal": "Endocrinology",
+  "date": "2026-02-01",
+  "isPreprint": false,
+  "abstract": "Follicular thyroid carcinoma (FTC) is prone to early distant metastasis and has a poor prognosis compared with papillary thyroid carcinoma (PTC). This study aimed to unravel the cellular and molecular mechanisms underlying FTC progression and its transformation into the aggressive anaplastic thyroid carcinoma (ATC). Through single-cell RNA sequencing (scRNA-seq) profiling of 46 739 cells from PTC, follicular variant PTC (FVPTC), relapsed FTC (RFTC), and ATC, we reconstructed a comprehensive molecular trajectory of thyroid carcinoma progression. Our analysis revealed that PTC, FVPTC, and FTC possess distinct yet converging pathways of dedifferentiating into ATC, with FVPTC also able to progress to FTC. In RFTC, we identified a unique cluster of cells exhibiting ATC molecular characteristics. These cells interact with endothelial cells and fibroblasts mainly via the COL9A3-integrin α1β1 complex and may exhibit high metabolic and proliferative potential. UBE2C was identified as a specific marker for this population, which we termed \"ATC-like cells.\" Functional validation in vitro and in vivo confirmed that UBE2C was markedly upregulated in FTC and was associated with adverse clinical outcomes. Mechanistically, UBE2C promoted cell proliferation and tumor growth, and regulated D-arginine and D-ornithine metabolism, glutathione metabolism, glycerophospholipid metabolism and tryptopha",
+  "isOA": "N"
+ },
+ {
+  "doi": "10.1002/cam4.71766",
+  "pmid": "41957879",
+  "title": "Integrative Single-Cell and Machine Learning Analysis Identifies an EMT-Associated Prognostic Signature for Papillary Thyroid Cancer.",
+  "journal": "Cancer medicine",
+  "date": "2026-04-01",
+  "isPreprint": false,
+  "abstract": "<h4>Background</h4>Epithelial-mesenchymal transition (EMT) plays a critical role in tumor progression; however, the underlying molecular mechanisms of EMT in papillary thyroid carcinoma (PTC) remain incompletely understood. This study aimed to investigate EMT-related mechanisms in PTC using an integrative approach combining single-cell RNA sequencing and machine learning.<h4>Methods</h4>Differentially expressed genes (DEGs) between PTC and normal thyroid tissues were identified, and EMT-related candidate genes were obtained by intersecting DEGs with EMT-related genes (EMT-RGs). Prognostic genes were screened using univariate Cox regression, and a risk model was constructed based on 101 machine learning algorithm combinations. Patients were stratified into high- and low-risk groups (HRG and LRG) according to risk scores, and the model was validated in an internal cohort. Additional analyses included nomogram construction, immune infiltration profiling, tumor mutational burden (TMB) assessment, drug sensitivity prediction, and molecular regulatory network analysis. Prognostic gene expression was further validated in vitro.<h4>Results</h4>Eight EMT-related prognostic genes (TYRO3, E2F1, TNFSF15, TGFBR3, PTX3, FHL2, SNAI1, and WT1) were identified. Patients in the HRG exhibited significantly poorer overall survival than those in the LRG. The nomogram showed good predictive accuracy",
+  "isOA": "Y"
+ },
+ {
+  "doi": "10.1007/s12672-026-04601-4",
+  "pmid": "41663780",
+  "title": "JAG1 expression in papillary thyroid cancer stem-like cells predicts poor prognosis and implicates angiogenesis.",
+  "journal": "Discover oncology",
+  "date": "2026-02-09",
+  "isPreprint": false,
+  "abstract": "<h4>Background</h4>Thyroid cancer stem cells (CSCs) have been implicated in the recurrence and metastasis of thyroid cancer. This study, therefore, explored the properties of thyroid CSC-like cells, cell-cell interactions, and genes associated with prognosis by analyzing single-cell RNA sequencing (scRNA-seq) data and clinical data.<h4>Methods</h4>We analyzed two independent scRNA-seq datasets (GSE191288 and GSE250521) using the Seurat R package. Tumor cells were identified based on copy number variations, and stemness<sup>High</sup> (CSC-like) and stemness<sup>Low</sup> cells were defined using CytoTRACE. Protein-protein interaction (PPI) networks were constructed, after which hub genes were identified using STRING and cytoHubba. Gene ontology analysis was performed using the clusterProfiler R package. CellChat was used for cell-cell interaction analysis. Furthermore, survival analysis was performed using the TCGA database.<h4>Results</h4>Compared to stemness<sup>Low</sup> cells, stemness<sup>High</sup> cells showed upregulation of 1,498 (GSE191288) or 1,274 genes (GSE250521), with 109 genes being commonly upregulated in both datasets. Furthermore, hub genes identified from the PPI network constructed from the co-upregulated genes in both two datasets were implicated in angiogenesis. Subsequent cell-cell interaction analysis revealed strong interactions between JAG1 in stemnes",
+  "isOA": "Y"
+ },
+ {
+  "doi": "10.1038/s41540-026-00663-w",
+  "pmid": "41826383",
+  "title": "Integrated multi-omics and single-cell analysis reveals CDKN2A-mediated cuproptosis mechanisms driving thyroid carcinoma progression.",
+  "journal": "NPJ systems biology and applications",
+  "date": "2026-03-13",
+  "isPreprint": false,
+  "abstract": "Cuproptosis is a recently identified copper-dependent cell death pathway with growing relevance in tumor biology, yet its involvement in thyroid carcinoma (TC) remains poorly understood. In this study, we integrated multi-omics datasets to characterize the functional roles of cuproptosis-related genes (CRGs) in TC progression. Bulk and single-cell transcriptomic datasets from public repositories were analyzed to classify TC into two CRG-based molecular subtypes that showed significant associations with clinicopathological features and immune cell infiltration. A prognostic model derived from CRG-related differentially expressed genes exhibited high predictive accuracy for patient survival. CDKN2A emerged as the only consistently upregulated CRG in TC and correlated with adverse prognosis. Single-cell analyses further revealed distinct cellular distributions of CRGs within the tumor microenvironment, with notable enrichment in immune cell populations. In addition, a previously unrecognized competing endogenous RNA network, the GAS5/miR-128-3p/CDKN2A axis, was identified and experimentally validated. Functional assays demonstrated that this regulatory circuit modulates TC cell proliferation, invasion, and metastasis in vitro and in vivo, with GAS5 acting for miR-128-3p to regulate CDKN2A expression. These findings provide a comprehensive systems-level perspective on cuproptosis-r",
+  "isOA": "Y"
+ },
+ {
+  "doi": "10.2147/itt.s565624",
+  "pmid": "41859299",
+  "title": "Macrophage-Derived Transcriptional Signatures Predict Prognosis and Drug Sensitivity in Thyroid Cancer: Integrative Analysis and Experimental Validation of SMYD3.",
+  "journal": "ImmunoTargets and therapy",
+  "date": "2026-01-09",
+  "isPreprint": false,
+  "abstract": "<h4>Background</h4>Thyroid cancer is the most common malignancy of the endocrine system. Tumor-associated macrophages (TAMs) play a pivotal role in modulating the tumor microenvironment and promoting tumor progression. However, the prognostic implications of macrophage heterogeneity in thyroid cancer remain unclear.<h4>Methods</h4>Single-cell RNA-seq analysis was conducted to identify tumor-enriched macrophage subpopulations and hdWGCNA was used to define related gene modules. A prognostic model was built using 117 machine learning algorithm combinations and validated by Kaplan-Meier analysis. A nomogram combining clinical features and risk scores was established. Genomic alterations, immune profiles, and treatment responses were compared between risk groups using TCGA and GDSC2 datasets. In vitro experiments were performed to validate the role of SMYD3 in tumor progression and drug sensitivity.<h4>Results</h4>Single-cell analysis identified a tumor-enriched macrophage subset with distinct functional states. hdWGCNA revealed macrophage-related gene modules linked to poor prognosis, and a machine learning-based model effectively stratified patient risk. High-risk patients had worse survival, older age, advanced stage, and lower BRAF mutation frequency but more diverse oncogenic alterations. They also showed enhanced T-cell exclusion and altered immune infiltration. Drug predicti",
+  "isOA": "Y"
+ },
+ {
+  "doi": "10.1007/s10238-026-02101-x",
+  "pmid": "41739250",
+  "title": "CD44 is associated with papillary thyroid carcinoma metastasis via potential modulation of the immunosuppressive tumor microenvironment.",
+  "journal": "Clinical and experimental medicine",
+  "date": "2026-02-25",
+  "isPreprint": false,
+  "abstract": "To investigate the role of CD44 in papillary thyroid carcinoma (PTC) lymph node metastasis and its connotation with Treg-mediated immunosuppression through TGF-β and IL-10 signaling. Eighty-two benign thyroid nodule patients were compared with 122 PTC patients. Differentially expressed proteins (DEPs) were identified in both tissue and serum. CD44 expression was validated by ELISA, IHC and flow cytometry. The proportion of Treg and cytokines were analyzed in parallel. The tumor microenvironment architecture was examined using 3D tissue clearing and whole-mount imaging. The functional role of CD44 was further explored using TPC-1 human PTC cell line through gain-of-function and loss-of-function assays in vitro. Proteomic analysis identified 34 tissue and 17 serum DEPs involved in metastasis. CD44 levels in serum were significantly higher in PTC patients than in controls (345.45 ± 44.88 pg/mL vs. 73.33 ± 25.64 pg/mL, P < 0.001). Furthermore, CD44 expression in the serum of CLNM patients was further elevated (782.01 ± 168.38 pg/mL vs. 248.77 ± 55.33 pg/mL, P < 0.001). Multivariate analysis identified CD44 as an independent risk factor for PTC (OR = 5.271, 95% CI: 1.741 ~ 15.959) and CLNM (OR = 3.995, 95% CI: 1.298 ~ 12.298). CD44 levels showed positive correlations with increased TGF-β, IL-10 levels, and Treg frequency. CD44 levels were connected with amplified TGF-β, IL-10, and T",
+  "isOA": "Y"
+ },
+ {
+  "doi": "10.1016/j.jpha.2025.101354",
+  "pmid": "41626563",
+  "title": "CXCL8/SDC1 axis mediates tumor stem cell interactions to drive remote transfer in thyroid cancer.",
+  "journal": "Journal of pharmaceutical analysis",
+  "date": "2025-06-02",
+  "isPreprint": false,
+  "abstract": "This study explores the molecular mechanisms behind the remote transfer of thyroid cancer (THCA) by investigating the interaction network of C-X-C motif chemokine ligand 8<sup>+</sup> (CXCL8<sup>+</sup> monocytes and syndecan-1<sup>+</sup> (SDC1<sup>+</sup>) tumor stem cells using single-cell and spatial transcriptome sequencing. Tumor samples from THCA patients were analyzed using single-cell RNA sequencing (scRNA-seq), spatial transcriptome sequencing, and tumor tissue transcriptome analysis. Data were processed with Seurat and CellChat R packages, integrated via the SPOTlight package, and correlated with clinical data from the UCSC Xena database. Functional pathway enrichment analyses were performed using Gene Set Enrichment Analysis (GSEA), Gene Ontology (GO), and Kyoto Encyclopedia of Genes and Genome (KEGG). <i>In vitro,</i> a co-culture system of monocytes and THCA stem cells was developed, and protein levels were measured via enzyme-linked immunosorbent assay (ELISA) and Western blotting. The self-renewal and migration of follicular thyroid carcinoma (FTC) 238-S cells were assessed through sphere formation, colony formation, Cell Counting Kit-8 (CCK-8), and Transwell assays. <i>In vivo</i>, a subcutaneous tumor xenograft model and a lung metastasis model were established in nude mice. Transcriptomic analyses identified the CXCL8/SDC1 axis as a key mediator of Janus kina",
+  "isOA": "Y"
+ },
+ {
+  "doi": "10.21203/rs.3.rs-9248842/v1",
+  "pmid": null,
+  "title": "C/EBPβ Drives Anaplastic Thyroid Cancer Dedifferentiation and Radioiodine Resistance via IL-6/JAK/STAT and EMT Activation",
+  "journal": null,
+  "date": "2026-05-18",
+  "isPreprint": true,
+  "abstract": "<title>Abstract</title>  <p>  Anaplastic thyroid carcinoma (ATC) is among the most lethal human malignancies, with a median survival of four months. While ATC is thought to arise from papillary thyroid carcinoma (PTC) through dedifferentiation, the molecular drivers underlying this transition remain poorly defined. Here, we integrated single-cell transcriptomics (43,866 cells; PTC,  <italic>n</italic>   = 5; ATC,  <italic>n</italic>   = 3) with spatial transcriptomics from independent cohorts across the disease spectrum. We identified CCAAT/enhancer-binding protein beta (C/EBPβ) as a transcriptionally hyperactivated, genomically amplified master regulator of thyroid cancer dedifferentiation. Trajectory analysis positioned C/EBPβ upregulation as an early molecular switch. Mechanistically, C/EBPβ activates IL-6/JAK/STAT signaling and epithelial-mesenchymal transition (EMT). In PTC cell lines, inducible C/EBPβ expression phenocopied ATC-like aggressive features, enhancing proliferation, migration, and invasion, and conferring radioiodine refractoriness by suppressing the sodium-iodide symporter (NIS). These phenotypes were abrogated by a DNA-binding-deficient mutant and reversed upon withdrawal of C/EBPβ.  <italic>In vivo</italic>  , induction of C/EBPβ accelerated xenograft tumor growth. Furthermore, immunohistochemistry confirmed marked C/EBPβ overexpression in clinical ATC spec",
+  "isOA": "N"
+ }
+]

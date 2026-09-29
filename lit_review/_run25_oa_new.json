@@ -1,0 +1,539 @@
+[
+ {
+  "pmid": null,
+  "doi": "10.21037/gs-2026-0288",
+  "openalex_id": "W7213751932",
+  "title": "Synchronous medullary and papillary thyroid carcinoma with mixed-component lateral cervical lymph node metastases: a case report",
+  "abstract": "Background: Synchronous medullary thyroid carcinoma (MTC) and papillary thyroid carcinoma (PTC) are uncommon thyroid malignancies, whereas mixed-component cervical lymph node metastases containing both tumor components within the same metastatic deposit are exceptionally rare. This case highlights the diagnostic value of integrating discordant site-specific fine-needle aspiration (FNA) findings with serum biomarkers for preoperative recognition of this unusual presentation. Case Description: A 65-year-old man presented with a progressively enlarging right-sided neck mass accompanied by ipsilateral cervical lymphadenopathy for more than two months. Ultrasonography demonstrated a 4.28 cm × 2.28 cm × 2.54 cm Thyroid Imaging Reporting and Data System (TI-RADS) 5 thyroid nodule with multiple enlarged right cervical lymph nodes. Serum calcitonin (Ctn) (1,796.38 ng/L), carcinoembryonic antigen (CEA) (81.69 μg/L), and thyroglobulin (Tg) (163.65 μg/L) levels were markedly elevated. FNA of the thyroid nodule supported MTC, whereas FNA of a metastatic cervical lymph node demonstrated PTC, providing discordant cytological evidence that raised preoperative suspicion of synchronous thyroid malignancies. Total thyroidectomy with bilateral neck dissection revealed multifocal MTC and microscopic contralateral PTC with mixed-component metastases involving 10 cervical lymph nodes. No postoperative complications such as recurrent laryngeal nerve injury or permanent hypoparathyroidism occurred. S",
+  "publication_date": "2026-09-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Gland Surgery",
+  "oa_status": "diamond",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.21037/gs-2026-0281",
+  "openalex_id": "W7213760627",
+  "title": "Treatment strategies for unilateral papillary thyroid carcinoma with ipsilateral cervical lymph node metastasis: a narrative review",
+  "abstract": "Background and Objective: Unilateral papillary thyroid carcinoma (PTC) with ipsilateral cervical lymph-node metastasis carries intermediate-to-high recurrence risk. Although total thyroidectomy is conventionally recommended by multiple clinical guidelines, accumulating real‑world evidence has triggered ongoing debates regarding surgical extent, neck dissection scope, adjuvant radioactive iodine administration and molecular‑guided risk stratification. This narrative review intends to synthesize contemporary clinical evidence and provide references for individualized therapeutic decision‑making for this specific patient population. Methods: Literature was retrieved from PubMed, Embase, and Web of Science up to January 2026. English articles were screened by two reviewers through consensus. This is a narrative review without formal systematic-review procedures. Key Content and Findings: For properly-selected patients, lobectomy provides similar oncological outcomes as total thyroidectomy with fewer complications. Unilateral central neck dissection plus selective lateral neck dissection balances tumour control and surgical morbidity. Aggressive pathological variants and concurrent B-Raf proto-oncogene, serine/threonine kinase (BRAF) V600E/telomerase reverse transcriptase (TERT) promoter dual mutations indicate elevated recurrence and mortality risk. Radioactive iodine (RAI) ablation ought to be determined by integrated risk assessment rather than routine application. Lymph‑node y",
+  "publication_date": "2026-09-01",
+  "type": "review",
+  "is_preprint": false,
+  "venue": "Gland Surgery",
+  "oa_status": "diamond",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42767500",
+  "doi": "10.1016/j.eprac.2026.09.002",
+  "openalex_id": "W7213956911",
+  "title": "Papillary Thyroid Microcarcinoma in the Era of Risk-Adapted Management",
+  "abstract": "",
+  "publication_date": "2026-09-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Endocrine Practice",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "a"
+  ],
+  "dimensions": [
+   "MO",
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "分子机制",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.24976/discov.med.202638212.232",
+  "openalex_id": "W7214063763",
+  "title": "XPR1 Promotes the Malignant Phenotypes of Thyroid Carcinoma Cells Partly Through NF-κB-Related Signaling",
+  "abstract": "Background: Xenotropic and polytropic retrovirus receptor 1 (XPR1) is highly expressed in human thyroid carcinoma (TC), yet its functional role remains unclear. In this study, we sought to determine whether XPR1 participates in the progression of thyroid carcinoma and to further uncover the molecular pathways associated with its function.Methods: XPR1 expression in thyroid carcinoma tissues was analyzed using public databases, including Gene Expression Omnibus (GEO), The Cancer Genome Atlas (TCGA), Gene Expression Profiling Interactive Analysis 2 (GEPIA2), and the Human Protein Atlas (HPA). XPR1 expression in thyroid carcinoma cell lines was further validated by quantitative real-time PCR (qRT-PCR) and Western blotting. Following siRNA-mediated silencing of XPR1, cell proliferative activity, clonogenic potential, and migration and invasion abilities were systematically assessed through Cell Counting Kit-8 (CCK-8) assays, clonogenic analyses, and Transwell-based experiments. Apoptotic events and the activation status of nuclear factor kappa-B (NF-κB) signaling were determined through flow cytometric analysis in combination with immunoblotting assays. Rescue experiments were performed by overexpression of p65 cDNA to restore NF-κB signaling activity.Results: Integrated analyses of GEO, TCGA, GEPIA2, and HPA datasets revealed elevated XPR1 expression in thyroid carcinoma tissues, which was further validated in thyroid carcinoma cell lines by qRT-PCR and Western blotting. Silenci",
+  "publication_date": "2026-09-23",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Discovery Medicine",
+  "oa_status": "hybrid",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "b"
+  ],
+  "dimensions": [
+   "MO"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "分子机制"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.3389/fonc.2026.1921091",
+  "openalex_id": "W7213885752",
+  "title": "A case report and diagnostic-therapeutic analysis of de novo bilateral papillary thyroid carcinoma complicated with stage I a diffuse large B-cell lymphoma (ABC subtype, double-expressor)",
+  "abstract": "Diffuse large B-cell lymphoma (DLBCL) is the most common aggressive non-Hodgkin lymphoma in adults, and papillary thyroid carcinoma (PTC) is the most prevalent type of thyroid malignant tumor. Chronic systemic immune dysregulation, constitutive overactivation of the PI3K/AKT/mTOR and NF-κB signaling axes, reshaped immunosuppressive tissue microenvironment and aberrant B-cell clonal expansion serve as core shared molecular and immunological mechanisms that synergistically predispose patients to synchronous tumorigenesis of papillary thyroid carcinoma and ABC-type double-expressing diffuse large B-cell lymphoma. Both are clinically high-incidence malignancies; however, cases with synchronous diagnosis of de novo double primary DLBCL and PTC are extremely rare in clinical practice. Due to potential symptom overlap or lesion location correlation between the two diseases, misdiagnosis and missed diagnosis are likely to occur. Treatment regimens need to take into account the pathophysiological characteristics, clinical staging of both tumors, and the patient’s individual tolerance, leading to high difficulty in clinical decision-making. This article reports a 49-year-old female patient with de novo double primary bilateral PTC (with right cervical lymph node metastasis, metastasis rate 4/6) and stage I A DLBCL (not otherwise specified, activated B-cell-like subtype, double-expressor). The diagnosis was confirmed by preoperative imaging evaluation, puncture biopsy pathology, as well",
+  "publication_date": "2026-09-21",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Frontiers in Oncology",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 2,
+  "queries": [
+   "b",
+   "d"
+  ],
+  "dimensions": [
+   "MO",
+   "IM"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "分子机制",
+   "免疫微环境"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.3389/fimmu.2026.1912827",
+  "openalex_id": "W7213548692",
+  "title": "Noninvasive immune-inflammatory profiling by ultrasound radiomics for preoperative prediction of central lymph node metastasis in papillary thyroid carcinoma",
+  "abstract": "Background Central lymph node metastasis in clinically node-negative papillary thyroid carcinoma is regulated by the tumor immune microenvironment, yet existing studies have addressed molecular, systemic immune, and local imaging signals in isolation without examining their cross-scale associations. Methods A retrospective cohort of 1,000 cN0 PTC patients was enrolled. BRAF V600E mutation status, six peripheral blood immune-inflammatory indices, and an ultrasound radiomics deep learning score were integrated into four progressive LightGBM models. Cross-scale Spearman correlations, BRAF-stratified Fisher z-transformation tests, and TCGA-THCA immune deconvolution analysis were performed. Results The three-scale integrated model achieved a validation AUC of 0.824, with all DeLong incremental comparisons reaching statistical significance. The DLR-score was significantly correlated with all six immune-inflammatory indices after Bonferroni correction. BRAF-positive subgroup exhibited significantly stronger imaging-immune coupling for NLR and SII, and this enhanced coupling persisted after adjustment for age, tumor size, multifocality, and Hashimoto’s thyroiditis in partial correlation analyses. TCGA tissue immune infiltration patterns were directionally consistent with peripheral observations. Calibration assessment confirmed probability accuracy across the predicted range, and decision curve analysis demonstrated sustained net benefit superiority of the integrated model over singl",
+  "publication_date": "2026-09-18",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Frontiers in Immunology",
+  "oa_status": "gold",
+  "oa_url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1912827/pdf",
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 3,
+  "queries": [
+   "b",
+   "c",
+   "d"
+  ],
+  "dimensions": [
+   "MO",
+   "AL",
+   "PR",
+   "IM"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "分子机制",
+   "算法方法",
+   "预后转移",
+   "免疫微环境"
+  ]
+ },
+ {
+  "pmid": "42763332",
+  "doi": "10.1007/s00330-026-12806-y",
+  "openalex_id": "W7213642389",
+  "title": "Habitat imaging based on enhanced CT for predicting occult central lymph node metastasis in papillary thyroid carcinoma",
+  "abstract": "",
+  "publication_date": "2026-09-19",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "European Radiology",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.21123/2411-7986.5399",
+  "openalex_id": "W7213894792",
+  "title": "Expression of Some Tumor Immune Microenvironment Markers in Papillary Thyroid Carcinoma with and without Hashimoto's Thyroiditis",
+  "abstract": "Papillary thyroid carcinoma is the most common type of thyroid cancer, and its development has been increasingly associated with the tumor immune microenvironment. The objective of this study was to evaluate the expression of FOXP3+ regulatory T cells, CD8+ cytotoxic T lymphocytes, and CD138+ plasma cells in papillary thyroid carcinoma, and their correlation with clinicopathological parameters and their relation to Hashimoto's thyroiditis. 44 of papillary thyroid carcinoma cases were retrieved from archives; 25 patients had multinodular goitre, and 19 patients had Hashimoto's thyroiditis. Clinical and pathological data were collected from patient files, archival data, and relevant histopathological reports. These were studied by immunohistochemistry, and the H-score was used to semi-quantitatively evaluate marker expression. Concomitant Hashimoto's thyroiditis significantly affected the tumor immune microenvironment, with increased CD8+ cytotoxic T lymphocyte density (Scores 2–3) and increased CD138+ plasma cell infiltration compared to the MNG background. Conversely, FOXP3+ regulatory T cell levels were consistently low in both groups except for a significant association between low-score (Score 1) FOXP3+ regulatory T cell expression and younger age (p = 0.004). No direct statistical correlations were observed between marker densities and features such as size, focal distribution, or lymph node metastasis. Co-occurrence of Hashimoto's thyroiditis creates a highly specialized",
+  "publication_date": "2026-09-18",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Baghdad Science Journal",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "d"
+  ],
+  "dimensions": [
+   "IM"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "免疫微环境"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1186/s13044-026-00314-6",
+  "openalex_id": "W7213617618",
+  "title": "Intratumor microbiota in thyroid cancer: emerging insights into tumorigenesis and therapeutic potential",
+  "abstract": "Thyroid cancer incidence has risen sharply in recent decades, yet the mechanisms underlying tumor development and progression remain incompletely understood. Recent evidence reveals that tumors, including thyroid malignancies, harbor distinct microbial communities, termed intratumor microbiota, which may actively influence cancer biology. These microbes can modulate the tumor microenvironment (TME), promote DNA damage, alter oncogenic signaling pathways, and reshape immune responses. In thyroid cancer, papillary thyroid carcinoma (PTC) has been the primary focus, with studies identifying differential microbial composition across histological subtypes, disease stages, and patient sex. Microbial metabolites, genotoxins, and interactions with immune and endocrine pathways may contribute to tumor initiation, progression, and immune evasion. Despite compelling associations, causative mechanisms remain largely unexplored, and technical challenges including low microbial biomass and contamination limit current findings. Advanced sequencing approaches, single-cell and spatial transcriptomics, and functional studies in thyroid cancer models are needed to clarify the role of intratumor microbiota. Understanding these microbial interactions holds promise for novel diagnostics, prognostic biomarkers, and microbiota-targeted therapies, potentially improving personalized treatment strategies for thyroid malignancies.",
+  "publication_date": "2026-09-19",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Thyroid Research",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "f"
+  ],
+  "dimensions": [
+   "SP"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "空间组学"
+  ]
+ },
+ {
+  "pmid": "42773810",
+  "doi": "10.1080/08923973.2026.2735423",
+  "openalex_id": "W7214093021",
+  "title": "Repurposing the third-generation EGFR inhibitor osimertinib to synergize with paclitaxel and extend survival in anaplastic thyroid cancer",
+  "abstract": "Background Anaplastic thyroid cancer (ATC) is a highly aggressive malignancy with limited therapeutic options and poor prognosis. This study aimed to identify effective targeted agents and evaluate their therapeutic potential in combination with paclitaxel.Methods High-throughput drug sensitivity and resistance screening was performed using a comprehensive library of targeted agents in ATC cells. The antitumor efficacy of selected agents was evaluated through in vitro combination studies and in vivo tumor models. Molecular mechanisms were investigated by assessing EGFR/ERK and eIF4E signaling. EGFR and eIF4E expression was quantified by ELISA in 24 pairs of matched ATC and adjacent non-tumor tissues.Results Osimertinib emerged as the most potent agent in the screening and exhibited synergistic activity with paclitaxel in vitro, with combination index values below 1.0. In vivo, osimertinib significantly inhibited tumor growth and suppressed EGFR/ERK signaling and the eIF4E-mediated translational pathway. Combination treatment markedly prolonged survival, with the last observed death occurring on Day 65, compared with 100% mortality by Day 23 in vehicle-treated controls, without observed systemic toxicity. Analysis of patient tissues revealed increased EGFR and eIF4E expression in 83% and 71% of ATC cases, respectively, with co-overexpression in 58%.Conclusions Osimertinib demonstrates potent antitumor activity in ATC, with enhanced efficacy when combined with paclitaxel. Concu",
+  "publication_date": "2026-09-22",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Immunopharmacology and Immunotoxicology",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "g"
+  ],
+  "dimensions": [
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.63946/onmt/19300",
+  "openalex_id": "W7214115292",
+  "title": "Clinical-Pathological and Molecular Predictors of Recurrence in Papillary Thyroid Cancer in Adolescent and Young Adult Patients in the Republic of Kazakhstan",
+  "abstract": "Introduction: Papillary thyroid cancer (PTC) is characterized by a favorable prognosis; however, disease recurrence remains a clinically significant problem among adolescent and young adult (AYA) patients. The prognostic role of molecular alterations in this age group remains insufficiently studied, especially in Central Asian populations. Objective: To evaluate clinical-pathological and molecular factors associated with PTC recurrence in young adult patients from Kazakhstan. Materials and Methods: This retrospective multicenter study included 246 patients with histologically confirmed PTC. Tumor tissue samples obtained between 2016 and 2020 were collected at three specialized oncology centers in Kazakhstan: the Kazakh Institute of Oncology and Radiology (Almaty), the Center for Nuclear Medicine and Oncology (Semey), and the Multidisciplinary Center of Oncology and Surgery (Ust-Kamenogorsk). Clinical-pathological characteristics and molecular genetic alterations were analyzed in relation to recurrence risk and survival outcomes. Multivariate regression analysis and time-to-event methods were used to identify factors associated with recurrence, progression-free survival (PFS), and overall survival (OS). Results: In the AYA subgroup, none of the evaluated clinical-pathological or molecular factors retained a statistically significant association with recurrence after multivariate adjustment. TERT promoter alterations demonstrated the largest estimated association with recurrenc",
+  "publication_date": "2026-09-20",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "Oncology Nuclear Medicine and Transplantology",
+  "oa_status": "hybrid",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "g"
+  ],
+  "dimensions": [
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.63946/onmt/19289",
+  "openalex_id": "W7213644555",
+  "title": "BRAF and TERTp Co-Mutations in Radioiodine-Refractory Differentiated Thyroid Cancer: Association with Aggressive Clinical-Pathological Characteristics",
+  "abstract": "Introduction: Differentiated thyroid cancer (DTC) is characterized by a favorable prognosis in most cases. However, the development of radioiodine refractoriness significantly worsens the disease course, limits the effectiveness of standard therapy, and is associated with an increased risk of progression. In this regard, the search for molecular genetic markers that allow early identification of patients at high risk of developing an aggressive radioiodine-refractory phenotype is a relevant area of research. Integration of molecular and clinical-pathological characteristics of the tumor may improve the accuracy of risk stratification and contribute to personalization of treatment strategy. Objective: To evaluate the relationship between molecular genetic alterations, including BRAF and TERT promoter mutations, and clinical-pathological characteristics of radioiodine-refractory differentiated thyroid cancer. Materials and Methods: A retrospective single-center study was conducted, including 167 patients with DTC treated between 2021 and 2023. The study was performed in the Republic of Kazakhstan among patients treated at the Radionuclide Therapy Department of the Center for Nuclear Medicine and Oncology, Health Department of the Abai Region. Depending on the response to radioiodine therapy, patients were divided into two groups: radioiodine-sensitive DTC (n = 130) and radioiodine-refractory DTC (n = 37). Multivariate analysis was performed to identify independent predictors of",
+  "publication_date": "2026-09-19",
+  "type": "conference-abstract",
+  "is_preprint": false,
+  "venue": "Oncology Nuclear Medicine and Transplantology",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "g"
+  ],
+  "dimensions": [
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.17650/2222-1468-2026-16-2-99-108",
+  "openalex_id": "W7214083159",
+  "title": "Modern methods of treatment of anaplastic thyroid cancer (clinical case)",
+  "abstract": "The article presents a clinical case of treating stage IV anaplastic thyroid cancer with a V600E mutation in the BRAF gene and distant metastasis (including metastases to the right ventricle of the heart and the right adrenal gland). At the first stage, targeted therapy (dabrafenib + trametinib) was performed, which allowed achieving pronounced clinico-metabolic regression and performing radical multi-stage surgical treatment. Subsequently, with the development of drug resistance and the detection of high expression of programmed cell death 1 ligand (PD-L1) (Combined Positive Score (CPS) – the ratio of the number of PD-L1-positive cells to the total number of tumor cells = 100), immunotargeted therapy with pembrolizumab in combination with lenvatinib was prescribed, resulting in a partial metabolic response. Despite the subsequent disease progression, overall survival from the time of diagnosis was 46 months. The presented clinical case demonstrates the importance of molecular profiling and the use of a multidisciplinary approach, as well as the possibility of using active surgical management in the oligoprogression of anaplastic thyroid cancer.",
+  "publication_date": "2026-09-18",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Head and neck tumors (HNT)",
+  "oa_status": "diamond",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "g"
+  ],
+  "dimensions": [
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42759586",
+  "doi": "10.1016/j.critrevonc.2026.105601",
+  "openalex_id": "W7213637621",
+  "title": "TP53/p53 alterations in thyroid cancer: dedifferentiation, radioiodine refractoriness and risk stratification",
+  "abstract": "",
+  "publication_date": "2026-09-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Critical Reviews in Oncology/Hematology",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "h"
+  ],
+  "dimensions": [
+   "ST",
+   "PR"
+  ],
+  "relevance": "Low",
+  "dimension_labels": [
+   "转移干性"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.7910/dvn/rj0nul",
+  "openalex_id": "W7213950421",
+  "title": "Raw-data-NPC2 as a potential biomarker for papillary thyroid carcinoma",
+  "abstract": "As is well known, Papillary thyroid carcinoma (PTC) is a common endocrine malignancy whose progression is associated with dyslipidemia. Nevertheless, the functional roles and molecular mechanisms of lipid metabolism related molecules in PTC remain poorly understood. This manuscript reports mechanistic investigations into the lipid metabolic driver NPC2 in papillary thyroid carcinoma, covering cellular malignant phenotypes, signaling pathway regulation, epigenetic modification, and computational evaluation of the tumor immune microenvironment. Given its focus on cancer cell biology, molecular signaling, epigenetic regulation, and tumor microenvironment.",
+  "publication_date": "2026-09-21",
+  "type": "dataset",
+  "is_preprint": false,
+  "venue": "Harvard Dataverse",
+  "oa_status": "green",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "i"
+  ],
+  "dimensions": [
+   "ME"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "代谢重编程"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": null,
+  "openalex_id": "W7213958834",
+  "title": "BRAF-mutant papillary thyroid carcinoma lymph node metastasis prediction model construction",
+  "abstract": "Background and purposePapillary thyroid carcinoma (PTC) is the most common malignancy of the endocrine system, with its global incidence continuing to rise. The BRAF V600E mutation, as the most common genetic mutation in PTC, is closely associated with aggressive clinicopathological features, including lymph node metastasis (LNM), extrathyroidal extension and poor prognosis. LNM is an important risk factor for recurrence and poor prognosis in PTC patients. Accurate preoperative prediction of LNM risk is of critical guiding significance for formulating individualized surgical plans (such as the extent of prophylactic central or lateral neck lymph node dissection). However, existing prediction models are mostly based on traditional clinicopathological indicators, and few studies have incorporated patients' mental health indicators into the evaluation system. This study aimed to construct a preoperative LNM prediction model based on the clinicopathological characteristics and mental health indicators of BRAF-mutant PTC patients, and to evaluate its predictive efficacy through internal validation, thereby providing an objective basis for clinical preoperative decision-making.MethodsBRAF-mutant PTC patients who underwent surgical treatment at the Department of Thyroid and Neck Oncology, Tianjin Medical University Cancer Institute & Hospital from October to December 2023, were retrospectively collected and randomly divided into the training set and the validation set at a ratio of ",
+  "publication_date": "2026-08-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+  "oa_status": "closed",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": "42771519",
+  "doi": "10.1177/15330338261490262",
+  "openalex_id": "W7214011808",
+  "title": "Ultrasound-Based Radiomics and Deep Learning for Prediction of Lateral and Central Lymph Node Metastasis and BRAF Gene Mutation in Papillary Thyroid Carcinoma",
+  "abstract": "IntroductionPredicting B-Raf proto-oncogene, serine/threonine kinase (BRAF) gene mutations, lateral lymph node metastasis (LLNM) and central lymph node metastasis (CLNM) is crucial for selecting preoperative surgical approaches and predicting survival outcomes in patients with papillary thyroid carcinoma (PTC). In this study, features extracted from ultrasound images were combined with clinical characteristics to construct a nomogram model for predicting BRAF gene mutations, LLNM and CLNM.MethodsIn this retrospective study, 580 patients with pathologically confirmed PTC were enrolled between January 2020 and August 2023 from two medical centers, which was divided into training set, internal validation set and external test set, respectively. Radiomics and deep learning (DL) features were extracted from ultrasound images. Radiomics and DL models were constructed based on the selected features to generate radiomics score (R Score) and DL score (D Score), respectively. Finally, nomogram was developed by integrating R Score, D Score with clinical characteristics to predict BRAF gene mutations, LLNM and CLNM.ResultsIn the study of predicting BRAF mutations, LLNM, and CLNM in PTC, the R model achieved area under curves (AUCs) of 0.70 vs. 0.65 vs. 0.70, 0.77 vs. 0.74 vs. 0.64, and 0.81 vs. 0.74 vs. 0.69 in the training, internal validation and external test sets, respectively. A nomogram achieved AUCs of 0.69 vs. 0.71, 0.75 vs. 0.67 and 0.78 vs. 0.78 in the prediction of BRAF mutati",
+  "publication_date": "2026-08-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Technology in Cancer Research & Treatment",
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "c"
+  ],
+  "dimensions": [
+   "AL",
+   "PR"
+  ],
+  "relevance": "High",
+  "dimension_labels": [
+   "算法方法",
+   "预后转移"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.1158/1078-0432.c.8568781",
+  "openalex_id": "W7166818555",
+  "title": "Data from PRECISE: A Prognostic Thyrocyte-Derived Gene Signature for Papillary Thyroid Carcinoma",
+  "abstract": "AbstractPurpose: Papillary thyroid carcinoma (PTC) exhibits heterogeneous behavior, underscoring the need for effective biomarkers and improved risk stratification methods. We developed a thyrocyte-derived gene signature, Prognostic RNA Expression Cell-specific Integrated Signature (PRECISE), using single-cell RNA sequencing (scRNA-seq) and single-nucleus RNA sequencing (snRNA-seq) and evaluated its prognostic utility across cohorts. Experimental Design: PRECISE was developed using a discovery cohort of patients with PTC [MD Anderson Cancer Center (MDACC), n = 109, median follow-up = 14 years]. Within the cohort, 11 PTC tumors and 4 normal thyroid samples were successfully sequenced using snRNA-seq. Differentially expressed genes were integrated with previously identified thyrocyte-associated genes from scRNA-seq. Prognostic significance was assessed using bulk RNA-seq in the discovery cohort and validated in two additional cohorts [Vanderbilt University Medical Center (VUMC), n = 65; The Cancer Genome Atlas (TCGA), n = 370]. A rank-based single-sample method was used for score calculation. Associations between PRECISE and progression-free survival (PFS) and disease-specific survival (DSS) were evaluated using multivariate Cox models, and predictive models were compared using Harrell’s C-statistic and likelihood ratio tests. Results: PRECISE is comprised of 41 epithelial genes downregulated in PTC tumor cells. Higher PRECISE was significantly associated with shorter PFS acros",
+  "publication_date": "2026-07-01",
+  "type": "other",
+  "is_preprint": false,
+  "venue": null,
+  "oa_status": "gold",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "e"
+  ],
+  "dimensions": [
+   "SC"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "单细胞"
+  ]
+ },
+ {
+  "pmid": null,
+  "doi": "10.21037/gs-2026-0333",
+  "openalex_id": "W7213744244",
+  "title": "Prognostic factors in thyroid cancer with lung-only metastasis: SEER-based retrospective study",
+  "abstract": "Background: Lung-only metastasis in thyroid cancer is uncommon, and its prognostic determinants remain poorly defined. This study aimed to investigate the clinicopathological features and prognostic factors associated with survival in patients with primary thyroid cancer with lung-only metastases (PTCSLMs). Methods: Patients diagnosed with PTCSLMs from 2010 to 2015 were screened from the National Cancer Institute’s Surveillance, Epidemiology, and End Results (SEER) database. Inclusion criteria comprised histologically confirmed thyroid cancer, first primary malignancy, and lung‑only metastasis at initial diagnosis, while patients with bone/liver/brain metastases, unknown race, unknown T stage/T 0 , or missing survival data were excluded. Variables analyzed included demographics (age, sex, marital status, race), clinicopathological features (histological subtype, T stage, N stage, grade stage), and treatment modalities {surgery, radiotherapy [external beam radiation therapy (EBRT)/radioactive iodine (RAI)/others], and chemotherapy}. Overall survival (OS) was defined as time from diagnosis to death from any cause, and cancer-specific survival (CSS) as time to thyroid cancer‑specific death. Univariate and multivariate Cox proportional hazards model were used to identify prognostic factors of PTCSLMs. The Kaplan-Meier method was used to generate survival curves, and the difference was compared using the log-rank test. Results: A total of 592 patients diagnosed with PTCSLMs from 2",
+  "publication_date": "2026-09-01",
+  "type": "article",
+  "is_preprint": false,
+  "venue": "Gland Surgery",
+  "oa_status": "diamond",
+  "oa_url": null,
+  "cited_by_count": 0,
+  "in_scope_thyroid": true,
+  "exclude_reason": null,
+  "versions": 1,
+  "queries": [
+   "g"
+  ],
+  "dimensions": [
+   "PR"
+  ],
+  "relevance": "Medium",
+  "dimension_labels": [
+   "预后转移"
+  ]
+ }
+]

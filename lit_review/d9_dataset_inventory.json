@@ -1,0 +1,332 @@
+{
+  "themes": {
+    "SPP1_TAM_PTC": [
+      {
+        "title": "Artificial intelligence-based multi-modal multi-tasks analysis reveals tumor molecular heterogeneity, predicts preoperative lymph node metastasis and prognosis ",
+        "doi": "https://doi.org/10.1097/js9.0000000000001875",
+        "year": 2024,
+        "cited_by": 41,
+        "oa": "hybrid",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4400532665",
+          "doi": "https://doi.org/10.1097/js9.0000000000001875",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38990290"
+        }
+      },
+      {
+        "title": "Decoding the spatiotemporal heterogeneity of tumor-associated macrophages",
+        "doi": "https://doi.org/10.1186/s12943-024-02064-1",
+        "year": 2024,
+        "cited_by": 199,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4401052172",
+          "doi": "https://doi.org/10.1186/s12943-024-02064-1",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/39068459"
+        }
+      },
+      {
+        "title": "Single cell deciphering of progression trajectories of the tumor ecosystem in head and neck cancer",
+        "doi": "https://doi.org/10.1038/s41467-024-46912-6",
+        "year": 2024,
+        "cited_by": 81,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4393078502",
+          "doi": "https://doi.org/10.1038/s41467-024-46912-6",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38519500"
+        }
+      },
+      {
+        "title": "Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response",
+        "doi": "https://doi.org/10.1038/s41467-024-49885-8",
+        "year": 2024,
+        "cited_by": 101,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4400390474",
+          "doi": "https://doi.org/10.1038/s41467-024-49885-8",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38969631"
+        }
+      },
+      {
+        "title": "SPP1+ Macrophages and the Orchestration of Spatially Organized Immunosuppression in Cancer",
+        "doi": "https://doi.org/10.3390/biomedicines14020294",
+        "year": 2026,
+        "cited_by": 7,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W7125941522",
+          "doi": "https://doi.org/10.3390/biomedicines14020294",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/41751193"
+        }
+      },
+      {
+        "title": "Unraveling the molecular mechanisms of lymph node metastasis in ovarian cancer: focus on MEOX1",
+        "doi": "https://doi.org/10.1186/s13048-024-01384-6",
+        "year": 2024,
+        "cited_by": 8,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4392817613",
+          "doi": "https://doi.org/10.1186/s13048-024-01384-6",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38486335"
+        }
+      }
+    ],
+    "POSTN_myCAF_spatial": [
+      {
+        "title": "An integrated single-cell and spatial transcriptomic atlas of thyroid cancer progression identifies prognostic fibroblast subpopulations",
+        "doi": "https://doi.org/10.1172/jci.insight.191990",
+        "year": 2026,
+        "cited_by": 4,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W7117871009",
+          "doi": "https://doi.org/10.1172/jci.insight.191990",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/41480746"
+        }
+      },
+      {
+        "title": "Spatial Transcriptomics in Thyroid Cancer: Applications, Limitations, and Future Perspectives",
+        "doi": "https://doi.org/10.3390/cells14120936",
+        "year": 2025,
+        "cited_by": 11,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4411451781",
+          "doi": "https://doi.org/10.3390/cells14120936",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/40558562"
+        }
+      },
+      {
+        "title": "Single cell deciphering of progression trajectories of the tumor ecosystem in head and neck cancer",
+        "doi": "https://doi.org/10.1038/s41467-024-46912-6",
+        "year": 2024,
+        "cited_by": 81,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4393078502",
+          "doi": "https://doi.org/10.1038/s41467-024-46912-6",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38519500"
+        }
+      },
+      {
+        "title": "CAFs-Associated Genes (CAFGs) in Pancreatic Ductal Adenocarcinoma (PDAC) and Novel Therapeutic Strategy",
+        "doi": "https://doi.org/10.3390/ijms25116003",
+        "year": 2024,
+        "cited_by": 18,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4399172684",
+          "doi": "https://doi.org/10.3390/ijms25116003",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38892190"
+        }
+      },
+      {
+        "title": "Cancer-associated fibroblasts as therapeutic targets for cancer: advances, challenges, and future prospects",
+        "doi": "https://doi.org/10.1186/s12929-024-01099-2",
+        "year": 2025,
+        "cited_by": 78,
+        "oa": "diamond",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4406161082",
+          "doi": "https://doi.org/10.1186/s12929-024-01099-2",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/39780187"
+        }
+      },
+      {
+        "title": "Exploring the diversity of cancer-associated fibroblasts: insights into mechanisms of drug resistance",
+        "doi": "https://doi.org/10.3389/fcell.2024.1403122",
+        "year": 2024,
+        "cited_by": 38,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4396972655",
+          "doi": "https://doi.org/10.3389/fcell.2024.1403122",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38818409"
+        }
+      }
+    ],
+    "paired_primary_LNM_scRNA": [
+      {
+        "title": "Renal Cell Carcinoma",
+        "doi": "https://doi.org/10.1001/jama.2024.12848",
+        "year": 2024,
+        "cited_by": 354,
+        "oa": "green",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4401948805",
+          "doi": "https://doi.org/10.1001/jama.2024.12848",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/39196544"
+        }
+      },
+      {
+        "title": "The genomic and evolutionary landscapes of anaplastic thyroid carcinoma",
+        "doi": "https://doi.org/10.1016/j.celrep.2024.113826",
+        "year": 2024,
+        "cited_by": 81,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4392157091",
+          "doi": "https://doi.org/10.1016/j.celrep.2024.113826",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38412093"
+        }
+      },
+      {
+        "title": "Cancer, metastasis, and the epigenome",
+        "doi": "https://doi.org/10.1186/s12943-024-02069-w",
+        "year": 2024,
+        "cited_by": 196,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4401273116",
+          "doi": "https://doi.org/10.1186/s12943-024-02069-w",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/39095874"
+        }
+      },
+      {
+        "title": "Mechanism insights and therapeutic intervention of tumor metastasis: latest developments and perspectives",
+        "doi": "https://doi.org/10.1038/s41392-024-01885-2",
+        "year": 2024,
+        "cited_by": 249,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4401280276",
+          "doi": "https://doi.org/10.1038/s41392-024-01885-2",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/39090094"
+        }
+      },
+      {
+        "title": "Artificial intelligence-based multi-modal multi-tasks analysis reveals tumor molecular heterogeneity, predicts preoperative lymph node metastasis and prognosis ",
+        "doi": "https://doi.org/10.1097/js9.0000000000001875",
+        "year": 2024,
+        "cited_by": 41,
+        "oa": "hybrid",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4400532665",
+          "doi": "https://doi.org/10.1097/js9.0000000000001875",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38990290"
+        }
+      },
+      {
+        "title": "Invasion and metastasis in cancer: molecular insights and therapeutic targets",
+        "doi": "https://doi.org/10.1038/s41392-025-02148-4",
+        "year": 2025,
+        "cited_by": 235,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4407778444",
+          "doi": "https://doi.org/10.1038/s41392-025-02148-4",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/39979279"
+        }
+      }
+    ],
+    "TREM2_macrophage_thyroid": [
+      {
+        "title": "Decoding the spatiotemporal heterogeneity of tumor-associated macrophages",
+        "doi": "https://doi.org/10.1186/s12943-024-02064-1",
+        "year": 2024,
+        "cited_by": 199,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4401052172",
+          "doi": "https://doi.org/10.1186/s12943-024-02064-1",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/39068459"
+        }
+      },
+      {
+        "title": "Tumor-associated macrophages remodel the suppressive tumor immune microenvironment and targeted therapy for immunotherapy",
+        "doi": "https://doi.org/10.1186/s13046-025-03377-9",
+        "year": 2025,
+        "cited_by": 172,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4410386140",
+          "doi": "https://doi.org/10.1186/s13046-025-03377-9",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/40380196"
+        }
+      },
+      {
+        "title": "A temporal perspective for tumor-associated macrophage identities and functions",
+        "doi": "https://doi.org/10.1016/j.ccell.2024.04.002",
+        "year": 2024,
+        "cited_by": 90,
+        "oa": "green",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4395450719",
+          "doi": "https://doi.org/10.1016/j.ccell.2024.04.002",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38670090"
+        }
+      },
+      {
+        "title": "Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response",
+        "doi": "https://doi.org/10.1038/s41467-024-49885-8",
+        "year": 2024,
+        "cited_by": 101,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4400390474",
+          "doi": "https://doi.org/10.1038/s41467-024-49885-8",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38969631"
+        }
+      },
+      {
+        "title": "Novel tumor-associated macrophage populations and subpopulations by single cell RNA sequencing",
+        "doi": "https://doi.org/10.3389/fimmu.2023.1264774",
+        "year": 2024,
+        "cited_by": 83,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4391321073",
+          "doi": "https://doi.org/10.3389/fimmu.2023.1264774",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38347955"
+        }
+      },
+      {
+        "title": "Macrophage barrier in the tumor microenvironment and potential clinical applications",
+        "doi": "https://doi.org/10.1186/s12964-023-01424-6",
+        "year": 2024,
+        "cited_by": 58,
+        "oa": "gold",
+        "is_preprint": false,
+        "ids": {
+          "openalex": "https://openalex.org/W4391259017",
+          "doi": "https://doi.org/10.1186/s12964-023-01424-6",
+          "pmid": "https://pubmed.ncbi.nlm.nih.gov/38279145"
+        }
+      }
+    ]
+  },
+  "zenodo_deposits": {
+    "SPP1_TAM_multiomics": {
+      "_error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'zenodo.org'. (_ssl.c:1032)>"
+    },
+    "TLS_spatial_archive": {
+      "_error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'zenodo.org'. (_ssl.c:1032)>"
+    }
+  }
+}
