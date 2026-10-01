@@ -1,0 +1,106 @@
+{
+ "generated": "2026-10-02",
+ "run": "run26",
+ "direction": "D9'' (SPP1+/APOC1+ TAM x 代谢-免疫干性亚群 空间耦合)",
+ "note": "可得性为 2026-10-02 本机实测 HTTP 状态码，非论文单方声明。",
+
+ "channel_reachability": {
+  "www.ncbi.nlm.nih.gov/geo": {"status": 0, "note": "HTTP 000 / 60s 超时 — 与 eutils、pubmed 一致，GEO 通道不可用"},
+  "ftp.ncbi.nlm.nih.gov": {"status": 0, "note": "HTTP 000 / 90s 超时 — 不可用"},
+  "www.ebi.ac.uk/ena": {"status": 200, "note": "ENA portal/browser API 可用 — GEO 数据的替代下载通道"},
+  "api.cellxgene.cziscience.com": {"status": 200, "note": "可用，但无甲状腺癌专属数据集（2237 条 tissue 过滤后 0 命中）"},
+  "ngdc.cncb.ac.cn/gsa-human": {"status": 200, "note": "可用 — PRJCA050808 儿童 PTC 原始数据通道"},
+  "api.github.com": {"status": 200, "note": "可用 — JCI 代码仓库"},
+  "zenodo.org": {"status": 301, "note": "可用（重定向）"}
+ },
+
+ "key_findings": [
+  {
+   "id": "F1",
+   "title": "Macro2 = SPP1 + APOC1 + APOE 共表达（髓系）",
+   "source": "10.1016/j.isci.2026.116560 (PMC13378368)",
+   "quote": "Macro2 can be defined by the expression of SPP1, APOC1, and APOE, and showed high activity in cholesterol homeostasis, epithelial-mesenchymal transition (EMT), KRAS, PI3K-AKT-MTOR pathways, which promoting tumor cell migration and invasion.",
+   "impact": "首次在同一细胞亚群共测 SPP1/APOC1/APOE —— D3'' 的『APOE 共测空白』在髓系层面被打破；MGST1 仍为 0"
+  },
+  {
+   "id": "F2",
+   "title": "JCI Insight 空间个体级数据受 IRB 限制",
+   "source": "10.1172/jci.insight.191990 (PMC12890526)",
+   "quote": "The spatial transcriptomics data have the same restrictions, and the IRB has requested that we do not publicly share individual-level sequencing data. Aggregate-level data ... will be shared by lead contact upon request. Individual-level data are only available through collaboration following approval of the lead contact and the VUMC IRB.",
+   "impact": "JCI 不可作空间底图；仅可作单细胞参考 + 方法学范本（代码公开）"
+  },
+  {
+   "id": "F3",
+   "title": "JCI 已定义 APOE+ perivascular-like (APOE+ PVL) 基质亚群",
+   "source": "10.1172/jci.insight.191990",
+   "quote": "We labeled cluster 4 as APOE+ perivascular-like (APOE+ PVL) based on its moderate expression of perivascular marker genes.",
+   "impact": "提供第二个 APOE 锚点（基质 PVL），并已被纳入空间去卷积标签"
+  },
+  {
+   "id": "F4",
+   "title": "GSE193581 为跨队列桥梁",
+   "source": "JCI atlas + iScience pediatric 共同引用",
+   "impact": "唯一无需新数据的儿童 vs 成人对照通道（但 GEO 本机不可达，需走 ENA）"
+  },
+  {
+   "id": "F5",
+   "title": "配对原发-LNM 数据未公开存档",
+   "source": "10.1080/2162402x.2026.2701504 (PMC13360498)",
+   "quote": "Data and materials associated with this study will be available upon reasonable request from the corresponding author.",
+   "impact": "可行性下调，不可作主要验证队列"
+  },
+  {
+   "id": "F6",
+   "title": "D17 的 ENA 数据线索",
+   "source": "PRJEB49680 / PRJEB49964",
+   "impact": "甲状腺癌肠道菌群原始数据经 ENA 可达，D17 可立即启动"
+  }
+ ],
+
+ "datasets": [
+  {"id": "A'", "name": "Integrated sc + spatial atlas (POSTN+ myCAF, APOE+ PVL)", "doi": "10.1172/jci.insight.191990", "pmcid": "PMC12890526", "pmid": "41480746",
+   "oa": "gold", "full_text_access": true,
+   "scRNA_sources": ["GSE184362", "GSE193581", "GSE232237", "GSE182416", "GSE191288", "HRA000686 (GSA)", "CNP0004262 (CNGB)"],
+   "bulk_sources": ["TCGA via cBioPortal", "GSE213647 (CNUH/SNUH)", "St. Jude Cloud", "GSE310793 (MD Anderson)"],
+   "spatial_access": "RESTRICTED — individual-level IRB-limited; aggregate-level on request",
+   "code": "https://github.com/mloberg16/THCA_Fibroblast_Atlas (commit 9a70119)",
+   "code_status": 200,
+   "role": "单细胞参考 + 方法学范本（非空间底图）"},
+
+  {"id": "P", "name": "Pediatric PTC scRNA (Macro2 = SPP1/APOC1/APOE; FXYD5)", "doi": "10.1016/j.isci.2026.116560", "pmcid": "PMC13378368", "pmid": "42491721",
+   "oa": "gold", "full_text_access": true,
+   "raw_data": "PRJCA050808 (GSA-human, https://ngdc.cncb.ac.cn/gsa-human)",
+   "raw_data_status": 200,
+   "adult_comparison": "GSE193581",
+   "code": "none reported",
+   "cohort": "11 pediatric PTC",
+   "role": "本轮新主引擎"},
+
+  {"id": "L", "name": "PTC three-site (T/PT/LN) multi-omics + ML; 17-gene LNM signature, FN1 hub", "doi": "10.1016/j.compbiolchem.2025.108857", "pmid": "41421038",
+   "oa": false, "full_text_access": false, "role": "17 基因签名 baseline 对照（仅摘要可得）"},
+
+  {"id": "M", "name": "PTC TME atlas; Mac-APOC1 M2-like subset", "doi": "10.1016/j.molimm.2026.05.006", "pmid": "42134246",
+   "oa": false, "full_text_access": false, "role": "APOC1 独立复现（仅摘要可得）"},
+
+  {"id": "G", "name": "Paired primary-LNM scRNA", "doi": "10.1080/2162402x.2026.2701504", "pmcid": "PMC13360498", "pmid": "42430190",
+   "oa": "gold", "full_text_access": true,
+   "data_access": "upon reasonable request — NO public repository",
+   "role": "可选验证（可行性下调）"},
+
+  {"id": "H", "name": "Dedifferentiation snRNA + Visium + GeoMx atlas", "doi": "10.1186/s12943-026-02699-2", "pmid": "42458477",
+   "oa": "gold", "data": "KHDP SNUH-THYROID-NGS2 (需申请)",
+   "role": "备选空间底图（Run #23 已有联系路径）"},
+
+  {"id": "E17", "name": "Thyroid cancer gut microbiota", "accession": "PRJEB49680", "via": "ENA", "status": 200, "role": "D17 起步数据"},
+  {"id": "E17b", "name": "Gut microbiome + lipid dysmetabolism", "accession": "PRJEB49964", "via": "ENA", "status": 200, "role": "D17 起步数据"}
+ ],
+
+ "compartments_to_report_separately": [
+  {"name": "Macro2 (myeloid)", "markers": ["SPP1", "APOC1", "APOE"], "source": "resource P"},
+  {"name": "APOE+ PVL (stromal)", "markers": ["APOE", "perivascular markers (moderate)"], "source": "resource A' cluster 4"},
+  {"name": "POSTN+ myCAF (stromal)", "markers": ["POSTN", "FAP"], "source": "resource A' cluster 2"},
+  {"name": "APOE-high tumor cells (epithelial)", "markers": ["APOE"], "source": "PMID 42217128 (Run #21)", "note": "第三个 compartment，禁止与上述髓系/基质 APOE 混用"}
+ ],
+
+ "milestones": ["M1 完成(本轮)", "M2 参考图谱 v1", "M3 Macro2 signature + 跨年龄对比", "M4 空间底图获取", "M5 三 compartment 空间耦合", "M6 预后关联 + 增量 AUC", "M7 MGST1 终判"]
+}

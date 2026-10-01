@@ -14,7 +14,25 @@
 | **Semantic Scholar** | ⚠️ 限流 | HTTP 429（无 API key） | 备用，需 `S2_API_KEY` |
 | **NCBI eutils** `eutils.ncbi.nlm.nih.gov` | ❌ **不可达** | **4/4 超时，HTTP 000（60s）** | **禁止直连重试** |
 | **PubMed 网页** `pubmed.ncbi.nlm.nih.gov` | ❌ **不可达** | HTTP 000 / 15s 超时 | 同上 |
+| **NCBI GEO** `www.ncbi.nlm.nih.gov/geo` | ❌ **不可达** | HTTP 000 / 60s 超时（Run #26 实测） | **整个 NCBI 域不可用；GSE 矩阵无法直连下载** |
+| **NCBI FTP** `ftp.ncbi.nlm.nih.gov` | ❌ **不可达** | HTTP 000 / 90s 超时（Run #26 实测） | 同上 |
 | **paper-search-mcp MCP** | ⚠️ 不稳定 | 走服务端代理，可用但频繁 `not well-formed (invalid token)` 并截断结果 | **仅作补充源，失败不阻塞** |
+
+### 数据下载通道（Run #26 新增实测 / Data download channels）
+
+GEO 不可达意味着**论文里的 GSE 编号只是"引用"，不是"可下载"**。已验证的替代通道：
+
+| 通道 | 状态 | 实测 | 用途 |
+|---|---|---|---|
+| **ENA**（EBI）`www.ebi.ac.uk/ena` | ✅ 可用 | 200 / ~1.2s | **GEO 数据的首选替代**；支持 portal API 按 `study_title` 检索 |
+| **CELLxGENE** `api.cellxgene.cziscience.com` | ✅ 可用 | 200 / ~5.9s | 已加工 scRNA；**经查无甲状腺癌专属数据集**（2237 条 tissue 过滤 0 命中） |
+| **NGDC GSA-human** `ngdc.cncb.ac.cn/gsa-human` | ✅ 可用 | 200 / ~0.8s | 中国队列原始数据（如 PRJCA050808） |
+| **GitHub API** `api.github.com` | ✅ 可用 | 200 / ~1.3s | 论文配套代码（去卷积/聚类全流程） |
+| **Zenodo** `zenodo.org` | ✅ 可用 | 301（重定向，正常） | 存档型数据集 |
+| **cBioPortal** | （未实测，不依赖 NCBI） | — | TCGA-THCA 矩阵 |
+| **St. Jude Cloud** | （未实测，不依赖 NCBI） | — | St. Jude 儿童队列 |
+
+> **推论**：凡论文声明"data deposited at GEO (GSE…)"的，在本机**默认视为不可直连**，须转 ENA 或合作节点取数。
 
 ### 关键推论
 
