@@ -549,8 +549,8 @@ Run #26, 7 days after Run #25 (2026-09-25). A three-channel retrieval (OpenAlex 
 | 分支跟踪关系 | ✅ `## main...origin/main` |
 | 本轮提交文件 | `lit_review/literature_review_20261002_030212.md`、`lit_review/search_results_20261002_030212.json`、`lit_review/search_results_latest.json` |
 | Commit message | `chore(lit-review): 甲状腺癌文献监测 2026-10-02（新增 94 篇 / 在范围 391 篇）` |
-| Commit sha | 见下轮记录（本段在提交后回填） |
-| `git push origin main` | 见下轮记录（本段在推送后回填） |
+| Commit sha | **`944e36099c793048ca1673b8e472348b3ad9ca02`**（短 sha `944e360`） |
+| `git push origin main` | ✅ **成功**（第 1 次尝试即通过，`2ad6a5c..944e360 main -> main`） |
 
 ---
 
