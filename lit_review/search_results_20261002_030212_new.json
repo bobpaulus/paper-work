@@ -1,0 +1,2124 @@
+[
+ {
+  "pmid": "42808431",
+  "doi": "10.17219/acem/214710",
+  "title": "Neutrophil-related gene signature predicts prognosis and immune microenvironment patterns in thyroid cancer",
+  "publication_date": "2026-09-29",
+  "journal": "Advances in Clinical and Experimental Medicine",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "免疫微环境",
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "IM",
+   "MO",
+   "PR"
+  ],
+  "note_zh": "中性粒细胞相关基因签名预测 THCA 预后与免疫微环境模式",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.1186/s13044-026-00317-3",
+  "title": "Benign struma ovarii in a patient with persistent thyroglobulin elevation after papillary thyroid carcinoma in the era of RAI de-escalation",
+  "publication_date": "2026-09-29",
+  "journal": "Thyroid Research",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "Low",
+  "dimensions": [
+   "预后转移"
+  ],
+  "dim_codes": [
+   "PR"
+  ],
+  "note_zh": "RAI 降阶梯时代 PTC 后 Tg 持续升高合并良性卵巢甲状腺肿（个案）",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.21203/rs.3.rs-11049949/v1",
+  "title": "Prostate-specific Membrane Antigen Expression Is Associated with Aggressive Clinicopathological Features and Short-term Incomplete Response to Initial Radioiodine Therapy in Papillary Thyroid Carcinoma: A Retrospective Single-Center Cohort Study",
+  "publication_date": "2026-09-27",
+  "journal": "Research Square",
+  "oa_status": "green",
+  "is_preprint": true,
+  "relevance": "Low",
+  "dimensions": [
+   "预后转移",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "PR",
+   "MO"
+  ],
+  "note_zh": "PSMA 表达与侵袭性病理特征及初始 RAI 不完全应答相关 [preprint]",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.1016/j.ando.2026.102818",
+  "title": "Does elevated preoperative TSH predict aggressive features in papillary thyroid carcinoma?",
+  "publication_date": "2026-09-01",
+  "journal": "Annales d Endocrinologie",
+  "oa_status": "hybrid",
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "预后转移",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "PR",
+   "MO"
+  ],
+  "note_zh": "术前 TSH 升高是否预测 PTC 侵袭性特征",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.12659/ajcr.953094",
+  "title": "Primary Synovial Sarcoma of the Thyroid Gland Presenting With Early Pulmonary Metastasis: Diagnostic Pathway, SS18 Gene Fusion Confirmation, and Clinical Course",
+  "publication_date": "2026-09-29",
+  "journal": "American Journal of Case Reports",
+  "oa_status": "hybrid",
+  "is_preprint": false,
+  "relevance": "Low",
+  "dimensions": [
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "MO",
+   "PR"
+  ],
+  "note_zh": "甲状腺原发滑膜肉瘤伴早期肺转移（SS18 融合，非甲状腺癌）",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.1007/s12672-026-05997-9",
+  "title": "Integrated single-cell and bulk RNA sequencing reveals T-cell heterogeneity and identifies an immune-related prognostic signature in thyroid carcinoma",
+  "publication_date": "2026-09-27",
+  "journal": "Discover Oncology",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "单细胞",
+   "免疫微环境",
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "SC",
+   "IM",
+   "MO",
+   "PR"
+  ],
+  "note_zh": "sc+bulk RNA-seq 揭示 T 细胞异质性并构建免疫相关预后签名",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.16352/j.issn.1001-6325.2026.09.1175",
+  "title": "LINC00339 promotes the migration and invasion of thyroid cancer cell lines by regulating the miR-15b-5p/E2F3 axis",
+  "publication_date": "2026-09-01",
+  "journal": "DOAJ (DOAJ: Directory of Open Access Journals)",
+  "oa_status": "closed",
+  "is_preprint": false,
+  "relevance": "Low",
+  "dimensions": [
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "MO",
+   "PR"
+  ],
+  "note_zh": "LINC00339 经 miR-15b-5p/E2F3 轴促甲状腺癌迁移侵袭",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.21037/tcr-2026-1440",
+  "title": "Multi-omics analysis of GBP2 as a prognostic and immune-associated biomarker in papillary thyroid carcinoma",
+  "publication_date": "2026-09-01",
+  "journal": "Translational Cancer Research",
+  "oa_status": "diamond",
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "分子机制",
+   "免疫微环境",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "MO",
+   "IM",
+   "PR"
+  ],
+  "note_zh": "GBP2 多组学分析作为 PTC 预后与免疫相关生物标志物",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.3389/fendo.2026.1887201",
+  "title": "Prediction of early postoperative hypocalcemia and hypoparathyroidism after thyroidectomy for papillary thyroid carcinoma: dual-outcome prediction models",
+  "publication_date": "2026-09-30",
+  "journal": "Frontiers in Endocrinology",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "PTC 术后早期低钙血症与甲旁减双结局预测模型",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.3389/fendo.2026.1866805",
+  "title": "Machine learning-based prediction of lymph node metastasis in papillary thyroid carcinoma: an interpretable multidimensional model",
+  "publication_date": "2026-09-28",
+  "journal": "Frontiers in Endocrinology",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "可解释多维机器学习预测 PTC 淋巴结转移",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.3389/fendo.2026.1922413",
+  "title": "Anatomical location matters: risk modelling and surgical outcomes in central lymph node metastasis of isthmus PTC",
+  "publication_date": "2026-09-28",
+  "journal": "Frontiers in Endocrinology",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "预后转移",
+   "算法方法"
+  ],
+  "dim_codes": [
+   "PR",
+   "AL"
+  ],
+  "note_zh": "峡部 PTC 中央区淋巴结转移风险建模与手术结局",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.1186/s12885-026-17032-9",
+  "title": "Deep learning for predicting central cervical lymph node metastasis of papillary thyroid carcinomas deemed appropriate for active surveillance: a dual-center retrospective study",
+  "publication_date": "2026-09-28",
+  "journal": "BMC Cancer",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "深度学习预测适合主动监测 PTC 的中央区淋巴结转移（双中心）",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.1038/s43856-026-01920-z",
+  "title": "Integrating machine learning survival and large language models for prognostics of thyroid cancer",
+  "publication_date": "2026-09-24",
+  "journal": "Communications Medicine",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "机器学习生存模型与大语言模型融合用于甲状腺癌预后",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.21203/rs.3.rs-10904032/v1",
+  "title": "Integrated transcriptomics reveal CTHRC1-associated immune resistance and JAM2– F11R–STAT1 macrophage remodeling in anaplastic thyroid carcinoma",
+  "publication_date": "2026-09-24",
+  "journal": "Research Square",
+  "oa_status": "green",
+  "is_preprint": true,
+  "relevance": "Low",
+  "dimensions": [
+   "空间组学",
+   "免疫微环境"
+  ],
+  "dim_codes": [
+   "SP",
+   "IM"
+  ],
+  "note_zh": "整合转录组揭示 ATC 中 CTHRC1 相关免疫抵抗与 JAM2-F11R-STAT1 巨噬重塑 [preprint]",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.1245/s10434-026-20503-9",
+  "title": "ASO Visual Abstract: Comparison of 2015 and 2025 ATA Risk Stratification Systems for Predicting Recurrence in Papillary Thyroid Carcinoma",
+  "publication_date": "2026-09-30",
+  "journal": "Annals of Surgical Oncology",
+  "oa_status": "closed",
+  "is_preprint": false,
+  "relevance": "Low",
+  "dimensions": [
+   "预后转移"
+  ],
+  "dim_codes": [
+   "PR"
+  ],
+  "note_zh": "2015 vs 2025 ATA 复发风险分层系统比较（ASO Visual Abstract，降档）",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.3389/fendo.2026.1917885",
+  "title": "Prediction of gross extrathyroidal extension in papillary thyroid carcinoma using a deep learning radiomics model based on post-processing techniques for multi-phase contrast-enhanced MRI images",
+  "publication_date": "2026-09-29",
+  "journal": "Frontiers in Endocrinology",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "多期增强后处理深度学习影像组学预测 PTC 肉眼腺外侵犯",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42809287",
+  "doi": "10.1001/jamanetworkopen.2026.35582",
+  "title": "Sex and Mortality Among Patients with Papillary Thyroid Cancer",
+  "publication_date": "2026-09-29",
+  "journal": "JAMA Network Open",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "Low",
+  "dimensions": [
+   "预后转移"
+  ],
+  "dim_codes": [
+   "PR"
+  ],
+  "note_zh": "PTC 患者性别与死亡率",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42804115",
+  "doi": "10.1007/s12020-026-04779-1",
+  "title": "The impact of RET fusions on radioiodine avidity and prognosis in patients with distant metastatic papillary thyroid cancer",
+  "publication_date": "2026-09-28",
+  "journal": "Endocrine",
+  "oa_status": "closed",
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "预后转移",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "PR",
+   "MO"
+  ],
+  "note_zh": "RET 融合对远处转移性 PTC 摄碘能力与预后的影响",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.20944/preprints202609.2162.v1",
+  "title": "The Sex Paradox in Papillary Thyroid Carcinoma: Higher Incidence in Women, Poorer Outcomes in Men, and an Emerging Non-Coding RNA Layer",
+  "publication_date": "2026-09-24",
+  "journal": "Preprints.org",
+  "oa_status": "green",
+  "is_preprint": true,
+  "relevance": "Medium",
+  "dimensions": [
+   "预后转移",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "PR",
+   "MO"
+  ],
+  "note_zh": "PTC 性别悖论：女性高发、男性预后差与非编码 RNA 层 [preprint]",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42782531",
+  "doi": "10.1007/s00259-026-08193-7",
+  "title": "Colonic metastasis from anaplastic thyroid carcinoma: The value of [18F]FDG PET/CT in an unusual presentation",
+  "publication_date": "2026-09-24",
+  "journal": "European Journal of Nuclear Medicine and Molecular Imaging",
+  "oa_status": "closed",
+  "is_preprint": false,
+  "relevance": "Low",
+  "dimensions": [
+   "预后转移"
+  ],
+  "dim_codes": [
+   "PR"
+  ],
+  "note_zh": "ATC 结肠转移：18F-FDG PET/CT 价值（个案）",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42807951",
+  "doi": "10.7150/ijbs.131070",
+  "title": "Triptolide in Combination with the Gli1 Inhibitor GANT61 Eradicates Anaplastic Thyroid Cancer by Suppressing Cancer Stem Cell Self-Renewal and Enhancing Apoptosis and Pyroptosis",
+  "publication_date": "2026-09-10",
+  "journal": "International Journal of Biological Sciences",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "转移干性",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "ST",
+   "MO"
+  ],
+  "note_zh": "雷公藤甲素联合 Gli1 抑制剂 GANT61 经抑制 CSC 自我更新清除 ATC",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.3389/fonc.2026.1895987",
+  "title": "Two-year dynamic risk stratification and adjuvant radioiodine efficacy in initial non-distant metastatic papillary thyroid carcinoma harboring TERT promoter mutations",
+  "publication_date": "2026-09-30",
+  "journal": "Frontiers in Oncology",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "预后转移",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "PR",
+   "MO"
+  ],
+  "note_zh": "TERT 启动子突变初始非远处转移 PTC 的 2 年动态风险分层与辅助 RAI 疗效",
+  "source_channel": "OpenAlex-90d",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42105187",
+  "doi": "10.1007/s12672-026-05132-8",
+  "title": "Combining single cell and bulk transcriptomics with Mendelian randomization identifies gut microbiota related prognostic genes and mechanisms in thyroid cancer.",
+  "publication_date": "2026-05-09",
+  "journal": "Discov Oncol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "单细胞",
+   "代谢重编程",
+   "免疫微环境",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "SC",
+   "ME",
+   "IM",
+   "PR"
+  ],
+  "note_zh": "sc+bulk+孟德尔随机化锁定肠道菌群相关预后基因 LRP1B/MCM6/PPARG",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42180900",
+  "doi": "10.21037/tcr-2025-1-2828",
+  "title": "Single-cell and bulk transcriptomic analyses identify B-cell senescence-associated biomarkers in papillary thyroid carcinoma.",
+  "publication_date": "2026-04-17",
+  "journal": "Transl Cancer Res",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "单细胞",
+   "免疫微环境"
+  ],
+  "dim_codes": [
+   "SC",
+   "IM"
+  ],
+  "note_zh": "scRNA+bulk 识别 PTC B 细胞衰老相关生物标志物",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42080141",
+  "doi": "10.1007/s12195-026-00895-0",
+  "title": "Multiscale ECM Stiffness Characterization and Quantitative Single-Cell Analysis Reveal ITGA3-Mediated Stiffness-Responsive Subpopulation Dynamics in Papillary Thyroid Carcinoma.",
+  "publication_date": "2026-03-09",
+  "journal": "Cell Mol Bioeng",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "单细胞",
+   "分子机制",
+   "代谢重编程"
+  ],
+  "dim_codes": [
+   "SC",
+   "MO",
+   "ME"
+  ],
+  "note_zh": "多尺度 ECM 刚度表征 + ITGA3 介导 PTC 刚度响应亚群动力学",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42046098",
+  "doi": "10.1186/s12967-026-08190-2",
+  "title": "Inhibition of ATM reverses radioiodine resistance in differentiated thyroid cancer via genotoxic stress amplification.",
+  "publication_date": "2026-04-27",
+  "journal": "J Transl Med",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "单细胞",
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "SC",
+   "MO",
+   "PR"
+  ],
+  "note_zh": "ATM 抑制经基因毒应激放大逆转 DTC 碘难治（AZD1390+RAI，异种移植）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41421038",
+  "doi": "10.1016/j.compbiolchem.2025.108857",
+  "title": "Cellular and molecular determinants of lymph node metastasis in papillary thyroid carcinoma: Integrated multi-omics profiling and machine learning models.",
+  "publication_date": "2025-12-15",
+  "journal": "Comput Biol Chem",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "单细胞",
+   "空间组学",
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "SC",
+   "SP",
+   "AL",
+   "PR"
+  ],
+  "note_zh": "scRNA+空间+bulk 解析 PTC 淋巴结转移，17 基因签名、FN1 为枢纽",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41969483",
+  "doi": "10.21037/tcr-2025-aw-2244",
+  "title": "Identification of papillary thyroid carcinoma-associated epithelial cell subpopulations and diagnostic biomarkers: integrating machine learning with single-cell analysis.",
+  "publication_date": "2026-03-24",
+  "journal": "Transl Cancer Res",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "单细胞",
+   "算法方法"
+  ],
+  "dim_codes": [
+   "SC",
+   "AL"
+  ],
+  "note_zh": "ML+scRNA 识别 PTC 相关上皮细胞亚群与诊断标志物",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41486477",
+  "doi": "10.1097/jcma.0000000000001334",
+  "title": "Single-cell omics in investigating the effect of CAFs with KRAS overexpression on the malignant progression of anaplastic thyroid cancer.",
+  "publication_date": "2026-01-05",
+  "journal": "J Chin Med Assoc",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "单细胞",
+   "免疫微环境",
+   "转移干性"
+  ],
+  "dim_codes": [
+   "SC",
+   "IM",
+   "ST"
+  ],
+  "note_zh": "scRNA 揭示 KRAS 高表达 CAF 驱动 ATC 恶性进展（BI-2865 验证）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42131580",
+  "doi": "10.2147/cmar.s589372",
+  "title": "Tumor-Derived Exosomal PDLIM1 Promotes Angiogenesis and Tumor Progression in Papillary Thyroid Carcinoma: Insights From Integrated Single-Cell Transcriptomics and Exosomal Proteomics.",
+  "publication_date": "2026-05-08",
+  "journal": "Cancer Manag Res",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "单细胞",
+   "分子机制",
+   "免疫微环境",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "SC",
+   "MO",
+   "IM",
+   "PR"
+  ],
+  "note_zh": "肿瘤源外泌体 PDLIM1 促 PTC 血管生成（Scissor+外泌体蛋白组）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41930700",
+  "doi": "10.1155/mi/4753653",
+  "title": "Investigating the Role of TNFSF12 in Thyroid Cancer Progression via Single-Cell RNA Sequencing and Integrated Multiomics Analyses.",
+  "publication_date": "2026-01-01",
+  "journal": "Mediators Inflamm",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "单细胞",
+   "免疫微环境",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "SC",
+   "IM",
+   "MO"
+  ],
+  "note_zh": "TNFSF12 经 scRNA+hdWGCNA+MR 驱动甲状腺癌进展（髓系来源）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41929497",
+  "doi": "10.3389/fimmu.2026.1769020",
+  "title": "Unraveling the indolence of papillary thyroid carcinoma: an exploratory study on B-cell subsets based on genetic predisposition and tumor immunity.",
+  "publication_date": "2026-03-18",
+  "journal": "Front Immunol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "单细胞",
+   "免疫微环境",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "SC",
+   "IM",
+   "PR"
+  ],
+  "note_zh": "MR+流式+scRNA 论证 B 细胞亚群与 PTC 惰性表型因果",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41483448",
+  "doi": "10.1007/s12672-025-04317-x",
+  "title": "Exploring molecular mechanisms of radioactive iodine therapy in thyroid cancer using single-cell RNA sequencing data.",
+  "publication_date": "2026-01-03",
+  "journal": "Discov Oncol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "单细胞",
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "SC",
+   "MO",
+   "PR"
+  ],
+  "note_zh": "泛素化相关 DEGs 预测 RAI 疗效（TCGA+GEO+scRNA）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41480746",
+  "doi": "10.1172/jci.insight.191990",
+  "title": "An integrated single-cell and spatial transcriptomic atlas of thyroid cancer progression identifies prognostic fibroblast subpopulations.",
+  "publication_date": "2026-01-09",
+  "journal": "JCI Insight",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "单细胞",
+   "空间组学",
+   "免疫微环境",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "SC",
+   "SP",
+   "IM",
+   "PR"
+  ],
+  "note_zh": "423,733 细胞 scRNA(81 样本)+28 肿瘤空间图谱，定义 POSTN+ myCAF 预后亚群",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41249621",
+  "doi": "10.1038/s41417-025-00988-4",
+  "title": "Meta single-cell atlas and xQTL post-GWAS analysis revealed the pathogenic features of thyroid cancer for target therapy: A multi-omics study.",
+  "publication_date": "2025-11-17",
+  "journal": "Cancer Gene Ther",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "单细胞",
+   "分子机制",
+   "代谢重编程",
+   "免疫微环境"
+  ],
+  "dim_codes": [
+   "SC",
+   "MO",
+   "ME",
+   "IM"
+  ],
+  "note_zh": "meta 单细胞图谱 + xQTL post-GWAS(SMR) 挖掘 TC 因果基因",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "40183263",
+  "doi": "10.2174/0118715303359688250209090544",
+  "title": "Construction of a Single-cell Atlas of Thyroid Cancer",
+  "publication_date": "2026-01-01",
+  "journal": "Endocr Metab Immune Disord Drug Targets",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "单细胞"
+  ],
+  "dim_codes": [
+   "SC"
+  ],
+  "note_zh": "甲状腺癌单细胞图谱构建",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.21203/rs.3.rs-9206111/v1",
+  "title": "Myosin-10 Promotes Angiogenesis and Metastasis in Thyroid Cancer by Regulating the FGF/FGFR1 Signaling Axis",
+  "publication_date": "2026-05-12",
+  "journal": null,
+  "oa_status": null,
+  "is_preprint": true,
+  "relevance": "Medium",
+  "dimensions": [
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "MO",
+   "PR"
+  ],
+  "note_zh": "Myosin-10 经 FGF/FGFR1 轴促甲状腺癌血管生成与转移 [preprint]",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41579654",
+  "doi": "10.1016/j.compmedimag.2026.102706",
+  "title": "ThyFusionNet: A CNN-transformer framework with spatial aware sparse attention for multi modal thyroid disease diagnosis.",
+  "publication_date": "2026-01-11",
+  "journal": "Comput Med Imaging Graph",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "空间组学"
+  ],
+  "dim_codes": [
+   "AL",
+   "SP"
+  ],
+  "note_zh": "ThyFusionNet：CNN-Transformer + 空间感知稀疏注意力多模态甲状腺诊断",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41502375",
+  "doi": "10.1021/acs.jproteome.5c00432",
+  "title": "Improving the Annotation for Spatial Proteomics: A Computational Approach to Enhance Molecular Characterization of Thyroid Nodules.",
+  "publication_date": "2026-01-08",
+  "journal": "J Proteome Res",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "空间组学",
+   "算法方法"
+  ],
+  "dim_codes": [
+   "SP",
+   "AL"
+  ],
+  "note_zh": "空间蛋白质组注释改进算法，用于甲状腺结节分子表征",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42179850",
+  "doi": "10.2147/ijgm.s602509",
+  "title": "Precision Thyroid Oncology: A Review of Multi-Omics Biomarkers and Spatiotemporal Technologies.",
+  "publication_date": "2026-05-18",
+  "journal": "Int J Gen Med",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "空间组学",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "SP",
+   "MO"
+  ],
+  "note_zh": "综述：精准甲状腺肿瘤学多组学生物标志物与时空技术",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41357855",
+  "doi": "10.1210/jendso/bvaf174",
+  "title": "Differentiated Thyroid Cancer Is Associated With Sex-specific Immune Response.",
+  "publication_date": "2025-11-07",
+  "journal": "J Endocr Soc",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "免疫微环境",
+   "空间组学",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "IM",
+   "SP",
+   "PR"
+  ],
+  "note_zh": "DTC 存在性别特异性免疫应答（流式+空间转录组，27 例前瞻）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.64898/2026.04.01.26349933",
+  "title": "A Transformer-Based 2.5D Deep Learning Model for Preoperative Prediction of Lymph Node Metastasis in Papillary Thyroid Carcinoma",
+  "publication_date": "2026-04-02",
+  "journal": null,
+  "oa_status": null,
+  "is_preprint": true,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "Transformer 2.5D 深度学习术前预测 PTC 淋巴结转移 [preprint]",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.64898/2026.03.12.711294",
+  "title": "A stress-function tradeoff organizes epithelial heterogeneity across spatial scales in the human thyroid",
+  "publication_date": "2026-03-16",
+  "journal": null,
+  "oa_status": null,
+  "is_preprint": true,
+  "relevance": "Low",
+  "dimensions": [
+   "空间组学",
+   "单细胞"
+  ],
+  "dim_codes": [
+   "SP",
+   "SC"
+  ],
+  "note_zh": "人甲状腺上皮异质性的应激-功能权衡（跨空间尺度）[preprint]",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42134246",
+  "doi": "10.1016/j.molimm.2026.05.006",
+  "title": "Transcriptomic sequencing analysis of the tumor microenvironment atlas and potential mechanisms of metastasis in papillary thyroid carcinoma.",
+  "publication_date": "2026-05-14",
+  "journal": "Mol Immunol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "免疫微环境",
+   "单细胞",
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "IM",
+   "SC",
+   "MO",
+   "PR"
+  ],
+  "note_zh": "T/PT/LN 三部位 scRNA 图谱，Mac-APOC1 巨噬亚群具 M2 特征",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42305510",
+  "doi": "10.21037/tcr-2026-1-0208",
+  "title": "Identification and validation of tumor microenvironment remodeling markers associated with prognosis in differentiated thyroid cancer.",
+  "publication_date": "2026-05-27",
+  "journal": "Transl Cancer Res",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "免疫微环境",
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "IM",
+   "AL",
+   "PR"
+  ],
+  "note_zh": "TME 重塑标志物 + 101 种 ML 算法构建 DTC 预后模型",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42193451",
+  "doi": "10.3390/biomedicines14051126",
+  "title": "Current Studies on the Hypoxic Tumor Microenvironment in Thyroid Cancer: From Molecular Mechanisms to Clinical Therapeutic Perspectives.",
+  "publication_date": "2026-05-16",
+  "journal": "Biomedicines",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "免疫微环境",
+   "代谢重编程",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "IM",
+   "ME",
+   "MO"
+  ],
+  "note_zh": "综述：甲状腺癌缺氧 TME 机制与治疗",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41787436",
+  "doi": "10.1186/s12935-026-04248-9",
+  "title": "Novel a new prognostic model of thyroid carcinoma based on macrophage and cuproptosis-related lncRNA.",
+  "publication_date": "2026-03-05",
+  "journal": "Cancer Cell Int",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "免疫微环境",
+   "代谢重编程",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "IM",
+   "ME",
+   "PR"
+  ],
+  "note_zh": "巨噬细胞 + 铜死亡相关 lncRNA 预后模型",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41650889",
+  "doi": "10.1016/j.intimp.2026.116324",
+  "title": "Retinoic acid receptor gamma (RARγ) drives M2-like macrophage polarisation via CFI to promote thyroid cancer progression.",
+  "publication_date": "2026-02-05",
+  "journal": "Int Immunopharmacol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "免疫微环境",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "IM",
+   "MO"
+  ],
+  "note_zh": "RARγ 转录上调 CFI 驱动 M2 样 TAM 极化促甲状腺癌进展",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41083825",
+  "doi": "10.1245/s10434-025-18473-5",
+  "title": "Age-Associated Alterations in Cytokine and Extracellular Matrix Remodeling in the Papillary Thyroid Cancer Tumor Microenvironment.",
+  "publication_date": "2025-10-13",
+  "journal": "Ann Surg Oncol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "免疫微环境",
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "IM",
+   "MO",
+   "PR"
+  ],
+  "note_zh": "PTC TME 随年龄改变的细胞因子与 ECM 重塑（TCGA 年龄分层）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41958678",
+  "doi": "10.3389/fimmu.2026.1740257",
+  "title": "Gut microbe &lt;i&gt;Terrisporobacter&lt;/i&gt; promotes papillary thyroid carcinoma progression by upregulating the &lt;i&gt;NTRK1&lt;/i&gt; oncogene and fostering an immunosuppressive tumor microenvironment.",
+  "publication_date": "2026-03-25",
+  "journal": "Front Immunol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "免疫微环境",
+   "分子机制",
+   "代谢重编程"
+  ],
+  "dim_codes": [
+   "IM",
+   "MO",
+   "ME"
+  ],
+  "note_zh": "肠道 Terrisporobacter 经 MR 因果上调 NTRK1 并塑造免疫抑制 TME",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41836061",
+  "doi": "10.3389/fgene.2026.1735093",
+  "title": "Comprehensive analyses of biological function and tumor microenvironment with cuproptosis regulators and construction of a cuproptosis-related scoring system in thyroid cancer based on bioinformatics and experimental validation.",
+  "publication_date": "2026-02-27",
+  "journal": "Front Genet",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "免疫微环境",
+   "代谢重编程"
+  ],
+  "dim_codes": [
+   "IM",
+   "ME"
+  ],
+  "note_zh": "铜死亡调控因子 + TME 评分模型",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41788857",
+  "doi": "10.34133/bmr.0338",
+  "title": "Versatile Nanotherapeutics for Enhancing Sonodynamic Therapy/Chemotherapy of Thyroid Cancer through Remodeling Tumor Microenvironment and Synergistic Reactive Oxygen Species Augment.",
+  "publication_date": "2026-03-04",
+  "journal": "Biomater Res",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "免疫微环境",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "IM",
+   "MO"
+  ],
+  "note_zh": "纳米制剂重塑 TME 增强声动力/化疗",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41678466",
+  "doi": "10.1371/journal.pone.0341123",
+  "title": "Influence of the tumor microenvironment on genetic mutations in thyroid carcinoma.",
+  "publication_date": "2026-02-12",
+  "journal": "PLoS One",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "免疫微环境",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "IM",
+   "MO"
+  ],
+  "note_zh": "TME 对甲状腺癌基因突变的影响",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41674934",
+  "doi": "10.21037/tcr-2025-1882",
+  "title": "Tumor microenvironment-guided targeted and immunotherapy in anaplastic thyroid cancer: a literature review from preclinical models to clinical translation.",
+  "publication_date": "2026-01-20",
+  "journal": "Transl Cancer Res",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "免疫微环境",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "IM",
+   "PR"
+  ],
+  "note_zh": "综述：ATC 的 TME 指导靶向与免疫治疗",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41328346",
+  "doi": "10.7150/thno.113712",
+  "title": "Enhancer-mediated NR2F2 recruitment activates BGN to promote tumor growth and shape tumor microenvironment in papillary thyroid cancer.",
+  "publication_date": "2026-01-01",
+  "journal": "Theranostics",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "免疫微环境",
+   "分子机制",
+   "代谢重编程"
+  ],
+  "dim_codes": [
+   "IM",
+   "MO",
+   "ME"
+  ],
+  "note_zh": "增强子介导 NR2F2 招募激活 BGN，促 PTC 生长并塑造 TME",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42037453",
+  "doi": "10.1080/15384047.2026.2663610",
+  "title": "UCHL5 suppresses thyroid carcinoma progression via ZRANB1 stabilization and ferroptosis regulation.",
+  "publication_date": "2026-04-27",
+  "journal": "Cancer Biol Ther",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "代谢重编程",
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "ME",
+   "MO",
+   "PR"
+  ],
+  "note_zh": "UCHL5 经稳定 ZRANB1 + 调控铁死亡抑制甲状腺癌进展（CRISPR/异种移植）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42140130",
+  "doi": "10.1016/j.colsurfb.2026.115767",
+  "title": "Electrostatically assembled CaO&lt;sub&gt;2&lt;/sub&gt;@MPN-HA nanoreactors potentiate anti-PD-1 therapy in thyroid cancer via synergistic ferroptosis and calcium overload.",
+  "publication_date": "2026-05-03",
+  "journal": "Colloids Surf B Biointerfaces",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "代谢重编程",
+   "免疫微环境"
+  ],
+  "dim_codes": [
+   "ME",
+   "IM"
+  ],
+  "note_zh": "CaO2@MPN-HA 纳米反应器经铁死亡+钙超载协同增敏 anti-PD-1",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42066828",
+  "doi": "10.1016/j.cellsig.2026.112565",
+  "title": "FOXP4-AS1 suppresses papillary thyroid carcinoma progression by binding to Lactate Dehydrogenase A and suppressing its expression, with implications for metabolic-targeted therapy.",
+  "publication_date": "2026-04-29",
+  "journal": "Cell Signal",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "代谢重编程",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "ME",
+   "MO"
+  ],
+  "note_zh": "FOXP4-AS1 结合 LDHA 抑制 PTC 进展（有氧糖酵解）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42143948",
+  "doi": "10.1016/j.prp.2026.156519",
+  "title": "Lactylation-induced TRIM47 exacerbates cell viability, cell cycle progression, and glycolysis in thyroid cancer by inducing ubiquitin-mediated degradation of FBP1.",
+  "publication_date": "2026-05-12",
+  "journal": "Pathol Res Pract",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "代谢重编程",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "ME",
+   "MO"
+  ],
+  "note_zh": "乳酸化诱导 TRIM47 泛素化降解 FBP1 加剧甲状腺癌糖酵解",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41985638",
+  "doi": "10.1016/j.freeradbiomed.2026.04.025",
+  "title": "Bisphenol A drives thyroid carcinogenesis through oxidative stress-lipid metabolic reprogramming via the PTEN/PI3K/AKT axis: Therapeutic reversal by a curcumin-modified quercetin nanomicelle system.",
+  "publication_date": "2026-04-14",
+  "journal": "Free Radic Biol Med",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "代谢重编程",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "ME",
+   "MO"
+  ],
+  "note_zh": "BPA 经氧化应激-脂质代谢重编程(PTEN/PI3K/AKT)驱动甲状腺癌变",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41964784",
+  "doi": "10.1007/s40618-026-02887-3",
+  "title": "Lipocalin 2 promotes papillary thyroid cancer progression through activation of glycolysis via Hippo/YAP1/HIF1α axis.",
+  "publication_date": "2026-04-11",
+  "journal": "J Endocrinol Invest",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "代谢重编程",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "ME",
+   "MO"
+  ],
+  "note_zh": "Lipocalin 2 经 Hippo/YAP1/HIF1α 激活糖酵解促 PTC 进展",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41876436",
+  "doi": "10.1002/mrm.70351",
+  "title": "Quantitative Imaging of Pyruvate Metabolism in a Patient With Anaplastic Thyroid Cancer.",
+  "publication_date": "2026-03-24",
+  "journal": "Magn Reson Med",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "代谢重编程",
+   "空间组学",
+   "算法方法"
+  ],
+  "dim_codes": [
+   "ME",
+   "SP",
+   "AL"
+  ],
+  "note_zh": "超极化 13C-丙酮酸 MRI + PK 模型定量成像 ATC 丙酮酸代谢",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42159908",
+  "doi": "10.1007/s11604-026-02006-5",
+  "title": "Evaluation of 2D and 3D nnU-Net models with two-label and three-label strategies for automatic segmentation and total metabolic tumor volume estimation of metastatic differentiated thyroid carcinoma on FDG-PET/CT.",
+  "publication_date": "2026-05-20",
+  "journal": "Jpn J Radiol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "代谢重编程"
+  ],
+  "dim_codes": [
+   "AL",
+   "ME"
+  ],
+  "note_zh": "2D/3D nnU-Net 自动分割与代谢肿瘤体积评估",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41906704",
+  "doi": "10.1080/07853890.2026.2650862",
+  "title": "Diagnostic performance and generalizability of a clinical-ultrasound radiomics model for predicting extrathyroidal extension in thyroid carcinoma: a retrospective study.",
+  "publication_date": "2026-03-30",
+  "journal": "Ann Med",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "超声影像组学+临床因素预测甲状腺癌腺外侵犯（含外部测试）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41729615",
+  "doi": "10.1080/08916934.2026.2631208",
+  "title": "Identification of the immune-related diagnostic biomarkers between Graves' disease and thyroid carcinoma based on comprehensive bioinformatics analysis and machine learning.",
+  "publication_date": "2026-02-23",
+  "journal": "Autoimmunity",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "免疫微环境"
+  ],
+  "dim_codes": [
+   "AL",
+   "IM"
+  ],
+  "note_zh": "Graves 病 vs 甲状腺癌免疫相关诊断标志物",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42493350",
+  "doi": "10.1016/j.acra.2026.06.047",
+  "title": "The Value of Deep Learning in Differentiating Thyroid Adenomatoid Nodules on Ultrasound: A Dual-Center Study.",
+  "publication_date": "2026-07-24",
+  "journal": "Acad Radiol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法"
+  ],
+  "dim_codes": [
+   "AL"
+  ],
+  "note_zh": "深度学习鉴别甲状腺腺瘤样结节（双中心）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42302438",
+  "doi": "10.1016/j.ejrad.2026.113014",
+  "title": "A clinically anchored radiomics dictionary for explainable TI-RADS-based thyroid nodule classification in ultrasound; dictionary version TU1.0.",
+  "publication_date": "2026-06-13",
+  "journal": "Eur J Radiol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法"
+  ],
+  "dim_codes": [
+   "AL"
+  ],
+  "note_zh": "TI-RADS 可解释影像组学字典 TU1.0",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41950626",
+  "doi": "10.1016/j.saa.2026.127857",
+  "title": "Label-free screening and grading of follicular thyroid neoplasms enabled by Fourier transform infrared microspectroscopy and machine learning.",
+  "publication_date": "2026-04-03",
+  "journal": "Spectrochim Acta A Mol Biomol Spectrosc",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "AL",
+   "MO"
+  ],
+  "note_zh": "FTIR 显微光谱 + ML 无标记筛查滤泡性甲状腺肿瘤",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42808187",
+  "doi": "10.1177/03000605261467637",
+  "title": "Development of a nomogram for preoperative prediction of malignant risk in thyroid follicular tumors based on multimodal ultrasound and clinical features: A retrospective observational study.",
+  "publication_date": "2026-09-29",
+  "journal": "J Int Med Res",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "甲状腺滤泡性肿瘤恶性风险术前列线图",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42714621",
+  "doi": "10.1007/s00330-026-12814-y",
+  "title": "Deep learning image reconstruction for 50-keV virtual monoenergetic dual-energy CT of the thyroid: a prospective \"dual-low\" dose study.",
+  "publication_date": "2026-09-09",
+  "journal": "Eur Radiol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法"
+  ],
+  "dim_codes": [
+   "AL"
+  ],
+  "note_zh": "深度学习重建 50-keV 虚拟单能双能 CT",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42083495",
+  "doi": "10.1097/mnm.0000000000002171",
+  "title": "A nomogram predicting dysphagia risk after adjuvant iodine-131 therapy in patients with papillary thyroid carcinoma.",
+  "publication_date": "2026-05-05",
+  "journal": "Nucl Med Commun",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Low",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "PTC 碘-131 后吞咽困难风险列线图",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42413301",
+  "doi": "10.1016/j.suronc.2025.102337",
+  "title": "To develop and validate a nomogram model for predicting high volume (&gt;5) central lymph node metastasis in papillary thyroid microcarcinoma.",
+  "publication_date": "2025-12-04",
+  "journal": "Surg Oncol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "PTMC 高容量(>5)中央区淋巴结转移列线图",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42302707",
+  "doi": "10.1016/j.suronc.2026.102481",
+  "title": "Association between surgical extent and outcomes for low-risk 2-4 cm differentiated thyroid cancer in the 2025 ATA era: A SEER competing-risk analysis with nomogram.",
+  "publication_date": "2026-06-12",
+  "journal": "Surg Oncol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "预后转移"
+  ],
+  "dim_codes": [
+   "PR"
+  ],
+  "note_zh": "2025 ATA 时代低危 2-4cm DTC 手术范围（SEER 竞争风险）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42225518",
+  "doi": "10.1016/j.ultrasmedbio.2026.05.007",
+  "title": "Differentiating Mummified Thyroid Nodules From Papillary Thyroid Carcinoma: A Machine Learning Approach Using Multi-Modal Ultrasound Radiomics.",
+  "publication_date": "2026-06-02",
+  "journal": "Ultrasound Med Biol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法"
+  ],
+  "dim_codes": [
+   "AL"
+  ],
+  "note_zh": "ML 鉴别木乃伊化结节与 PTC（多模态超声影像组学）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42155957",
+  "doi": "10.1016/j.oraloncology.2026.108007",
+  "title": "Refining individualized treatment: A risk nomogram for predicting central lymph node metastasis in papillary thyroid microcarcinoma.",
+  "publication_date": "2026-05-19",
+  "journal": "Oral Oncol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "PTMC 中央区淋巴结转移风险列线图",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42120263",
+  "doi": "10.1016/j.ultrasmedbio.2026.04.003",
+  "title": "A Practical Nomogram for Preoperative Prediction of Lateral Lymph Node Metastasis in Children and Adolescent Patients With Papillary Thyroid Carcinoma: A Multicenter Retrospective Study.",
+  "publication_date": "2026-05-13",
+  "journal": "Ultrasound Med Biol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "儿童青少年 PTC 颈侧区淋巴结转移列线图",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42097935",
+  "doi": "10.1016/j.ultrasmedbio.2026.01.015",
+  "title": "Super-Resolution Ultrasound Radiomics Nomogram for Preoperative Prediction of Lateral Lymph Node Metastasis in Papillary Thyroid Carcinoma: A Development and Validation Study.",
+  "publication_date": "2026-05-07",
+  "journal": "Ultrasound Med Biol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "超分辨超声影像组学列线图术前预测 PTC 颈侧淋巴结转移（171 淋巴结）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41720062",
+  "doi": "10.1016/j.compbiolchem.2026.108960",
+  "title": "Discovery of potent ALK tyrosine kinase inhibitors for thyroid cancer via machine learning modeling, molecular docking, MD simulations, and DFT study.",
+  "publication_date": "2026-02-18",
+  "journal": "Comput Biol Chem",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "AL",
+   "MO"
+  ],
+  "note_zh": "ML+分子对接+MD+DFT 发现甲状腺癌 ALK 抑制剂",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41168629",
+  "doi": "10.1007/s10278-025-01723-z",
+  "title": "Intelligent Diagnosis of Follicular Carcinoma Thyroid Cancer with a Novel Deep Learning Model.",
+  "publication_date": "2025-10-30",
+  "journal": "J Imaging Inform Med",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法"
+  ],
+  "dim_codes": [
+   "AL"
+  ],
+  "note_zh": "滤泡性甲状腺癌智能诊断深度学习模型",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42591703",
+  "doi": "10.21037/gs-2026-0211",
+  "title": "Development and validation of an explainable web-based machine learning model for predicting early postoperative hypocalcemia in patients with differentiated thyroid cancer.",
+  "publication_date": "2026-07-23",
+  "journal": "Gland Surg",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "AL",
+   "PR"
+  ],
+  "note_zh": "可解释 web 化 ML 模型预测术后早期低钙血症",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42536309",
+  "doi": "10.1007/s13304-026-02782-9",
+  "title": "Automated segmentation of thyroid tissue and carotid artery in ultrasound videos using expert-in-the-loop deep learning: a foundational step toward AI-assisted thyroid diagnostics.",
+  "publication_date": "2026-07-31",
+  "journal": "Updates Surg",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "算法方法"
+  ],
+  "dim_codes": [
+   "AL"
+  ],
+  "note_zh": "专家在环深度学习自动分割超声视频中甲状腺与颈动脉",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42327507",
+  "doi": "10.1016/j.radcr.2026.05.080",
+  "title": "Squamous dedifferentiation and differentiated high-grade transformation of papillary thyroid carcinoma in metastatic lymph nodes: Two cases and literature review.",
+  "publication_date": "2026-06-13",
+  "journal": "Radiol Case Rep",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "转移干性",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "ST",
+   "PR"
+  ],
+  "note_zh": "PTC 转移淋巴结内鳞状去分化与高分级转化（2 例）",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42276487",
+  "doi": "10.1016/j.ijbiomac.2026.153021",
+  "title": "Nucleolar and spindle-associated protein 1 (NUSAP1) promotes thyroid cancer dedifferentiation via BCAT1-mediated metabolic-epigenetic crosstalk.",
+  "publication_date": "2026-06-11",
+  "journal": "Int J Biol Macromol",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "转移干性",
+   "代谢重编程",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "ST",
+   "ME",
+   "MO"
+  ],
+  "note_zh": "NUSAP1 经 BCAT1 介导代谢-表观交叉促甲状腺癌去分化",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "42116608",
+  "doi": "10.1002/adhm.202505384",
+  "title": "S1PR1-Overexpressing Membrane-Coated Nanoparticles Inhibit Dedifferentiation Progression for the Treatment of Anaplastic Thyroid Carcinoma by Targeting the ACER3/SPHK1/S1P Pathway.",
+  "publication_date": "2026-05-11",
+  "journal": "Adv Healthc Mater",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "转移干性",
+   "代谢重编程",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "ST",
+   "ME",
+   "MO"
+  ],
+  "note_zh": "S1PR1 过表达膜包被纳米粒靶向 ACER3/SPHK1/S1P 抑制 ATC 去分化",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41972718",
+  "doi": "10.3390/cells15070630",
+  "title": "Ferroptosis in Differentiated Thyroid Cancer: Redox-Iodine Metabolism, Dedifferentiation, and Therapeutic Sensitization Beyond Anaplastic Disease.",
+  "publication_date": "2026-03-31",
+  "journal": "Cells",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "转移干性",
+   "代谢重编程",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "ST",
+   "ME",
+   "PR"
+  ],
+  "note_zh": "综述：DTC 铁死亡-氧化还原碘代谢-去分化与增敏",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41801518",
+  "doi": "10.1007/s12020-025-04510-6",
+  "title": "MicroRNA signatures associated with radioiodine refractoriness and tumor dedifferentiation in metastatic papillary thyroid carcinoma.",
+  "publication_date": "2026-03-09",
+  "journal": "Endocrine",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "转移干性",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "ST",
+   "PR"
+  ],
+  "note_zh": "转移性 PTC 碘难治与去分化的 miRNA 特征",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41751352",
+  "doi": "10.3390/biomedicines14020453",
+  "title": "Cancer Stemness and Dedifferentiation in Anaplastic Thyroid Carcinoma: Insights into a Multigenic, Microenvironmental Network and the Role of CD44.",
+  "publication_date": "2026-02-18",
+  "journal": "Biomedicines",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "转移干性",
+   "免疫微环境"
+  ],
+  "dim_codes": [
+   "ST",
+   "IM"
+  ],
+  "note_zh": "综述：ATC 干性与去分化的多基因-微环境网络及 CD44",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41296188",
+  "doi": "10.1007/s11154-025-10008-3",
+  "title": "Retroelements in thyroid cancer: epigenetic plasticity, dedifferentiation, and therapeutic opportunities.",
+  "publication_date": "2025-11-26",
+  "journal": "Rev Endocr Metab Disord",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "转移干性",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "ST",
+   "MO"
+  ],
+  "note_zh": "综述：甲状腺癌逆转录元件-表观可塑性-去分化",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41522349",
+  "doi": "10.7150/ijbs.121503",
+  "title": "IGF2BP2 Drives Thyroid Cancer Dedifferentiation Through m6A-Dependent STAT1 mRNA Destabilization.",
+  "publication_date": "2026-01-01",
+  "journal": "Int J Biol Sci",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "转移干性",
+   "分子机制",
+   "免疫微环境"
+  ],
+  "dim_codes": [
+   "ST",
+   "MO",
+   "IM"
+  ],
+  "note_zh": "IGF2BP2 经 m6A 依赖 STAT1 mRNA 去稳定驱动甲状腺癌去分化",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "41147659",
+  "doi": "10.1002/1873-3468.70207",
+  "title": "Targeting EZH2 reverses thyroid cell dedifferentiation and enhances iodide uptake in anaplastic thyroid cancer.",
+  "publication_date": "2025-10-28",
+  "journal": "FEBS Lett",
+  "oa_status": null,
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "转移干性",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "ST",
+   "MO"
+  ],
+  "note_zh": "靶向 EZH2 逆转甲状腺细胞去分化并恢复摄碘",
+  "source_channel": "EuropePMC",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": null,
+  "doi": "10.21037/tcr-2026-1398",
+  "title": "Analysis and validation of prognostic markers for thyroid cancer by single-cell and bulk RNA sequencing",
+  "publication_date": "2026-09-01",
+  "journal": "Discover Oncology",
+  "oa_status": "diamond",
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "单细胞",
+   "预后转移",
+   "分子机制"
+  ],
+  "dim_codes": [
+   "SC",
+   "PR",
+   "MO"
+  ],
+  "note_zh": "sc+bulk RNA-seq 分析验证甲状腺癌预后标志物（含 APOE/NPC2 等）",
+  "source_channel": "OpenAlex-deep",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/42491721",
+  "doi": "10.1016/j.isci.2026.116560",
+  "title": "Identification of FXYD5 as an oncogene in pediatric papillary thyroid cancer",
+  "publication_date": "2026-06-26",
+  "journal": "iScience",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "单细胞",
+   "免疫微环境",
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "SC",
+   "IM",
+   "MO",
+   "PR"
+  ],
+  "note_zh": "儿童 PTC 11 例 scRNA：SPP1+ M2 巨噬与肿瘤细胞经免疫抑制配受体互作，FXYD5 为癌基因",
+  "source_channel": "OpenAlex-deep",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/42296777",
+  "doi": "10.1016/j.tice.2026.103686",
+  "title": "CD44 gene rs9666607 polymorphism is associated with papillary thyroid carcinoma and interacts with CREB3L1",
+  "publication_date": "2026-06-09",
+  "journal": "Tissue and Cell",
+  "oa_status": "closed",
+  "is_preprint": false,
+  "relevance": "Medium",
+  "dimensions": [
+   "分子机制",
+   "预后转移"
+  ],
+  "dim_codes": [
+   "MO",
+   "PR"
+  ],
+  "note_zh": "CD44 rs9666607 多态性与 PTC 相关并与 CREB3L1 互作",
+  "source_channel": "OpenAlex-deep",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ },
+ {
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/42397052",
+  "doi": "10.1002/advs.76402",
+  "title": "ANXA2 + Small Extracellular Vesicles Drive Chemoresistance in Anaplastic Thyroid Cancer by Promoting XRCC5 Lactylation and Enhancing Non‐Homologous End‐Joining Repair",
+  "publication_date": "2026-07-03",
+  "journal": "Advanced Science",
+  "oa_status": "gold",
+  "is_preprint": false,
+  "relevance": "High",
+  "dimensions": [
+   "分子机制",
+   "免疫微环境",
+   "代谢重编程"
+  ],
+  "dim_codes": [
+   "MO",
+   "IM",
+   "ME"
+  ],
+  "note_zh": "ANXA2+ 小细胞外囊泡经 XRCC 介导驱动 ATC 化疗耐药",
+  "source_channel": "OpenAlex-deep",
+  "run": "run26",
+  "added_date": "2026-10-02T03:13:29"
+ }
+]

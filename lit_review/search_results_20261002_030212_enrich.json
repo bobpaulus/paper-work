@@ -1,0 +1,497 @@
+[
+ {
+  "doi": "10.17219/acem/214710",
+  "title": "Neutrophil-related gene signature predicts prognosis and immune microenvironment patterns in thyroid cancer",
+  "crossref": {
+   "title": "Neutrophil-related gene signature predicts prognosis and immune microenvironment patterns in thyroid cancer",
+   "journal": "Advances in Clinical and Experimental Medicine",
+   "published": [
+    [
+     2026,
+     9,
+     29
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Wroclaw Medical University",
+   "author_count": 4
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://doi.org/10.17219/acem/214710"
+  }
+ },
+ {
+  "doi": "10.1007/s12672-026-05997-9",
+  "title": "Integrated single-cell and bulk RNA sequencing reveals T-cell heterogeneity and identifies an immune-related prognostic signature in thyroid carcinoma",
+  "crossref": {
+   "title": "Integrated single-cell and bulk RNA sequencing reveals T-cell heterogeneity and identifies an immune-related prognostic signature in thyroid carcinoma",
+   "journal": "Discover Oncology",
+   "published": [
+    [
+     2026,
+     9,
+     27
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Springer Science and Business Media LLC",
+   "author_count": 6
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://doi.org/10.1007/s12672-026-05997-9"
+  }
+ },
+ {
+  "doi": "10.3389/fendo.2026.1866805",
+  "title": "Machine learning-based prediction of lymph node metastasis in papillary thyroid carcinoma: an interpretable multidimensional model",
+  "crossref": {
+   "title": "Machine learning-based prediction of lymph node metastasis in papillary thyroid carcinoma: an interpretable multidimensional model",
+   "journal": "Frontiers in Endocrinology",
+   "published": [
+    [
+     2026,
+     9,
+     28
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Frontiers Media SA",
+   "author_count": 7
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1866805/pdf"
+  }
+ },
+ {
+  "doi": "10.3389/fendo.2026.1922413",
+  "title": "Anatomical location matters: risk modelling and surgical outcomes in central lymph node metastasis of isthmus PTC",
+  "crossref": {
+   "title": "Anatomical location matters: risk modelling and surgical outcomes in central lymph node metastasis of isthmus PTC",
+   "journal": "Frontiers in Endocrinology",
+   "published": [
+    [
+     2026,
+     9,
+     28
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Frontiers Media SA",
+   "author_count": 13
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://doi.org/10.3389/fendo.2026.1922413"
+  }
+ },
+ {
+  "doi": "10.1038/s43856-026-01920-z",
+  "title": "Integrating machine learning survival and large language models for prognostics of thyroid cancer",
+  "crossref": {
+   "title": "Integrating machine learning survival and large language models for prognostics of thyroid cancer",
+   "journal": "Communications Medicine",
+   "published": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Springer Science and Business Media LLC",
+   "author_count": 13
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://www.nature.com/articles/s43856-026-01920-z_reference.pdf"
+  }
+ },
+ {
+  "doi": "10.1007/s12672-026-05132-8",
+  "title": "Combining single cell and bulk transcriptomics with Mendelian randomization identifies gut microbiota related prognostic genes and mechanisms in thyroid cancer.",
+  "crossref": {
+   "title": "Combining single cell and bulk transcriptomics with Mendelian randomization identifies gut microbiota related prognostic genes and mechanisms in thyroid cancer",
+   "journal": "Discover Oncology",
+   "published": [
+    [
+     2026,
+     5,
+     9
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Springer Science and Business Media LLC",
+   "author_count": 6
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://doi.org/10.1007/s12672-026-05132-8"
+  }
+ },
+ {
+  "doi": "10.1186/s12967-026-08190-2",
+  "title": "Inhibition of ATM reverses radioiodine resistance in differentiated thyroid cancer via genotoxic stress amplification.",
+  "crossref": {
+   "title": "Inhibition of ATM reverses radioiodine resistance in differentiated thyroid cancer via genotoxic stress amplification",
+   "journal": "Journal of Translational Medicine",
+   "published": [
+    [
+     2026,
+     4,
+     27
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Springer Science and Business Media LLC",
+   "author_count": 10
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://doi.org/10.1186/s12967-026-08190-2"
+  }
+ },
+ {
+  "doi": "10.1016/j.compbiolchem.2025.108857",
+  "title": "Cellular and molecular determinants of lymph node metastasis in papillary thyroid carcinoma: Integrated multi-omics profiling and machine learning models.",
+  "crossref": {
+   "title": "Cellular and molecular determinants of lymph node metastasis in papillary thyroid carcinoma: Integrated multi-omics profiling and machine learning models",
+   "journal": "Computational Biology and Chemistry",
+   "published": [
+    [
+     2026,
+     4
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Elsevier BV",
+   "author_count": 7
+  },
+  "unpaywall": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "journal_is_oa": false,
+   "best_oa": null
+  }
+ },
+ {
+  "doi": "10.1172/jci.insight.191990",
+  "title": "An integrated single-cell and spatial transcriptomic atlas of thyroid cancer progression identifies prognostic fibroblast subpopulations.",
+  "crossref": {
+   "title": "An integrated single-cell and spatial transcriptomic atlas of thyroid cancer progression identifies prognostic fibroblast subpopulations",
+   "journal": "JCI Insight",
+   "published": [
+    [
+     2026,
+     1,
+     9
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "American Society for Clinical Investigation",
+   "author_count": 34
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://doi.org/10.1172/jci.insight.191990"
+  }
+ },
+ {
+  "doi": "10.1038/s41417-025-00988-4",
+  "title": "Meta single-cell atlas and xQTL post-GWAS analysis revealed the pathogenic features of thyroid cancer for target therapy: A multi-omics study.",
+  "crossref": {
+   "title": "Meta single-cell atlas and xQTL post-GWAS analysis revealed the pathogenic features of thyroid cancer for target therapy: A multi-omics study",
+   "journal": "Cancer Gene Therapy",
+   "published": [
+    [
+     2026,
+     1
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Springer Science and Business Media LLC",
+   "author_count": 3
+  },
+  "unpaywall": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "journal_is_oa": false,
+   "best_oa": null
+  }
+ },
+ {
+  "doi": "10.1016/j.molimm.2026.05.006",
+  "title": "Transcriptomic sequencing analysis of the tumor microenvironment atlas and potential mechanisms of metastasis in papillary thyroid carcinoma.",
+  "crossref": {
+   "title": "Transcriptomic sequencing analysis of the tumor microenvironment atlas and potential mechanisms of metastasis in papillary thyroid carcinoma",
+   "journal": "Molecular Immunology",
+   "published": [
+    [
+     2026,
+     7
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Elsevier BV",
+   "author_count": 9
+  },
+  "unpaywall": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "journal_is_oa": false,
+   "best_oa": null
+  }
+ },
+ {
+  "doi": "10.1016/j.intimp.2026.116324",
+  "title": "Retinoic acid receptor gamma (RARγ) drives M2-like macrophage polarisation via CFI to promote thyroid cancer progression.",
+  "crossref": {
+   "title": "Retinoic acid receptor gamma (RARγ) drives M2-like macrophage polarisation via CFI to promote thyroid cancer progression",
+   "journal": "International Immunopharmacology",
+   "published": [
+    [
+     2026,
+     3
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Elsevier BV",
+   "author_count": 8
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "hybrid",
+   "journal_is_oa": false,
+   "best_oa": "https://doi.org/10.1016/j.intimp.2026.116324"
+  }
+ },
+ {
+  "doi": "10.3389/fimmu.2026.1740257",
+  "title": "Gut microbe &lt;i&gt;Terrisporobacter&lt;/i&gt; promotes papillary thyroid carcinoma progression by upregulating the &lt;i&gt;NTRK1&lt;/i&gt; oncogene and fostering an immunosuppressive tumor microenvironment.",
+  "crossref": {
+   "title": "Gut microbe Terrisporobacter promotes papillary thyroid carcinoma progression by upregulating the NTRK1 oncogene and fostering an immunosuppressive tumor microenvironment",
+   "journal": "Frontiers in Immunology",
+   "published": [
+    [
+     2026,
+     3,
+     25
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Frontiers Media SA",
+   "author_count": 5
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://public-pages-files-2025.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1740257/pdf"
+  }
+ },
+ {
+  "doi": "10.7150/thno.113712",
+  "title": "Enhancer-mediated NR2F2 recruitment activates BGN to promote tumor growth and shape tumor microenvironment in papillary thyroid cancer.",
+  "crossref": {
+   "title": "Enhancer-mediated NR2F2 recruitment activates BGN to promote tumor growth and shape tumor microenvironment in papillary thyroid cancer",
+   "journal": "Theranostics",
+   "published": [
+    [
+     2026,
+     1,
+     1
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Ivyspring International Publisher",
+   "author_count": 15
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://doi.org/10.7150/thno.113712"
+  }
+ },
+ {
+  "doi": "10.1080/15384047.2026.2663610",
+  "title": "UCHL5 suppresses thyroid carcinoma progression via ZRANB1 stabilization and ferroptosis regulation.",
+  "crossref": {
+   "title": "UCHL5 suppresses thyroid carcinoma progression via ZRANB1 stabilization and ferroptosis regulation",
+   "journal": "Cancer Biology &amp; Therapy",
+   "published": [
+    [
+     2026,
+     12,
+     31
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Informa UK Limited",
+   "author_count": 7
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://www.tandfonline.com/doi/pdf/10.1080/15384047.2026.2663610?needAccess=true"
+  }
+ },
+ {
+  "doi": "10.1016/j.prp.2026.156519",
+  "title": "Lactylation-induced TRIM47 exacerbates cell viability, cell cycle progression, and glycolysis in thyroid cancer by inducing ubiquitin-mediated degradation of FBP1.",
+  "crossref": {
+   "title": "Lactylation-induced TRIM47 exacerbates cell viability, cell cycle progression, and glycolysis in thyroid cancer by inducing ubiquitin-mediated degradation of FBP1",
+   "journal": "Pathology - Research and Practice",
+   "published": [
+    [
+     2026,
+     8
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Elsevier BV",
+   "author_count": 3
+  },
+  "unpaywall": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "journal_is_oa": false,
+   "best_oa": null
+  }
+ },
+ {
+  "doi": "10.1016/j.ultrasmedbio.2026.01.015",
+  "title": "Super-Resolution Ultrasound Radiomics Nomogram for Preoperative Prediction of Lateral Lymph Node Metastasis in Papillary Thyroid Carcinoma: A Development and Validation Study.",
+  "crossref": {
+   "title": "Super-Resolution Ultrasound Radiomics Nomogram for Preoperative Prediction of Lateral Lymph Node Metastasis in Papillary Thyroid Carcinoma: A Development and Validation Study",
+   "journal": "Ultrasound in Medicine &amp; Biology",
+   "published": [
+    [
+     2026,
+     8
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Elsevier BV",
+   "author_count": 12
+  },
+  "unpaywall": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "journal_is_oa": false,
+   "best_oa": null
+  }
+ },
+ {
+  "doi": "10.1016/j.ijbiomac.2026.153021",
+  "title": "Nucleolar and spindle-associated protein 1 (NUSAP1) promotes thyroid cancer dedifferentiation via BCAT1-mediated metabolic-epigenetic crosstalk.",
+  "crossref": {
+   "title": "Nucleolar and spindle-associated protein 1 (NUSAP1) promotes thyroid cancer dedifferentiation via BCAT1-mediated metabolic-epigenetic crosstalk",
+   "journal": "International Journal of Biological Macromolecules",
+   "published": [
+    [
+     2026,
+     7
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Elsevier BV",
+   "author_count": 11
+  },
+  "unpaywall": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "journal_is_oa": false,
+   "best_oa": null
+  }
+ },
+ {
+  "doi": "10.7150/ijbs.121503",
+  "title": "IGF2BP2 Drives Thyroid Cancer Dedifferentiation Through m6A-Dependent STAT1 mRNA Destabilization.",
+  "crossref": {
+   "title": "IGF2BP2 Drives Thyroid Cancer Dedifferentiation Through m6A-Dependent STAT1 mRNA Destabilization",
+   "journal": "International Journal of Biological Sciences",
+   "published": [
+    [
+     2026,
+     1,
+     1
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Ivyspring International Publisher",
+   "author_count": 13
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://www.ijbs.com/v22p0622.pdf"
+  }
+ },
+ {
+  "doi": "10.1016/j.isci.2026.116560",
+  "title": "Identification of FXYD5 as an oncogene in pediatric papillary thyroid cancer",
+  "crossref": {
+   "title": "Identification of FXYD5 as an oncogene in pediatric papillary thyroid cancer",
+   "journal": "iScience",
+   "published": [
+    [
+     2026,
+     7
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Elsevier BV",
+   "author_count": 13
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://doi.org/10.1016/j.isci.2026.116560"
+  }
+ },
+ {
+  "doi": "10.1002/advs.76402",
+  "title": "ANXA2 + Small Extracellular Vesicles Drive Chemoresistance in Anaplastic Thyroid Cancer by Promoting XRCC5 Lactylation and Enhancing Non‐Homologous End‐Joining Repair",
+  "crossref": {
+   "title": "ANXA2\n                    <sup>+</sup>\n                    Small Extracellular Vesicles Drive Chemoresistance in Anaplastic Thyroid Cancer by Promoting XRCC5 Lactylation and Enhancing Non‐Homologous End‐Joining Repair",
+   "journal": "Advanced Science",
+   "published": [
+    [
+     2026,
+     9
+    ]
+   ],
+   "type": "journal-article",
+   "publisher": "Wiley",
+   "author_count": 5
+  },
+  "unpaywall": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "journal_is_oa": true,
+   "best_oa": "https://doi.org/10.1002/advs.76402"
+  }
+ }
+]

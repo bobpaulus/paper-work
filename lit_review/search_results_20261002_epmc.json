@@ -1,0 +1,1148 @@
+{
+ "SC": {
+  "hitCount": 51,
+  "candidates": [
+   {
+    "title": "Single-Cell Transcriptomic Profiling of Peripheral Blood in a Patient with Progressive Thyroid Eye Disease Following Total Thyroidectomy.",
+    "doi": "10.3390/genes17091143",
+    "pmid": "42793037",
+    "journal": "Genes (Basel)",
+    "date": "2026-09-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Foxe1 deficiency impairs thyroid fate while supporting lung differentiation.",
+    "doi": "10.1038/s44319-026-00841-1",
+    "pmid": "42324400",
+    "journal": "EMBO Rep",
+    "date": "2026-06-21",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Thyroid Immune-related Adverse Events Following Immune Checkpoint Inhibitors in NSCLC: Insights From Pharmacovigilance Data, a Retrospective Case-control Study, and Single-cell RNA Sequencing Dataset.",
+    "doi": "10.1016/j.clinthera.2026.06.020",
+    "pmid": "42532761",
+    "journal": "Clin Ther",
+    "date": "2026-07-30",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell RNA sequencing and large-panel NGS analysis reveal transcriptional heterogeneity and genomic characteristics of double primary lung cancer and thyroid cancer.",
+    "doi": "10.1016/j.gendis.2025.101889",
+    "pmid": "41859004",
+    "journal": "Genes Dis",
+    "date": "2025-10-22",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Combining single cell and bulk transcriptomics with Mendelian randomization identifies gut microbiota related prognostic genes and mechanisms in thyroid cancer.",
+    "doi": "10.1007/s12672-026-05132-8",
+    "pmid": "42105187",
+    "journal": "Discov Oncol",
+    "date": "2026-05-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell and bulk transcriptomic analyses identify B-cell senescence-associated biomarkers in papillary thyroid carcinoma.",
+    "doi": "10.21037/tcr-2025-1-2828",
+    "pmid": "42180900",
+    "journal": "Transl Cancer Res",
+    "date": "2026-04-17",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Erratum: Publisher Correction: Multiscale ECM Stiffness Characterization and Quantitative Single-Cell Analysis Reveal ITGA3-Mediated Stiffness-Responsive Subpopulation Dynamics in Papillary Thyroid Carcinoma.",
+    "doi": "10.1007/s12195-026-00904-2",
+    "pmid": "42080148",
+    "journal": "Cell Mol Bioeng",
+    "date": "2026-04-22",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Multiscale ECM Stiffness Characterization and Quantitative Single-Cell Analysis Reveal ITGA3-Mediated Stiffness-Responsive Subpopulation Dynamics in Papillary Thyroid Carcinoma.",
+    "doi": "10.1007/s12195-026-00895-0",
+    "pmid": "42080141",
+    "journal": "Cell Mol Bioeng",
+    "date": "2026-03-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Correction: Kobayashi et al. Pathogenesis of Graves' Disease Determined Using Single-Cell Sequencing with Thyroid Autoantigen Peptide Stimulation in B Cells. &lt;i&gt;Cells&lt;/i&gt; 2025, &lt;i&gt;14&lt;/i&gt;, 1102.",
+    "doi": "10.3390/cells15090751",
+    "pmid": "42059808",
+    "journal": "Cells",
+    "date": "2026-04-23",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Inhibition of ATM reverses radioiodine resistance in differentiated thyroid cancer via genotoxic stress amplification.",
+    "doi": "10.1186/s12967-026-08190-2",
+    "pmid": "42046098",
+    "journal": "J Transl Med",
+    "date": "2026-04-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Immune landscape in NOD.H-2h4 mouse model thyroid revealed by single-cell RNA sequencing.",
+    "doi": "10.1016/j.bbrc.2026.153484",
+    "pmid": "41734714",
+    "journal": "Biochem Biophys Res Commun",
+    "date": "2026-02-19",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Cellular and molecular determinants of lymph node metastasis in papillary thyroid carcinoma: Integrated multi-omics profiling and machine learning models.",
+    "doi": "10.1016/j.compbiolchem.2025.108857",
+    "pmid": "41421038",
+    "journal": "Comput Biol Chem",
+    "date": "2025-12-15",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Identification of papillary thyroid carcinoma-associated epithelial cell subpopulations and diagnostic biomarkers: integrating machine learning with single-cell analysis.",
+    "doi": "10.21037/tcr-2025-aw-2244",
+    "pmid": "41969483",
+    "journal": "Transl Cancer Res",
+    "date": "2026-03-24",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell omics in investigating the effect of CAFs with KRAS overexpression on the malignant progression of anaplastic thyroid cancer.",
+    "doi": "10.1097/jcma.0000000000001334",
+    "pmid": "41486477",
+    "journal": "J Chin Med Assoc",
+    "date": "2026-01-05",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Tumor-Derived Exosomal PDLIM1 Promotes Angiogenesis and Tumor Progression in Papillary Thyroid Carcinoma: Insights From Integrated Single-Cell Transcriptomics and Exosomal Proteomics.",
+    "doi": "10.2147/cmar.s589372",
+    "pmid": "42131580",
+    "journal": "Cancer Manag Res",
+    "date": "2026-05-08",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Investigating the Role of TNFSF12 in Thyroid Cancer Progression via Single-Cell RNA Sequencing and Integrated Multiomics Analyses.",
+    "doi": "10.1155/mi/4753653",
+    "pmid": "41930700",
+    "journal": "Mediators Inflamm",
+    "date": "2026-01-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Unraveling the indolence of papillary thyroid carcinoma: an exploratory study on B-cell subsets based on genetic predisposition and tumor immunity.",
+    "doi": "10.3389/fimmu.2026.1769020",
+    "pmid": "41929497",
+    "journal": "Front Immunol",
+    "date": "2026-03-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-cell analysis reveals the cellular and transcriptional heterogeneity of the normal pediatric thyroid.",
+    "doi": "10.3389/fendo.2026.1748458",
+    "pmid": "41727685",
+    "journal": "Front Endocrinol (Lausanne)",
+    "date": "2026-01-29",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Exploring molecular mechanisms of radioactive iodine therapy in thyroid cancer using single-cell RNA sequencing data.",
+    "doi": "10.1007/s12672-025-04317-x",
+    "pmid": "41483448",
+    "journal": "Discov Oncol",
+    "date": "2026-01-03",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "An integrated single-cell and spatial transcriptomic atlas of thyroid cancer progression identifies prognostic fibroblast subpopulations.",
+    "doi": "10.1172/jci.insight.191990",
+    "pmid": "41480746",
+    "journal": "JCI Insight",
+    "date": "2026-01-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Meta single-cell atlas and xQTL post-GWAS analysis revealed the pathogenic features of thyroid cancer for target therapy: A multi-omics study.",
+    "doi": "10.1038/s41417-025-00988-4",
+    "pmid": "41249621",
+    "journal": "Cancer Gene Ther",
+    "date": "2025-11-17",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Single-Cell RNA Sequencing of Thyroid Tissues Reveals Pathogenesis of Graves' Disease.",
+    "doi": "10.1002/advs.202508449",
+    "pmid": "41126733",
+    "journal": "Adv Sci (Weinh)",
+    "date": "2025-10-23",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Construction of a Single-cell Atlas of Thyroid Cancer",
+    "doi": "10.2174/0118715303359688250209090544",
+    "pmid": "40183263",
+    "journal": "Endocr Metab Immune Disord Drug Targets",
+    "date": "2026-01-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Myosin-10 Promotes Angiogenesis and Metastasis in Thyroid Cancer by Regulating the FGF/FGFR1 Signaling Axis",
+    "doi": "10.21203/rs.3.rs-9206111/v1",
+    "pmid": null,
+    "journal": null,
+    "date": "2026-05-12",
+    "isPreprint": true,
+    "abstract": ""
+   },
+   {
+    "title": "Pax6 Drives Orbital Fibrosis in Thyroid-Associated Orbitopathy via Fatty Acid Metabolism-Mediated Epithelial-Mesenchymal Transition in Mice",
+    "doi": "10.21203/rs.3.rs-8645473/v1",
+    "pmid": null,
+    "journal": null,
+    "date": "2026-02-17",
+    "isPreprint": true,
+    "abstract": ""
+   }
+  ]
+ },
+ "SP": {
+  "hitCount": 35,
+  "candidates": [
+   {
+    "title": "Retraction notice to \"Determining the spatial non-stationarity underlying social and natural environment in thyroid cancer in China\" [Sci. Total Environ. 870 (2023) 162009].",
+    "doi": "10.1016/j.scitotenv.2026.182084",
+    "pmid": "42527239",
+    "journal": "Sci Total Environ",
+    "date": "2026-07-29",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Polyclonal selection of immune checkpoint mutations in thyroid autoimmunity.",
+    "doi": "10.1038/s41586-026-10493-9",
+    "pmid": "41981327",
+    "journal": "Nature",
+    "date": "2026-04-14",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Thyroid hormone signaling causally influences pancreatic disease risk: Evidence from Mendelian randomization and multi-omics integration.",
+    "doi": "10.1016/j.compbiolchem.2026.108897",
+    "pmid": "41564647",
+    "journal": "Comput Biol Chem",
+    "date": "2026-01-15",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Spatial concordance patterns of breast and thyroid cancer based on burden inequalities and related risk factors analyses.",
+    "doi": "10.21037/gs-2026-1-0047",
+    "pmid": "42299272",
+    "journal": "Gland Surg",
+    "date": "2026-05-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Thyroid-stimulating hormone receptor mediates peripheral-central neuroimmune crosstalk in autoimmune thyroid diseases.",
+    "doi": "10.1186/s12916-026-04957-y",
+    "pmid": "42204533",
+    "journal": "BMC Med",
+    "date": "2026-05-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Developmental neurotoxicity of thyroid hormone system-disrupting chemicals: a systems-level exploration using multi-omics approach.",
+    "doi": "10.1007/s00204-026-04303-4",
+    "pmid": "41654649",
+    "journal": "Arch Toxicol",
+    "date": "2026-02-07",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Cellular and molecular determinants of lymph node metastasis in papillary thyroid carcinoma: Integrated multi-omics profiling and machine learning models.",
+    "doi": "10.1016/j.compbiolchem.2025.108857",
+    "pmid": "41421038",
+    "journal": "Comput Biol Chem",
+    "date": "2025-12-15",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "ThyFusionNet: A CNN-transformer framework with spatial aware sparse attention for multi modal thyroid disease diagnosis.",
+    "doi": "10.1016/j.compmedimag.2026.102706",
+    "pmid": "41579654",
+    "journal": "Comput Med Imaging Graph",
+    "date": "2026-01-11",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Improving the Annotation for Spatial Proteomics: A Computational Approach to Enhance Molecular Characterization of Thyroid Nodules.",
+    "doi": "10.1021/acs.jproteome.5c00432",
+    "pmid": "41502375",
+    "journal": "J Proteome Res",
+    "date": "2026-01-08",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Artemisinin-Related Therapeutic Strategies for Autoimmune Thyroiditis: Chemokine-Receptor Networks, Spatial Thyroid Biology, and Molecular Mechanisms.",
+    "doi": "10.2147/dddt.s614133",
+    "pmid": "42338761",
+    "journal": "Drug Des Devel Ther",
+    "date": "2026-06-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Precision Thyroid Oncology: A Review of Multi-Omics Biomarkers and Spatiotemporal Technologies.",
+    "doi": "10.2147/ijgm.s602509",
+    "pmid": "42179850",
+    "journal": "Int J Gen Med",
+    "date": "2026-05-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Spatial and temporal distribution of thyroid cancer incidence in China: An ecological study based on a national registry.",
+    "doi": "10.1371/journal.pone.0341734",
+    "pmid": "41860809",
+    "journal": "PLoS One",
+    "date": "2026-03-20",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "An integrated single-cell and spatial transcriptomic atlas of thyroid cancer progression identifies prognostic fibroblast subpopulations.",
+    "doi": "10.1172/jci.insight.191990",
+    "pmid": "41480746",
+    "journal": "JCI Insight",
+    "date": "2026-01-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Differentiated Thyroid Cancer Is Associated With Sex-specific Immune Response.",
+    "doi": "10.1210/jendso/bvaf174",
+    "pmid": "41357855",
+    "journal": "J Endocr Soc",
+    "date": "2025-11-07",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "A Transformer-Based 2.5D Deep Learning Model for Preoperative Prediction of Lymph Node Metastasis in Papillary Thyroid Carcinoma",
+    "doi": "10.64898/2026.04.01.26349933",
+    "pmid": null,
+    "journal": null,
+    "date": "2026-04-02",
+    "isPreprint": true,
+    "abstract": ""
+   },
+   {
+    "title": "A stress-function tradeoff organizes epithelial heterogeneity across spatial scales in the human thyroid",
+    "doi": "10.64898/2026.03.12.711294",
+    "pmid": null,
+    "journal": null,
+    "date": "2026-03-16",
+    "isPreprint": true,
+    "abstract": ""
+   }
+  ]
+ },
+ "IM": {
+  "hitCount": 25,
+  "candidates": [
+   {
+    "title": "Transcriptomic sequencing analysis of the tumor microenvironment atlas and potential mechanisms of metastasis in papillary thyroid carcinoma.",
+    "doi": "10.1016/j.molimm.2026.05.006",
+    "pmid": "42134246",
+    "journal": "Mol Immunol",
+    "date": "2026-05-14",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Identification and validation of tumor microenvironment remodeling markers associated with prognosis in differentiated thyroid cancer.",
+    "doi": "10.21037/tcr-2026-1-0208",
+    "pmid": "42305510",
+    "journal": "Transl Cancer Res",
+    "date": "2026-05-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Current Studies on the Hypoxic Tumor Microenvironment in Thyroid Cancer: From Molecular Mechanisms to Clinical Therapeutic Perspectives.",
+    "doi": "10.3390/biomedicines14051126",
+    "pmid": "42193451",
+    "journal": "Biomedicines",
+    "date": "2026-05-16",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Novel a new prognostic model of thyroid carcinoma based on macrophage and cuproptosis-related lncRNA.",
+    "doi": "10.1186/s12935-026-04248-9",
+    "pmid": "41787436",
+    "journal": "Cancer Cell Int",
+    "date": "2026-03-05",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Retinoic acid receptor gamma (RARγ) drives M2-like macrophage polarisation via CFI to promote thyroid cancer progression.",
+    "doi": "10.1016/j.intimp.2026.116324",
+    "pmid": "41650889",
+    "journal": "Int Immunopharmacol",
+    "date": "2026-02-05",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "ASO Visual Abstract: Age-Associated Alterations in Cytokine and Extracellular Matrix Remodeling in the Papillary Thyroid Cancer Tumor Microenvironment.",
+    "doi": "10.1245/s10434-025-18750-3",
+    "pmid": "41258982",
+    "journal": "Ann Surg Oncol",
+    "date": "2026-02-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Age-Associated Alterations in Cytokine and Extracellular Matrix Remodeling in the Papillary Thyroid Cancer Tumor Microenvironment.",
+    "doi": "10.1245/s10434-025-18473-5",
+    "pmid": "41083825",
+    "journal": "Ann Surg Oncol",
+    "date": "2025-10-13",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Gut microbe &lt;i&gt;Terrisporobacter&lt;/i&gt; promotes papillary thyroid carcinoma progression by upregulating the &lt;i&gt;NTRK1&lt;/i&gt; oncogene and fostering an immunosuppressive tumor microenvironment.",
+    "doi": "10.3389/fimmu.2026.1740257",
+    "pmid": "41958678",
+    "journal": "Front Immunol",
+    "date": "2026-03-25",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Macrophage plasticity in thyroid eye disease: dual effects of inflammation and fibrosis.",
+    "doi": "10.3389/fimmu.2026.1782204",
+    "pmid": "41859126",
+    "journal": "Front Immunol",
+    "date": "2026-03-04",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Comprehensive analyses of biological function and tumor microenvironment with cuproptosis regulators and construction of a cuproptosis-related scoring system in thyroid cancer based on bioinformatics and experimental validation.",
+    "doi": "10.3389/fgene.2026.1735093",
+    "pmid": "41836061",
+    "journal": "Front Genet",
+    "date": "2026-02-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Versatile Nanotherapeutics for Enhancing Sonodynamic Therapy/Chemotherapy of Thyroid Cancer through Remodeling Tumor Microenvironment and Synergistic Reactive Oxygen Species Augment.",
+    "doi": "10.34133/bmr.0338",
+    "pmid": "41788857",
+    "journal": "Biomater Res",
+    "date": "2026-03-04",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Influence of the tumor microenvironment on genetic mutations in thyroid carcinoma.",
+    "doi": "10.1371/journal.pone.0341123",
+    "pmid": "41678466",
+    "journal": "PLoS One",
+    "date": "2026-02-12",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Tumor microenvironment-guided targeted and immunotherapy in anaplastic thyroid cancer: a literature review from preclinical models to clinical translation.",
+    "doi": "10.21037/tcr-2025-1882",
+    "pmid": "41674934",
+    "journal": "Transl Cancer Res",
+    "date": "2026-01-20",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Enhancer-mediated NR2F2 recruitment activates BGN to promote tumor growth and shape tumor microenvironment in papillary thyroid cancer.",
+    "doi": "10.7150/thno.113712",
+    "pmid": "41328346",
+    "journal": "Theranostics",
+    "date": "2026-01-01",
+    "isPreprint": false,
+    "abstract": ""
+   }
+  ]
+ },
+ "ME": {
+  "hitCount": 163,
+  "candidates": [
+   {
+    "title": "UCHL5 suppresses thyroid carcinoma progression via ZRANB1 stabilization and ferroptosis regulation.",
+    "doi": "10.1080/15384047.2026.2663610",
+    "pmid": "42037453",
+    "journal": "Cancer Biol Ther",
+    "date": "2026-04-27",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Inclusion of Nannochloropsis oculata in the diet of male Barki lambs improved their metabolic and immune profiles with respect to cytokines and thyroid hormones production.",
+    "doi": "10.1016/j.rvsc.2026.106371",
+    "pmid": "42667817",
+    "journal": "Res Vet Sci",
+    "date": "2026-08-20",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Adrenergic regulation of the thyroid Axis: β- and α-Adrenergic signals as drivers of hormonal and metabolic homeostasis in lizard Podarcis siculus.",
+    "doi": "10.1016/j.cbpc.2026.110653",
+    "pmid": "42551622",
+    "journal": "Comp Biochem Physiol C Toxicol Pharmacol",
+    "date": "2026-08-04",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Electrostatically assembled CaO&lt;sub&gt;2&lt;/sub&gt;@MPN-HA nanoreactors potentiate anti-PD-1 therapy in thyroid cancer via synergistic ferroptosis and calcium overload.",
+    "doi": "10.1016/j.colsurfb.2026.115767",
+    "pmid": "42140130",
+    "journal": "Colloids Surf B Biointerfaces",
+    "date": "2026-05-03",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Feeding Ascophyllum nodosum meal or ethylenediamine dihydroiodide to transition dairy cows: Effects on milk yield and plasma concentrations of thyroid hormones and markers of metabolic status.",
+    "doi": "10.3168/jds.2026-28524",
+    "pmid": "42805370",
+    "journal": "J Dairy Sci",
+    "date": "2026-09-28",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Transcriptional remodeling of local thyroid hormone metabolism is associated with feather growth termination in chicken wing feathers.",
+    "doi": "10.1016/j.domaniend.2026.107057",
+    "pmid": "42762751",
+    "journal": "Domest Anim Endocrinol",
+    "date": "2026-09-16",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Application of [&lt;sup&gt;18&lt;/sup&gt;F]NaF and [&lt;sup&gt;18&lt;/sup&gt;F]FDG PET/CT to Assess Molecular Calcification and Glucose Metabolism in Thyroid Cartilage.",
+    "doi": "10.1177/19476035261467882",
+    "pmid": "42721223",
+    "journal": "Cartilage",
+    "date": "2026-09-10",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Association between iron status biomarkers and metabolic-endocrine parameters including insulin resistance, thyroid-stimulating hormone, and vitamin D3 in young women.",
+    "doi": "10.18097/pbmce0054",
+    "pmid": "42708571",
+    "journal": "Biomed Khim",
+    "date": "2026-09-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Beyond TSH and FT4: reconsidering thyroid hormone dynamics in metabolic dysfunction-associated steatotic liver disease in type 2 diabetes mellitus.",
+    "doi": "10.1016/j.ejim.2026.107173",
+    "pmid": "42702512",
+    "journal": "Eur J Intern Med",
+    "date": "2026-09-06",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Correction: Ferroptosis induction by curcumin through regulating the expression of glutathione peroxidase 4 in papillary thyroid carcinoma.",
+    "doi": "10.1007/s10735-026-10962-5",
+    "pmid": "42696063",
+    "journal": "J Mol Histol",
+    "date": "2026-09-04",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Association Between Thyroid Function and Metabolic Dysfunction-Associated Fatty Liver Disease in Patients with Type 2 Diabetes Mellitus: A Case-Control Study.",
+    "doi": "10.7417/ct.2026.2108",
+    "pmid": "42664128",
+    "journal": "Clin Ter",
+    "date": "2026-09-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Thyroid Hormone-Induced Metabolic Stress Unmasking Latent Wernicke Encephalopathy.",
+    "doi": "10.1097/mjt.0000000000002154",
+    "pmid": "42557612",
+    "journal": "Am J Ther",
+    "date": "2026-08-06",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Seasonal variation in resting metabolic rate, thyroid hormones and cortisol in the bottlenose dolphin (Tursiops truncatus).",
+    "doi": "10.1242/jeb.251558",
+    "pmid": "42533563",
+    "journal": "J Exp Biol",
+    "date": "2026-09-04",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Alleviating effects of Lactobacillus rhamnosus on microcystin-LR-induced hepatotoxicity in zebrafish through regulation of intestinal metabolism: Insights into the gut-liver axis and hypothalamic-pituitary-thyroid axis.",
+    "doi": "10.1016/j.jes.2025.12.019",
+    "pmid": "42498356",
+    "journal": "J Environ Sci (China)",
+    "date": "2025-12-15",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Evaluation of whole and ground linseed on serum thyroid hormone, physio-metabolic parameters, and growth performance in beetal goat kids in the semi-arid region of Northern India.",
+    "doi": "10.1016/j.vas.2026.100699",
+    "pmid": "42239499",
+    "journal": "Vet Anim Sci",
+    "date": "2026-05-15",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Evaluation of 2D and 3D nnU-Net models with two-label and three-label strategies for automatic segmentation and total metabolic tumor volume estimation of metastatic differentiated thyroid carcinoma on FDG-PET/CT.",
+    "doi": "10.1007/s11604-026-02006-5",
+    "pmid": "42159908",
+    "journal": "Jpn J Radiol",
+    "date": "2026-05-20",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "FOXP4-AS1 suppresses papillary thyroid carcinoma progression by binding to Lactate Dehydrogenase A and suppressing its expression, with implications for metabolic-targeted therapy.",
+    "doi": "10.1016/j.cellsig.2026.112565",
+    "pmid": "42066828",
+    "journal": "Cell Signal",
+    "date": "2026-04-29",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Impact of Therapeutic Ultrasound on Metabolic Hormone Release From Thyroid Gland.",
+    "doi": "10.1002/jum.70265",
+    "pmid": "41999146",
+    "journal": "J Ultrasound Med",
+    "date": "2026-04-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Targeting Nuclear Import of Thyroid Hormone Receptor Alpha with Natural Polyphenols: Potential Mechanism for Lipolysis in Metabolic Dysfunction-Associated Steatotic Liver Disease.",
+    "doi": "10.3390/cimb48090873",
+    "pmid": "42793229",
+    "journal": "Curr Issues Mol Biol",
+    "date": "2026-08-28",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Ethnicity-Specific Thyroid Hormone Sensitivity Indices and Their Association With Metabolic Syndrome in Euthyroid South Asian Adults.",
+    "doi": "10.7759/cureus.115062",
+    "pmid": "42780697",
+    "journal": "Cureus",
+    "date": "2026-08-24",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Retraction notice to \"Ginger extract ameliorates bisphenol A (BPA)-induced disruption in thyroid hormones synthesis and metabolism: Involvement of Nrf-2/HO-1 pathway\" [Sci. Total Environ. 703 (2020) 134664].",
+    "doi": "10.1016/j.scitotenv.2026.182249",
+    "pmid": "42642236",
+    "journal": "Sci Total Environ",
+    "date": "2026-08-25",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Lactylation-induced TRIM47 exacerbates cell viability, cell cycle progression, and glycolysis in thyroid cancer by inducing ubiquitin-mediated degradation of FBP1.",
+    "doi": "10.1016/j.prp.2026.156519",
+    "pmid": "42143948",
+    "journal": "Pathol Res Pract",
+    "date": "2026-05-12",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Bisphenol A drives thyroid carcinogenesis through oxidative stress-lipid metabolic reprogramming via the PTEN/PI3K/AKT axis: Therapeutic reversal by a curcumin-modified quercetin nanomicelle system.",
+    "doi": "10.1016/j.freeradbiomed.2026.04.025",
+    "pmid": "41985638",
+    "journal": "Free Radic Biol Med",
+    "date": "2026-04-14",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Lipocalin 2 promotes papillary thyroid cancer progression through activation of glycolysis via Hippo/YAP1/HIF1α axis.",
+    "doi": "10.1007/s40618-026-02887-3",
+    "pmid": "41964784",
+    "journal": "J Endocrinol Invest",
+    "date": "2026-04-11",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Quantitative Imaging of Pyruvate Metabolism in a Patient With Anaplastic Thyroid Cancer.",
+    "doi": "10.1002/mrm.70351",
+    "pmid": "41876436",
+    "journal": "Magn Reson Med",
+    "date": "2026-03-24",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Association of Thyroid Dysfunction With Dyslipidemia and Metabolic Risk in the Health Examination Population: A Retrospective Analysis.",
+    "doi": "10.3791/71585",
+    "pmid": "42574505",
+    "journal": "J Vis Exp",
+    "date": "2026-07-21",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "TyG-Centered Endocrine-Metabolic Architecture in Patients with Thyroid Dysfunction: A Systems Phenotyping Study.",
+    "doi": "10.3390/metabo16070490",
+    "pmid": "42506441",
+    "journal": "Metabolites",
+    "date": "2026-07-12",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Metabolic and hepatic differences among biochemically euthyroid individuals with distinct thyroid hormone sources: a comparative study.",
+    "doi": "10.1186/s12902-026-02421-9",
+    "pmid": "42458376",
+    "journal": "BMC Endocr Disord",
+    "date": "2026-07-15",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Adipocytokine Profiles in Type 2 Diabetes Mellitus and Autoimmune Thyroid Disease: Associations With Metabolic and Hormonal Parameters.",
+    "doi": null,
+    "pmid": "42455070",
+    "journal": "Physiol Res",
+    "date": "2026-07-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Associations between thyroid hormones and biochemical metabolism in major depressive disorder patients with and without comorbid eating disorders.",
+    "doi": "10.1007/s40519-026-01879-9",
+    "pmid": "42414679",
+    "journal": "Eat Weight Disord",
+    "date": "2026-07-07",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Aging and Western Diet Synergistically Impair Hepatic Thyroid Hormone Signaling to Promote Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) in Mice.",
+    "doi": "10.1111/acel.70600",
+    "pmid": "42333997",
+    "journal": "Aging Cell",
+    "date": "2026-07-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Nucleolar and spindle-associated protein 1 (NUSAP1) promotes thyroid cancer dedifferentiation via BCAT1-mediated metabolic-epigenetic crosstalk.",
+    "doi": "10.1016/j.ijbiomac.2026.153021",
+    "pmid": "42276487",
+    "journal": "Int J Biol Macromol",
+    "date": "2026-06-11",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Thyroid Hormones and Metabolic Syndrome: A Narrative Review of Findings from 18 Years of Follow-up in Tehran Thyroid Study (TTS).",
+    "doi": "10.5812/ijem-168079",
+    "pmid": "42158209",
+    "journal": "Int J Endocrinol Metab",
+    "date": "2026-02-28",
+    "isPreprint": false,
+    "abstract": ""
+   }
+  ]
+ },
+ "AL": {
+  "hitCount": 235,
+  "candidates": [
+   {
+    "title": "Construction of a nomogram predictive model for thermal ablation efficacy in benign thyroid nodules based on multimodal ultrasound and serological markers.",
+    "doi": "10.1080/02656736.2026.2658732",
+    "pmid": "42056711",
+    "journal": "Int J Hyperthermia",
+    "date": "2026-04-29",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Diagnostic performance and generalizability of a clinical-ultrasound radiomics model for predicting extrathyroidal extension in thyroid carcinoma: a retrospective study.",
+    "doi": "10.1080/07853890.2026.2650862",
+    "pmid": "41906704",
+    "journal": "Ann Med",
+    "date": "2026-03-30",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Identification of the immune-related diagnostic biomarkers between Graves' disease and thyroid carcinoma based on comprehensive bioinformatics analysis and machine learning.",
+    "doi": "10.1080/08916934.2026.2631208",
+    "pmid": "41729615",
+    "journal": "Autoimmunity",
+    "date": "2026-02-23",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "The Value of Deep Learning in Differentiating Thyroid Adenomatoid Nodules on Ultrasound: A Dual-Center Study.",
+    "doi": "10.1016/j.acra.2026.06.047",
+    "pmid": "42493350",
+    "journal": "Acad Radiol",
+    "date": "2026-07-24",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "A clinically anchored radiomics dictionary for explainable TI-RADS-based thyroid nodule classification in ultrasound; dictionary version TU1.0.",
+    "doi": "10.1016/j.ejrad.2026.113014",
+    "pmid": "42302438",
+    "journal": "Eur J Radiol",
+    "date": "2026-06-13",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Label-free screening and grading of follicular thyroid neoplasms enabled by Fourier transform infrared microspectroscopy and machine learning.",
+    "doi": "10.1016/j.saa.2026.127857",
+    "pmid": "41950626",
+    "journal": "Spectrochim Acta A Mol Biomol Spectrosc",
+    "date": "2026-04-03",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Development of a nomogram for preoperative prediction of malignant risk in thyroid follicular tumors based on multimodal ultrasound and clinical features: A retrospective observational study.",
+    "doi": "10.1177/03000605261467637",
+    "pmid": "42808187",
+    "journal": "J Int Med Res",
+    "date": "2026-09-29",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Letter to the Editor: Training the diagnostic artificial intelligence in thyroid sonography: how well is deep learning truly learning?",
+    "doi": "10.1007/s13304-026-02847-9",
+    "pmid": "42758456",
+    "journal": "Updates Surg",
+    "date": "2026-09-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Deep learning image reconstruction for 50-keV virtual monoenergetic dual-energy CT of the thyroid: a prospective \"dual-low\" dose study.",
+    "doi": "10.1007/s00330-026-12814-y",
+    "pmid": "42714621",
+    "journal": "Eur Radiol",
+    "date": "2026-09-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Early volume reduction slope as a novel predictor of long-term outcomes following microwave ablation of benign thyroid nodules: a machine learning-enhanced prediction model.",
+    "doi": "10.1007/s40477-026-01155-7",
+    "pmid": "42090076",
+    "journal": "J Ultrasound",
+    "date": "2026-05-06",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "A nomogram predicting dysphagia risk after adjuvant iodine-131 therapy in patients with papillary thyroid carcinoma.",
+    "doi": "10.1097/mnm.0000000000002171",
+    "pmid": "42083495",
+    "journal": "Nucl Med Commun",
+    "date": "2026-05-05",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Comment on \"Radiomics and machine learning analysis of ultrasound images in Bethesda IV thyroid nodules: a retrospective monocentric study\".",
+    "doi": "10.1007/s13304-026-02830-4",
+    "pmid": "42663943",
+    "journal": "Updates Surg",
+    "date": "2026-08-28",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Machine Learning-Based Cytokine Endotyping of Thyroid Eye Disease.",
+    "doi": "10.1167/iovs.67.10.67",
+    "pmid": "42657997",
+    "journal": "Invest Ophthalmol Vis Sci",
+    "date": "2026-08-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "To develop and validate a nomogram model for predicting high volume (&gt;5) central lymph node metastasis in papillary thyroid microcarcinoma.",
+    "doi": "10.1016/j.suronc.2025.102337",
+    "pmid": "42413301",
+    "journal": "Surg Oncol",
+    "date": "2025-12-04",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Association between surgical extent and outcomes for low-risk 2-4 cm differentiated thyroid cancer in the 2025 ATA era: A SEER competing-risk analysis with nomogram.",
+    "doi": "10.1016/j.suronc.2026.102481",
+    "pmid": "42302707",
+    "journal": "Surg Oncol",
+    "date": "2026-06-12",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Differentiating Mummified Thyroid Nodules From Papillary Thyroid Carcinoma: A Machine Learning Approach Using Multi-Modal Ultrasound Radiomics.",
+    "doi": "10.1016/j.ultrasmedbio.2026.05.007",
+    "pmid": "42225518",
+    "journal": "Ultrasound Med Biol",
+    "date": "2026-06-02",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Refining individualized treatment: A risk nomogram for predicting central lymph node metastasis in papillary thyroid microcarcinoma.",
+    "doi": "10.1016/j.oraloncology.2026.108007",
+    "pmid": "42155957",
+    "journal": "Oral Oncol",
+    "date": "2026-05-19",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "A Practical Nomogram for Preoperative Prediction of Lateral Lymph Node Metastasis in Children and Adolescent Patients With Papillary Thyroid Carcinoma: A Multicenter Retrospective Study.",
+    "doi": "10.1016/j.ultrasmedbio.2026.04.003",
+    "pmid": "42120263",
+    "journal": "Ultrasound Med Biol",
+    "date": "2026-05-13",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Super-Resolution Ultrasound Radiomics Nomogram for Preoperative Prediction of Lateral Lymph Node Metastasis in Papillary Thyroid Carcinoma: A Development and Validation Study.",
+    "doi": "10.1016/j.ultrasmedbio.2026.01.015",
+    "pmid": "42097935",
+    "journal": "Ultrasound Med Biol",
+    "date": "2026-05-07",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Discovery of potent ALK tyrosine kinase inhibitors for thyroid cancer via machine learning modeling, molecular docking, MD simulations, and DFT study.",
+    "doi": "10.1016/j.compbiolchem.2026.108960",
+    "pmid": "41720062",
+    "journal": "Comput Biol Chem",
+    "date": "2026-02-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Intelligent Diagnosis of Follicular Carcinoma Thyroid Cancer with a Novel Deep Learning Model.",
+    "doi": "10.1007/s10278-025-01723-z",
+    "pmid": "41168629",
+    "journal": "J Imaging Inform Med",
+    "date": "2025-10-30",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Development and validation of an explainable web-based machine learning model for predicting early postoperative hypocalcemia in patients with differentiated thyroid cancer.",
+    "doi": "10.21037/gs-2026-0211",
+    "pmid": "42591703",
+    "journal": "Gland Surg",
+    "date": "2026-07-23",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Automated segmentation of thyroid tissue and carotid artery in ultrasound videos using expert-in-the-loop deep learning: a foundational step toward AI-assisted thyroid diagnostics.",
+    "doi": "10.1007/s13304-026-02782-9",
+    "pmid": "42536309",
+    "journal": "Updates Surg",
+    "date": "2026-07-31",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Deep learning models for predicting clinical activity and characteristics in thyroid eye disease using magnetic resonance imaging.",
+    "doi": "10.1080/01676830.2026.2708890",
+    "pmid": "42522004",
+    "journal": "Orbit",
+    "date": "2026-07-28",
+    "isPreprint": false,
+    "abstract": ""
+   }
+  ]
+ },
+ "ST": {
+  "hitCount": 20,
+  "candidates": [
+   {
+    "title": "Squamous dedifferentiation and differentiated high-grade transformation of papillary thyroid carcinoma in metastatic lymph nodes: Two cases and literature review.",
+    "doi": "10.1016/j.radcr.2026.05.080",
+    "pmid": "42327507",
+    "journal": "Radiol Case Rep",
+    "date": "2026-06-13",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Thyroid hormone inactivation sustains cancer stem cell maintenance and tumorigenesis in basal cell carcinoma.",
+    "doi": "10.1016/j.jid.2026.01.025",
+    "pmid": "41644085",
+    "journal": "J Invest Dermatol",
+    "date": "2026-02-03",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Nucleolar and spindle-associated protein 1 (NUSAP1) promotes thyroid cancer dedifferentiation via BCAT1-mediated metabolic-epigenetic crosstalk.",
+    "doi": "10.1016/j.ijbiomac.2026.153021",
+    "pmid": "42276487",
+    "journal": "Int J Biol Macromol",
+    "date": "2026-06-11",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "S1PR1-Overexpressing Membrane-Coated Nanoparticles Inhibit Dedifferentiation Progression for the Treatment of Anaplastic Thyroid Carcinoma by Targeting the ACER3/SPHK1/S1P Pathway.",
+    "doi": "10.1002/adhm.202505384",
+    "pmid": "42116608",
+    "journal": "Adv Healthc Mater",
+    "date": "2026-05-11",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Ferroptosis in Differentiated Thyroid Cancer: Redox-Iodine Metabolism, Dedifferentiation, and Therapeutic Sensitization Beyond Anaplastic Disease.",
+    "doi": "10.3390/cells15070630",
+    "pmid": "41972718",
+    "journal": "Cells",
+    "date": "2026-03-31",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "MicroRNA signatures associated with radioiodine refractoriness and tumor dedifferentiation in metastatic papillary thyroid carcinoma.",
+    "doi": "10.1007/s12020-025-04510-6",
+    "pmid": "41801518",
+    "journal": "Endocrine",
+    "date": "2026-03-09",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Cancer Stemness and Dedifferentiation in Anaplastic Thyroid Carcinoma: Insights into a Multigenic, Microenvironmental Network and the Role of CD44.",
+    "doi": "10.3390/biomedicines14020453",
+    "pmid": "41751352",
+    "journal": "Biomedicines",
+    "date": "2026-02-18",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Retroelements in thyroid cancer: epigenetic plasticity, dedifferentiation, and therapeutic opportunities.",
+    "doi": "10.1007/s11154-025-10008-3",
+    "pmid": "41296188",
+    "journal": "Rev Endocr Metab Disord",
+    "date": "2025-11-26",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Correction: Crosstalk between abnormal TSHR signaling activation and PTEN/PI3K in the dedifferentiation of thyroid cancer cells.",
+    "doi": "10.3389/fonc.2026.1897172",
+    "pmid": "42540143",
+    "journal": "Front Oncol",
+    "date": "2026-07-17",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "IGF2BP2 Drives Thyroid Cancer Dedifferentiation Through m6A-Dependent STAT1 mRNA Destabilization.",
+    "doi": "10.7150/ijbs.121503",
+    "pmid": "41522349",
+    "journal": "Int J Biol Sci",
+    "date": "2026-01-01",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "Targeting EZH2 reverses thyroid cell dedifferentiation and enhances iodide uptake in anaplastic thyroid cancer.",
+    "doi": "10.1002/1873-3468.70207",
+    "pmid": "41147659",
+    "journal": "FEBS Lett",
+    "date": "2025-10-28",
+    "isPreprint": false,
+    "abstract": ""
+   },
+   {
+    "title": "E3 ubiquitin ligase WSB1-mediated ubiquitination modification of DIO2 promotes colorectal cancer stemness and metastasis by blocking thyroid hormone signaling.",
+    "doi": "10.1016/j.bcp.2025.117433",
+    "pmid": "41110484",
+    "journal": "Biochem Pharmacol",
+    "date": "2025-10-17",
+    "isPreprint": false,
+    "abstract": ""
+   }
+  ]
+ }
+}

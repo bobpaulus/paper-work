@@ -1,0 +1,141 @@
+{
+ "APOE": [
+  {
+   "title": "Analysis and validation of prognostic markers for thyroid cancer by single-cell and bulk RNA sequencing",
+   "doi": "https://doi.org/10.21037/tcr-2026-1398",
+   "pmid": null,
+   "date": "2026-09-01",
+   "journal": "Translational Cancer Research",
+   "oa_status": "diamond",
+   "is_preprint": false,
+   "gene": "APOE",
+   "abstract": ""
+  },
+  {
+   "title": "Association of APOE gene expression with thyroid dysfunction, inflammation, and nitrosative stress in cardiometabolic syndrome: a case–control study",
+   "doi": "https://doi.org/10.1515/hmbci-2026-0007",
+   "pmid": "https://pubmed.ncbi.nlm.nih.gov/42509601",
+   "date": "2026-07-28",
+   "journal": "Hormone Molecular Biology and Clinical Investigation",
+   "oa_status": "hybrid",
+   "is_preprint": false,
+   "gene": "APOE",
+   "abstract": ""
+  }
+ ],
+ "MGST1": [],
+ "SPP1": [
+  {
+   "title": "Identification of FXYD5 as an oncogene in pediatric papillary thyroid cancer",
+   "doi": "https://doi.org/10.1016/j.isci.2026.116560",
+   "pmid": "https://pubmed.ncbi.nlm.nih.gov/42491721",
+   "date": "2026-06-26",
+   "journal": "iScience",
+   "oa_status": "gold",
+   "is_preprint": false,
+   "gene": "SPP1",
+   "abstract": ""
+  },
+  {
+   "title": "Supplementary Table S4 from CD36+ Proinflammatory Macrophages Interact with ZCCHC12+ Tumor Cells in Papillary Thyroid Cancer Promoting Tumor Progression and Recurrence",
+   "doi": "https://doi.org/10.1158/2326-6066.32700221",
+   "pmid": null,
+   "date": "2026-06-17",
+   "journal": "",
+   "oa_status": "gold",
+   "is_preprint": false,
+   "gene": "SPP1",
+   "abstract": ""
+  }
+ ],
+ "TREM2": [],
+ "HAVCR2": [],
+ "PHGDH": [],
+ "GPI": [],
+ "NDUFS1": [],
+ "NCF1": [],
+ "NPC2": [
+  {
+   "title": "Analysis and validation of prognostic markers for thyroid cancer by single-cell and bulk RNA sequencing",
+   "doi": "https://doi.org/10.21037/tcr-2026-1398",
+   "pmid": null,
+   "date": "2026-09-01",
+   "journal": "Translational Cancer Research",
+   "oa_status": "diamond",
+   "is_preprint": false,
+   "gene": "NPC2",
+   "abstract": ""
+  }
+ ],
+ "CD44": [
+  {
+   "title": "A Four-Factor Serum Fingerprint for Thyroid Eye Disease Diagnosis and Clinical Activity Assessment",
+   "doi": "https://doi.org/10.21203/rs.3.rs-10492224/v1",
+   "pmid": null,
+   "date": "2026-08-03",
+   "journal": "Research Square",
+   "oa_status": "green",
+   "is_preprint": true,
+   "gene": "CD44",
+   "abstract": ""
+  },
+  {
+   "title": "Supplemental Figure 2 from Dual-Nuclide Biodistribution and Therapeutic Evaluation of a Novel Antibody-Based Radiopharmaceutical in Anaplastic Thyroid Cancer Xenografts",
+   "doi": "https://doi.org/10.1158/1535-7163.32710247",
+   "pmid": null,
+   "date": "2026-06-17",
+   "journal": "",
+   "oa_status": "gold",
+   "is_preprint": false,
+   "gene": "CD44",
+   "abstract": ""
+  },
+  {
+   "title": "CD44 gene rs9666607 polymorphism is associated with papillary thyroid carcinoma and interacts with CREB3L1",
+   "doi": "https://doi.org/10.1016/j.tice.2026.103686",
+   "pmid": "https://pubmed.ncbi.nlm.nih.gov/42296777",
+   "date": "2026-06-09",
+   "journal": "Tissue and Cell",
+   "oa_status": "closed",
+   "is_preprint": false,
+   "gene": "CD44",
+   "abstract": ""
+  }
+ ],
+ "THBS1": [],
+ "LDHA": [
+  {
+   "title": "ANXA2 + Small Extracellular Vesicles Drive Chemoresistance in Anaplastic Thyroid Cancer by Promoting XRCC5 Lactylation and Enhancing Non‐Homologous End‐Joining Repair",
+   "doi": "https://doi.org/10.1002/advs.76402",
+   "pmid": "https://pubmed.ncbi.nlm.nih.gov/42397052",
+   "date": "2026-07-03",
+   "journal": "Advanced Science",
+   "oa_status": "gold",
+   "is_preprint": false,
+   "gene": "LDHA",
+   "abstract": ""
+  }
+ ],
+ "PKM2": [],
+ "UBE2C": [],
+ "ZFP57": [],
+ "ECT2": [],
+ "SMDT1": [],
+ "CENPM": [],
+ "KLF6": [],
+ "CTHRC1": [],
+ "LGALS1": [],
+ "SPARC": [
+  {
+   "title": "Scrnaseq of thyroid eye disease orbital fat demonstrates fibroblast thyroid hormone signaling and sparc production",
+   "doi": "https://doi.org/10.1530/endoabs.119.op-01-03",
+   "pmid": null,
+   "date": "2026-08-27",
+   "journal": "Endocrine Abstracts",
+   "oa_status": "green",
+   "is_preprint": false,
+   "gene": "SPARC",
+   "abstract": ""
+  }
+ ]
+}
