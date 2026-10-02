@@ -17,6 +17,19 @@
 | **NCBI GEO** `www.ncbi.nlm.nih.gov/geo` | ❌ **不可达** | HTTP 000 / 60s 超时（Run #26 实测） | **整个 NCBI 域不可用；GSE 矩阵无法直连下载** |
 | **NCBI FTP** `ftp.ncbi.nlm.nih.gov` | ❌ **不可达** | HTTP 000 / 90s 超时（Run #26 实测） | 同上 |
 | **paper-search-mcp MCP** | ⚠️ 不稳定 | 走服务端代理，可用但频繁 `not well-formed (invalid token)` 并截断结果 | **仅作补充源，失败不阻塞** |
+| **Europe PMC** `www.ebi.ac.uk/europepmc/webservices/rest` | ✅ 可用 | HTTP 200；`resultType=core` 可取结构化摘要 | **第二通道**，已扩至 10 路；**近三轮贡献量超过 OpenAlex** |
+
+### Europe PMC 路数与污染（Run #27 实测 / Route notes）
+
+10 路键：`SC` 单细胞 / `SP` 空间 / `IM` 免疫微环境 / `ME` 代谢 / `AL` 算法 / `ST` 干性 /
+`MO` 分子机制 / `PR` 预后转移 / `MACRO2` / `SPATIAL_DS`。
+
+- `MO` 与 `PR` 两路是 Run #27 新增，单轮回补 56 条（占本轮 85%）→ **此前 6 路存在系统性漏检**。
+- ⚠️ `ME` 路污染严重：163 命中中大量为牛羊/海豚/鸡的**甲状腺激素代谢**研究，建议加
+  `AND (TITLE:"carcinoma" OR TITLE:"cancer")` 约束。
+- ⚠️ `SP` 路会混入党群生态学（"spatial distribution of thyroid cancer incidence"），需人工剔除。
+- 撤稿/更正条目：`Retraction notice to` / `Correction:` / `Erratum:` / `ASO Visual Abstract:` /
+  `Supplementary Table S…` / `Supplemental Figure …` 目前**仍靠人工降档**，建议脚本化。
 
 ### 数据下载通道（Run #26 新增实测 / Data download channels）
 
