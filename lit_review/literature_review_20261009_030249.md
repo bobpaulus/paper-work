@@ -372,7 +372,9 @@ PD-1/PD-L1 经 TGF-β/Smad 影响甲状腺癌细胞恶性行为（10.3892/etm.20
 - **Filters / 过滤**：OpenAlex `from_publication_date` + `sort=publication_date:desc`；Europe PMC `TITLE:"thyroid"` + `PUB_YEAR:2026` + `sort=P_PDATE_D desc`；深挖 `from_publication_date:2026-06-01`
 - **Deduplication rule / 去重规则**：DOI（小写、去 `https://doi.org/` 前缀）优先；缺失时以标题归一化（仅保留字母数字，截断 90 字符）为键；与 457 条累积基线比对
 - **Screening rule / 筛选规则**：标题须点名甲状腺（thyr*/PTC/FTC/MTC/ATC 等）**且**整体为肿瘤主题；撤稿/更正/补充材料剔除；预印本降档
-- **通道可用性**：OpenAlex ✅；Europe PMC ✅；Crossref ✅（本轮部分请求超时）；Unpaywall ⚠️（本轮部分请求超时）；**NCBI 全域 ❌ 不可达（HTTP 000）**；paper-search-mcp 本会话未连接
+- **通道可用性**：OpenAlex ✅；Europe PMC ✅；**Crossref ⚠️ 本轮严重变慢**（30 条 DOI、单请求 30 s 超时 + 重试，运行 25 分钟仍未完成；Run #26/#27 曾 21/21、22/22 秒回）；**Unpaywall ⚠️ 同上**；**NCBI 全域 ❌ 不可达（HTTP 000）**；paper-search-mcp 本会话未连接
+  - ⚠️ **对结论的影响**：本轮 OA 状态以 **OpenAlex `oa_status` 与 Europe PMC `isOpenAccess`** 为权威源（写入 JSON），Crossref/Unpaywall 仅作补充校验，**未完成不影响任何纳入/剔除或相关性判定**。
+  - 📌 下轮修正：Crossref/Unpaywall 降级为「仅 High 条目（≤10 条）、timeout 10 s、失败即跳过」。
 - **Files saved / 产出文件**：
   - `literature_review_20261009_030249.md`（本报告）
   - `search_results_20261009_030249.json` / `search_results_latest.json`（累积基线 **527**）
