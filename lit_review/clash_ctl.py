@@ -49,6 +49,11 @@ CLASH_CFG = os.path.join(USERPROFILE, ".config", "clash", "config.yaml")
 CLASH_EXE = os.path.join(
     USERPROFILE, "AppData", "Local", "Programs",
     "Clash for Windows", "Clash for Windows.exe")
+# 内核（命令行程序，无 GUI）。CFW 是 Electron，在无交互会话中拉不起来，
+# 需用内核 + 完整 profile 才能脱离 GUI 提供代理。
+CLASH_CORE = os.path.join(
+    USERPROFILE, "AppData", "Local", "Programs", "Clash for Windows",
+    "resources", "static", "files", "win", "x64", "clash-win64.exe")
 
 PROC_NAMES = ("Clash for Windows.exe", "clash-win64.exe")
 
@@ -95,11 +100,14 @@ def read_cfg():
 def proc_running():
     """检测 Clash 进程（用 tasklist，避免依赖 psutil）。"""
     # 中文 Windows 的 tasklist 输出为 GBK，必须显式指定，否则 UnicodeDecodeError
+    # GUI 外壳与内核任一在跑即视为"运行中"（内核可脱离 GUI 独立工作）
     try:
-        r = subprocess.run(["tasklist", "/FI", "IMAGENAME eq " + PROC_NAMES[0]],
-                           capture_output=True, timeout=15)
-        out = r.stdout.decode("gbk", errors="ignore")
-        return PROC_NAMES[0].lower() in out.lower()
+        for name in PROC_NAMES:
+            r = subprocess.run(["tasklist", "/FI", "IMAGENAME eq " + name],
+                               capture_output=True, timeout=15)
+            if name.lower() in r.stdout.decode("gbk", errors="ignore").lower():
+                return True
+        return False
     except Exception:
         return False
 
@@ -193,6 +201,34 @@ def sysproxy():
         return None, "读取失败: %s" % type(e).__name__
 
 
+def set_sysproxy(enable):
+    """
+    开关系统代理（winreg + 通知系统刷新）。
+
+    关键：kill Clash 前**必须先关掉系统代理**。否则代理地址仍指向 127.0.0.1:7890
+    而该端口已无监听，会导致**整个系统（浏览器等）无法上网**。
+    """
+    try:
+        import winreg
+        k = winreg.OpenKey(
+            winreg.HKEY_CURRENT_USER,
+            r"Software\Microsoft\Windows\CurrentVersion\Internet Settings",
+            0, winreg.KEY_SET_VALUE)
+        winreg.SetValueEx(k, "ProxyEnable", 0, winreg.REG_DWORD, 1 if enable else 0)
+        winreg.CloseKey(k)
+        # 通知系统立即生效（否则需重开浏览器）
+        try:
+            import ctypes
+            inet = ctypes.windll.Wininet.InternetSetOptionW
+            inet(0, 39, None, 0)   # INTERNET_OPTION_SETTINGS_CHANGED
+            inet(0, 37, None, 0)   # INTERNET_OPTION_REFRESH
+        except Exception:
+            pass
+        return True, None
+    except Exception as e:
+        return False, "%s: %s" % (type(e).__name__, e)
+
+
 # ---------------------------------------------------------------- 子命令
 
 def cmd_status(args):
@@ -245,9 +281,19 @@ def cmd_on(args):
         if not os.path.isfile(CLASH_EXE):
             print("❌ 未找到 Clash 主程序：%s" % CLASH_EXE)
             return 1
-        print("启动 Clash for Windows ...")
+        print("启动 Clash for Windows ...", flush=True)
         try:
-            subprocess.Popen([CLASH_EXE], close_fds=True)
+            # 必须完全脱离父进程并丢弃句柄：否则 GUI 进程会持有 stdout，
+            # 导致调用方（如 Bash 工具）认为命令未结束而超时 SIGTERM。
+            DETACHED_PROCESS = 0x00000008
+            CREATE_NEW_PROCESS_GROUP = 0x00000200
+            subprocess.Popen(
+                [CLASH_EXE],
+                stdin=subprocess.DEVNULL,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                creationflags=DETACHED_PROCESS | CREATE_NEW_PROCESS_GROUP,
+                close_fds=True)
         except Exception as e:
             print("❌ 启动失败: %s" % e)
             return 1
@@ -270,6 +316,15 @@ def cmd_on(args):
 
     cfg, _ = api_get("/configs")
     port = (cfg or {}).get("mixed-port") or 7890
+
+    # 若此前被 off 关掉过系统代理，这里恢复（CFW 不一定会自动重开）
+    en, sv = sysproxy()
+    if en is False:
+        ensure, err = set_sysproxy(True)
+        print("系统代理 : %s" % ("✅ 已恢复开启" if ensure else "❌ %s" % err))
+    else:
+        print("系统代理 : ✅ 已开启 -> %s" % sv)
+
     if args.export:
         print('export http_proxy="http://127.0.0.1:%s"' % port)
         print('export https_proxy="http://127.0.0.1:%s"' % port)
@@ -287,18 +342,27 @@ def cmd_off(args):
         _, err = api_patch("/configs", {"mode": "direct"})
         print("软关闭（保留进程，切 direct）: %s" % ("✅" if not err else "❌ %s" % err))
         return 0 if not err else 1
-    print("退出 Clash 进程 ...")
-    ok = True
+    # 关键顺序：先关系统代理，再杀进程。反过来的话代理地址会残留在已无人监听的
+    # 127.0.0.1:7890，导致整个系统断网。
+    print("1) 关闭系统代理（防止残留导致全局断网）...")
+    ok, err = set_sysproxy(False)
+    print("   %s" % ("✅ 已关闭" if ok else "❌ %s" % err))
+
+    print("2) 退出 Clash 进程 ...")
     for name in PROC_NAMES:
+        # taskkill 输出同样是 GBK，不能 text=True
         r = subprocess.run(["taskkill", "/F", "/IM", name],
-                           capture_output=True, text=True)
+                           capture_output=True, timeout=20)
+        r.stdout.decode("gbk", errors="ignore")
         if r.returncode == 0:
-            print("  ✅ 已结束 %s" % name)
+            print("   ✅ 已结束 %s" % name)
         else:
-            print("  · %s 未在运行或已结束" % name)
+            print("   · %s 未在运行或已结束" % name)
     time.sleep(2)
-    print("进程状态 : %s" % ("❌ 仍在运行" if proc_running() else "✅ 已完全退出"))
-    return 0 if ok else 1
+    print("3) 进程状态 : %s" % ("❌ 仍在运行" if proc_running() else "✅ 已完全退出"))
+    en, sv = sysproxy()
+    print("4) 系统代理 : %s" % ("❌ 已关闭" if en is False else ("⚠️ 仍开启 -> %s" % sv)))
+    return 0
 
 
 def cmd_mode(args):

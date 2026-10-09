@@ -119,6 +119,45 @@ GEO 不可达意味着**论文里的 GSE 编号只是"引用"，不是"可下载
 3. 真正需要代理的只有 Google Scholar / 部分被墙源；且**当前 Clash 的 `GLOBAL` 组 = DIRECT**，
    `mode=rule`，出境规则由 profile 决定，节点可用性会波动（曾观测到 12 s 超时误判为 000，20 s 则为 302）。
 
+### ⚠️ 反直觉：开着 Clash 反而会拖累检索（2026-10-09 实证）
+
+用户完整关闭 Clash（进程 + 系统代理）后复测，检索通道**全部仍然可达**：
+
+| 通道 | Clash 关闭后直连 | 备注 |
+|---|---|---|
+| NCBI eutils / GEO | ✅ 200（0.51 s） | — |
+| Europe PMC / OpenAlex / Crossref | ✅ 200（0.78–1.04 s） | — |
+| Google | ❌ 000 | 被墙，符合预期 |
+
+而**开着 Clash 时反而更差**——内核日志实证：
+
+```
+WRN dial failed: os-3.tr202604.com:443 connect error: dial tcp4 45.13.199.32:443: i/o timeout
+    proxy=Proxy  rAddr=eutils.ncbi.nlm.nih.gov:443  rule=Match
+```
+
+即：`mode=rule` 下 NCBI 匹配兜底规则 `Match()` → 走 **Proxy 组**（当时选中日本-OS-3 节点），
+而该节点超时 → **检索请求被强行绕经一个不通的境外节点**。
+
+→ **结论：文献检索应直连**。若 Clash 必须开着（如同时要访问 Google Scholar），
+建议检索进程显式绕过代理（`curl --noproxy '*'` 或 `NO_PROXY=*`），
+或把 Clash 切到 `mode=direct`，否则会被坏节点拖慢甚至拖挂。
+
+### Clash 开关在本环境的能力边界（实测）
+
+| 能力 | 结论 |
+|---|---|
+| 关（taskkill + 关系统代理） | ✅ 可靠 |
+| 开 —— CFW GUI（`Clash for Windows.exe`） | ❌ **拉不起来**：Electron 程序，在无交互桌面会话中启动后进程立刻消失 |
+| 开 —— clash 内核（`clash-win64.exe`） | ⚠️ **可启动，但无法在会话外存活**：进程会被工具/沙箱会话结束清理，下次调用时已退出 |
+| 直接跑内核 + `config.yaml` | ❌ 会退出：该文件仅 4 行（无 proxies/rules），须用 `profiles/*.yml`（29 KB） |
+
+- 需脱离 GUI 启动时用 **`clash_core_start.py`**（合并 profile + secret/控制端口后启动内核，并补设系统代理）。
+- **关键顺序**：关闭时必须**先关系统代理再杀进程**；否则代理地址残留在已无监听的
+  `127.0.0.1:7890`，会导致**整个系统（浏览器）断网**。`clash_ctl.py off` 已按此顺序实现。
+- 若已出现"Clash 没了但系统代理还开着"的断网状态，执行
+  `python -c "import clash_ctl as c; c.set_sysproxy(False)"` 立即恢复。
+
 ### Clash 环境与控制
 
 | 项 | 值 |
