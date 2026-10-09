@@ -95,6 +95,59 @@ GEO 不可达意味着**论文里的 GSE 编号只是"引用"，不是"可下载
 3. **OpenAlex 同时索引预印本**（preprints.org / bioRxiv / medRxiv），
    而 PubMed 不索引，直接补上一个此前完全缺失的证据层。
 
+## 一·特、代理与 Clash（2026-10-09 实测 / Proxy & Clash）
+
+**结论先行：本项目依赖的全部检索通道（NCBI / Europe PMC / OpenAlex / Crossref / Unpaywall）
+均为「直连可达」，不依赖 Clash 代理。**
+
+用 `curl --noproxy '*'` 完全绕过任何代理后的实测：
+
+| 通道 | 直连（绕过全部代理） | 走 Clash 7890 |
+|---|---|---|
+| NCBI eutils | ✅ 200（3/3，0.47–0.81 s） | ✅ 200 |
+| NCBI GEO | ✅ 200 | ✅ 200 |
+| Europe PMC | ✅ 200 | ✅ 200 |
+| OpenAlex | ✅ 200 | ✅ 200 |
+| Crossref | ✅ 200 | ✅ 200 |
+| Unpaywall | ⚠️ 422（邮箱参数被拒，网络层通） | ⚠️ 422 |
+| Google（对照，需翻墙） | ❌ 000 | ⚠️ 302（**证明代理确实生效**） |
+
+**推论**：
+1. §一「NCBI 恢复」的**真实原因不是 Clash**——NCBI 直连本来就通。
+   2026-08 记录的「不可达」应是当时网络出口/临时故障所致，属**时变状态**（见 §三 的探针要求）。
+2. **自动化凌晨 03:00 运行时无需 Clash 在线**，不应把 Clash 作为检索前置条件。
+3. 真正需要代理的只有 Google Scholar / 部分被墙源；且**当前 Clash 的 `GLOBAL` 组 = DIRECT**，
+   `mode=rule`，出境规则由 profile 决定，节点可用性会波动（曾观测到 12 s 超时误判为 000，20 s 则为 302）。
+
+### Clash 环境与控制
+
+| 项 | 值 |
+|---|---|
+| 配置 | `%USERPROFILE%\.config\clash\config.yaml` |
+| 主程序 | `%USERPROFILE%\AppData\Local\Programs\Clash for Windows\Clash for Windows.exe` |
+| 内核进程 | `clash-win64.exe` |
+| mixed-port | `7890`（系统代理亦指向此端口） |
+| External Controller | 见 `config.yaml` 的 `external-controller`（**端口每次启动会变**，须动态读取） |
+| `secret` | 见 `config.yaml`（**严禁硬编码、严禁打印、严禁入库**） |
+
+控制脚本：**`clash_ctl.py`**（本目录），通过 Clash RESTful API 操作。
+
+```bash
+python clash_ctl.py status        # 进程 / API / mode / 系统代理 / 通道探测
+python clash_ctl.py probe         # 仅做直连 vs 走代理的通道对比
+python clash_ctl.py on            # 未运行则启动 CFW，并切 rule
+python clash_ctl.py on --export   # 输出可 eval 的 export 语句（子进程改不了父 shell）
+python clash_ctl.py off           # 退出 Clash 进程（会中断上网）
+python clash_ctl.py off --soft    # 仅切 direct，保留进程
+python clash_ctl.py mode <rule|global|direct>
+python clash_ctl.py nodes         # 列出代理组与节点延迟
+python clash_ctl.py use "<节点名>" # 切换节点
+```
+
+**脚本安全设计**：`secret` 每次从 `config.yaml` 动态读取、输出中遮蔽为 `***`；
+API 请求强制 `ProxyHandler({})` 绕过代理（否则会走 Clash 自己形成环路）；
+`tasklist` 输出按 **GBK** 解码（中文 Windows，否则 UnicodeDecodeError 导致进程误判）。
+
 ## 一·补、代码仓通道 / Git Remote
 
 | 项 | 值 |
