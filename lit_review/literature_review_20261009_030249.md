@@ -444,4 +444,62 @@ PD-1/PD-L1 经 TGF-β/Smad 影响甲状腺癌细胞恶性行为（10.3892/etm.20
 
 ---
 
+---
+
+## 十三、2026-10-09 补充：NCBI 通道恢复与 PMID 批量回填 (Addendum)
+
+> **本节为本报告定稿后追加**。触发原因：用户询问通道连通性，遂对全部检索通道做了一次复检，
+> 发现**此前长期记录的「NCBI 全域不可达」结论已失效**，据此执行了 PMID 回填。
+
+### 13.1 通道复检结果 (Channel Re-probe)
+
+| 通道 | Run #28 结论 | **2026-10-09 复检** | 判定 |
+|---|---|---|---|
+| NCBI eutils | ❌ 不可达（4/4 HTTP 000） | ✅ 3/3 HTTP 200 / 0.5–0.9 s；`esearch` 真实返回、`efetch` 取到 CD36 主文献完整摘要 | **恢复** |
+| NCBI GEO | ❌ 不可达 | ✅ HTTP 200 / 0.6 s，返回 GSE60542 元数据 | **恢复** |
+| NCBI FTP | ❌ 不可达 | ✅ HTTP 200，**实测下载 `GSE60542_series_matrix.txt.gz` 27,530,495 bytes / 17.6 s** | **恢复** |
+| PubMed 网页 | ❌ 不可达 | ✅ HTTP 203（网络层可达，203 为 NCBI 反爬响应） | **恢复** |
+| Crossref | ⚠️ 超 20 min 未完成 | ✅ HTTP 200 / 2.35 s | **恢复正常** |
+| Unpaywall | ⚠️ 同上 | ✅ HTTP 200，正常返回 `best_oa_location` | **恢复正常** |
+| OpenAlex | ✅ | ✅ 3/3 HTTP 200 / ~1.0 s（**首次请求曾 HTTP 000，重试即通**） | 保持 |
+| Europe PMC | ✅ | ✅ HTTP 200 / 1.4 s | 保持 |
+| git SSH 22 | ❌ 沙箱内阻断，须绕过 | ✅ **沙箱内 `git ls-remote` 直接成功** | **恢复** |
+
+**关键教训**：通道可用性是**时变状态**，不是永久事实。本报告 §11 及 `RETRIEVAL_ENVIRONMENT.md` 中
+"NCBI 禁止直连重试"的旧结论已在本文件与环境中同步作废，并新增「每轮开局先做通道探针」的流程要求。
+
+### 13.2 PMID 回填执行 (PMID Backfill)
+
+脚本 `_pmid_backfill_ncbi.py`，以 `esearch <doi>[DOI]` 为精确主键，遵守 NCBI 速率限制（0.4 s 间隔）。
+
+| 项 | 数值 |
+|---|---:|
+| 基线总记录 | 527 |
+| 回填前缺 PMID 且有 DOI | 184 |
+| **成功补号（DOI 精确匹配）** | **49** |
+| 标题回退匹配命中 | 0（PubMed `[Title]` 对长标题精确匹配过严，未产生有效命中） |
+| 回填后仍缺号 | **138** |
+| 备份 | `search_results_latest_backup_pre_pmid.json`；`search_results_20261009_030249_pmidbackfill.json` |
+
+**仍缺 138 条的构成判断**（非检索缺陷，属正常无号类型）：
+预印本（preprints.org / Research Square 前缀 `rs.3.rs-`）、数据集存档（Zenodo / Figshare / Dataverse）、
+会议摘要（`endoabs` / `ejendo` / `oncolo` / `jco.2026.44.19_suppl`）、以及尚未被 PubMed 编目的最新在线发表。
+
+**对本报告的影响修正**：
+- §5 证据矩阵中标注「待编目」的条目，其中 **49 条已于本节获得真实 PMID**（字段 `pmid_source =
+  NCBI-eutils-backfill-20261009`），可直接引用。
+- 本轮 Run #28 报告正文的「PMID 待编目 15 条」是指**当轮新增**口径；全库口径为 184 → 138。
+- **不得编造 PMID** 的原则未变：回填仅接受 `esearch` 精确返回，查不到即留空。
+
+### 13.3 对后续方向的实际影响 (Impact on Directions)
+
+1. **D21″ 的 M1 不再受数据可得性限制** —— `GSE60542`（PTC 原发灶 vs 淋巴结转移灶配对转录组）
+   矩阵已实测可直连下载，此前"GEO 一律转 ENA"的约束解除，**首选方向的启动成本实质下降**。
+2. **§11.4 关于空间组学"真实低产"的判定需重新检验** —— 该判定部分建立在"数据不可得"的隐含前提上；
+   NCBI 恢复后应对 SP 维度做一次**不限年份全库普查 + GEO 数据集盘点**，再确认是真低产还是欠采样。
+3. `paper-search-mcp` 的 `not well-formed` 根因（上游 NCBI 不稳定）**可能已消失**，下轮应重新试用。
+
+---
+
 *报告生成：2026-10-09 · Run #28 · 三通道（OpenAlex / Europe PMC / 定向基因深挖）· 累积基线 527 条*
+*补充修订：2026-10-09 通道复检 + PMID 回填（§13）*
