@@ -53,10 +53,25 @@ The three strongest primary mechanistic findings: **MIB2 promotes K48-linked pol
 | OpenAlex `api.openalex.org` | ✅ HTTP 200 / 1.18 s | ✅ | 主通道，正常 |
 | Europe PMC `www.ebi.ac.uk` | ✅ HTTP 200 / 1.79 s | ✅ | 第二通道，正常 |
 | Crossref `api.crossref.org` | ✅ HTTP 200 / 1.39 s（9/10 DOI 校验成功） | ✅ | 恢复正常（Run #28 曾超 20 min 未完成） |
-| **NCBI eutils** | ❌ **HTTP 000 / 15.1 s（绕过代理）**；带代理 000 / 0.15 s（连接立即被拒） | ✅ 200 / 0.5–0.9 s | ⚠️ **再次不可达** |
+| **NCBI eutils** | ❌ **HTTP 000 / 15.1 s（绕过代理）**；带代理 000 / 0.15 s（连接立即被拒） | ✅ 200 / 0.5–0.9 s | ⚠️ **再次不可达**〔**2026-10-17 已订正，见下**〕 |
 
-> ⚠️ **环境事实变更（第二次反转）**：Run #28 补充（2026-10-09）实测 NCBI eutils 已恢复（3/3 HTTP 200），本轮**再次不可达**。这印证了 `RETRIEVAL_ENVIRONMENT.md` 的核心教训——**通道可用性是时变状态，必须每轮实测**。
-> **后果**：本轮**无法执行 `_pmid_backfill_ncbi.py` 的 PMID 回填**，32 条新增中 12 条无 PMID 只能标「待编目」，不得编造。下轮若 NCBI 恢复，应优先跑一次回填。
+> 🔴 **2026-10-17 订正（根因推翻，非通道问题）**：上表「NCBI 再次不可达」及此前 29 轮的全部 ✅/❌ 横跳**均为误判**。抓真实错误后定位为：
+>
+> ```
+> curl: (35) schannel: next InitializeSecurityContext failed:
+>        CRYPT_E_REVOCATION_OFFLINE (0x80092013)
+> ```
+>
+> **根因是 Windows Schannel 证书吊销检查（OCSP/CRL）连不上吊销服务器 → TLS 握手被中止**，
+> 属 **TLS 层**问题，**不是网络封锁**（DNS 正常解析到真实 NCBI IP `2600:1901:0:c831::`）。
+> 吊销服务器时通时不通，故表现为「时变」，被误读成通道横跳。
+>
+> **修复**：`curl --ssl-no-revoke` → eutils **200 / 0.42 s**；或 Python `urllib`（走 OpenSSL，默认不查吊销）
+> → einfo **200 / 0.64 s**、`efetch` 可取完整摘要。偶发 **HTTP 429 = NCBI 真实限流**（非故障），退避 3 s 即通。
+>
+> **已于 2026-10-17 补跑回填**（脚本 `_pmid_backfill_run29b.py`，urllib + 429 退避 + 标题回退相似度校验）：
+> 559 条中 **19 条成功定号**，27 条预印本/数据集按规则跳过，余 131 条截至该日 PubMed 尚未收录。
+> → 本报告中仍标「待编目*」者意为 **PubMed 尚未编目（非检索失败）**，见 §附录 C。
 
 ### 1.2 检索矩阵 / Query matrix
 
@@ -89,7 +104,7 @@ The three strongest primary mechanistic findings: **MIB2 promotes K48-linked pol
 ### 2.1 High 相关性（2 条，逐条要点）
 
 **H1. Analysis code and derived data for: the recurrence-associated high-risk thyroid tumor cell state is primarily a dedifferentiation program**
-Zenodo, 2026-10-12. DOI: 10.5281/zenodo.23319288. PMID: 待编目. 维度 SP/SC/PR. OA: 数据集（MIT 脚本 + CC BY 4.0 表格）.
+Zenodo, 2026-10-12. DOI: 10.5281/zenodo.23319288. PMID: 待编目*. 维度 SP/SC/PR. OA: 数据集（MIT 脚本 + CC BY 4.0 表格）.
 *Author claim*: 重新分析公开 single-cell、bulk 与空间转录组数据及公开 H&E 病理图像，发现复发相关高危状态中**可重复的成分是甲状腺分化丧失，而非增殖**。含 53 个分析脚本：事件表推导、单细胞状态识别与跨队列比较、**带 12 签名基准的 bulk 模型拟合**、**随机签名零校准（family-wide FDR 控制）**、空间转录组处理、H&E 图像形态计量、**区室解析的 GeoMx 校验**、驱动突变协变量模型。
 *Agent note*: ⭐ 本轮最重要条目。它不是又一篇"新签名"，而是**对已有签名做可信度审计**的方法学基础设施，且代码与派生表格**全部公开可 fork**（MIT / CC BY 4.0）。注意：Zenodo 数据集型存档，无同行评审，证据强度按 deposit 降档；但其脚本与 `docs/DATA_SOURCES.md` 的透明度远高于多数已发表签名论文。**注意区分**「存档本身的可信度」与「其结论的可复现性」——后者可用其脚本直接检验。
 
@@ -102,9 +117,9 @@ Zenodo, 2026-10-12. DOI: 10.5281/zenodo.23319288. PMID: 待编目. 维度 SP/SC/
 
 | # | 标题（英文原文） | 来源 / 日期 | DOI / PMID | 维度 | 一句话中文要点 |
 |---|---|---|---|---|---|
-| M1 | Methylation-associated downregulation of CRABP1 marks an aggressive malignant epithelial cell state in thyroid carcinoma | Front Cell Dev Biol, 2026-10-14 | 10.3389/fcell.2026.1974822 / 待编目 | MO/SC | 17 例 PTC scRNA + CNV 推断鉴定 **CRABP1⁺ 恶性上皮亚群**（保留 CDH1/KRT19）；TCGA 中低 CRABP1 与 LNM、T 分期相关；敲低促迁移侵袭并伴 EMT 偏移；作者明确声明甲基化/地西他滨结果**不确立位点特异表观因果**（r=−0.2069, R²=0.0428） |
+| M1 | Methylation-associated downregulation of CRABP1 marks an aggressive malignant epithelial cell state in thyroid carcinoma | Front Cell Dev Biol, 2026-10-14 | 10.3389/fcell.2026.1974822 / 待编目* | MO/SC | 17 例 PTC scRNA + CNV 推断鉴定 **CRABP1⁺ 恶性上皮亚群**（保留 CDH1/KRT19）；TCGA 中低 CRABP1 与 LNM、T 分期相关；敲低促迁移侵袭并伴 EMT 偏移；作者明确声明甲基化/地西他滨结果**不确立位点特异表观因果**（r=−0.2069, R²=0.0428） |
 | M2 | Cancer-Associated Fibroblasts Drive Papillary Thyroid Cancer Progression through ROS/NF-κB/IL-6 Signaling in Hypoxic Microenvironment | Endocr-Relat Cancer, 2026-10-07 | 10.1530/erc-26-0198 / 42847132 | ME/IM/ST | scRNA 定位成纤维细胞为 IL-6 主要来源；缺氧经 **ROS→NF-κB** 驱动 IL-6；NAC/MitoQ/JSH-23 可阻断；**已上市药物托珠单抗（tocilizumab）体内显著抑瘤** |
-| M3 | Association between primary tumor resection and survival in metastatic follicular thyroid carcinoma: a real-world population-based cohort Study | Sci Rep, 2026-10-08 | 10.1038/s41598-026-75182-z / 待编目 | PR | SEER 7636 例 FTC 中 363 例（4.75%）初诊即远处转移；PTR 组中位 OS **70 vs 27 月**、CSS **98 vs 47 月**；PSM 后方向一致但匹配队列小；PTR 组更年轻（65.2 vs 70.3 岁），**选择偏倚未排除** |
+| M3 | Association between primary tumor resection and survival in metastatic follicular thyroid carcinoma: a real-world population-based cohort Study | Sci Rep, 2026-10-08 | 10.1038/s41598-026-75182-z / 待编目* | PR | SEER 7636 例 FTC 中 363 例（4.75%）初诊即远处转移；PTR 组中位 OS **70 vs 27 月**、CSS **98 vs 47 月**；PSM 后方向一致但匹配队列小；PTR 组更年轻（65.2 vs 70.3 岁），**选择偏倚未排除** |
 | M4 | Clinical and Molecular Genetic Testing Risk Stratification for Pediatric Papillary Thyroid Carcinoma Therapy | J Clin Endocrinol Metab, 2026-10-09 | 10.1210/clinem/dgag418 / 42857932 | PR/AL | 435 例 CAYA-PTC（2–18 岁）多中心；5 个独立预测因子：年龄 ≤15 岁、肿瘤 >4 cm、N1b、**合并桥本甲状腺炎**、RET/NTRK 融合；列线图 C-index 0.721 vs ATA 0.656；7 年 DFS 92.4/83.1/56.4% |
 | M5 | Outcome of first-line chemotherapy for anaplastic thyroid cancer—a multicenter registry analysis | J Clin Endocrinol Metab, 2026-09-01 | 10.1210/clinem/dgag177 / 42046902 | PR/MO | 德国 7 中心 158 例 ATC；卡铂/紫杉醇（CP，n=97）与其他方案（n=61）**PFS 102 vs 89 天（p=0.23）、OS 278 vs 295 天（p=0.50），均无差异**；手术与较低死亡风险相关 → **阴性结果** |
 | M6 | Comparative Performance of the 2015 and 2025 American Thyroid Association Initial Recurrence Risk Stratification Systems in DTC | Clin Endocrinol (Oxf)/Thyroid, 2026-10-07 | 10.1177/10507256261494916 / 42844696 | PR | 1508 例（中位随访 8.9 年）；2025 版 AUC 0.78 vs 0.73（p=0.004）**更优**，但同时把 38.8% 无复发者上调风险 → **绝对 NRI −22.6%**（加性 NRI +9.7%） |
@@ -113,24 +128,24 @@ Zenodo, 2026-10-12. DOI: 10.5281/zenodo.23319288. PMID: 待编目. 维度 SP/SC/
 | M9 | Evaluating the diagnostic performance of multimodal large language models in thyroid cytology | Human Pathology, 2026-05-16 | 10.1016/j.humpath.2026.106156 / 42144078 | AL | 100 张 FNA 细胞学图（50 PTC / 50 非 PTC）；ChatGPT / Gemini 按 Bethesda 分类准确率仅 **26.2% / 23.6%**；**MTC 与 ATC 几乎从不识别正确** |
 | M10 | Dual-discriminator GAN (DD-GAN) for Virtual Elastography Ultrasound in Thyroid Cancer Diagnosis | Academic Radiology, 2026-09-28 | 10.1016/j.acra.2026.09.019 / 42805865 | AL | 从常规 B 超**直接生成虚拟弹性成像（V-EUS）**；V-EUS 与真实 EUS 诊断 AUC **无显著差异**（内部 0.744 vs 0.774, p=0.318；外部 0.742 vs 0.759, p=0.461；前瞻 0.751 vs 0.761, p=0.772）；医师盲测**无法区分**；V-EUS 衍生的 Tsukuba 评分并入 TI-RADS 显著提升 AUC |
 | M11 | Artificial intelligence-enabled analysis of radiology reports: epidemiology and outcomes of incidental thyroid findings | J Clin Endocrinol Metab, 2026-09-01 | 10.1210/clinem/dgag186 / 42037237 | AL/PR | Mayo Clinic 四院区 **115,683 例**；transformer NLP 识别偶发甲状腺发现（ITF）；ITF 患病率 **7.8%**；ITF 者后续结节诊断 OR **45**、活检 OR **46.8**；但**结节特征记录极差**（大小仅 44%、其他特征 <15%）→ 大规模**过度诊断级联**证据 |
-| M12 | Multimodal radiomics based on dynamic contrast-enhanced ultrasound for predicting cervical LNM in PTC with Hashimoto's thyroiditis | Front Oncol, 2026-10-14 | 10.3389/fonc.2026.1840185 / 待编目 | AL/PR | 191 例 HT 合并 PTC；BMUS + DCE-US 参数图组学 + 临床特征；LASSO/RFE 筛选；三模型比较；**仅 7:3 随机拆分内部验证，无外部队列** |
-| M13 | Deep Learning-Driven Multimodal Integration of Ultrasound and CT for Identifying Central Lymph Node Metastasis in PTC | Ultrasound Med Biol, 2026-10-01 | 10.1016/j.ultrasmedbio.2026.09.018 / 待编目 | AL/PR | 超声 + CT 多模态融合判中央区 LNM；US+CT 双模态在甲状腺 LNM 上仍属相对少见设计 |
+| M12 | Multimodal radiomics based on dynamic contrast-enhanced ultrasound for predicting cervical LNM in PTC with Hashimoto's thyroiditis | Front Oncol, 2026-10-14 | 10.3389/fonc.2026.1840185 / 待编目* | AL/PR | 191 例 HT 合并 PTC；BMUS + DCE-US 参数图组学 + 临床特征；LASSO/RFE 筛选；三模型比较；**仅 7:3 随机拆分内部验证，无外部队列** |
+| M13 | Deep Learning-Driven Multimodal Integration of Ultrasound and CT for Identifying Central Lymph Node Metastasis in PTC | Ultrasound Med Biol, 2026-10-01 | 10.1016/j.ultrasmedbio.2026.09.018 / PMID 42875362 | AL/PR | 超声 + CT 多模态融合判中央区 LNM；US+CT 双模态在甲状腺 LNM 上仍属相对少见设计 |
 | M14 | A Multiparametric Approach Integrating Multimodal Ultrasound and Serum TPO-Ab for Differentiating Thyroid Carcinoma in Hashimoto's Thyroiditis | J Ultrasound Med, 2026-09-08 | 10.1002/jum.70419 / 42708642 | AL | 600 例 HT / 650 结节；单模态 2D-US 交叉验证 AUC 0.831，CEUS 0.671，TPO-Ab 0.621；三者联合 **0.849** → **多模态增量仅 +0.018** |
 | M15 | Development and validation of a predictive model for thyroid nodule malignancy risk based on intralesional and perilesional ultrasound radiomic features | Gland Surgery, 2026-07-30 | 10.21037/gs-2026-0143 / 42725353 | AL | 147 例 C-TIRADS 4a/b；瘤内 + **瘤周 2 mm 外扩** ROI；PyRadiomics；LR/决策树/LightGBM；仍为单中心 7:3 拆分 |
 | M16 | Clinical value of artificial intelligence ultrasound-assisted diagnostic system in the differential diagnosis of benign and malignant thyroid nodules | Medicine, 2026-08-01 | 10.1097/md.0000000000050126 / 42601685 | AL | 161 结节 / 91 例；AI-UADS AUC **0.933** vs 高年资超声医师 0.821（均 p<0.05）；亚组分析显示 ≤10 mm 与远离被膜结节优势更大；**回顾性病例对照，无外部验证** |
 | M17 | Strategies for incorporating alternative splicing variants in thyroid nodule biopsy classification based on expression levels | Comput Methods Programs Biomed, 2026-06-06 | 10.1016/j.cmpb.2026.109506 / 42296790 | AL/MO | 335 例 HTA2.0 芯片；比较 TAC（探针组/连接点）与 EventPointer（剪接事件）两条流程；**分类质量强烈受处理流程影响**；TAC 变异 bootstrap 准确率 0.938；跨平台 RNA-seq 验证作者自述为"技术性复核而非完整独立验证" |
 | M18 | Anaplastic Thyroid Carcinoma With Kinase Gene Fusions: Report of 3 Cases With Corresponding Cytologic, Histologic, and Molecular Findings | Diagn Cytopathol, 2026-07-18 | 10.1002/dc.70185 / 42470146 | MO | 3 例激酶融合型 ATC；**细胞学/组织学无法区分融合型与常规 ATC**；但 **BRAF V600E 与 RAS Q61R 免疫组化双阴性可作为早期做融合检测的指征** → 可直接落地的分诊规则 |
-| M19 | UBE2C–TRIM21-driven NOS2 degradation stabilizes Tregs and suppresses pyroptotic signaling in thyrocytes in Hashimoto's thyroiditis | Inflamm Res, 2026-10-12 | 10.1007/s00011-026-02375-7 / 待编目 | IM | HT 患者 Treg 中 UBE2C 持续下调；UBE2C–TRIM21 介导 NOS2 泛素化降解以稳定 Treg；EAT 模型过继转移工程化 Treg 验证。⚠️ **疾病为桥本甲状腺炎而非甲状腺癌**，仅作 UBE2C 基因的边界参考（UBE2C 在 Run #24 的 UBE2C⁺ ATC 样复发 FTC 中曾出现） |
+| M19 | UBE2C–TRIM21-driven NOS2 degradation stabilizes Tregs and suppresses pyroptotic signaling in thyrocytes in Hashimoto's thyroiditis | Inflamm Res, 2026-10-12 | 10.1007/s00011-026-02375-7 / PMID 42862325 | IM | HT 患者 Treg 中 UBE2C 持续下调；UBE2C–TRIM21 介导 NOS2 泛素化降解以稳定 Treg；EAT 模型过继转移工程化 Treg 验证。⚠️ **疾病为桥本甲状腺炎而非甲状腺癌**，仅作 UBE2C 基因的边界参考（UBE2C 在 Run #24 的 UBE2C⁺ ATC 样复发 FTC 中曾出现） |
 | M20 | [Mechanism of timosaponin AⅢ liposomes loaded with auranofin in inducing ferroptosis in anaplastic thyroid carcinoma] | 中华肿瘤杂志, 2026-05-01 | 10.3760/cma.j.cn112152-20250914-00459 / 42151086 | ME | TAⅢ 脂质体载金诺芬（T-AUF-LPs）；CAL-62 细胞；Ferrostatin-1  rescue 确认铁死亡；ACSL4/NCOA4/GPX4、胞内铁、GSH、脂质过氧化；裸鼠异种移植验证 |
-| M21 | Personalization of the extent of surgical treatment for papillary thyroid carcinoma based on preoperative immunocytochemical risk stratification | Clin Exp Exp Surg (cees), 2026-09-30 | 10.30978/cees-2026-3-53 / 待编目 | PR | 110 例 PTMC 前瞻对照；术前**细胞角蛋白 17（CK17）+ 甲状腺过氧化物酶（TPO）+ S 细胞**三联免疫细胞化学面板分层，指导手术范围个体化 |
+| M21 | Personalization of the extent of surgical treatment for papillary thyroid carcinoma based on preoperative immunocytochemical risk stratification | Clin Exp Exp Surg (cees), 2026-09-30 | 10.30978/cees-2026-3-53 / 待编目* | PR | 110 例 PTMC 前瞻对照；术前**细胞角蛋白 17（CK17）+ 甲状腺过氧化物酶（TPO）+ S 细胞**三联免疫细胞化学面板分层，指导手术范围个体化 |
 
 ### 2.3 Low 相关性（9 条，仅列题录）
 
 | 标题 | 来源 / 日期 | DOI / PMID | 维度 | 剔除/降档理由 |
 |---|---|---|---|---|
-| Coal dust-stimulated macrophage-derived extracellular vesicles promote thyroid cancer cell phenotypes involving miR-205-5p, CAMK1G, and NF-κB-associated signaling | Front Immunol, 2026-10-14 | 10.3389/fimmu.2026.1856770 / 待编目 | MO/IM | 主题为**职业煤尘暴露**毒理学，甲状腺癌为下游表型；虽整合了 GSE274674 scRNA + TCGA-THCA + 双小鼠模型，但与本项目核心方向距离远 |
-| Prognostic Analysis of Iodine-avid Residual Metastatic Lymph Nodes in Differentiated Thyroid Cancer | Research Square, 2026-10-14 | 10.21203/rs.3.rs-11024915/v1 / 待编目 | AL/PR | **预印本**（严格 `type=preprint`），证据强度降档；无摘要可得 |
-| Risk Prediction Models for Postoperative Nausea and Vomiting in Adults Undergoing Thyroid Surgery | INPLASY, 2026-10-10 | 10.37766/inplasy2026.10.0046 / 待编目 | AL/PR | **研究方案注册**（protocol），非研究结果；终点为术后恶心呕吐，非肿瘤学终点 |
+| Coal dust-stimulated macrophage-derived extracellular vesicles promote thyroid cancer cell phenotypes involving miR-205-5p, CAMK1G, and NF-κB-associated signaling | Front Immunol, 2026-10-14 | 10.3389/fimmu.2026.1856770 / 待编目* | MO/IM | 主题为**职业煤尘暴露**毒理学，甲状腺癌为下游表型；虽整合了 GSE274674 scRNA + TCGA-THCA + 双小鼠模型，但与本项目核心方向距离远 |
+| Prognostic Analysis of Iodine-avid Residual Metastatic Lymph Nodes in Differentiated Thyroid Cancer | Research Square, 2026-10-14 | 10.21203/rs.3.rs-11024915/v1 / 待编目* | AL/PR | **预印本**（严格 `type=preprint`），证据强度降档；无摘要可得 |
+| Risk Prediction Models for Postoperative Nausea and Vomiting in Adults Undergoing Thyroid Surgery | INPLASY, 2026-10-10 | 10.37766/inplasy2026.10.0046 / 待编目* | AL/PR | **研究方案注册**（protocol），非研究结果；终点为术后恶心呕吐，非肿瘤学终点 |
 | Shaving Versus Resection on Recurrent Laryngeal Nerve in Thyroid Cancer Surgeries: A Systematic Review and Meta-Analysis | Head Neck, 2026-10-08 | 10.1002/hed.70509 / 42845094 | PR | 13 项回顾队列 / 532 例；刮除术复发更低（p=0.007）、声带活动更好；**作者自述刮除组病情更轻，存在选择偏倚** |
 | Transforming the Imaging Assessment of Thyroid Nodules with Artificial Intelligence | J Digit Imaging, 2026-09-08 | 10.1007/s10278-026-02272-9 / 42711650 | AL | 叙述性综述，无原始数据 |
 | Application of Artificial Intelligence in Diagnosis and Management of Thyroid Disease | Endocr Pract, 2026-08-29 | 10.1016/j.eprac.2026.08.018 / 42667959 | AL | 叙述性综述 |
@@ -148,16 +163,16 @@ Zenodo, 2026-10-12. DOI: 10.5281/zenodo.23319288. PMID: 待编目. 维度 SP/SC/
 
 | Paper | PMID/DOI | Disease/Population | Data Source | Method | Endpoint | Main Finding | Validation | Limitations | Relevance | Gap Suggested | Future Direction |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Recurrence-associated high-risk thyroid tumor cell state = dedifferentiation program（Zenodo 存档） | 待编目 / 10.5281/zenodo.23319288 | THCA（PTC/ATC 等），复发 vs 非复发 | 公开 scRNA + bulk + 空间转录组 + H&E 病理图像；GEO & cBioPortal | 53 脚本：事件表推导、单细胞状态识别与跨队列比较、**12 签名基准竞技场**、**随机签名零校准 + family-wide FDR**、空间处理、H&E 形态计量、**区室解析 GeoMx 校验**、驱动突变协变量 | 复发（事件表推导） | 高危状态中**可重复成分是甲状腺分化丧失，而非增殖** | 跨队列重复性本身即验证；随机签名为阴性对照；GeoMx 区室复核 | **未经同行评审的数据集存档**；不重分发原始数据；依赖上游公开队列注释质量 | **High**（SP/SC/PR） | 12 个已发表签名中**哪些真正优于随机基因集**尚未逐条公开；零校准尚未推广到 LNM 签名与影像/ML 模型 | **D26 签名与模型可信度审计** |
+| Recurrence-associated high-risk thyroid tumor cell state = dedifferentiation program（Zenodo 存档） | 待编目* / 10.5281/zenodo.23319288 | THCA（PTC/ATC 等），复发 vs 非复发 | 公开 scRNA + bulk + 空间转录组 + H&E 病理图像；GEO & cBioPortal | 53 脚本：事件表推导、单细胞状态识别与跨队列比较、**12 签名基准竞技场**、**随机签名零校准 + family-wide FDR**、空间处理、H&E 形态计量、**区室解析 GeoMx 校验**、驱动突变协变量 | 复发（事件表推导） | 高危状态中**可重复成分是甲状腺分化丧失，而非增殖** | 跨队列重复性本身即验证；随机签名为阴性对照；GeoMx 区室复核 | **未经同行评审的数据集存档**；不重分发原始数据；依赖上游公开队列注释质量 | **High**（SP/SC/PR） | 12 个已发表签名中**哪些真正优于随机基因集**尚未逐条公开；零校准尚未推广到 LNM 签名与影像/ML 模型 | **D26 签名与模型可信度审计** |
 | MIB2-mediated ubiquitination of HK2 inhibits glycolysis in PTC | 42847133 / 10.1530/erc-26-0049 | PTC；组织标本 + 细胞系 + 体内成瘤 | 生信 + 临床标本 + PTC 细胞系 | 生物信息学筛选、临床标本验证、体外增殖/迁移/侵袭、体内成瘤、**RING 结构域互作 + K48 连接多聚泛素化 + 蛋白酶体降解 + 糖酵解通量** | 侵袭性表型（LNM / ETE 相关） | MIB2 在 PTC 中下调；过表达抑制恶性表型，机制为经 RING 结构域促 HK2 的 K48 泛素化降解 → 抑糖酵解 | 临床标本 + 体外 + 体内三层 | 细胞系模型单一；**无独立外部队列的蛋白水平验证**；未测患者预后终点 | **High**（MO/PR/ME） | MIB2–HK2 轴与已有糖酵解/耐药通路（如 TRIM47–FBP1 乳酸化）的关系未检验；无预后层证据 | **D18 代谢–耐药轴** |
 
 ### 3.2 Medium 相关性压缩矩阵
 
 | Paper | PMID/DOI | Population / Source | Method | Endpoint | Main Finding | Validation | Limitations | Relevance | Gap |
 |---|---|---|---|---|---|---|---|---|---|
-| CRABP1 甲基化与侵袭性上皮状态 | 待编目 / 10.3389/fcell.2026.1974822 | 17 例 PTC scRNA + TCGA-THCA + 细胞系 + 异种移植 | scRNA + CNV 推断 + 甲基化分析 + 敲低/过表达 + 地西他滨 | LNM / T 分期 / 迁移侵袭 | CRABP1⁺ 恶性上皮亚群保留上皮特征；低 CRABP1 ↔ LNM；敲低促 EMT 样偏移 | TCGA bulk + 体内异种移植 | **作者明确否认表观因果**（r=−0.2069, R²=0.0428） | Medium（MO/SC） | 甲基化位点与 CRABP1 表达的因果方向未确立 |
+| CRABP1 甲基化与侵袭性上皮状态 | 待编目* / 10.3389/fcell.2026.1974822 | 17 例 PTC scRNA + TCGA-THCA + 细胞系 + 异种移植 | scRNA + CNV 推断 + 甲基化分析 + 敲低/过表达 + 地西他滨 | LNM / T 分期 / 迁移侵袭 | CRABP1⁺ 恶性上皮亚群保留上皮特征；低 CRABP1 ↔ LNM；敲低促 EMT 样偏移 | TCGA bulk + 体内异种移植 | **作者明确否认表观因果**（r=−0.2069, R²=0.0428） | Medium（MO/SC） | 甲基化位点与 CRABP1 表达的因果方向未确立 |
 | CAF 缺氧 ROS/NF-κB/IL-6 | 42847132 / 10.1530/erc-26-0198 | PTC 患者 scRNA + 原代 CAF/NF + 非接触共培养 + 体内 | scRNA 来源定位、缺氧处理、NAC/MitoQ/JSH-23 阻断、**托珠单抗** | 增殖 / MAPK 激活 / 肿瘤生长 | 成纤维细胞是 IL-6 主要来源；缺氧 → ROS → NF-κB → IL-6；托珠单抗体内抑瘤 | 药理阻断 + 体内共注射 | 非接触共培养无法完全模拟体内空间；托珠单抗剂量未做剂量-效应 | Medium（ME/IM/ST） | 已上市药物可再利用，但**无甲状腺癌临床队列验证** |
-| 转移性 FTC 原发灶切除 | 待编目 / 10.1038/s41598-026-75182-z | SEER 7636 例 FTC，其中 363 例初诊远处转移 | KM + log-rank + PSM + 多变量 Cox | OS / CSS | PTR 组中位 OS 70 vs 27 月、CSS 98 vs 47 月 | SEER 人群队列 + PSM | **PTR 组显著更年轻**（65.2 vs 70.3）；PSM 后匹配队列小 | Medium（PR） | 选择偏倚未排除；FTC 亚型（ minimally invasive vs widely invasive）未分层 |
+| 转移性 FTC 原发灶切除 | 待编目* / 10.1038/s41598-026-75182-z | SEER 7636 例 FTC，其中 363 例初诊远处转移 | KM + log-rank + PSM + 多变量 Cox | OS / CSS | PTR 组中位 OS 70 vs 27 月、CSS 98 vs 47 月 | SEER 人群队列 + PSM | **PTR 组显著更年轻**（65.2 vs 70.3）；PSM 后匹配队列小 | Medium（PR） | 选择偏倚未排除；FTC 亚型（ minimally invasive vs widely invasive）未分层 |
 | CAYA-PTC 临床基因组列线图 | 42857932 / 10.1210/clinem/dgag418 | 435 例 2–18 岁 PTC，多中心回顾 | 临床 + 术后病理 + 分子检测 → 列线图；与 ATA 儿科分层内部比较 | DFS | 5 个独立因子（年龄 ≤15、>4 cm、N1b、**合并桥本**、RET/NTRK 融合）；C-index 0.721 vs 0.656 | 多中心 + 内部比较 | **无外部验证**；分子检测 panels 可能跨中心不一致 | Medium（PR/AL） | 桥本甲状腺炎作为**风险因子**（与"保护性"叙事相反）需独立验证 |
 | ATC 一线化疗（德国注册） | 42046902 / 10.1210/clinem/dgag177 | 158 例 ATC，7 中心，2000–2024 | KM + log-rank + Cox | PFS / OS | **CP 与其他方案无差异**（PFS 102 vs 89 d, p=0.23；OS 278 vs 295 d, p=0.50）；手术与较低死亡风险相关 | 多中心注册 | 回顾性、24 年跨度（治疗方案时代混杂）；无随机化 | Medium（PR/MO） | **阴性结果**：缺乏 ATC 一线化疗的随机证据 |
 | ATA 2015 vs 2025 | 42844696 / 10.1177/10507256261494916 | 1508 例 DTC，中位随访 8.9 年 | AUC + NRI + DCA | 结构性无复发生存 | 2025 版 AUC 更优（0.78 vs 0.73）但**绝对 NRI −22.6%** | 单中心三级转诊队列 | 单中心（中国）；无外部验证 | Medium（PR） | 区分度提升 ≠ 净获益；**修订的多灶性标准**驱动了再分类 |
@@ -166,16 +181,16 @@ Zenodo, 2026-10-12. DOI: 10.5281/zenodo.23319288. PMID: 待编目. 维度 SP/SC/
 | MLLM 甲状腺细胞学 | 42144078 / 10.1016/j.humpath.2026.106156 | 100 张 FNA 图（50 PTC / 50 非 PTC） | ChatGPT 与 Gemini 各 5 轮 | Bethesda 分类准确率 | **26.2% / 23.6%**；MTC 与 ATC 几乎从不识别正确 | 专家病理复核 | 单张 40× 视野（非全片）；样本量小 | Medium（AL） | 细胞学场景 LLM **不可用于诊断**，仅可作教学/分诊探索 |
 | DD-GAN 虚拟弹性成像 | 42805865 / 10.1016/j.acra.2026.09.019 | 甲状腺结节，内部 + 外部 + 前瞻三套测试集 | 双判别器 GAN 由 B 超生成 V-EUS；SR 一致性量化；医师盲测 | 良恶性诊断 AUC | V-EUS 与真实 EUS **AUC 无显著差异**；医师盲测不可区分；Tsukuba 评分并入 TI-RADS 显著提升 AUC | 内部 + **外部 + 前瞻**三套验证 | 生成式模型的幻觉风险未量化；前瞻样本量未报告 | Medium（AL） | **硬件无关的弹性成像**——便携设备场景价值未做卫生经济学评估 |
 | NLP 偶发甲状腺发现（ITF） | 42037237 / 10.1210/clinem/dgag186 | Mayo 四院区 **115,683 例** | transformer NLP 抽取影像报告 | ITF 患病率与下游结局 | ITF 7.8%；后续结节诊断 OR **45**、活检 OR **46.8**；**结节特征记录极差**（大小 44%） | 多院区大样本 | 回顾性；NLP 抽取误差未与人工双读比较 | Medium（AL/PR） | **过度诊断级联**缺乏"是否改善患者结局"的证据 |
-| DCE-US 多模态组学预测 CLNM（合并 HT） | 待编目 / 10.3389/fonc.2026.1840185 | 191 例 HT 合并 PTC | BMUS + DCE-US 参数图组学 + 临床/US 特征；LASSO/RFE；三模型 | 术前 CLNM | 联合模型优于单一模型（SHAP 解释） | **仅 7:3 随机拆分内部验证** | 无外部验证；HT 背景使组学特征稳定性存疑 | Medium（AL/PR） | 影像组学在 HT 背景下是否可迁移未检验 |
-| 超声+CT 深度学习判中央区 LNM | 待编目 / 10.1016/j.ultrasmedbio.2026.09.018 | PTC | US + CT 多模态融合 | 中央区 LNM | 多模态优于单模态（摘要未取回，细节待核） | 待核 | 摘要未获取 | Medium（AL/PR） | 需取回全文核实样本量与验证方式 |
+| DCE-US 多模态组学预测 CLNM（合并 HT） | 待编目* / 10.3389/fonc.2026.1840185 | 191 例 HT 合并 PTC | BMUS + DCE-US 参数图组学 + 临床/US 特征；LASSO/RFE；三模型 | 术前 CLNM | 联合模型优于单一模型（SHAP 解释） | **仅 7:3 随机拆分内部验证** | 无外部验证；HT 背景使组学特征稳定性存疑 | Medium（AL/PR） | 影像组学在 HT 背景下是否可迁移未检验 |
+| 超声+CT 深度学习判中央区 LNM | PMID 42875362 / 10.1016/j.ultrasmedbio.2026.09.018 | PTC | US + CT 多模态融合 | 中央区 LNM | 多模态优于单模态（摘要未取回，细节待核） | 待核 | 摘要未获取 | Medium（AL/PR） | 需取回全文核实样本量与验证方式 |
 | 多模态超声 + TPO-Ab（HT） | 42708642 / 10.1002/jum.70419 | 600 例 HT / 650 结节 | 2D-US + CEUS + TPO-Ab；LR + 6 分类器；分层 5 折交叉验证 | 结节良恶性 | 联合 AUC **0.849** vs 2D-US 单模态 0.831 | 交叉验证（**非外部**） | **多模态增量仅 +0.018**；各模态子集不完整（CEUS 475、TPO-Ab 452） | Medium（AL） | 增量过小，质疑"多模态"必要性 |
 | 瘤内+瘤周组学（C-TIRADS 4a/b） | 42725353 / 10.21037/gs-2026-0143 | 147 例 C-TIRADS 4a/b | ITK-SNAP 勾画 + 2 mm 外扩瘤周 ROI；PyRadiomics；LR/树/LightGBM | 结节恶性风险 | 瘤内+瘤周 + 临床联合模型表现最佳 | 单中心 7:3 拆分 | **无外部验证**；4a/b 恶性率跨度大是选择难题 | Medium（AL） | 瘤周特征的生物学含义（炎症？浸润？）未解释 |
 | AI-UADS vs 超声医师 | 42601685 / 10.1097/md.0000000000050126 | 161 结节 / 91 例，回顾病例对照 | AI-UADS vs 高年资超声医师；ROC 与亚组分析 | 良恶性鉴别 | AI-UADS AUC **0.933** vs 医师 0.821（均 p<0.05） | 手术病理金标准 | **回顾性病例对照**；"高年资医师"年资未量化；无外部验证 | Medium（AL） | 回顾性设计易高估 AI 性能（病例选择偏倚） |
 | 可变剪接变异用于结节分类 | 42296790 / 10.1016/j.cmpb.2026.109506 | 335 例，HTA2.0 芯片 | TAC vs EventPointer 两条流程；bootstrap；去重 | Bethesda III/IV 分类 | **分类质量强烈受处理流程影响**；TAC 变异准确率 0.938 | 患者/样本级外部验证（公开芯片集） | RNA-seq 验证作者自述为"技术性复核" | Medium（AL/MO） | 流程依赖性是**可重复性隐患** |
 | ATC 激酶融合 3 例 | 42470146 / 10.1002/dc.70185 | 3 例融合型 ATC | FNA 细胞学 + 组织学 + 分子 | 诊断分诊 | 细胞/组织学**无法**区分融合型与常规 ATC；**BRAF V600E + RAS Q61R 双阴性 IHC 提示应早期做融合检测** | 3 例自身对照 | n=3；融合靶向疗效受共突变限制 | Medium（MO） | 需更大队列验证该 IHC 分诊规则 |
-| UBE2C–TRIM21–NOS2（桥本） | 待编目 / 10.1007/s00011-026-02375-7 | HT 患者 vs 健康对照（**非癌症**） | Treg 转录组 + Flag IP-MS + CHX chase + Seahorse + EAT 模型 | Treg 稳定性 / 甲状腺细胞焦亡 | UBE2C 在 HT Treg 中下调；UBE2C–TRIM21 降解 NOS2 稳定 Treg | 体内 EAT 过继转移 | **疾病为桥本甲状腺炎，非甲状腺癌** | Medium（IM，**边界**） | 与 UBE2C⁺ ATC 样复发 FTC（Run #24）的连接为假设，未检验 |
+| UBE2C–TRIM21–NOS2（桥本） | PMID 42862325 / 10.1007/s00011-026-02375-7 | HT 患者 vs 健康对照（**非癌症**） | Treg 转录组 + Flag IP-MS + CHX chase + Seahorse + EAT 模型 | Treg 稳定性 / 甲状腺细胞焦亡 | UBE2C 在 HT Treg 中下调；UBE2C–TRIM21 降解 NOS2 稳定 Treg | 体内 EAT 过继转移 | **疾病为桥本甲状腺炎，非甲状腺癌** | Medium（IM，**边界**） | 与 UBE2C⁺ ATC 样复发 FTC（Run #24）的连接为假设，未检验 |
 | TAⅢ 脂质体载金诺芬诱导 ATC 铁死亡 | 42151086 / 10.3760/cma.j.cn112152-20250914-00459 | CAL-62 细胞 + 裸鼠异种移植 | 薄膜水化法制备；Fer-1 rescue；ACSL4/NCOA4/GPX4；Fe/GSH/脂质过氧化 | 铁死亡 / 体内抗肿瘤 | T-AUF-LPs 较常规脂质体粒径更小、摄取更高、显著诱导铁死亡 | 体外 + 异种移植 | 单一细胞系；无甲状腺癌临床标本；中文期刊 | Medium（ME） | 与已有铁死亡轴（HIF-1α–ACSL4、SLC7A11）未做机制连接 |
-| PTMC 术前免疫细胞化学分层 | 待编目 / 10.30978/cees-2026-3-53 | 110 例 PTMC 前瞻对照 | CK17 + TPO + S 细胞三联术前面板 | 手术范围 / 区域转移 / 并发症 | 研究组按面板分层后个体化手术范围 | 前瞻对照（54 对照 / 56 研究） | 单中心；2024–2026；终点事件数可能不足 | Medium（PR） | CK17/TPO/S 细胞面板缺乏独立验证与标准化阈值 |
+| PTMC 术前免疫细胞化学分层 | 待编目* / 10.30978/cees-2026-3-53 | 110 例 PTMC 前瞻对照 | CK17 + TPO + S 细胞三联术前面板 | 手术范围 / 区域转移 / 并发症 | 研究组按面板分层后个体化手术范围 | 前瞻对照（54 对照 / 56 研究） | 单中心；2024–2026；终点事件数可能不足 | Medium（PR） | CK17/TPO/S 细胞面板缺乏独立验证与标准化阈值 |
 
 ---
 
@@ -442,7 +457,89 @@ Zenodo, 2026-10-12. DOI: 10.5281/zenodo.23319288. PMID: 待编目. 维度 SP/SC/
 |---|---|---|---|---|
 | 2026-08 | NCBI eutils / GEO / FTP | ✅（默认） | ❌ 4/4 HTTP 000 | 改为"GEO 一律转 ENA" |
 | 2026-10-09（Run #28 补充） | NCBI 全域 | ❌ | ✅ 3/3 HTTP 200；FTP 下载 27.5 MB / 17.6 s | 改回"首选 NCBI FTP"；建 `_pmid_backfill_ncbi.py` |
-| **2026-10-16（Run #29）** | **NCBI eutils** | ✅ | ❌ **HTTP 000（15.1 s，绕过代理）**；带代理亦 000（0.15 s 立即拒连） | **本轮无法做 PMID 回填**；12 条标「待编目」；下轮优先复检 |
+| **2026-10-16（Run #29）** | **NCBI eutils** | ✅ | ❌ **HTTP 000（15.1 s，绕过代理）**；带代理亦 000（0.15 s 立即拒连） | 曾判定"无法做 PMID 回填"；12 条标「待编目*」 |
 | 2026-10-16（Run #29） | Crossref | ⚠️ Run #28 超 20 min 未完成 | ✅ 200 / 1.39 s，9/10 DOI 校验成功 | 维持"只跑 High/关键 Medium（≤10）+ timeout 10 s" |
+| **2026-10-17（补充）** | **NCBI eutils** | ❌（**误判**） | ✅ **根因为 Schannel 吊销检查**，`--ssl-no-revoke` 或 Python urllib 均 **200 / <1 s** | **已补跑回填，19 条定号**；写入环境文档 |
+| **2026-10-17（补充）** | **Unpaywall** | ⚠️ 曾记录"变慢" | `/v2/search?query=` **410 Gone = 端点官方下线**（非故障）；`/v2/<doi>` **200 / 0.81 s** | 改用单 DOI 端点 |
 
-> **核心教训（第二次验证）**：通道可用性是**时变状态**，既不是永久可用也不是永久不可用。`RETRIEVAL_ENVIRONMENT.md` 已记录"每轮开局必做通道探针"的流程，本轮的 NCBI 反转再次证明该流程不可省略。
+> **核心教训（第三次，且为根因级）**：前两次只观察到「时变」的表象，第三次才抓到真实错误码。
+> 固化两条规则：① 通道状态**每轮必测**；② 失败时必须抓**真实 error**（`curl -sS`，而非只看 `%{http_code}`），
+> **先分层判定 DNS / TLS / 网络再下"不可达"结论——`000` 不等于封网**。
+
+---
+
+## 附录 C：2026-10-17 PMID 补充回填 / Appendix C — PMID Backfill (2026-10-17)
+
+> 本附录为 Run #29 报告发布**之后**的补充动作，起因是 §1.1 所述的根因订正。
+
+### C.1 为什么现在能跑 / Why now
+
+Run #29 判定「NCBI 不可达 → 无法回填」。2026-10-17 抓真实错误后确认该判定为误判，
+真实根因是 **Windows Schannel 证书吊销检查**（`CRYPT_E_REVOCATION_OFFLINE`），
+**Python `urllib` 走 OpenSSL、默认不做吊销检查，天然规避该问题**。
+因此回填无需等待任何"通道恢复"，随时可执行。
+
+### C.2 执行参数 / Execution
+
+| 项 | 值 |
+|---|---|
+| 脚本 | `_pmid_backfill_run29b.py`（新建，替代旧 `_pmid_backfill_ncbi.py`） |
+| 主标识 | DOI → `esearch <doi>[DOI]` |
+| 回退 | 标题 `[Title]` 检索 + `esummary` 取真实标题，`difflib` 相似度 **≥ 0.88** 才采信 |
+| 速率 | 无 key 时 0.4 s 间隔；**HTTP 429 退避 3 / 6 / 12 s**（真实限流，非故障） |
+| 跳过规则 | `preprints / rs.3.rs- / zenodo / figshare / ssrn / biorxiv / medrxiv / researchsquare / inplasy` 等无 PMID 类型 |
+| 回滚备份 | `search_results_latest_pre_backfill_20261017.json` |
+| 耗时 | 3 min 59 s |
+
+### C.3 结果 / Result
+
+| 指标 | 数值 |
+|---|---|
+| 基线总量 | 559 |
+| 回填前无 PMID | 150 |
+| **本轮成功定号** | **19**（全部经 DOI 命中；标题回退 0 —— 相似度门槛生效，无误配） |
+| 按规则跳过（预印本/数据集/方案注册） | 27 |
+| 回填后仍无 PMID | **131**（其中大量为会议摘要、protocol、掠夺性期刊、极新文献） |
+
+**19 条新定号明细（PMID | 发表日 | DOI | 标题）**
+
+| PMID | 发表日 | DOI | 标题 |
+|---|---|---|---|
+| 42855402 | 2026-09-01 | 10.1016/j.surg.2026.110658 | Metabolic reprogramming in differentiated thyroid cancer |
+| 42866447 | 2026-09-01 | 10.21037/gs-2026-0288 | Synchronous medullary and papillary thyroid carcinoma … |
+| 42866471 | 2026-09-01 | 10.21037/gs-2026-0281 | Treatment strategies for unilateral papillary thyroid carcinoma … |
+| 42866849 | 2026-09-01 | 10.21037/gs-2026-0333 | Prognostic factors in thyroid cancer with lung-only metastasis |
+| 42870783 | 2026-09-01 | 10.21037/tcr-2026-1440 | Multi-omics analysis of GBP2 as a prognostic and immune-related biomarker |
+| 42870788 | 2026-09-01 | 10.21037/tcr-2026-1398 | Analysis and validation of prognostic markers for thyroid … |
+| 42876525 | 2026-09-30 | 10.3389/fendo.2026.1887201 | Prediction of early postoperative hypocalcemia and hypoparathyroidism |
+| 42865346 | 2026-09-28 | 10.3389/fendo.2026.1866805 | Machine learning-based prediction of lymph node metastasis in PTC |
+| 42865479 | 2026-09-28 | 10.3389/fendo.2026.1922413 | Anatomical location matters: risk modelling and surgical outcomes |
+| 42870829 | 2026-09-29 | 10.3389/fendo.2026.1917885 | Prediction of gross extrathyroidal extension in PTC |
+| 42876643 | 2026-09-30 | 10.3389/fonc.2026.1895987 | Two-year dynamic risk stratification and adjuvant radioiodine efficacy |
+| 42814254 | 2026-09-30 | 10.1245/s10434-026-20503-9 | ASO Visual Abstract: 2015 vs 2025 ATA Risk Stratification |
+| 42820252 | 2026-10-01 | 10.1177/00031348261494195 | The Price of Less Surgery: Completion Thyroidectomy After Lobectomy |
+| **42875362** | 2026-10-01 | 10.1016/j.ultrasmedbio.2026.09.018 | Deep Learning-Driven US+CT for Central LNM in PTC |
+| **42862325** | 2026-10-12 | 10.1007/s00011-026-02375-7 | UBE2C–TRIM21-driven NOS2 degradation stabilizes Tregs（HT） |
+| 42882098 | — | 10.3390/jcm15197636 | Spatial Transcriptomics in Thyroid Cancer: PRISMA-style review |
+| 42837078 | — | 10.1007/s13304-026-02875-5 | Recurrence patterns and survival in advanced PTC |
+| 42597226 | — | 10.62347/qhyg5969 | （标题缺失） |
+| 42296790 | 2026-06-06 | 10.1016/j.cmpb.2026.109506 | Alternative splicing variants incorporation strategies |
+
+> 加粗两条为本报告正文/证据矩阵中已同步更新的条目。
+
+### C.4 对 Run #29 结论的影响 / Impact
+
+- **不改变**任何科学结论、方向评分或证据强度判定——仅补齐标识符。
+- 报告正文与证据矩阵中仍标「**待编目\***」的 15 处，含义已明确为
+  **「截至 2026-10-17 PubMed 尚未收录」**，而非"检索失败"或"通道不可用"。
+- 其中 `10.5281/zenodo.23319288`（数据集）、`10.21203/rs.3.rs-11024915/v1`（预印本）、
+  `10.37766/inplasy2026.10.0046`（方案注册）**本质上不会有 PMID**，属预期状态。
+- 其余多为 2026-10-08 之后见刊的极新文献（如 CRABP1、FTC 原发灶切除、DCE-US 组学），
+  PubMed 编目滞后属正常，建议 **下轮（Run #30）开局优先重跑一次回填**。
+
+### C.5 后续建议 / Next
+
+1. 下轮自动化第 3 步后，直接调用 `_pmid_backfill_run29b.py`（urllib 版），
+   **不再依赖"NCBI 是否可达"的前置判断**。
+2. 所有 `curl` 探针/抓取一律加 **`--ssl-no-revoke`**。
+3. Unpaywall 只用 `/v2/<doi>` 单 DOI 端点（`/v2/search` 已 410 下线）。

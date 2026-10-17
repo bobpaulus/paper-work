@@ -1,7 +1,63 @@
 # 检索环境事实 / Retrieval Environment Facts
 
 > 本文件记录本机实测的检索通道状态，供 `lit-review` 自动化每轮直接引用，
-> **避免重复踩坑与无效重试**。最后实测：**2026-10-09（Run #29 前通道复检，结论有大变动）**。
+> **避免重复踩坑与无效重试**。最后实测：**2026-10-17（根因定位，NCBI 从未"不可达"）**。
+>
+> ---
+>
+> ## 🔴 2026-10-17 根因定位：NCBI "不可达" 是误判，真实原因与网络无关
+>
+> 过去 29 轮把 NCBI 的 HTTP 000 归因为「网络封锁 / 通道不可达」并反复在 ✅/❌ 之间横跳，
+> **全部是误判**。2026-10-17 抓真实错误后定位到：
+>
+> ```
+> curl: (35) schannel: next InitializeSecurityContext failed:
+>        CRYPT_E_REVOCATION_OFFLINE (0x80092013)
+>        - 由于吊销服务器已脱机，吊销功能无法检查吊销。
+> ```
+>
+> **真实根因**：Windows **Schannel 证书吊销检查**（OCSP/CRL）无法访问吊销服务器，
+> TLS 握手在完成前被中止 → curl 报 HTTP 000。
+> **这是 TLS 层问题，不是网络层问题**；DNS 解析正常（`2600:1901:0:c831::`，真实 NCBI IP）。
+>
+> 之所以表现为「时变」：吊销服务器本身时通时不通，所以 HTTP 000 / 200 来回横跳——
+> 被误读成"通道时好时坏"。
+>
+> ### ✅ 修复方法（二选一，均已实测）
+>
+> | 方法 | 命令 | 实测 |
+> |---|---|---|
+> | **curl 加 `--ssl-no-revoke`** | `curl --ssl-no-revoke --noproxy '*' --max-time 20 <url>` | eutils **200 / 0.42s**；esearch **200 / 0.49s**；PubMed 网页 **200 / 1.76s** |
+> | **改用 Python `urllib`**（走 OpenSSL，默认不做吊销检查） | `urllib.request.urlopen(...)` | einfo **200 / 0.64s**；GEO acc.cgi **200 / 0.99s**；`efetch` 取到 PMID 42847133 完整摘要 |
+>
+> ### 直接影响
+>
+> 1. **PMID 回填随时可做**，不再看"通道脸色"。用 Python urllib + 0.4 s 间隔即可；
+>    偶发 **HTTP 429 = 真实速率限制**（不是网络故障），退避 3 s 重试即通（实测 Count=115525）。
+> 2. **不需要 Clash 代理**。见下节。
+> 3. **探针命令必须改**：所有 curl 探针一律加 `--ssl-no-revoke`，否则会把可达通道误判为不可达。
+>
+> ### ⚠️ 连带更正：Unpaywall `410`
+>
+> `api.unpaywall.org/v2/search?query=` 返回 **410 Gone** —— 这是**端点已被官方下线**，不是网络故障。
+> 正确用法是单 DOI 端点 `api.unpaywall.org/v2/<doi>?email=`，**实测 200 / 0.81s**。
+>
+> ---
+>
+> ## ⚠️ 2026-10-16（已作废，保留作历史）：NCBI eutils 重新不可达（第二次反转）
+>
+> Run #29 开局探针实测：**NCBI eutils HTTP 000**（`--noproxy '*'` 15.1 s 超时；
+> 带代理 0.15 s 立即拒连）。OpenAlex / Europe PMC / Crossref 均 200 正常。
+>
+> | 日期 | NCBI eutils |
+> |---|---|
+> | 2026-08 | ❌ 4/4 HTTP 000 |
+> | 2026-10-09 | ✅ 3/3 HTTP 200 |
+> | **2026-10-16** | ❌ **HTTP 000（再次不可达）** |
+>
+> → **后果**：Run #29 **无法执行 `_pmid_backfill_ncbi.py`**，32 条新增中 12 条只能标「待编目」。
+> → **规则不变**：通道状态**每轮必测**，既不能永久采信"不可用"，也不能永久采信"已恢复"。
+> 这是同一条教训的**第二次验证**。
 >
 > ## ⚠️ 2026-10-09 重大变更：NCBI 全域已恢复
 >
@@ -32,11 +88,11 @@
 |---|---|---|---|
 | **OpenAlex** `api.openalex.org` | ✅ 可用 | HTTP 200 / ~1.4s | **主源** |
 | **Crossref** `api.crossref.org` | ✅ 可用（**2026-10-09 恢复**） | Run #28 曾超 20 分钟未完成；**2026-10-09 复检 HTTP 200 / ~2.4s** | DOI 元数据校验；**仍建议只跑 High（≤10 条）+ timeout 10 s，因其历史上波动大** |
-| **Unpaywall** `api.unpaywall.org` | ✅ 可用（**2026-10-09 恢复**） | Run #22 SSL 超时、Run #28 变慢；**2026-10-09 复检 HTTP 200，正常返回 `best_oa_location`** | OA 全文获取；同上。注意 **422/404 表示 DOI 未被收录，不是网络故障** |
+| **Unpaywall** `api.unpaywall.org` | ✅ 可用（**端点需更正**） | `/v2/<doi>` **HTTP 200 / 0.81s** 正常；**`/v2/search?query=` 已官方下线返回 410 Gone（不是故障）** | OA 全文获取，**只能用单 DOI 端点**；422/404 表示 DOI 未被收录，非网络故障。curl 同样建议加 `--ssl-no-revoke` |
 | **bioRxiv/medRxiv** `api.biorxiv.org` | ⚠️ 慢 | HTTP 200 / ~14s | 仅按需，无关键词检索 |
 | **Semantic Scholar** | ⚠️ 限流 | HTTP 429（无 API key） | 备用，需 `S2_API_KEY` |
-| **NCBI eutils** `eutils.ncbi.nlm.nih.gov` | ✅ **可用（2026-10-09 恢复，旧记录 ❌ 已作废）** | **3/3 HTTP 200 / ~0.5–0.9s**；`esearch` 真实返回、`efetch` 可取完整摘要 | **PMID 回填主通道**；速率限制无 key 时 ≤3 req/s（脚本用 0.4 s 间隔） |
-| **PubMed 网页** `pubmed.ncbi.nlm.nih.gov` | ✅ 可达（2026-10-09） | HTTP 203（NCBI 反爬响应，网络层通） | 人工核对用 |
+| **NCBI eutils** `eutils.ncbi.nlm.nih.gov` | ✅ **可用（2026-10-17 根因修正：此前 ❌ 全是 Schannel 误判）** | `curl --ssl-no-revoke` **200 / 0.42s**；Python urllib **200 / 0.64s**；`esearch` Count=115525；`efetch` 可取完整摘要 | **PMID 回填主通道**。**curl 必须加 `--ssl-no-revoke`**，否则误报 000。速率限制：无 key 时偶发 **HTTP 429**（真实限流，退避 3 s 重试即通），脚本用 0.4 s 间隔 |
+| **PubMed 网页** `pubmed.ncbi.nlm.nih.gov` | ✅ 可用 | `--ssl-no-revoke` **HTTP 200 / 1.76s**（此前 203 为反爬响应） | 人工核对用 |
 | **NCBI GEO** `www.ncbi.nlm.nih.gov/geo` | ✅ **可用（2026-10-09 恢复）** | HTTP 200 / ~0.6s，`acc.cgi` 返回 GSE60542 元数据 | GSE 元数据查询 |
 | **NCBI FTP** `ftp.ncbi.nlm.nih.gov` | ✅ **可用（2026-10-09 恢复）** | HTTP 200，**实测下载 GSE60542 矩阵 27.5 MB / 17.6 s** | **GSE 表达矩阵直连下载，优先于 ENA** |
 | **paper-search-mcp MCP** | ⚠️ 不稳定 | 走服务端代理，可用但频繁 `not well-formed (invalid token)` 并截断结果 | **仅作补充源，失败不阻塞** |
@@ -95,10 +151,40 @@ GEO 不可达意味着**论文里的 GSE 编号只是"引用"，不是"可下载
 3. **OpenAlex 同时索引预印本**（preprints.org / bioRxiv / medRxiv），
    而 PubMed 不索引，直接补上一个此前完全缺失的证据层。
 
-## 一·特、代理与 Clash（2026-10-09 实测 / Proxy & Clash）
+## 一·特、代理与 Clash（2026-10-17 终判 / Proxy & Clash）
 
-**结论先行：本项目依赖的全部检索通道（NCBI / Europe PMC / OpenAlex / Crossref / Unpaywall）
-均为「直连可达」，不依赖 Clash 代理。**
+**结论先行（2026-10-17 强化）：本项目依赖的全部检索通道（NCBI / Europe PMC / OpenAlex /
+Crossref / Unpaywall）均为「直连可达」，**完全不需要 Clash**。**
+
+### ✅ 2026-10-17 终判：Clash 对检索「无必要且有害」
+
+当日实测环境：Clash **未运行**，系统代理 `ProxyEnable=0`（关闭），但 `ProxyServer=127.0.0.1:7890`
+**残留未清**——所幸开关为 0，未造成断网（这正是 `clash_ctl.py` 里"先关系统代理再杀进程"的原因）。
+
+在此**纯直连**状态下全部通道实测：
+
+| 通道 | 直连实测（`--noproxy '*'`） |
+|---|---|
+| OpenAlex | ✅ **200 / 1.14s** |
+| Europe PMC | ✅ **200 / 2.46s** |
+| Crossref | ✅ **200 / 1.90s** |
+| Unpaywall `/v2/<doi>` | ✅ **200 / 0.81s** |
+| NCBI eutils | ✅ **200 / 0.42s**（须 `--ssl-no-revoke`） |
+| NCBI GEO | ✅ **200 / 0.99s** |
+| NCBI PubMed 网页 | ✅ **200 / 1.76s**（须 `--ssl-no-revoke`） |
+
+→ **零通道需要代理。** 历史上唯一「不可达」的 NCBI，根因是 Schannel 吊销检查（见文首），
+**代理帮不上忙，反而更慢**：`mode=rule` 下 NCBI 会被规则送进 Proxy 组，坏节点 i/o timeout。
+
+**规则固化**：
+1. 检索一律**直连 + `--noproxy '*'`**；curl 一律加 **`--ssl-no-revoke`**。
+2. Clash **不作为**检索前置条件；自动化凌晨运行无需开启。
+3. `clash_ctl.py` 的 `off` / `use` 会中断用户上网，**仅限用户在场且确认后**执行。
+4. 只有 Google Scholar 等被墙源才需要代理，届时也是**按需临时开**，检索进程仍绕过。
+
+---
+
+以下为 2026-10-09 旧实测（结论一致，保留对照）：
 
 用 `curl --noproxy '*'` 完全绕过任何代理后的实测：
 
